@@ -97,7 +97,6 @@ static const uint8_t mavRates[] = {
     [MAV_DATA_STREAM_RC_CHANNELS] = 5, //5Hz
     [MAV_DATA_STREAM_POSITION] = 2, //2Hz
     [MAV_DATA_STREAM_EXTRA1] = 10, //10Hz
-    [MAV_DATA_STREAM_EXTRA2] = 10 //2Hz
 };
 
 #define MAXSTREAMS (sizeof(mavRates) / sizeof(mavRates[0]))
@@ -286,245 +285,47 @@ void mavlinkSendRCChannelsAndRSSI(void)
     mavlinkSerialWrite(mavBuffer, msgLength);
 }
 
-#if defined(USE_GPS)
-void mavlinkSendPosition(void)
+// send MAV states via MAVlink
+void mavlinkSendMAVStates(void)
 {
     uint16_t msgLength;
-    uint8_t gpsFixType = 0;
-
-    if (!sensors(SENSOR_GPS))
-        return;
-
-    if (!STATE(GPS_FIX)) {
-        gpsFixType = 1;
-    }
-    else {
-        if (gpsSol.numSat < 5) {
-            gpsFixType = 2;
-        }
-        else {
-            gpsFixType = 3;
-        }
-    }
-
-    mavlink_msg_gps_raw_int_pack(0, 200, &mavMsg,
-        // time_usec Timestamp (microseconds since UNIX epoch or microseconds since system boot)
-        micros(),
-        // fix_type 0-1: no fix, 2: 2D fix, 3: 3D fix. Some applications will not use the value of this field unless it is at least two, so always correctly fill in the fix.
-        gpsFixType,
-        // lat Latitude in 1E7 degrees
-        gpsSol.llh.lat,
-        // lon Longitude in 1E7 degrees
-        gpsSol.llh.lon,
-        // alt Altitude in 1E3 meters (millimeters) above MSL
-        gpsSol.llh.alt * 1000,
-        // eph GPS HDOP horizontal dilution of position in cm (m*100). If unknown, set to: 65535
-        65535,
-        // epv GPS VDOP horizontal dilution of position in cm (m*100). If unknown, set to: 65535
-        65535,
-        // vel GPS ground speed (m/s * 100). If unknown, set to: 65535
-        gpsSol.groundSpeed,
-        // cog Course over ground (NOT heading, but direction of movement) in degrees * 100, 0.0..359.99 degrees. If unknown, set to: 65535
-        gpsSol.groundCourse * 10,
-        // satellites_visible Number of satellites visible. If unknown, set to 255
-        gpsSol.numSat);
-    msgLength = mavlink_msg_to_send_buffer(mavBuffer, &mavMsg);
-    mavlinkSerialWrite(mavBuffer, msgLength);
-
-    // Global position
-    mavlink_msg_global_position_int_pack(0, 200, &mavMsg,
-        // time_usec Timestamp (microseconds since UNIX epoch or microseconds since system boot)
-        micros(),
-        // lat Latitude in 1E7 degrees
-        gpsSol.llh.lat,
-        // lon Longitude in 1E7 degrees
-        gpsSol.llh.lon,
-        // alt Altitude in 1E3 meters (millimeters) above MSL
-        gpsSol.llh.alt * 1000,
-        // relative_alt Altitude above ground in meters, expressed as * 1000 (millimeters)
-#if defined(USE_BARO) || defined(USE_RANGEFINDER)
-        (sensors(SENSOR_RANGEFINDER) || sensors(SENSOR_BARO)) ? getEstimatedAltitude() * 10 : gpsSol.llh.alt * 1000,
-#else
-        gpsSol.llh.alt * 1000,
-#endif
-        // Ground X Speed (Latitude), expressed as m/s * 100
+    mavlink_msg_hil_state_pack(0, 200, &mavMsg,
+    // time_boot_ms Timestamp (milliseconds since system boot)
+    micros(),
+    // roll Roll angle (rad)
+    DECIDEGREES_TO_RADIANS(attitude.values.roll),
+    // pitch Pitch angle (rad)
+    DECIDEGREES_TO_RADIANS(-attitude.values.pitch),
+    // yaw Yaw angle (rad)
+    DECIDEGREES_TO_RADIANS(attitude.values.yaw),
+    // rollspeed Roll angular speed (rad/s)
+    gyrox,
+    // pitchspeed Pitch angular speed (rad/s)
+    gyroy,
+    // yawspeed Yaw angular speed (rad/s)
+    gyroz,
+    // x
+    0,
+    // y
+    0,
+    // z
+    #if defined(USE_RANGEFINDER)
+        (sensors(SENSOR_RANGEFINDER)) ? getEstimatedAltitude() * 10 : 0,
+    #else
         0,
-        // Ground Y Speed (Longitude), expressed as m/s * 100
-        0,
-        // Ground Z Speed (Altitude), expressed as m/s * 100
-        0,
-        // heading Current heading in degrees, in compass units (0..360, 0=north)
-        DECIDEGREES_TO_DEGREES(attitude.values.yaw)
-    );
-    msgLength = mavlink_msg_to_send_buffer(mavBuffer, &mavMsg);
-    mavlinkSerialWrite(mavBuffer, msgLength);
-
-    mavlink_msg_gps_global_origin_pack(0, 200, &mavMsg,
-        // latitude Latitude (WGS84), expressed as * 1E7
-        GPS_home[LAT],
-        // longitude Longitude (WGS84), expressed as * 1E7
-        GPS_home[LON],
-        // altitude Altitude(WGS84), expressed as * 1000
-        0);
-    msgLength = mavlink_msg_to_send_buffer(mavBuffer, &mavMsg);
-    mavlinkSerialWrite(mavBuffer, msgLength);
-}
-#endif
-
-void mavlinkSendAttitude(void)
-{
-    uint16_t msgLength;
-    mavlink_msg_attitude_pack(0, 200, &mavMsg,
-        // time_boot_ms Timestamp (milliseconds since system boot)
-        millis(),
-        // roll Roll angle (rad)
-        DECIDEGREES_TO_RADIANS(attitude.values.roll),
-        // pitch Pitch angle (rad)
-        DECIDEGREES_TO_RADIANS(-attitude.values.pitch),
-        // yaw Yaw angle (rad)
-        DECIDEGREES_TO_RADIANS(attitude.values.yaw),
-        // rollspeed Roll angular speed (rad/s)
-        0,
-        // pitchspeed Pitch angular speed (rad/s)
-        0,
-        // yawspeed Yaw angular speed (rad/s)
-        0);
-    msgLength = mavlink_msg_to_send_buffer(mavBuffer, &mavMsg);
-    mavlinkSerialWrite(mavBuffer, msgLength);
-}
-
-void mavlinkSendHUDAndHeartbeat(void)
-{
-    uint16_t msgLength;
-    float mavAltitude = 0;
-    float mavGroundSpeed = 0;
-    float mavAirSpeed = 0;
-    float mavClimbRate = 0;
-
-#if defined(USE_GPS)
-    // use ground speed if source available
-    if (sensors(SENSOR_GPS)) {
-        mavGroundSpeed = gpsSol.groundSpeed / 100.0f;
-    }
-#endif
-
-    // select best source for altitude
-#if defined(USE_BARO) || defined(USE_RANGEFINDER)
-    if (sensors(SENSOR_RANGEFINDER) || sensors(SENSOR_BARO)) {
-        // Baro or sonar generally is a better estimate of altitude than GPS MSL altitude
-        mavAltitude = getEstimatedAltitude() / 100.0;
-    }
-#if defined(USE_GPS)
-    else if (sensors(SENSOR_GPS)) {
-        // No sonar or baro, just display altitude above MLS
-        mavAltitude = gpsSol.llh.alt;
-    }
-#endif
-#elif defined(USE_GPS)
-    if (sensors(SENSOR_GPS)) {
-        // No sonar or baro, just display altitude above MLS
-        mavAltitude = gpsSol.llh.alt;
-    }
-#endif
-
-    mavlink_msg_vfr_hud_pack(0, 200, &mavMsg,
-        // airspeed Current airspeed in m/s
-        mavAirSpeed,
-        // groundspeed Current ground speed in m/s
-        mavGroundSpeed,
-        // heading Current heading in degrees, in compass units (0..360, 0=north)
-        DECIDEGREES_TO_DEGREES(attitude.values.yaw),
-        // throttle Current throttle setting in integer percent, 0 to 100
-        scaleRange(constrain(rcData[THROTTLE], PWM_RANGE_MIN, PWM_RANGE_MAX), PWM_RANGE_MIN, PWM_RANGE_MAX, 0, 100),
-        // alt Current altitude (MSL), in meters, if we have sonar or baro use them, otherwise use GPS (less accurate)
-        mavAltitude,
-        // climb Current climb rate in meters/second
-        mavClimbRate);
-    msgLength = mavlink_msg_to_send_buffer(mavBuffer, &mavMsg);
-    mavlinkSerialWrite(mavBuffer, msgLength);
-
-
-    uint8_t mavModes = MAV_MODE_FLAG_MANUAL_INPUT_ENABLED;
-    if (ARMING_FLAG(ARMED))
-        mavModes |= MAV_MODE_FLAG_SAFETY_ARMED;
-
-    uint8_t mavSystemType;
-    switch (mixerConfig()->mixerMode)
-    {
-        case MIXER_TRI:
-            mavSystemType = MAV_TYPE_TRICOPTER;
-            break;
-        case MIXER_QUADP:
-        case MIXER_QUADX:
-        case MIXER_Y4:
-        case MIXER_VTAIL4:
-            mavSystemType = MAV_TYPE_QUADROTOR;
-            break;
-        case MIXER_Y6:
-        case MIXER_HEX6:
-        case MIXER_HEX6X:
-            mavSystemType = MAV_TYPE_HEXAROTOR;
-            break;
-        case MIXER_OCTOX8:
-        case MIXER_OCTOFLATP:
-        case MIXER_OCTOFLATX:
-            mavSystemType = MAV_TYPE_OCTOROTOR;
-            break;
-        case MIXER_FLYING_WING:
-        case MIXER_AIRPLANE:
-        case MIXER_CUSTOM_AIRPLANE:
-            mavSystemType = MAV_TYPE_FIXED_WING;
-            break;
-        case MIXER_HELI_120_CCPM:
-        case MIXER_HELI_90_DEG:
-            mavSystemType = MAV_TYPE_HELICOPTER;
-            break;
-        default:
-            mavSystemType = MAV_TYPE_GENERIC;
-            break;
-    }
-
-    // Custom mode for compatibility with APM OSDs
-    uint8_t mavCustomMode = 1;  // Acro by default
-
-    if (FLIGHT_MODE(ANGLE_MODE) || FLIGHT_MODE(HORIZON_MODE)) {
-        mavCustomMode = 0;      //Stabilize
-        mavModes |= MAV_MODE_FLAG_STABILIZE_ENABLED;
-    }
-    if (FLIGHT_MODE(BARO_MODE)) {
-        mavCustomMode = 2;      //Alt Hold
-    }
-    if (FLIGHT_MODE(GPS_HOME_MODE)) {
-        mavCustomMode = 6;      //Return to Launch
-    }
-    if (FLIGHT_MODE(GPS_HOLD_MODE)) {
-        mavCustomMode = 16;     //Position Hold (Earlier called Hybrid)
-    }
-
-    uint8_t mavSystemState = 0;
-    if (ARMING_FLAG(ARMED)) {
-        if (failsafeIsActive()) {
-            mavSystemState = MAV_STATE_CRITICAL;
-        }
-        else {
-            mavSystemState = MAV_STATE_ACTIVE;
-        }
-    }
-    else {
-        mavSystemState = MAV_STATE_STANDBY;
-    }
-
-    mavlink_msg_heartbeat_pack(0, 200, &mavMsg,
-        // type Type of the MAV (quadrotor, helicopter, etc., up to 15 types, defined in MAV_TYPE ENUM)
-        mavSystemType,
-        // autopilot Autopilot type / class. defined in MAV_AUTOPILOT ENUM
-        MAV_AUTOPILOT_GENERIC,
-        // base_mode System mode bitfield, see MAV_MODE_FLAGS ENUM in mavlink/include/mavlink_types.h
-        mavModes,
-        // custom_mode A bitfield for use for autopilot-specific flags.
-        mavCustomMode,
-        // system_status System status flag, see MAV_STATE ENUM
-        mavSystemState);
+    #endif
+    // vx
+    0,
+    // vy
+    0,
+    // vz
+    0,
+    // xacc
+    accmx,
+    // yacc
+    accmy,
+    // zacc
+    accmz);
     msgLength = mavlink_msg_to_send_buffer(mavBuffer, &mavMsg);
     mavlinkSerialWrite(mavBuffer, msgLength);
 }
@@ -540,18 +341,8 @@ void processMAVLinkTelemetry(void)
         mavlinkSendRCChannelsAndRSSI();
     }
 
-#ifdef USE_GPS
-    if (mavlinkStreamTrigger(MAV_DATA_STREAM_POSITION)) {
-        mavlinkSendPosition();
-    }
-#endif
-
     if (mavlinkStreamTrigger(MAV_DATA_STREAM_EXTRA1)) {
-        mavlinkSendAttitude();
-    }
-
-    if (mavlinkStreamTrigger(MAV_DATA_STREAM_EXTRA2)) {
-        mavlinkSendHUDAndHeartbeat();
+        mavlinkSendMAVStates();
     }
 }
 

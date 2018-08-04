@@ -110,6 +110,14 @@ quaternion offset = QUATERNION_INITIALIZE;
 
 // absolute angle inclination in multiple of 0.1 degree    180 deg = 1800
 attitudeEulerAngles_t attitude = EULER_INITIALIZE;
+// my gyro data
+float gyrox = 0;
+float gyroy = 0;
+float gyroz = 0;
+// my acceleration data
+float accmx = 0;
+float accmy = 0;
+float accmz = 0;
 
 PG_REGISTER_WITH_RESET_TEMPLATE(imuConfig_t, imuConfig, PG_IMU_CONFIG, 0);
 

@@ -32,6 +32,12 @@ extern float accVelScale;
 extern int32_t accSum[XYZ_AXIS_COUNT];
 extern bool canUseGPSHeading;
 extern float accAverage[XYZ_AXIS_COUNT];
+extern float gyrox; // the angular speed
+extern float gyroy;
+extern float gyroz;
+extern float accmx; // acceleration meter
+extern float accmy;
+extern float accmz;
 
 typedef struct {
     float w,x,y,z;
