@@ -26,6 +26,7 @@
 #include <stdbool.h>
 #include <stdint.h>
 #include <string.h>
+#include<stdio.h>
 
 #include "platform.h"
 
@@ -71,6 +72,7 @@
 
 #include "telemetry/telemetry.h"
 #include "telemetry/mavlink.h"
+#include "build/debug.h"
 
 // mavlink library uses unnames unions that's causes GCC to complain if -Wpedantic is used
 // until this is resolved in mavlink library - ignore -Wpedantic for mavlink code
@@ -289,26 +291,28 @@ void mavlinkSendRCChannelsAndRSSI(void)
 void mavlinkSendMAVStates(void)
 {
     uint16_t msgLength;
-    mavlink_msg_hil_state_pack(0, 200, &mavMsg,
+    mavlink_msg_highres_imu_pack(0, 200, &mavMsg,
     // time_boot_ms Timestamp (milliseconds since system boot)
     micros(),
-    // roll Roll angle (rad)
-    DECIDEGREES_TO_RADIANS(attitude.values.roll),
-    // pitch Pitch angle (rad)
-    DECIDEGREES_TO_RADIANS(-attitude.values.pitch),
-    // yaw Yaw angle (rad)
-    DECIDEGREES_TO_RADIANS(attitude.values.yaw),
+    // xacc
+    accmx,
+    // yacc
+    accmy,
+    // zacc
+    accmz,
     // rollspeed Roll angular speed (rad/s)
     gyrox,
     // pitchspeed Pitch angular speed (rad/s)
     gyroy,
     // yawspeed Yaw angular speed (rad/s)
     gyroz,
-    // x
-    0,
-    // y
-    0,
-    // z
+    // roll Roll angle (rad)
+    DECIDEGREES_TO_RADIANS(attitude.values.roll),
+    // pitch Pitch angle (rad)
+    DECIDEGREES_TO_RADIANS(-attitude.values.pitch),
+    // yaw Yaw angle (rad)
+    DECIDEGREES_TO_RADIANS(attitude.values.yaw),
+    // altitude
     #if defined(USE_RANGEFINDER)
         (sensors(SENSOR_RANGEFINDER)) ? getEstimatedAltitude() * 10 : 0,
     #else
@@ -318,16 +322,17 @@ void mavlinkSendMAVStates(void)
     0,
     // vy
     0,
-    // vz
+    // extract 1
     0,
-    // xacc
-    accmx,
-    // yacc
-    accmy,
-    // zacc
-    accmz);
+    // extract 2
+    0);
+    DEBUG_SET(DEBUG_ATTITUDE,0, 100*DECIDEGREES_TO_RADIANS(attitude.values.roll));
+    DEBUG_SET(DEBUG_ATTITUDE,1, 100*DECIDEGREES_TO_RADIANS(attitude.values.pitch));
+    DEBUG_SET(DEBUG_ATTITUDE,2, 100*DECIDEGREES_TO_RADIANS(attitude.values.yaw));
     msgLength = mavlink_msg_to_send_buffer(mavBuffer, &mavMsg);
     mavlinkSerialWrite(mavBuffer, msgLength);
+    fprintf(stderr, "stderr!\n");
+    fprintf(stdout, "stdout!\n");
 }
 
 void processMAVLinkTelemetry(void)
