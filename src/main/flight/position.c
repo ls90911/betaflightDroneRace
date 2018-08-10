@@ -63,7 +63,7 @@ void calculateEstimatedAltitude(timeUs_t currentTimeUs)
 
     /// ADC read altitude start///
     int16_t sonar_adc_raw = adcGetChannel(ADC_RSSI); // from 0 to 4096, 8 ->  2.54 cm 
-    int16_t sonar_adc_cm = (float)sonar_adc_raw * 2.54 / 8 - 25;
+    int16_t sonar_adc_cm = (float)sonar_adc_raw * 2.54 / 8 - 30;
     if (sonar_adc_cm < 0) {
         sonar_adc_cm = 0;
     }
