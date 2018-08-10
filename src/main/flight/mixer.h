@@ -137,3 +137,5 @@ bool mixerIsTricopter(void);
 
 void mixerSetThrottleAngleCorrection(int correctionValue);
 
+extern float shadowThrottle;
+extern float shadowRcCommandThrottle;

@@ -9,10 +9,10 @@
 	.eabi_attribute 34, 1
 	.eabi_attribute 18, 4
 	.file	"dma_stm32f4xx.c"
-	.section	.gnu.lto_.profile.ac593f4d6a5b314e,"",%progbits
+	.section	.gnu.lto_.profile.202ea1eb1f0774,"",%progbits
 	.ascii	"x\234cc```\003bF\206\327\314\217\031\001\006 \001\340"
 	.text
-	.section	.gnu.lto_.icf.ac593f4d6a5b314e,"",%progbits
+	.section	.gnu.lto_.icf.202ea1eb1f0774,"",%progbits
 	.ascii	"x\234cc``X\311\200\0002\014W\227\314\275\314\3128\375"
 	.ascii	"\322\242}\274L\013\347\355\264g\0063Y\300$+\230d\003"
 	.ascii	"\223\354`\222\003Lr\202I.0\311\015&y\300$/\230\344\003"
@@ -22,7 +22,7 @@
 	.ascii	"\037\266\177\335\312-\265\360\341\355\251\274\322_\257"
 	.ascii	"\037\275\315\306\000\000(\361R\243"
 	.text
-	.section	.gnu.lto_.jmpfuncs.ac593f4d6a5b314e,"",%progbits
+	.section	.gnu.lto_.jmpfuncs.202ea1eb1f0774,"",%progbits
 	.ascii	"x\234}\325[O\023A\024\000\3409\273\355n\257\024\357"
 	.ascii	"(}\360YM\010?\317\247.\011\204\004\211<H\200\230\022"
 	.ascii	"Q1@\024\012\201ri\021\012\010\002\242PP\261H+B\275\300"
@@ -67,7 +67,7 @@
 	.ascii	"\317\327\255\331\177\203\317\245\326\034 \377\000\271"
 	.ascii	"\246\001m"
 	.text
-	.section	.gnu.lto_.inline.ac593f4d6a5b314e,"",%progbits
+	.section	.gnu.lto_.inline.202ea1eb1f0774,"",%progbits
 	.ascii	"x\234}\224\315n\323@\020\307g\355\265\3438\316GK\012"
 	.ascii	"i\371h\304\003\224\003/\220'\350\203\224\227\2608@\020"
 	.ascii	"HD\010P\205*H\205h\001\251E@\233\272I\232:=5|H\210S"
@@ -100,13 +100,13 @@
 	.ascii	"$\032\253pU\234\246IgU ;#b^\370\"\215M\236\3502\005"
 	.ascii	"\334L\324d\327I\024Gs\372\344HFP\203?\312\230\021r"
 	.text
-	.section	.gnu.lto_.pureconst.ac593f4d6a5b314e,"",%progbits
+	.section	.gnu.lto_.pureconst.202ea1eb1f0774,"",%progbits
 	.ascii	"x\234\015\313I\026@0\000D\301\366\264\230\211\304\360"
 	.ascii	"q\020\367\277\231,jYA\322W\274RE\215i\010\264t\364\014"
 	.ascii	"\214L\314,\254D6\022Y;\207O_\306\267\237\222~j9\003"
 	.ascii	"\225"
 	.text
-	.section	.gnu.lto_dmaFlag_IT_TCIF.part.0.ac593f4d6a5b314e,"",%progbits
+	.section	.gnu.lto_dmaFlag_IT_TCIF.part.0.202ea1eb1f0774,"",%progbits
 	.ascii	"x\234M\220\315K\033Q\024\305\357y\367\315SKT\334\317"
 	.ascii	"\242`Q\204bD\305\377\302\277A\202I\301E\272HD\334\371"
 	.ascii	",\212\011\025,~$0fi+\270\261\245\251\337\013\243(\012"
@@ -131,7 +131,7 @@
 	.ascii	"\246\023=\331\376tG\373\233\316\301\301\326^2\331\376"
 	.ascii	"L*\221~\000\206\337\226\365"
 	.text
-	.section	.gnu.lto_DMA1_Stream0_IRQHandler.ac593f4d6a5b314e,"",%progbits
+	.section	.gnu.lto_DMA1_Stream0_IRQHandler.202ea1eb1f0774,"",%progbits
 	.ascii	"x\234\215\220\317K\033Q\020\307\347\273\263\273I\213"
 	.ascii	"\346$\226bn\255\207xpI\253\177\217H\254\340!\205&E\274"
 	.ascii	"\355\323\244$\322\010E\214\202,\262\267\364\320\"j\374"
@@ -156,7 +156,7 @@
 	.ascii	"\233\232~\222\313;\023\331\361\261\374\363\354\343G"
 	.ascii	"\223#33\303\031\372\017h\313\245\373"
 	.text
-	.section	.gnu.lto_dmaDescriptors.ac593f4d6a5b314e,"",%progbits
+	.section	.gnu.lto_dmaDescriptors.202ea1eb1f0774,"",%progbits
 	.ascii	"x\234}\225\335WRY\030\207\331\347\010\034Tp\346\246"
 	.ascii	"+.\272hu;3\265\326,\232\372\027\346\177\30223[\224k"
 	.ascii	"\012\235eV6\2456Y\226Q(\370u\374BQ\304\244\031\203\310"
@@ -213,7 +213,7 @@
 	.ascii	"\220\363\220a\310 \3444\3448\344\030\344\020\344 s\030"
 	.ascii	"\3309\311a\370\016\366v\351\\"
 	.text
-	.section	.gnu.lto_DMA1_Stream1_IRQHandler.ac593f4d6a5b314e,"",%progbits
+	.section	.gnu.lto_DMA1_Stream1_IRQHandler.202ea1eb1f0774,"",%progbits
 	.ascii	"x\234\215\220\317K\033Q\020\307\347\273\263\273IK\315"
 	.ascii	"\251X\304\334\332\036\244\220%\266\375{D\374\001\036"
 	.ascii	"R0)\222[^\223\224\2444B\021c\241,eozPD\215\332\365\027"
@@ -238,7 +238,7 @@
 	.ascii	"\335 z\230rr\331!'38\366\302\031\316\216M\214ds\316"
 	.ascii	"pfp \3672\363\264\177\364Y>\237\032\242?n\033\245\377"
 	.text
-	.section	.gnu.lto_DMA1_Stream2_IRQHandler.ac593f4d6a5b314e,"",%progbits
+	.section	.gnu.lto_DMA1_Stream2_IRQHandler.202ea1eb1f0774,"",%progbits
 	.ascii	"x\234\215\220\317+DQ\024\307\317\367\3367o\306\357\215"
 	.ascii	"H\354\260\260\361\032?\376\036\311\217\262\030\213\031"
 	.ascii	"\311n\256_\031\261\220\014\245Go\307F\223\337\306\317"
@@ -263,7 +263,7 @@
 	.ascii	"\325\032jn\212t\205\352\353\332\033zzj[\350\023\324"
 	.ascii	"\037\256\005"
 	.text
-	.section	.gnu.lto_DMA1_Stream3_IRQHandler.ac593f4d6a5b314e,"",%progbits
+	.section	.gnu.lto_DMA1_Stream3_IRQHandler.202ea1eb1f0774,"",%progbits
 	.ascii	"x\234\215\220\317K\033Q\020\307\347\273\263\273IK\315"
 	.ascii	"\251X\304\334\332\036\204\222%\266\375{D\374\001\036"
 	.ascii	"R0)\222[^\223\224\2444B\021c\241,eozPD\215\332\365\027"
@@ -288,7 +288,7 @@
 	.ascii	"\304H6\347\014g\006\007r/3O\373G\237\345\363\251!\372"
 	.ascii	"\003w'\246\005"
 	.text
-	.section	.gnu.lto_DMA1_Stream4_IRQHandler.ac593f4d6a5b314e,"",%progbits
+	.section	.gnu.lto_DMA1_Stream4_IRQHandler.202ea1eb1f0774,"",%progbits
 	.ascii	"x\234\215\220\301K\033Q\020\306\347\333y\331\204b\364"
 	.ascii	"\"-\242\267\352\301\213K\264\376=E\324B\016\361\220"
 	.ascii	"\024\361\226\247F\214\324\203H\243 \333v/b/\222j\324"
@@ -313,7 +313,7 @@
 	.ascii	"6'\223\356vR]\311>\247'\235\354\357Mg\234\236T\327\333"
 	.ascii	"\314\373TG\373\2737\003\003m\335t\007\250\002\254\023"
 	.text
-	.section	.gnu.lto_DMA1_Stream5_IRQHandler.ac593f4d6a5b314e,"",%progbits
+	.section	.gnu.lto_DMA1_Stream5_IRQHandler.202ea1eb1f0774,"",%progbits
 	.ascii	"x\234\215\220\313+Dq\024\307\317\367\376\356\334\031"
 	.ascii	"\302J$vX\330\314m<\376\036M\036e1\0263\322\354\346\347"
 	.ascii	"\225\021J\362\250q\323M\212\022\3626\34317VS\242\354"
@@ -339,7 +339,7 @@
 	.ascii	"'\324\324\330\331\034\215\372\333\350\023\177\330\253"
 	.ascii	"\216"
 	.text
-	.section	.gnu.lto_DMA1_Stream6_IRQHandler.ac593f4d6a5b314e,"",%progbits
+	.section	.gnu.lto_DMA1_Stream6_IRQHandler.202ea1eb1f0774,"",%progbits
 	.ascii	"x\234\215\220\273K\003A\020\306\347\273\275\\\202h*"
 	.ascii	"QD;\265\260\361\210\217\277GBT\260\210E\"\222.\353\013"
 	.ascii	"#Z\210\370\0009\344\300B\033\021\337&\276\216\210E0"
@@ -364,7 +364,7 @@
 	.ascii	"3\034\354\210\366\205[[\272\333b\261\346\020}\002\014"
 	.ascii	"\370\255\233"
 	.text
-	.section	.gnu.lto_DMA1_Stream7_IRQHandler.ac593f4d6a5b314e,"",%progbits
+	.section	.gnu.lto_DMA1_Stream7_IRQHandler.202ea1eb1f0774,"",%progbits
 	.ascii	"x\234\215\220\313k\023Q\024\306\3177g2\023|d%\266\240"
 	.ascii	";\333E6\031\342\343\357\221\320*d\021\027I\221\354r"
 	.ascii	"\315\303\304\307\"H\223J\030dv\025QBj}\244\215\355\220"
@@ -389,7 +389,7 @@
 	.ascii	"\222\223J$o8\313\351\344\315k\351\214\263\234J\\\315"
 	.ascii	"\254\244.]\274~9\233\215-\321orP\253X"
 	.text
-	.section	.gnu.lto_DMA2_Stream0_IRQHandler.ac593f4d6a5b314e,"",%progbits
+	.section	.gnu.lto_DMA2_Stream0_IRQHandler.202ea1eb1f0774,"",%progbits
 	.ascii	"x\234\215\220\313+Dq\024\307\317\367\236;wnbVB\261\303"
 	.ascii	"\302\306m<\376\036\311\243,\306bF\262\233\237\367\210"
 	.ascii	"$y\324t\323\335Yi\032\357\361\274\261\"Q\226$%,$E\262"
@@ -414,7 +414,7 @@
 	.ascii	"\346\304Z\273\272\235\366xWoG<\341\264\307Z[\022=\261"
 	.ascii	"\306\206\316\246\276\276\3726\372\004\\\237\253I"
 	.text
-	.section	.gnu.lto_DMA2_Stream1_IRQHandler.ac593f4d6a5b314e,"",%progbits
+	.section	.gnu.lto_DMA2_Stream1_IRQHandler.202ea1eb1f0774,"",%progbits
 	.ascii	"x\234\215\220\317+DQ\024\307\317\367\3357o\206\030\033"
 	.ascii	"\241\330aa\3435~\374=\222\0375\213\261\230\221\354\346"
 	.ascii	"2\230\021\013\311\217\232^\274\215,$a\374\230\361\353"
@@ -440,7 +440,7 @@
 	.ascii	"H\177\250\265\245\267mp\260\271\213>\001\356\331\252"
 	.ascii	"\333"
 	.text
-	.section	.gnu.lto_DMA2_Stream2_IRQHandler.ac593f4d6a5b314e,"",%progbits
+	.section	.gnu.lto_DMA2_Stream2_IRQHandler.202ea1eb1f0774,"",%progbits
 	.ascii	"x\234\215\220\317+DQ\024\307\317\367\3357o\206\206\225"
 	.ascii	"P\354\260\230\215\327\370\361\367H~\224\305X\314Hvs"
 	.ascii	"\215_#\026\022#z\351\355\2544\215\3373~=D\211\220\225"
@@ -465,7 +465,7 @@
 	.ascii	"z3\022n3C\255]\335f{\270\253\267#\0341\333C\255-\221"
 	.ascii	"\236PcCgS__}\033}\002h5\253\347"
 	.text
-	.section	.gnu.lto_DMA2_Stream3_IRQHandler.ac593f4d6a5b314e,"",%progbits
+	.section	.gnu.lto_DMA2_Stream3_IRQHandler.202ea1eb1f0774,"",%progbits
 	.ascii	"x\234\215\220\317+DQ\024\307\317\367\3357o&\214\225"
 	.ascii	"P\354\260\230\215\327\370\361\367H~\224\305X\314Hvs"
 	.ascii	"\231\301\210\205\344Wz\351md\205\374\366\306\257\327"
@@ -491,7 +491,7 @@
 	.ascii	"\214E[\314HsG\247\331\032\355\350n\213\306\314\326H"
 	.ascii	"sS\254+R_\327\336\320\323S\333B\237\265\244\253p"
 	.text
-	.section	.gnu.lto_DMA2_Stream4_IRQHandler.ac593f4d6a5b314e,"",%progbits
+	.section	.gnu.lto_DMA2_Stream4_IRQHandler.202ea1eb1f0774,"",%progbits
 	.ascii	"x\234\215\220\313+Dq\024\307\317\367\376\356\334\231"
 	.ascii	"\344\261\021\212\035\0266s\033\217\277G\362(\213\261"
 	.ascii	"\230\221\354\346\207\301\210\"yd\272qwV\222\267\361"
@@ -516,7 +516,7 @@
 	.ascii	"3\330\320\332f6\205Z;\232Ca\263)\330P\037n\017\326T"
 	.ascii	"\267\324vv\372\033\351\023`p\254l"
 	.text
-	.section	.gnu.lto_DMA2_Stream5_IRQHandler.ac593f4d6a5b314e,"",%progbits
+	.section	.gnu.lto_DMA2_Stream5_IRQHandler.202ea1eb1f0774,"",%progbits
 	.ascii	"x\234\215\220\317+DQ\024\307\317\367\3357o&\231Y\011"
 	.ascii	"\305\016\013\033\257\361\343\357\221f(\213\261\230\221"
 	.ascii	"\354\346\3729#\026\222\037\245\227^,$I~{\343\327\213"
@@ -541,7 +541,7 @@
 	.ascii	"uv\231\321xgO{<aFcm\255\211\356XScGsooC\204>\001bX\254"
 	.ascii	"\201"
 	.text
-	.section	.gnu.lto_DMA2_Stream6_IRQHandler.ac593f4d6a5b314e,"",%progbits
+	.section	.gnu.lto_DMA2_Stream6_IRQHandler.202ea1eb1f0774,"",%progbits
 	.ascii	"x\234\215\220\273K\003A\020\306\347\333\275\\\202h*"
 	.ascii	"QA;\265H\343\021\037\177\217\210\017\260\210E\"b\227"
 	.ascii	"5&\032\321B\304\007\310!\327Y\210\004\337\306\347\021"
@@ -566,7 +566,7 @@
 	.ascii	"\273\307\352\210v\367uFcVG\244\2555\326\033ij\354j\356"
 	.ascii	"\357oh\247O\240O\254y"
 	.text
-	.section	.gnu.lto_DMA2_Stream7_IRQHandler.ac593f4d6a5b314e,"",%progbits
+	.section	.gnu.lto_DMA2_Stream7_IRQHandler.202ea1eb1f0774,"",%progbits
 	.ascii	"x\234\215\220\313+Dq\024\307\317\367\367\273sg\222\307"
 	.ascii	"F(vX\330\270\215\307\337#y\224\305X\314Hv\363\363\036"
 	.ascii	"\221$\217\232n\272;+3\036\3431\2367\026RB6\212\244\204"
@@ -592,7 +592,7 @@
 	.ascii	"Vs\270\255\263%\034\261\232C\215\015\221\216PmMk]WW"
 	.ascii	"u\023}\002_w\253\375"
 	.text
-	.section	.gnu.lto_dmaInit.ac593f4d6a5b314e,"",%progbits
+	.section	.gnu.lto_dmaInit.202ea1eb1f0774,"",%progbits
 	.ascii	"x\234\215R\357KSQ\030>\317=w?\234\233BDe\214\020\302"
 	.ascii	"L(\227)\204\177@\037\352\237\010q\023\366A\205\315\312"
 	.ascii	"o;9u\212\012\022\271l\015\235\231\030H\232\370\243f"
@@ -634,7 +634,7 @@
 	.ascii	"\312\334bfq;]e\025\356\022\267\313c(\277Z\346\362\330"
 	.ascii	"<.o\371eO\261\353B\231\323Uip\313\371/\212\266i\321"
 	.text
-	.section	.gnu.lto_dmaFlag_IT_TCIF.ac593f4d6a5b314e,"",%progbits
+	.section	.gnu.lto_dmaFlag_IT_TCIF.202ea1eb1f0774,"",%progbits
 	.ascii	"x\234m\224\333K\024Q\034\307\177\277sffo3\263\273\005"
 	.ascii	"\0215\017BQ\004\241Q\321C\377L\210\026D\270\202F\364"
 	.ascii	"\346X\241\253\025H\027\213u)7o%t\261\314,\313\306.\326"
@@ -684,7 +684,7 @@
 	.ascii	"\340\301\302\022\320*\367W\354..\373\017\006\001\327"
 	.ascii	"\244"
 	.text
-	.section	.gnu.lto_dmaSetHandler.ac593f4d6a5b314e,"",%progbits
+	.section	.gnu.lto_dmaSetHandler.202ea1eb1f0774,"",%progbits
 	.ascii	"x\234\215UmPTU\030>\357=w\367\356\027\013!\211\322\216"
 	.ascii	"2\323\0209Sn\244?\264\277\376\362GM3\316\364\3276X\233"
 	.ascii	"\235\204\232ei\350\027G\026\026\320ftH\266\334\356\340"
@@ -752,7 +752,7 @@
 	.ascii	"\"oy\346+\257m\335\262}k\211/\260-\340/+\014\224\371"
 	.ascii	"\275\177\003\246\\\266U"
 	.text
-	.section	.gnu.lto_dmaGetOwner.ac593f4d6a5b314e,"",%progbits
+	.section	.gnu.lto_dmaGetOwner.202ea1eb1f0774,"",%progbits
 	.ascii	"x\234EP\337+\203Q\030~\237s\266}K\033\177\200%\245h"
 	.ascii	"\027|\230\277\207dS\337\305\\l\222\273\035[\314\342"
 	.ascii	"B\262)\026#\222\013!?gV_\356(?R\242\270\222+\241\270"
@@ -777,7 +777,7 @@
 	.ascii	"g\177\327\360p[\037\325X\341\310\300\240\325oEb\277"
 	.ascii	"dj\213b"
 	.text
-	.section	.gnu.lto_dmaGetResourceIndex.ac593f4d6a5b314e,"",%progbits
+	.section	.gnu.lto_dmaGetResourceIndex.202ea1eb1f0774,"",%progbits
 	.ascii	"x\234EPKKBA\024>\337\214z%z\374\200\204\202\240p\221"
 	.ascii	"\267\327\357)\"\015\356B\027\032\321\316I)\223ZD\244"
 	.ascii	"QIY\024\255\302\242\247etiW\320\203\240Z\324*ZE\005"
@@ -801,7 +801,7 @@
 	.ascii	"\235\035\375]CC\201>\252\262\202\241\310\200\325o\205"
 	.ascii	"\242\277j\024\213["
 	.text
-	.section	.gnu.lto_dmaGetIdentifier.ac593f4d6a5b314e,"",%progbits
+	.section	.gnu.lto_dmaGetIdentifier.202ea1eb1f0774,"",%progbits
 	.ascii	"x\234US[KTQ\024^\337\336\347\346\240S\017A/\007\012"
 	.ascii	"\312\304.Nf\377'D\015\014\246\207\031\021\337f\347\230"
 	.ascii	"6T\022\222\006\343\020\343\015\353\301Kd\345x\353\350"
@@ -840,7 +840,7 @@
 	.ascii	"\321\352\013\361\206h\325\271\213\347\233\232*j\310"
 	.ascii	"\2127\304\352\252\243\250\377\003\324\253\373\227"
 	.text
-	.section	.gnu.lto_dmaGetDescriptor.ac593f4d6a5b314e,"",%progbits
+	.section	.gnu.lto_dmaGetDescriptor.202ea1eb1f0774,"",%progbits
 	.ascii	"x\234\215R[KTQ\024^\337\336\373\\\034l\352\255\036\346"
 	.ascii	"!(\023\2738X\321\337\011Q\003\203\351aF\304\26799\226"
 	.ascii	"\015\205\204\244\3018\304T\232\371\340\245\232.\343"
@@ -879,7 +879,7 @@
 	.ascii	"\205\263\015\015\345Ud\306\352\2425\225\021\324\376"
 	.ascii	"\006*\015\030\206"
 	.text
-	.section	.gnu.lto_dmaGetRefByIdentifier.ac593f4d6a5b314e,"",%progbits
+	.section	.gnu.lto_dmaGetRefByIdentifier.202ea1eb1f0774,"",%progbits
 	.ascii	"x\234-PMK\033Q\024\275g^f&\025uW\020\234\205P\250(\324"
 	.ascii	"\361\243\277G\021\023a\026q\221Hq\227gR\277\260\013"
 	.ascii	"\221&J\014\222\026\245\335\210-\215\332X\013\203\013"
@@ -906,7 +906,7 @@
 	.ascii	"\365\016?\035\033\353\032\222\206 \026\037\031\015\206"
 	.ascii	"\203x\362\016J\313\230\020"
 	.text
-	.section	.gnu.lto_dmaGetDescriptorByIdentifier.ac593f4d6a5b314e,"",%progbits
+	.section	.gnu.lto_dmaGetDescriptorByIdentifier.202ea1eb1f0774,"",%progbits
 	.ascii	"x\234-P\317O\023a\020\235\267\337v[\011r\343`\334\003"
 	.ascii	"\211\011\204\020)\010\377\017!\264${(\207-1\334\372"
 	.ascii	"\331*\305\350\201\030-\244\026R\011\306\023\001cU\326"
@@ -933,7 +933,7 @@
 	.ascii	"\231\231\301\011\351\0102\331\251\351`2\310\206\377"
 	.ascii	"\001\274\207\230\267"
 	.text
-	.section	.gnu.lto_dmaGetChannel.ac593f4d6a5b314e,"",%progbits
+	.section	.gnu.lto_dmaGetChannel.202ea1eb1f0774,"",%progbits
 	.ascii	"x\234-\217KKBQ\024\205\367\272\347z\325\262\032\005"
 	.ascii	"A\016\204 \221H#\373!\375\203\0205\022\322\201J8\363"
 	.ascii	"\244\242E\005\016z\320\305I\203h\022Td\317\321\205\250"
@@ -955,7 +955,7 @@
 	.ascii	"\343\301\341\361\221L\306\037&{x\"\224HD'\177\001$~"
 	.ascii	"z\243"
 	.text
-	.section	.gnu.lto_.symbol_nodes.ac593f4d6a5b314e,"",%progbits
+	.section	.gnu.lto_.symbol_nodes.202ea1eb1f0774,"",%progbits
 	.ascii	"x\234U\3219N\003a\020\204\321\256\371\307\373n\017\273"
 	.ascii	"\221%N\002'\253\011\214\015\230\305\354;\206c\200D\000"
 	.ascii	"\"&$\207\330!\"B\010\003\035PI\177\352\327ag\315\354"
@@ -972,7 +972,7 @@
 	.ascii	"\354\255\377\202\220\370\236\264\354\2617\356\204d\321"
 	.ascii	"\272\203q\307\276\001\3774\277\306"
 	.text
-	.section	.gnu.lto_.refs.ac593f4d6a5b314e,"",%progbits
+	.section	.gnu.lto_.refs.202ea1eb1f0774,"",%progbits
 	.ascii	"x\234=\314\011\016\2000\010\004@\330\326\332j=\343\375"
 	.ascii	"\377\217\3703\213nL\200!$K\020\221\2734\264\024\340"
 	.ascii	"\340\250\247\025\015\264\246\221&\332\320\226f\332\321"
@@ -980,7 +980,7 @@
 	.ascii	"\266\331\330-p\274)\257\247]\256\222\227\007e\234\003"
 	.ascii	"a"
 	.text
-	.section	.gnu.lto_.decls.ac593f4d6a5b314e,"",%progbits
+	.section	.gnu.lto_.decls.202ea1eb1f0774,"",%progbits
 	.ascii	"x\234\265{\011T\225G\266\356\371O\235s\230\301h:C\267"
 	.ascii	"\3357\267\333\373\342\273\267\023\005M\322\271\257\357"
 	.ascii	"\200\210\221\327\0164`:\235w\327\245\211\222\304n\207"
@@ -1556,7 +1556,7 @@
 	.ascii	"\364\321?\2007[\376\277m(\355\235\216R\217\326[\367"
 	.ascii	"hc\250T\251\316\031\002;\310\377\013\363}\344\263"
 	.text
-	.section	.gnu.lto_.symtab.ac593f4d6a5b314e,"",%progbits
+	.section	.gnu.lto_.symtab.202ea1eb1f0774,"",%progbits
 	.ascii	"DMA1_Stream0_IRQHandler\000"
 	.ascii	"\000"
 	.ascii	"\000"

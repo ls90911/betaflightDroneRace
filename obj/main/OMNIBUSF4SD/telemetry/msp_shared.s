@@ -9,11 +9,11 @@
 	.eabi_attribute 34, 1
 	.eabi_attribute 18, 4
 	.file	"msp_shared.c"
-	.section	.gnu.lto_.profile.c12dd94fbbc9c8bc,"",%progbits
+	.section	.gnu.lto_.profile.4ad1303cb86b6a67,"",%progbits
 	.ascii	"x\234cc```\003bF\206\027\254\253\230\000\005\251\001"
 	.ascii	"\247"
 	.text
-	.section	.gnu.lto_.icf.c12dd94fbbc9c8bc,"",%progbits
+	.section	.gnu.lto_.icf.4ad1303cb86b6a67,"",%progbits
 	.ascii	"x\234cc``\210f@\000~\206\226\255\347\22632^_\273\346"
 	.ascii	"!+S\343\3327\253\371\230\357M\376Y\311\362\350g\327"
 	.ascii	"\032~\326+\007\226Mbb\003\263\331'\355\374\332\317\312"
@@ -21,7 +21,7 @@
 	.ascii	"&\271\301$\317\352\275\023\266s\361\202\331|`\222\001"
 	.ascii	"\000`S/E"
 	.text
-	.section	.gnu.lto_.jmpfuncs.c12dd94fbbc9c8bc,"",%progbits
+	.section	.gnu.lto_.jmpfuncs.4ad1303cb86b6a67,"",%progbits
 	.ascii	"x\234\275V]O\023A\024\235;\273m\267K\245\206\347>4\032"
 	.ascii	"^Ld\177\002<\372/\014\301&\232\2101\224\027\236\272"
 	.ascii	"\012D\020#\306(\017\244\"~\304\204h\242F\260`Q\226\017"
@@ -69,7 +69,7 @@
 	.ascii	"\224\306\350\351\243\321\343\365M\221c5\015\3447d\373"
 	.ascii	"g4"
 	.text
-	.section	.gnu.lto_.inline.c12dd94fbbc9c8bc,"",%progbits
+	.section	.gnu.lto_.inline.4ad1303cb86b6a67,"",%progbits
 	.ascii	"x\234\265R;\016\3020\024\363{M\241*\005\312\300\320"
 	.ascii	"\205\3379\230\021SN\004\022B\314(\0233\027a\353\001"
 	.ascii	"XX\2208\005,l$i\032J\251\304D\206\347\310N\234\347$"
@@ -84,11 +84,11 @@
 	.ascii	"\027\336\031K\007;\3547\320\007\024\200\027\353\242"
 	.ascii	"]4"
 	.text
-	.section	.gnu.lto_.pureconst.c12dd94fbbc9c8bc,"",%progbits
+	.section	.gnu.lto_.pureconst.4ad1303cb86b6a67,"",%progbits
 	.ascii	"x\234cc``\340\005bV\006)&\011v)\216Y\214<;\031\001\011"
 	.ascii	"v\001\327"
 	.text
-	.section	.gnu.lto_processMspPacket.c12dd94fbbc9c8bc,"",%progbits
+	.section	.gnu.lto_processMspPacket.4ad1303cb86b6a67,"",%progbits
 	.ascii	"x\234\235U]L\024W\024\276\337\334\231\331\331\005\301"
 	.ascii	"b\325\232\362@Lx\360\305yj\342S\037}2\306\327>5\206"
 	.ascii	"\256\261\211h\303\362\342\323\216\273XX\253\2151\262"
@@ -143,7 +143,7 @@
 	.ascii	"\315\033\233\342\037\254n\020\213i\264a[\242yC\323\266"
 	.ascii	"\206x\"\261v\353_\245MZg"
 	.text
-	.section	.gnu.lto_initSharedMsp.c12dd94fbbc9c8bc,"",%progbits
+	.section	.gnu.lto_initSharedMsp.4ad1303cb86b6a67,"",%progbits
 	.ascii	"x\234\225\225\315k\023A\030\207\347\235I61b=\212\350"
 	.ascii	"I\274\364\322\375\207\004)1\240`D\222^\274\2305\241"
 	.ascii	"$j\004\021S/Q\026\017*\202\226`\255F\373\261\306\217"
@@ -179,7 +179,7 @@
 	.ascii	"5\032\011\252\341\316CG\324\256\320\341P8\324\0259\246"
 	.ascii	"\206\243G\367G\017vFB\007:\202\344?D\231Q?"
 	.text
-	.section	.gnu.lto_sendMspErrorResponse.c12dd94fbbc9c8bc,"",%progbits
+	.section	.gnu.lto_sendMspErrorResponse.4ad1303cb86b6a67,"",%progbits
 	.ascii	"x\234\235T]K\024a\024~\237ygf\327\326/H\"\320\013\011"
 	.ascii	"B$p\202\376F\320M\367!\272P\320V\254\022t\265\343\232"
 	.ascii	"\255\366EDn\261\254\262]X`\250\204\037\265~5m\371U\272"
@@ -221,7 +221,7 @@
 	.ascii	"i\257\317[\351\277`\370*\316\235\2508Y\352\367\226\227"
 	.ascii	"\224\011\315\353\367\237\365\3132_\371/Q\332\322C"
 	.text
-	.section	.gnu.lto_handleMspFrame.c12dd94fbbc9c8bc,"",%progbits
+	.section	.gnu.lto_handleMspFrame.4ad1303cb86b6a67,"",%progbits
 	.ascii	"x\234\245X{lTU\032?\337\271\363\356t\246o\301-\245<"
 	.ascii	"\012\002+\203,\022\211\353\306\030\203k\2621\033ML6"
 	.ascii	"Y\262\251:(YA\267\024w\335?d`(\245\024\244Z\030\240"
@@ -407,7 +407,7 @@
 	.ascii	"Y\377ye\334H\233\2243n\244\345\343\314w\377\351\315"
 	.ascii	"v!\234\277J\025o\215\372\257\367\177\035\356Tc"
 	.text
-	.section	.gnu.lto_sendMspReply.c12dd94fbbc9c8bc,"",%progbits
+	.section	.gnu.lto_sendMspReply.4ad1303cb86b6a67,"",%progbits
 	.ascii	"x\234\265WkLUW\026\336\353\354\373~\"H\307\007**\210"
 	.ascii	"\326\021Z\315\020\215\3064Mf\3428i&\231\311\374\231"
 	.ascii	"\3711a\352ujR\255\021m\306f\022\016^\236Z+\332z\213"
@@ -552,7 +552,7 @@
 	.ascii	"5kS\247\366\377\367K\026\247\276\372+[\367\235!\023"
 	.ascii	"\265\015oy2\346\374\017\362\016\3578"
 	.text
-	.section	.gnu.lto_.symbol_nodes.c12dd94fbbc9c8bc,"",%progbits
+	.section	.gnu.lto_.symbol_nodes.4ad1303cb86b6a67,"",%progbits
 	.ascii	"x\234U\220\313N\024A\024\206\377\323\3253\335Hk\267"
 	.ascii	"0\303\264, q\347[h\342{\370\032\356\252c:\032\031e\220"
 	.ascii	"A\274\337\240^BWJ*1\3218\020C\0021\341\342\320A\023"
@@ -581,7 +581,7 @@
 	.ascii	"\214\272\216\035\376\272\231\252d\214\377\002\317\020"
 	.ascii	"&X\347+\300\\\330\343(\360\007\260x\343\013"
 	.text
-	.section	.gnu.lto_.refs.c12dd94fbbc9c8bc,"",%progbits
+	.section	.gnu.lto_.refs.4ad1303cb86b6a67,"",%progbits
 	.ascii	"x\2345\216\261JD1\024D\347\334$7/\311K\366\255\240\205"
 	.ascii	"Xn\253\213X(\213\340\307\333\010\213\215\010\372\033"
 	.ascii	"\376\201\261\260\230\031f\212\231qI?\023.\201\210\""
@@ -593,7 +593,7 @@
 	.ascii	"f\376\255u\025>\235z\243w\365k\372\2158\212\007\306"
 	.ascii	"\223\306\211\361\254\361\242_\205Y\015\364"
 	.text
-	.section	.gnu.lto_.decls.c12dd94fbbc9c8bc,"",%progbits
+	.section	.gnu.lto_.decls.4ad1303cb86b6a67,"",%progbits
 	.ascii	"x\234\265YyTTW\232\257\373nAA\2619\350\244\351\204\236"
 	.ascii	"\223\366\320\335\234N\024\263\314\304\234\3519\235\245"
 	.ascii	"\343t\237\304\304\243\346\364I\316\231\251T\240T\022"
@@ -889,7 +889,7 @@
 	.ascii	"\343\005\027\013\255x\377\035\0147\036\022\224\324\274"
 	.ascii	"\375\177\243\347\001("
 	.text
-	.section	.gnu.lto_.symtab.c12dd94fbbc9c8bc,"",%progbits
+	.section	.gnu.lto_.symtab.4ad1303cb86b6a67,"",%progbits
 	.ascii	"initSharedMsp\000"
 	.ascii	"\000"
 	.ascii	"\000"

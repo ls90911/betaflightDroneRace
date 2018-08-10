@@ -9,17 +9,17 @@
 	.eabi_attribute 34, 1
 	.eabi_attribute 18, 4
 	.file	"light_ws2811strip_stdperiph.c"
-	.section	.gnu.lto_.profile.19bf60868ce0e91d,"",%progbits
+	.section	.gnu.lto_.profile.dfec779981341002,"",%progbits
 	.ascii	"x\234cc```\003bF\206\375,o\031\001\005\207\001\277"
 	.text
-	.section	.gnu.lto_.icf.19bf60868ce0e91d,"",%progbits
+	.section	.gnu.lto_.icf.dfec779981341002,"",%progbits
 	.ascii	"x\234cc``\360b@\000\036\206E\247\326\336\343g\272\376"
 	.ascii	"}\3479^\346\037\007\246\355\344g\331\376\365r3?+\230"
 	.ascii	"d[x\351\3555Nv0\233{\315\337\033\327\331x~\376|\265"
 	.ascii	"\237\203\367G\357\217\315\214|{\037\276kg\345\007\223"
 	.ascii	"\014\000\277)'\013"
 	.text
-	.section	.gnu.lto_.jmpfuncs.19bf60868ce0e91d,"",%progbits
+	.section	.gnu.lto_.jmpfuncs.dfec779981341002,"",%progbits
 	.ascii	"x\234\245UOO\023A\024\237\337\314vw-E\372\001\366\340"
 	.ascii	"\301\013\234\370\010|\024\277\206\247n\"`\210'\023$"
 	.ascii	"\321\254\306\304\203X\015\242\202eE\261\342\012Z\252"
@@ -55,7 +55,7 @@
 	.ascii	"(&\320\323\002\023\251\200\241^$\333\207\313:M\362\277"
 	.ascii	"\313\274\205\354@MZ\374\003=4\336\307"
 	.text
-	.section	.gnu.lto_.inline.19bf60868ce0e91d,"",%progbits
+	.section	.gnu.lto_.inline.dfec779981341002,"",%progbits
 	.ascii	"x\234uQ-O\003Q\020\234\335\367\356n[\012\034\337\246"
 	.ascii	"\311\325\341\220\225\350\252\376\015\010\360#0$$\230"
 	.ascii	"\012\202 \210\362\033 \004\201h\010\222\244\004\205"
@@ -74,11 +74,11 @@
 	.ascii	"\345\364\246\272UBg\017Vl\241h\350\221\371\317^\375"
 	.ascii	"7\250i\357\037\021\310PF"
 	.text
-	.section	.gnu.lto_.pureconst.19bf60868ce0e91d,"",%progbits
+	.section	.gnu.lto_.pureconst.dfec779981341002,"",%progbits
 	.ascii	"x\234cc``\340\006bV\006)&)f\0116I\036\011\000\004.\000"
 	.ascii	"\253"
 	.text
-	.section	.gnu.lto_WS2811_DMA_IRQHandler.part.0.19bf60868ce0e91d,"",%progbits
+	.section	.gnu.lto_WS2811_DMA_IRQHandler.part.0.dfec779981341002,"",%progbits
 	.ascii	"x\234\225SKO\023Q\024\276\337\334\231\351tx\311\302"
 	.ascii	"\304E\243M0!\260\240)\321hbt\247\177\301\225\242\001"
 	.ascii	"\"MP\261mt\331\333\012\024|$.\244<RM]\030\242\361\375"
@@ -121,7 +121,7 @@
 	.ascii	"\350\3675T\005\2025\015\265d\324UT3\263\2466PMvp\277"
 	.ascii	"\377\017\335km\206"
 	.text
-	.section	.gnu.lto_WS2811_DMA_IRQHandler.19bf60868ce0e91d,"",%progbits
+	.section	.gnu.lto_WS2811_DMA_IRQHandler.dfec779981341002,"",%progbits
 	.ascii	"x\234\225S\315KTQ\024\277\347\335\36713\316\007jD\213"
 	.ascii	"\241\\\004\203\033\207\211\242Z\324\177Q\004-LTr\242"
 	.ascii	"Rf\206Z\316\233Q\347\203\022Z\344\210\303\020\266\010"
@@ -165,7 +165,7 @@
 	.ascii	"\035\012\004\302\221P\260\2431\034i\351hE\245\255\241"
 	.ascii	"\2319ZZ\303\315\250G\332C\177\000P\333t|"
 	.text
-	.section	.gnu.lto_ws2811LedStripDMAEnable.part.1.19bf60868ce0e91d,"",%progbits
+	.section	.gnu.lto_ws2811LedStripDMAEnable.part.1.dfec779981341002,"",%progbits
 	.ascii	"x\234\215\222\317K[A\020\307\347\273\263y\211\261Z\360"
 	.ascii	"\324\203\007\257\036jH\275\024\372\307H\211\242\001"
 	.ascii	"\025\311\013\365\230W%M\244=\224b\237 ABAD/\"\365W\324"
@@ -193,7 +193,7 @@
 	.ascii	"\237\317e\247\206\374\374\360\324\210L\306\0062\364"
 	.ascii	"\027\343\213\340{"
 	.text
-	.section	.gnu.lto_ws2811LedStripHardwareInit.19bf60868ce0e91d,"",%progbits
+	.section	.gnu.lto_ws2811LedStripHardwareInit.dfec779981341002,"",%progbits
 	.ascii	"x\234\225YyT\025\347\025\237;\337\333\337\003\024\025"
 	.ascii	"DQ1Q\021\025\301\245\215im\233\255\3264M\3226\266\215"
 	.ascii	"\177y<\312I<\315v\3204=\375\243\214  j\024\011\216h"
@@ -379,7 +379,7 @@
 	.ascii	"\343\324\224n\023^}}\322\233/\373\335\353A\367& \337"
 	.ascii	"K\223\247\247\030w\377\017\261pE\210"
 	.text
-	.section	.gnu.lto_ws2811LedStripDMAEnable.19bf60868ce0e91d,"",%progbits
+	.section	.gnu.lto_ws2811LedStripDMAEnable.dfec779981341002,"",%progbits
 	.ascii	"x\234m\220OK\002Q\024\305\357\2317\216\322\277m-\374"
 	.ascii	"\002.r\232\332\364m$Tr\240Bf\244\226\363\312L\245\026"
 	.ascii	"\0215AH\330\"ZF\244\345\354\006k]\322Vh\021\024\024"
@@ -399,7 +399,7 @@
 	.ascii	"{=\353\270\346\212\275\234+\2446\334\371E\313r\013\216"
 	.ascii	"\235O\271\205L>\313C.\231\246\037\227\342u\363"
 	.text
-	.section	.gnu.lto_.symbol_nodes.19bf60868ce0e91d,"",%progbits
+	.section	.gnu.lto_.symbol_nodes.dfec779981341002,"",%progbits
 	.ascii	"x\234U\317\331N\024A\024\306\361\357\353\242\213E\324"
 	.ascii	"\201\001\006\030`\206qW\344\031\364\311N\233t0A%\306"
 	.ascii	";EY\264\335\367\035p\233\301\272\366\031\\:h\324\350"
@@ -428,7 +428,7 @@
 	.ascii	"\205\016 \375U\264\327\340\355\317i\374\001\361\211"
 	.ascii	"\370\355"
 	.text
-	.section	.gnu.lto_.refs.19bf60868ce0e91d,"",%progbits
+	.section	.gnu.lto_.refs.dfec779981341002,"",%progbits
 	.ascii	"x\234\015\3101\012\302P\024D\321;?o\362c\242 \301B\261"
 	.ascii	"q\023\202 .\314\355YX\330\210\210`m'\026\342\016|\305"
 	.ascii	"a.\323\002\307$$EC\0107\330D]\267r\250v\324\036\317"
@@ -436,7 +436,7 @@
 	.ascii	"\037\360\011|N\027J\271\242\270A\334\323#\277'\245\177"
 	.ascii	"e\277\263?\271_4\374\320\224A\374\001Fu\016\035"
 	.text
-	.section	.gnu.lto_.decls.19bf60868ce0e91d,"",%progbits
+	.section	.gnu.lto_.decls.dfec779981341002,"",%progbits
 	.ascii	"x\234\315\275\007X]W\226&\312a\337{\311`#\333eW\251"
 	.ascii	"\302T\251lu\260%d\273\302\314\274y%!\331f\332\012\015"
 	.ascii	"\250\322\314{4%a[]\012\325\200\253\253\272\373M_@D\021"
@@ -1340,7 +1340,7 @@
 	.ascii	"\325\355\2513\364\003\276\203\222%\234\373\377\013\\"
 	.ascii	"r\257$"
 	.text
-	.section	.gnu.lto_.symtab.19bf60868ce0e91d,"",%progbits
+	.section	.gnu.lto_.symtab.dfec779981341002,"",%progbits
 	.ascii	"ws2811LedStripHardwareInit\000"
 	.ascii	"\000"
 	.ascii	"\000"

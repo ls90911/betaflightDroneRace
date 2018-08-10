@@ -9,19 +9,19 @@
 	.eabi_attribute 34, 1
 	.eabi_attribute 18, 4
 	.file	"resource.c"
-	.section	.gnu.lto_.profile.b0eb93a4b8e4f0a5,"",%progbits
+	.section	.gnu.lto_.profile.1f4ee377a2d0432c,"",%progbits
 	.ascii	"x\234cc```\004b\006\000\000D\000\010"
 	.text
-	.section	.gnu.lto_.icf.b0eb93a4b8e4f0a5,"",%progbits
+	.section	.gnu.lto_.icf.1f4ee377a2d0432c,"",%progbits
 	.ascii	"x\234cc```g@\000F\206E3\246E3\000\000\011/\002:"
 	.text
-	.section	.gnu.lto_.inline.b0eb93a4b8e4f0a5,"",%progbits
+	.section	.gnu.lto_.inline.1f4ee377a2d0432c,"",%progbits
 	.ascii	"x\234cc```b@\006\000\000\232\000\011"
 	.text
-	.section	.gnu.lto_.pureconst.b0eb93a4b8e4f0a5,"",%progbits
+	.section	.gnu.lto_.pureconst.1f4ee377a2d0432c,"",%progbits
 	.ascii	"x\234cc```\004b\006\000\000D\000\010"
 	.text
-	.section	.gnu.lto_ownerNames.b0eb93a4b8e4f0a5,"",%progbits
+	.section	.gnu.lto_ownerNames.1f4ee377a2d0432c,"",%progbits
 	.ascii	"x\234U\226iPSY\026\200\337\313\013\011;v\333\213\335"
 	.ascii	"\315t\367\235}\325i{z\252\377\206\220\326\324\000\311"
 	.ascii	"$\301v~\245\246\034k\312\252Y\252\264z\376\012\202,"
@@ -157,14 +157,14 @@
 	.ascii	"!\003\247\0125X\014&Ni4\206\302\237oC9\217oL:\035\367"
 	.ascii	"\177%\225\266\006"
 	.text
-	.section	.gnu.lto_.symbol_nodes.b0eb93a4b8e4f0a5,"",%progbits
+	.section	.gnu.lto_.symbol_nodes.1f4ee377a2d0432c,"",%progbits
 	.ascii	"x\234cc``\340\002b\006V\006\206F%\020\003\000\004\347"
 	.ascii	"\000\271"
 	.text
-	.section	.gnu.lto_.refs.b0eb93a4b8e4f0a5,"",%progbits
+	.section	.gnu.lto_.refs.1f4ee377a2d0432c,"",%progbits
 	.ascii	"x\234cc```\004b\006\000\000D\000\010"
 	.text
-	.section	.gnu.lto_.decls.b0eb93a4b8e4f0a5,"",%progbits
+	.section	.gnu.lto_.decls.1f4ee377a2d0432c,"",%progbits
 	.ascii	"x\234\205\326]L\024W\024\000\34093\013e\227\005\032"
 	.ascii	"\342C\037\260\361\305\204'0ic\352[\223>\264\017\215"
 	.ascii	"oM\037\23241\224\244>\250\311\222\266\217\035Y@\004"
@@ -242,7 +242,7 @@
 	.ascii	"Y9I\237\037\374j\317g\007\016\010\246\234\357\017\331"
 	.ascii	">\334\261\255\360\037\313\362:\214"
 	.text
-	.section	.gnu.lto_.symtab.b0eb93a4b8e4f0a5,"",%progbits
+	.section	.gnu.lto_.symtab.1f4ee377a2d0432c,"",%progbits
 	.ascii	"ownerNames\000"
 	.ascii	"\000"
 	.ascii	"\000"

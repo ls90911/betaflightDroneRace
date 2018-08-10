@@ -9,14 +9,14 @@
 	.eabi_attribute 34, 1
 	.eabi_attribute 18, 4
 	.file	"arm_cfft_f32.c"
-	.section	.gnu.lto_.profile.6704f866acefc837,"",%progbits
+	.section	.gnu.lto_.profile.4af38c35cff9d492,"",%progbits
 	.ascii	"x\234cc```\003bF\2066\226u\314\000\004'\001I"
 	.text
-	.section	.gnu.lto_.icf.6704f866acefc837,"",%progbits
+	.section	.gnu.lto_.icf.4af38c35cff9d492,"",%progbits
 	.ascii	"x\234cc``\020a@\000f\206\216\213\337\267\3613.X2c)\017"
 	.ascii	"\323\302_\027\277\2611\000\000_\263\011+"
 	.text
-	.section	.gnu.lto_.jmpfuncs.6704f866acefc837,"",%progbits
+	.section	.gnu.lto_.jmpfuncs.4af38c35cff9d492,"",%progbits
 	.ascii	"x\234\265R\273\012\302@\020\234\271=|\203?\340\217\246"
 	.ascii	"\262\020\261\320R\264\021\254\355L|\026\026je!\370\013"
 	.ascii	"\376\202\376\200\336zQ$\011$\026.lq{\2633s\303\225\000"
@@ -31,7 +31,7 @@
 	.ascii	"\343OCncg/\030\254\011R+\031\032\005ax\002\031\342\323"
 	.ascii	"\303"
 	.text
-	.section	.gnu.lto_.inline.6704f866acefc837,"",%progbits
+	.section	.gnu.lto_.inline.4af38c35cff9d492,"",%progbits
 	.ascii	"x\234}\221\275J\003A\024\205\317\235\231\315nb\022\226"
 	.ascii	"\224\022p\021Al,-\305\312\322\316\007\260\260I\360\035"
 	.ascii	"\246P\024mR\004\005\211\030\254\004A\224\230\304\237"
@@ -56,10 +56,10 @@
 	.ascii	"\244bP&\367\362R\321\351S~x<\212|\002Lk%3aO\342\023"
 	.ascii	"\274&\2320"
 	.text
-	.section	.gnu.lto_.pureconst.6704f866acefc837,"",%progbits
+	.section	.gnu.lto_.pureconst.4af38c35cff9d492,"",%progbits
 	.ascii	"x\234cc```\007bf\006)F)&)\000\001\275\000b"
 	.text
-	.section	.gnu.lto_arm_cfft_radix8by2_f32.6704f866acefc837,"",%progbits
+	.section	.gnu.lto_arm_cfft_radix8by2_f32.4af38c35cff9d492,"",%progbits
 	.ascii	"x\234\225X\013P\224\327\025\276\367\277\273\354\272"
 	.ascii	"\213`L|$A%\211\210\357\3451\223hb\222\351\324\311\014"
 	.ascii	"#>F\2143j\214\245*\243V\324\032\035\247\323\246\254"
@@ -198,7 +198,7 @@
 	.ascii	"i\251\261Zj\214X\266\"\001\256\311\332\262\025\332\222"
 	.ascii	"8\353\222\361\363\347H\033\313\023\377\007ER\363\025"
 	.text
-	.section	.gnu.lto_arm_cfft_radix8by4_f32.6704f866acefc837,"",%progbits
+	.section	.gnu.lto_arm_cfft_radix8by4_f32.4af38c35cff9d492,"",%progbits
 	.ascii	"x\234\265Z\011X\225e\366\377\336\367\273\027\020\\J"
 	.ascii	"\315q\032k\234)[\235pi\326\232Vk\252i\233l\246}1\313"
 	.ascii	"\251F\214l\233j\312\253\300EVQ\004\343r\311\025\315"
@@ -479,7 +479,7 @@
 	.ascii	"8#\357\232\360\342\215J\216T\2224\303\305\375\377\007"
 	.ascii	"\021\3742\014"
 	.text
-	.section	.gnu.lto_arm_cfft_f32.6704f866acefc837,"",%progbits
+	.section	.gnu.lto_arm_cfft_f32.4af38c35cff9d492,"",%progbits
 	.ascii	"x\234\225Vkl\024U\024\276g\356\354\356\354\354\023Q"
 	.ascii	"\220R\036\011i\240\374\260*\376\323D\215\306\304D\023"
 	.ascii	"\265\3764!\245Rm\002\205\224\307?\323)\224-\345Q\220"
@@ -584,7 +584,7 @@
 	.ascii	"\227\316\315]4\227^\325\205\351\271\231jv\316\322\367"
 	.ascii	"`\036\274\367/\314W\034\256"
 	.text
-	.section	.gnu.lto_.symbol_nodes.6704f866acefc837,"",%progbits
+	.section	.gnu.lto_.symbol_nodes.4af38c35cff9d492,"",%progbits
 	.ascii	"x\234cc``\330\000\304\014L\355\214\365\014\014\023\316"
 	.ascii	"10\000\251]\015\216@\221\016\306zFT\221N\306z&\024\021"
 	.ascii	"\306.\306zf\260\010\003CC\203\003P\240\233\261\236\005"
@@ -593,10 +593,10 @@
 	.ascii	"\001\322\214\014\213N\201h\240\304i\020\315\302\260"
 	.ascii	"\244\357,+\003\000M\3352\027"
 	.text
-	.section	.gnu.lto_.refs.6704f866acefc837,"",%progbits
+	.section	.gnu.lto_.refs.4af38c35cff9d492,"",%progbits
 	.ascii	"x\234cc```\004b\006\000\000D\000\010"
 	.text
-	.section	.gnu.lto_.decls.6704f866acefc837,"",%progbits
+	.section	.gnu.lto_.decls.4af38c35cff9d492,"",%progbits
 	.ascii	"x\234\265VmPT\347\025\276\347\336e\335/X\203i\306\316"
 	.ascii	"\360\303*\243\373\243\260\021\235F\247\235N\247\351"
 	.ascii	"\264\315L\315d\252\375\321_\233\005\026Yg\3315pI\353"
@@ -716,7 +716,7 @@
 	.ascii	"\\\273\310@$\031\300LR\035o;R\323\354.\333\2068\276"
 	.ascii	"\010HMt\276?\377\006\317\237\242O"
 	.text
-	.section	.gnu.lto_.symtab.6704f866acefc837,"",%progbits
+	.section	.gnu.lto_.symtab.4af38c35cff9d492,"",%progbits
 	.ascii	"arm_cfft_radix8by2_f32\000"
 	.ascii	"\000"
 	.ascii	"\000"

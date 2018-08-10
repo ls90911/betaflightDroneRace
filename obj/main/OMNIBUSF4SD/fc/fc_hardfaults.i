@@ -5854,6 +5854,9 @@ _Bool
     mixerIsTricopter(void);
 
 void mixerSetThrottleAngleCorrection(int correctionValue);
+
+extern float shadowThrottle;
+extern float shadowRcCommandThrottle;
 # 33 "./src/main/fc/fc_hardfaults.c" 2
 # 126 "./src/main/fc/fc_hardfaults.c"
 void HardFault_Handler(void)

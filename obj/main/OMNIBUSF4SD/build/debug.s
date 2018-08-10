@@ -9,21 +9,21 @@
 	.eabi_attribute 34, 1
 	.eabi_attribute 18, 4
 	.file	"debug.c"
-	.section	.gnu.lto_.profile.134d74f8aa9059b3,"",%progbits
+	.section	.gnu.lto_.profile.ead3337b30876f5a,"",%progbits
 	.ascii	"x\234cc```\004b\006\000\000D\000\010"
 	.text
-	.section	.gnu.lto_.icf.134d74f8aa9059b3,"",%progbits
+	.section	.gnu.lto_.icf.ead3337b30876f5a,"",%progbits
 	.ascii	"x\234cc``\220b@\000\026\206\247_\377\037\346`\234\264"
 	.ascii	"s\375\031\026\246I\333\027\337ef\356\377\373\3769/\003"
 	.ascii	"\000\261\037\014\324"
 	.text
-	.section	.gnu.lto_.inline.134d74f8aa9059b3,"",%progbits
+	.section	.gnu.lto_.inline.ead3337b30876f5a,"",%progbits
 	.ascii	"x\234cc```b@\006\000\000\232\000\011"
 	.text
-	.section	.gnu.lto_.pureconst.134d74f8aa9059b3,"",%progbits
+	.section	.gnu.lto_.pureconst.ead3337b30876f5a,"",%progbits
 	.ascii	"x\234cc```\004b\006\000\000D\000\010"
 	.text
-	.section	.gnu.lto_debugModeNames.134d74f8aa9059b3,"",%progbits
+	.section	.gnu.lto_debugModeNames.ead3337b30876f5a,"",%progbits
 	.ascii	"x\234M\226YPTg\026\200\357\322\254\335t\273e1!\313\237"
 	.ascii	"\314\232\251\2125\231-\3630U\2716\015v\331\013\336\276"
 	.ascii	"L\244\346\241g\222LMY53\017\223J^\246jd\221\035\025"
@@ -140,14 +140,14 @@
 	.ascii	"\331\002\001M\333/H\360)\024v=\324h1\271g\354a\263\303"
 	.ascii	"\352\377\017g \265\256"
 	.text
-	.section	.gnu.lto_.symbol_nodes.134d74f8aa9059b3,"",%progbits
+	.section	.gnu.lto_.symbol_nodes.ead3337b30876f5a,"",%progbits
 	.ascii	"x\234cc``P\002b\006Vf\206F\020\203\225\211\021B32Ah"
 	.ascii	"\006f0\315\000\0006\020\002\325"
 	.text
-	.section	.gnu.lto_.refs.134d74f8aa9059b3,"",%progbits
+	.section	.gnu.lto_.refs.ead3337b30876f5a,"",%progbits
 	.ascii	"x\234cc```\004b\006\000\000D\000\010"
 	.text
-	.section	.gnu.lto_.decls.134d74f8aa9059b3,"",%progbits
+	.section	.gnu.lto_.decls.ead3337b30876f5a,"",%progbits
 	.ascii	"x\234\265\227iPT\331\025\200\337}\257\301\356\266\241"
 	.ascii	"\225\220\012\251\352\2512S5\031\252&\320\3148\025g~"
 	.ascii	"$\225\252T%\371\221\370#\225\374IU\206B\350\021,\226"
@@ -276,7 +276,7 @@
 	.ascii	"oB\214\236!\241>\020\005\242iv\263\250\241S\376\314"
 	.ascii	"3\364\000{\332\221>h\007\365\343_C;{\376\027j\223:2"
 	.text
-	.section	.gnu.lto_.symtab.134d74f8aa9059b3,"",%progbits
+	.section	.gnu.lto_.symtab.ead3337b30876f5a,"",%progbits
 	.ascii	"debugModeNames\000"
 	.ascii	"\000"
 	.ascii	"\000"

@@ -9,14 +9,14 @@
 	.eabi_attribute 34, 1
 	.eabi_attribute 18, 4
 	.file	"compass_qmc5883l.c"
-	.section	.gnu.lto_.profile.4dda5a40275b4e40,"",%progbits
+	.section	.gnu.lto_.profile.366eea1bf80d73e7,"",%progbits
 	.ascii	"x\234cc```\005bF\2065\214\211\000\002\364\001\033"
 	.text
-	.section	.gnu.lto_.icf.4dda5a40275b4e40,"",%progbits
+	.section	.gnu.lto_.icf.366eea1bf80d73e7,"",%progbits
 	.ascii	"x\234cc``\020a@\000f\206\256\023\015\033x\030\273W\355"
 	.ascii	"\357ec\272\366\276u\003\027\003\000V\033\010:"
 	.text
-	.section	.gnu.lto_.jmpfuncs.4dda5a40275b4e40,"",%progbits
+	.section	.gnu.lto_.jmpfuncs.366eea1bf80d73e7,"",%progbits
 	.ascii	"x\234\215R;k\002A\020\236o\367\\\365Dl,\365\277\371"
 	.ascii	"O\264\011)R\005\202i\016B \206+\322\210\032\2439CHZ"
 	.ascii	"\037\370\033B\352\010i\"\012\272\217\341\214\347\035"
@@ -34,7 +34,7 @@
 	.ascii	"\3621a\211\037\357\302o'\270-8\270\005\2741\336r\231"
 	.ascii	"\264\007/\316\253\234"
 	.text
-	.section	.gnu.lto_.inline.4dda5a40275b4e40,"",%progbits
+	.section	.gnu.lto_.inline.366eea1bf80d73e7,"",%progbits
 	.ascii	"x\234cc``\230\302\200\000\314\014\014\242\322\214\214"
 	.ascii	"\014\012\214\014\014L\002\035\031\014l\013\344\231@"
 	.ascii	"\022\254|@\311\011~H\014FvMY\230J\275_%\014<\323,\301"
@@ -42,10 +42,10 @@
 	.ascii	"\014\334Gtp+\346\006\032\316\300\302\013\265\207\001"
 	.ascii	"\000\245\015\017\""
 	.text
-	.section	.gnu.lto_.pureconst.4dda5a40275b4e40,"",%progbits
+	.section	.gnu.lto_.pureconst.366eea1bf80d73e7,"",%progbits
 	.ascii	"x\234cc```\007bf\006\011F)&)\000\001\263\000`"
 	.text
-	.section	.gnu.lto_qmc5883lInit.4dda5a40275b4e40,"",%progbits
+	.section	.gnu.lto_qmc5883lInit.366eea1bf80d73e7,"",%progbits
 	.ascii	"x\234mR[KTQ\030\375\326\336\347\354s\306\333s\305\011"
 	.ascii	"\202\022\311\300)\254\360\251\"\372\037a\223\204\225"
 	.ascii	"]\034\362\325mZ\343\320\205\242\264\234\246\032\250"
@@ -89,7 +89,7 @@
 	.ascii	"gMhEEE\371\326\262\020\251\232\312M\353\252\352\324"
 	.ascii	"\206]\341\215Uu\2622\264\345/D\256Ov"
 	.text
-	.section	.gnu.lto_qmc5883lRead.4dda5a40275b4e40,"",%progbits
+	.section	.gnu.lto_qmc5883lRead.366eea1bf80d73e7,"",%progbits
 	.ascii	"x\234}V[L\224G\024\236\363\317\177\331]`W\274&\272\361"
 	.ascii	"\022j\210\264\021\211iC_\032\037|h\322\207&M|l\232\025"
 	.ascii	"mcZz\001\365\261\014\242\256[M\3236\025\201\376*\255"
@@ -168,7 +168,7 @@
 	.ascii	"C}\361\212\342%KW\362\305+\336\327\213\227\007\226\257"
 	.ascii	"(\376\037]9\021\250"
 	.text
-	.section	.gnu.lto_qmc5883lDetect.4dda5a40275b4e40,"",%progbits
+	.section	.gnu.lto_qmc5883lDetect.366eea1bf80d73e7,"",%progbits
 	.ascii	"x\234\235T[OTW\024\336\353\354s\233\303@\021\2515f\222"
 	.ascii	"\232\264\204H\032\306\206\264\231\007\323\370\320\364"
 	.ascii	"'\364\265\241H\014i\351\005R\036\231\243\003\235\231"
@@ -239,7 +239,7 @@
 	.ascii	"a\031\317/x\213\227\026\355\227\337\374\240t_a\331\177"
 	.ascii	"\351j\240\360"
 	.text
-	.section	.gnu.lto_.symbol_nodes.4dda5a40275b4e40,"",%progbits
+	.section	.gnu.lto_.symbol_nodes.366eea1bf80d73e7,"",%progbits
 	.ascii	"x\234]\310=\012\302`\020\204\341\231\335$\327\360\002"
 	.ascii	"9D<\331~\205X\371\223\334 \205\265\265\330\011!v\236"
 	.ascii	"!\202\215\340\025\024'B@eY^\346)\000\354\365\260\025"
@@ -248,10 +248,10 @@
 	.ascii	"u\303\213co\367\322\231aw\325T\273\276w7\361\270-\307"
 	.ascii	"b\371\230\271\311\247\236\237\304\033\235\227.\270"
 	.text
-	.section	.gnu.lto_.refs.4dda5a40275b4e40,"",%progbits
+	.section	.gnu.lto_.refs.366eea1bf80d73e7,"",%progbits
 	.ascii	"x\234cc``\340\004b&&&\006!&Fa\006\000\001\247\000>"
 	.text
-	.section	.gnu.lto_.decls.4dda5a40275b4e40,"",%progbits
+	.section	.gnu.lto_.decls.366eea1bf80d73e7,"",%progbits
 	.ascii	"x\234\265Z{PTW\232\357sO74M\203\216\232,\331e\267RY"
 	.ascii	"'\351\232\215\242\230\311\343\237\2558j\034\253b\306"
 	.ascii	"R\223\354\244j\267\007\2415\235\025\310\320m*\371g\366"
@@ -539,7 +539,7 @@
 	.ascii	"\232\"4!\246\365A?\270J1\367\357\377\001\347\352\014"
 	.ascii	"c"
 	.text
-	.section	.gnu.lto_.symtab.4dda5a40275b4e40,"",%progbits
+	.section	.gnu.lto_.symtab.366eea1bf80d73e7,"",%progbits
 	.ascii	"qmc5883lDetect\000"
 	.ascii	"\000"
 	.ascii	"\000"

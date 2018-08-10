@@ -9,15 +9,15 @@
 	.eabi_attribute 34, 1
 	.eabi_attribute 18, 4
 	.file	"transponder_ir_erlt.c"
-	.section	.gnu.lto_.profile.deafb5558c09c0f2,"",%progbits
+	.section	.gnu.lto_.profile.68f412c295b9b4d,"",%progbits
 	.ascii	"x\234cc```\001bF\206@W\000\001_\000\242"
 	.text
-	.section	.gnu.lto_.icf.deafb5558c09c0f2,"",%progbits
+	.section	.gnu.lto_.icf.68f412c295b9b4d,"",%progbits
 	.ascii	"x\234cc``P`@\000V\206K\313&\274fd<\363\365\322f\016"
 	.ascii	"\246\306M+g\3620\037\230\324\324\316\303\362a\351\232"
 	.ascii	"\343\\\014\000\366\373\016r"
 	.text
-	.section	.gnu.lto_.jmpfuncs.deafb5558c09c0f2,"",%progbits
+	.section	.gnu.lto_.jmpfuncs.68f412c295b9b4d,"",%progbits
 	.ascii	"x\234E\215\261\011\2000\024D\357\362C\264s\201L\340"
 	.ascii	"\222\202`e+V\026YAt\000q\001g\021l\254\364'\212\036"
 	.ascii	"<8\370\357s\016@\215?\002CJ5\010\024jg\354\016\340b"
@@ -25,7 +25,7 @@
 	.ascii	"\237\252O\252\235\343~\344Q\023\006\307\231\317=\270"
 	.ascii	"$X\321\205\354\235\263\021\334\342\341\035\377"
 	.text
-	.section	.gnu.lto_.inline.deafb5558c09c0f2,"",%progbits
+	.section	.gnu.lto_.inline.68f412c295b9b4d,"",%progbits
 	.ascii	"x\234cc``\250b@\000f\006\006\2636\026F&F\016F\020[\000"
 	.ascii	"H&\260E\235yi\305\300\323\323\310\302\304\300\370\202"
 	.ascii	"\035H2\357\020g\00119\300\002\034 \215L\014\334\302"
@@ -33,10 +33,10 @@
 	.ascii	"^\240\241\023\374\200\014\006.\035\210\271\014L`\202"
 	.ascii	"\367\326=\026\006\366C\336L@) \000\000\006X\017/"
 	.text
-	.section	.gnu.lto_.pureconst.deafb5558c09c0f2,"",%progbits
+	.section	.gnu.lto_.pureconst.68f412c295b9b4d,"",%progbits
 	.ascii	"x\234cc```\007bf\006)&)\026)\000\001\305\000e"
 	.text
-	.section	.gnu.lto_updateTransponderDMABufferERLT.deafb5558c09c0f2,"",%progbits
+	.section	.gnu.lto_updateTransponderDMABufferERLT.68f412c295b9b4d,"",%progbits
 	.ascii	"x\234\225W\353SU\327\025\337\353\354\373~\337\313\253"
 	.ascii	"vn\024\037\204\240\310\025\337\177@\333\351\347\266"
 	.ascii	"3\231v\246\343`\344\003\235\306d\220f&\237<p\011\210"
@@ -156,7 +156,7 @@
 	.ascii	"\252\312\334o\226UVT\275\275\3517\257{\326\277]U\376"
 	.ascii	"\2637~Z\276q\003Th\353\337\372\037\270F\214\261"
 	.text
-	.section	.gnu.lto_transponderIrInitERLT.deafb5558c09c0f2,"",%progbits
+	.section	.gnu.lto_transponderIrInitERLT.68f412c295b9b4d,"",%progbits
 	.ascii	"x\234\235R\317k\023A\024\236o'\331\244\215\011\342A"
 	.ascii	"\024\203\364 \224\210t\217\376\031\376\011\245\2649"
 	.ascii	"\0244\312\246x\3156IM4\036\012mb\211[Y\304\324\210\370"
@@ -192,7 +192,7 @@
 	.ascii	"\2368\036\351\013\353\335\375zwX?:\320\325\313|\177"
 	.ascii	"\034\377\002\346\305<\361"
 	.text
-	.section	.gnu.lto_erltTansponderVTable.deafb5558c09c0f2,"",%progbits
+	.section	.gnu.lto_erltTansponderVTable.68f412c295b9b4d,"",%progbits
 	.ascii	"x\234cc``\260\004bm\006\010\230\302\314\270s\347\233"
 	.ascii	"\333\354\365\177\033:\032\032\036t\257ff\233\303\314"
 	.ascii	"0\215\031\"5\263\351\366w~\213m\015\035\013\032\004"
@@ -200,7 +200,7 @@
 	.ascii	"(Y?713O?\245(\263,\265\250X\277\244(1\257\270 ?/%\265"
 	.ascii	"(>\263(>\265(\247D/\231\001\000\237]$\302"
 	.text
-	.section	.gnu.lto_addBitToBuffer.deafb5558c09c0f2,"",%progbits
+	.section	.gnu.lto_addBitToBuffer.68f412c295b9b4d,"",%progbits
 	.ascii	"x\234\215S\337K\024Q\024\276g\316\314\354\272\263\256"
 	.ascii	" \364`\354\203\017\211X\342&\275\364\326{\375\003\275"
 	.ascii	"\211\254\013-\230\311\256\025=\355u]\333\314\210\020"
@@ -245,20 +245,20 @@
 	.ascii	"\272\256\314\313\214\277`\335{\301[\355\013:j\317V\007"
 	.ascii	"}\347\375Uu\247\300\377\013\266|L\001"
 	.text
-	.section	.gnu.lto_.symbol_nodes.deafb5558c09c0f2,"",%progbits
+	.section	.gnu.lto_.symbol_nodes.68f412c295b9b4d,"",%progbits
 	.ascii	"x\234cc``H\006b\006\246v\306z\006\206\011\347\030\030"
 	.ascii	"\200\324\256\005\216\014\014\254-\214\014\015J\014\014"
 	.ascii	"\314L\255\214\365\214p\251\006\220T\007#c\243\022HW"
 	.ascii	"\033c=\023\212\024c'c=3X\204\201\241\241\301\001\244"
 	.ascii	"\235\225\341\310\303\177\214\014\000S\303\026g"
 	.text
-	.section	.gnu.lto_.refs.deafb5558c09c0f2,"",%progbits
+	.section	.gnu.lto_.refs.68f412c295b9b4d,"",%progbits
 	.ascii	"x\234\025\312\301\011\2000\024\005\301\335\367%\010"
 	.ascii	"\036\304\026\202%H\216\326\236\322\214\207\271M\003"
 	.ascii	"\306r\240\205Mw<\365\302\2567>:\360\325\211I\305\012"
 	.ascii	"\331\326\376\377\007D\355\002U"
 	.text
-	.section	.gnu.lto_.decls.deafb5558c09c0f2,"",%progbits
+	.section	.gnu.lto_.decls.68f412c295b9b4d,"",%progbits
 	.ascii	"x\234\265WiPT\331\025~\367\335\246\033\332f\211\020"
 	.ascii	"u\224L\2710H~@\213\223\2143I*ef\222J\246*\311\244\246"
 	.ascii	"L\252\234\037\351i\241\221\266\240!\335\315\244\306"
@@ -413,7 +413,7 @@
 	.ascii	"QL\014\304 \210\304m\211\333\262\375\033\004\272\022"
 	.ascii	"\351"
 	.text
-	.section	.gnu.lto_.symtab.deafb5558c09c0f2,"",%progbits
+	.section	.gnu.lto_.symtab.68f412c295b9b4d,"",%progbits
 	.ascii	"updateTransponderDMABufferERLT\000"
 	.ascii	"\000"
 	.ascii	"\000"

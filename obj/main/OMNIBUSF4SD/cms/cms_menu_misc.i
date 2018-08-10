@@ -7084,6 +7084,9 @@ _Bool
     mixerIsTricopter(void);
 
 void mixerSetThrottleAngleCorrection(int correctionValue);
+
+extern float shadowThrottle;
+extern float shadowRcCommandThrottle;
 # 50 "./src/main/cms/cms_menu_misc.c" 2
 
 # 1 "./src/main/rx/rx.h" 1

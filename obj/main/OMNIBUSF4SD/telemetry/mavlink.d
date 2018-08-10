@@ -63,8 +63,9 @@ obj/main/OMNIBUSF4SD/telemetry/mavlink.o: src/main/telemetry/mavlink.c \
  src/main/sensors/current_ids.h src/main/sensors/voltage.h \
  src/main/sensors/voltage_ids.h src/main/telemetry/telemetry.h \
  src/main/telemetry/ibus_shared.h src/main/telemetry/mavlink.h \
- lib/main/MAVLink/common/mavlink.h lib/main/MAVLink/common/version.h \
- lib/main/MAVLink/common/common.h lib/main/MAVLink/common/../protocol.h \
+ src/main/build/debug.h lib/main/MAVLink/common/mavlink.h \
+ lib/main/MAVLink/common/version.h lib/main/MAVLink/common/common.h \
+ lib/main/MAVLink/common/../protocol.h \
  lib/main/MAVLink/common/../mavlink_types.h \
  lib/main/MAVLink/common/../mavlink_helpers.h \
  lib/main/MAVLink/common/../checksum.h \
@@ -381,6 +382,8 @@ src/main/telemetry/telemetry.h:
 src/main/telemetry/ibus_shared.h:
 
 src/main/telemetry/mavlink.h:
+
+src/main/build/debug.h:
 
 lib/main/MAVLink/common/mavlink.h:
 

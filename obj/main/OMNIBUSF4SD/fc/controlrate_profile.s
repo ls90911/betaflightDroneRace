@@ -9,17 +9,17 @@
 	.eabi_attribute 34, 1
 	.eabi_attribute 18, 4
 	.file	"controlrate_profile.c"
-	.section	.gnu.lto_.profile.2cb986860c94b78c,"",%progbits
+	.section	.gnu.lto_.profile.899d4d35e586f050,"",%progbits
 	.ascii	"x\234cc```\001bF\006\037e\000\0013\000{"
 	.text
-	.section	.gnu.lto_.icf.2cb986860c94b78c,"",%progbits
+	.section	.gnu.lto_.icf.899d4d35e586f050,"",%progbits
 	.ascii	"x\234cc``\260e@\000.\206+\253\356\277\347a\274y\357"
 	.ascii	"\300r\026\246\011\373\233j\230\357\374\334w\212\225"
 	.ascii	"\345\337\2267\327\330\331\366>|\327\316\312\276\272"
 	.ascii	"\351\357\003\016\216?{\256\037f\342\\\263e\363Rv.\260"
 	.ascii	"\032\006\000\346z\037\303"
 	.text
-	.section	.gnu.lto_.jmpfuncs.2cb986860c94b78c,"",%progbits
+	.section	.gnu.lto_.jmpfuncs.899d4d35e586f050,"",%progbits
 	.ascii	"x\234e\2161\012\302P\020Dgv\327\304J!\225E.\232\352"
 	.ascii	"\013be+V)\274\202\250\235\240\344\002^\3013h'\021\335"
 	.ascii	"\377\005\215f`\212]\336\354l\006\340\212\257\006 \031"
@@ -29,7 +29,7 @@
 	.ascii	"L\321\"\306!B\252\027'\367\312{\317\374\245\015\310"
 	.ascii	"\337\217\033\206\335K&U7LH\305\237\031/S\246<\350"
 	.text
-	.section	.gnu.lto_.inline.2cb986860c94b78c,"",%progbits
+	.section	.gnu.lto_.inline.899d4d35e586f050,"",%progbits
 	.ascii	"x\234M\216;\016\3020\020Dg\274\033\343\374\244\320#"
 	.ascii	"\345*\234\200k$\307\240\247\241\240\244\310\031\200"
 	.ascii	"\202\226\233\000m\232 z\204\235\230\010\027;\253\365"
@@ -42,11 +42,11 @@
 	.ascii	"\225\365\257\362\032:T[\216l)P)\314\330\375\013/\273"
 	.ascii	"$\340"
 	.text
-	.section	.gnu.lto_.pureconst.2cb986860c94b78c,"",%progbits
+	.section	.gnu.lto_.pureconst.899d4d35e586f050,"",%progbits
 	.ascii	"x\234cc``\340\006bV\006\011&\011\026\011v\011\016\011"
 	.ascii	"\000\004\015\000\244"
 	.text
-	.section	.gnu.lto_pgResetFn_controlRateProfiles.2cb986860c94b78c,"",%progbits
+	.section	.gnu.lto_pgResetFn_controlRateProfiles.899d4d35e586f050,"",%progbits
 	.ascii	"x\234US[KTQ\024^\337^\347\314\305\261\261\202\240\300"
 	.ascii	"\007\037\024\261\302y.\242\227\376A\364\0362h\014\230"
 	.ascii	"\023\223\217\301lo\243bDEN1\034b@\305 \310\324nc^\216"
@@ -84,7 +84,7 @@
 	.ascii	"{\360y\201\317%\233\032\022\227\220\370\013+\321\360"
 	.ascii	"m"
 	.text
-	.section	.gnu.lto__reset_template_61.9693.2cb986860c94b78c,"",%progbits
+	.section	.gnu.lto__reset_template_61.9693.899d4d35e586f050,"",%progbits
 	.ascii	"x\234U\217\315\012\001Q\024\307\357\177.\343#\037/0"
 	.ascii	"\017\201\325<\200\307\3600\263$eev\026\342\001\224\031"
 	.ascii	"\337\224\204b\303\336\206\210\024%\013\262\360q\317"
@@ -100,7 +100,7 @@
 	.ascii	"\350hS/\204\026E\230\315\210\267\010#\230\342\007\177"
 	.ascii	"8a\241"
 	.text
-	.section	.gnu.lto_copyControlRateProfile.part.0.2cb986860c94b78c,"",%progbits
+	.section	.gnu.lto_copyControlRateProfile.part.0.899d4d35e586f050,"",%progbits
 	.ascii	"x\234\215R[KTQ\024\336\337\331\347\034'3\273<\3050\017"
 	.ascii	"=(\243\024N\326kO\365\324[\364\007BF%\3014F\037z\233"
 	.ascii	"\355\244\316\230\012\"5\3114\304\200H\022\205\212\232"
@@ -139,7 +139,7 @@
 	.ascii	"\371\205\273\260\242\362\200\0239L\221CN\340`Ya\321"
 	.ascii	"\0117e\377%\264\216\322G\3057\336\372dy"
 	.text
-	.section	.gnu.lto_loadControlRateProfile.2cb986860c94b78c,"",%progbits
+	.section	.gnu.lto_loadControlRateProfile.899d4d35e586f050,"",%progbits
 	.ascii	"x\234\215\221MK\033Q\024\206\317{\357d\022\277\272\026"
 	.ascii	"\354\302\205\010Bq\360\027\270\226\376\210\022\202A"
 	.ascii	"\301\232\022\335\347j\264\361#\213 5\245\355 \343\312"
@@ -167,7 +167,7 @@
 	.ascii	"\216O\016?{\221N%G\307\206\373\023\377\3234Bw\007?\320"
 	.ascii	"\254"
 	.text
-	.section	.gnu.lto_changeControlRateProfile.2cb986860c94b78c,"",%progbits
+	.section	.gnu.lto_changeControlRateProfile.899d4d35e586f050,"",%progbits
 	.ascii	"x\234\215\222\313O\023Q\024\306\3577w:\035\372`+1\354"
 	.ascii	"4!\020\303@t\357\232\235\361\0370M-\221\004\301T\026"
 	.ascii	"\356z\245`A\272 F\012\305J\306\205q\241\2441\"Z\024"
@@ -205,7 +205,7 @@
 	.ascii	"\213v\267wtF\232\303\342@\271|\222\312'J\325\266\256"
 	.ascii	"\323\221\013\3738|F\374\003@\252D\364"
 	.text
-	.section	.gnu.lto_copyControlRateProfile.2cb986860c94b78c,"",%progbits
+	.section	.gnu.lto_copyControlRateProfile.899d4d35e586f050,"",%progbits
 	.ascii	"x\234u\217\277K[Q\024\307\317\367\236\367\236\017k\351"
 	.ascii	"V$\004\027\013A\007#\370\037\350\344V\234\013E\362\003"
 	.ascii	"\002iR\222\014\335r\265\325D\253\220\241\265A2\270\224"
@@ -231,7 +231,7 @@
 	.ascii	"MeH\224\247Ma0\025\215\275\012\010\375\037\351\006\277"
 	.ascii	"\274\242\304"
 	.text
-	.section	.gnu.lto_controlRateProfiles_Registry.2cb986860c94b78c,"",%progbits
+	.section	.gnu.lto_controlRateProfiles_Registry.899d4d35e586f050,"",%progbits
 	.ascii	"x\234cc``\270\016\304j\014\0200\205\231q\347\3167\267"
 	.ascii	"\331\353\3776t44<\350>/6\203y\0163\3034f\210\334\314"
 	.ascii	"\246\333\337\371-\2665t,h\020\230\303\3148\225\231\201"
@@ -245,7 +245,7 @@
 	.ascii	"\237S\224X\222\032_P\224\237\226\231\223\252\227\314"
 	.ascii	"\000\000\2656WZ"
 	.text
-	.section	.gnu.lto_.symbol_nodes.2cb986860c94b78c,"",%progbits
+	.section	.gnu.lto_.symbol_nodes.899d4d35e586f050,"",%progbits
 	.ascii	"x\234U\215\275\016\001A\024\205\317\231\331Y\222\365"
 	.ascii	"\006\032\331B\351\031x\022\225lt\2624\252\031\311j\331"
 	.ascii	"\370\247\020z/@'\241\365\014\210Z\247\025\263\210\330"
@@ -257,12 +257,12 @@
 	.ascii	"{.\250\335\377@\302C\364\270\347\245\360pX\037)39\334"
 	.ascii	".O\312\254\300uS\304\013\347\0255<"
 	.text
-	.section	.gnu.lto_.refs.2cb986860c94b78c,"",%progbits
+	.section	.gnu.lto_.refs.899d4d35e586f050,"",%progbits
 	.ascii	"x\234\025\310\301\015\3000\014\303@\211\262\035\244"
 	.ascii	"\313t\377\355\352>\010\0348\222\336\315\302\005$\244"
 	.ascii	"Sj/=U\307\215\372\277\236\311%<H\037\026\373\000\305"
 	.text
-	.section	.gnu.lto_.decls.2cb986860c94b78c,"",%progbits
+	.section	.gnu.lto_.decls.899d4d35e586f050,"",%progbits
 	.ascii	"x\234\265Y{T\224G\226\377\352\253n\272i\032\310\212"
 	.ascii	"q\234\031<k\022\306a\377\0204\2315\346\217='9\356\356"
 	.ascii	"l\346\314\354\346df\367\0343g\267m\233\006:\201n\266"
@@ -507,7 +507,7 @@
 	.ascii	"\002O\024W\200I:c?\363\320\372\273X\247qu\224\371\177"
 	.ascii	"\001\015z,l"
 	.text
-	.section	.gnu.lto_.symtab.2cb986860c94b78c,"",%progbits
+	.section	.gnu.lto_.symtab.899d4d35e586f050,"",%progbits
 	.ascii	"pgResetFn_controlRateProfiles\000"
 	.ascii	"\000"
 	.ascii	"\000"

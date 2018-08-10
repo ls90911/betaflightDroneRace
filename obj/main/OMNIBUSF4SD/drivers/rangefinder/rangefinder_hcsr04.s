@@ -9,17 +9,17 @@
 	.eabi_attribute 34, 1
 	.eabi_attribute 18, 4
 	.file	"rangefinder_hcsr04.c"
-	.section	.gnu.lto_.profile.7c2581fa4b024231,"",%progbits
+	.section	.gnu.lto_.profile.23a760ff412ebd77,"",%progbits
 	.ascii	"x\234cc```\003bF\206S\314\213\030\001\005\032\001~"
 	.text
-	.section	.gnu.lto_.icf.7c2581fa4b024231,"",%progbits
+	.section	.gnu.lto_.icf.23a760ff412ebd77,"",%progbits
 	.ascii	"x\234cc``\360c@\000^\2063\213\276;0\3768\361p'#s\333"
 	.ascii	"\361\223G\331Y\366>|\327\316\312z\340\345\372Y\234l"
 	.ascii	"`6\347\316[\255\345\\`&w\317\264YW\230x\266\177\275"
 	.ascii	"\334\314\317\373\351\316\276)\374|`q\376\013\207\377"
 	.ascii	"\274fg\000\0000q'\350"
 	.text
-	.section	.gnu.lto_.jmpfuncs.7c2581fa4b024231,"",%progbits
+	.section	.gnu.lto_.jmpfuncs.23a760ff412ebd77,"",%progbits
 	.ascii	"x\234\215S\301J\303@\020\235\267\233&i\243\244\037\320"
 	.ascii	"\037\365\224\\D\321\253\364\324CO\036D\020\321V\323"
 	.ascii	"Z\215-\012\242\324\017\360$\024O^\212\027\301J\235\335"
@@ -40,7 +40,7 @@
 	.ascii	"5`\345Kkv\320\335?\323\263\334\302\22406\014\247d;\266"
 	.ascii	"\035\250?fR\350\200\376\000g\304\000\271"
 	.text
-	.section	.gnu.lto_.inline.7c2581fa4b024231,"",%progbits
+	.section	.gnu.lto_.inline.23a760ff412ebd77,"",%progbits
 	.ascii	"x\234cc``(ad\200\003\016\006\006f&F\006& \223m\201<"
 	.ascii	"\210b`d`a\006\2120]\340\207\01313\260\361\241\0111q"
 	.ascii	"\003\011V\006Q\005\240\270\310\201\020Tq0\301\310\005"
@@ -52,11 +52,11 @@
 	.ascii	"\217\237A\376\000\310\321B_\362\0308>\350A\202\010b"
 	.ascii	".!\012\244\026\000\360@$\374"
 	.text
-	.section	.gnu.lto_.pureconst.7c2581fa4b024231,"",%progbits
+	.section	.gnu.lto_.pureconst.23a760ff412ebd77,"",%progbits
 	.ascii	"x\234cc``\020\004b\016\006\006F)f\011V)N\011n)^)~I\000"
 	.ascii	"\010\261\001\012"
 	.text
-	.section	.gnu.lto_hcsr04_init.7c2581fa4b024231,"",%progbits
+	.section	.gnu.lto_hcsr04_init.23a760ff412ebd77,"",%progbits
 	.ascii	"x\234M\2169K\003Q\024\205\357y7\016\001\211\265h\212"
 	.ascii	"\024BH\223\261\010\010\376\031\0113\243N\341\024o m"
 	.ascii	"\236q\231\210\026\026. c!(b\245\342\336\015\202\245"
@@ -74,7 +74,7 @@
 	.ascii	"\253\233\321D0\036F~\240\377\363\330\244\027\353\341"
 	.ascii	"F\335#\366\203\326\017`\365\\K"
 	.text
-	.section	.gnu.lto_hcsr04_get_distance.7c2581fa4b024231,"",%progbits
+	.section	.gnu.lto_hcsr04_get_distance.23a760ff412ebd77,"",%progbits
 	.ascii	"x\234MPMKBA\024\275\347\215_\025\266k\225\013\027\201"
 	.ascii	"\330\302\327B(\3723!\372*\027\271x\202[GM,j\321\242"
 	.ascii	"\214\344\025\266\220hcE\366a%<\204\226}BA\264+\010\212"
@@ -95,7 +95,7 @@
 	.ascii	"\315Hb\312\230\214'b\206\331\215'\246\243Is$\034\212"
 	.ascii	"\222\210\031\251_\034\271{\001"
 	.text
-	.section	.gnu.lto_hcsr04_extiHandler.part.0.7c2581fa4b024231,"",%progbits
+	.section	.gnu.lto_hcsr04_extiHandler.part.0.23a760ff412ebd77,"",%progbits
 	.ascii	"x\234}\221\277O\024Q\020\307\347\273\263\273\267\204"
 	.ascii	"\210\322QP\320P`\"GA\242\261\367\357\270\340q\340\026"
 	.ascii	"\234f\217\320\336\343N\344N1!\004\317\270\331\220M("
@@ -122,7 +122,7 @@
 	.ascii	"\334\255|)\032\030\354\317\223\223\277\331>\036\216"
 	.ascii	"\205\305\321\\i\374\366\235\277\005\221\251\236"
 	.text
-	.section	.gnu.lto_hcsr04_extiHandler.7c2581fa4b024231,"",%progbits
+	.section	.gnu.lto_hcsr04_extiHandler.23a760ff412ebd77,"",%progbits
 	.ascii	"x\234\215SMO\023Q\024\275w\336|\024J[@\021\022I$AB`"
 	.ascii	"A5!\321\270w\347\037pE\260 vA5-q\333\007\345\303*&\304"
 	.ascii	"\350\210\315\204\214i\210n\024\215\370QQ\030[T\374\000"
@@ -165,7 +165,7 @@
 	.ascii	"ZZ\303[\327M\307\002\221\360\236\306\206\000H\201#\356"
 	.ascii	"\216`{0\324\326\024\3518~\342/\266^i\026"
 	.text
-	.section	.gnu.lto_hcsr04_start_reading.7c2581fa4b024231,"",%progbits
+	.section	.gnu.lto_hcsr04_start_reading.23a760ff412ebd77,"",%progbits
 	.ascii	"x\234\215\220\317K\002A\024\307\337wF\335\205\310s\220"
 	.ascii	"\207\256^\264\203\364\357\204\250\225\207<\254\320u"
 	.ascii	"7\3154\212\210\260\015b\211\215\016Q\227\210\354\307"
@@ -187,7 +187,7 @@
 	.ascii	"3\212I#]\230\314M\344\013\331\234\361=\037\237\312\024"
 	.ascii	"\215\321T\"C\237k\340\233t"
 	.text
-	.section	.gnu.lto_hcsr04_update.7c2581fa4b024231,"",%progbits
+	.section	.gnu.lto_hcsr04_update.23a760ff412ebd77,"",%progbits
 	.ascii	"x\234\215S[OSA\020\3369{n-\345\"\3360!\306D\011\201"
 	.ascii	"\030\360\201\304\007|\364U\377\202A(\312\003\230\024"
 	.ascii	"\243ot\241\024(\222@\014T\202\225\324\0131\274(\006"
@@ -235,7 +235,7 @@
 	.ascii	"-\266\035\312\312\310%4\317z\316t\266\240\320z\374\314"
 	.ascii	"\371c\305\377\000\204\036\300G"
 	.text
-	.section	.gnu.lto_hcsr04Detect.part.1.7c2581fa4b024231,"",%progbits
+	.section	.gnu.lto_hcsr04Detect.part.1.23a760ff412ebd77,"",%progbits
 	.ascii	"x\234\225WkLTW\020>s\317\276\357>\020\221U\273\266\266"
 	.ascii	"\225R\265\025\223\332\370\303\246i\3775\375\325\244"
 	.ascii	"\375\321\037M\032#\333\312\017I\272X\375\323\204+\313"
@@ -336,7 +336,7 @@
 	.ascii	"\377$+;\307\226\351\237\353\2375\327\237\251\006\374"
 	.ascii	"\337|\353\317\231\373Y\326\034?d\375\007t\201\217\316"
 	.text
-	.section	.gnu.lto_hcsr04Detect.7c2581fa4b024231,"",%progbits
+	.section	.gnu.lto_hcsr04Detect.23a760ff412ebd77,"",%progbits
 	.ascii	"x\234\215\223\313k\023Q\024\306\3177w&\211I\323\372"
 	.ascii	"\254.f\321\205R\212h*\012.\004W.\304\225\370\017Hh\242"
 	.ascii	"fa\026)Tp\223\251m\251m]\210\330\010e\224 Fq\341\013"
@@ -382,7 +382,7 @@
 	.ascii	"\323\372\032R\241p\335\312\002\317\366`,t \030\013\357"
 	.ascii	"\214Dk\177\003&g\235\""
 	.text
-	.section	.gnu.lto_.symbol_nodes.7c2581fa4b024231,"",%progbits
+	.section	.gnu.lto_.symbol_nodes.23a760ff412ebd77,"",%progbits
 	.ascii	"x\234]\216I/\004Q\024\205\357\251\247\272\265VJw\323"
 	.ascii	"m\226\370\035\026\254\375\250\333\221\212NX\020\211"
 	.ascii	"y\246\314\363\260aG\032\261\261\2653$\265#\021\211\265"
@@ -405,7 +405,7 @@
 	.ascii	",\213\356\205a\267{Q\330\345^\252i\347\302N\267\257"
 	.ascii	"\031U\336}\025\006tU\271\365\350\033l\220\301\215"
 	.text
-	.section	.gnu.lto_.refs.7c2581fa4b024231,"",%progbits
+	.section	.gnu.lto_.refs.23a760ff412ebd77,"",%progbits
 	.ascii	"x\234\035\313I\022\2030\020\004\301\352F\032\304\210"
 	.ascii	"%x\001\330'/\341G\372\347&|\250[e\000\337+\011K\203"
 	.ascii	"\212k%D\011\215\023%\325\026O\244\310\322:\263\031+"
@@ -413,7 +413,7 @@
 	.ascii	"I\314\304\356\365p=\210\323\353\215\270\233\207\373"
 	.ascii	"\323z\221o\342S6eQ\214\344%:?\002\346\004H"
 	.text
-	.section	.gnu.lto_.decls.7c2581fa4b024231,"",%progbits
+	.section	.gnu.lto_.decls.23a760ff412ebd77,"",%progbits
 	.ascii	"x\234\265z\011TTY\232f\274\270\301\022A\000\246\330"
 	.ascii	"Y\232eeg\347X\223tU)\231fN-\347\364\351I\0052\223i\025"
 	.ascii	"\016`u\225\247g(\022#\225l\205l\010\2533{\246\253\202"
@@ -860,7 +860,7 @@
 	.ascii	"\332k\333\226P\235o\210\377\037u[|AB\315\347\221\207"
 	.ascii	"\347\342y\252\330##\325\364\177\001[\021W\231"
 	.text
-	.section	.gnu.lto_.symtab.7c2581fa4b024231,"",%progbits
+	.section	.gnu.lto_.symtab.23a760ff412ebd77,"",%progbits
 	.ascii	"hcsr04_init\000"
 	.ascii	"\000"
 	.ascii	"\000"

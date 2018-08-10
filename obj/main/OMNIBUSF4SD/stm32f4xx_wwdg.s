@@ -9,16 +9,16 @@
 	.eabi_attribute 34, 1
 	.eabi_attribute 18, 4
 	.file	"stm32f4xx_wwdg.c"
-	.section	.gnu.lto_.profile.cb9c98515340dd1d,"",%progbits
+	.section	.gnu.lto_.profile.9ae81f52c9155ec,"",%progbits
 	.ascii	"x\234cc```\001bF\006{U\000\001\033\000p"
 	.text
-	.section	.gnu.lto_.icf.cb9c98515340dd1d,"",%progbits
+	.section	.gnu.lto_.icf.9ae81f52c9155ec,"",%progbits
 	.ascii	"x\234cc``0b@\000\016\206\353\037\356-\342d<\260\375"
 	.ascii	"\336i&\246\316IG\376\2622\337o8=\223\207e\375\374?G"
 	.ascii	"9X\017\355\335\377\216\233\355\371\264=\347X\330\037"
 	.ascii	"t\315|\302\303\000\000\204C\030\313"
 	.text
-	.section	.gnu.lto_.jmpfuncs.cb9c98515340dd1d,"",%progbits
+	.section	.gnu.lto_.jmpfuncs.9ae81f52c9155ec,"",%progbits
 	.ascii	"x\234cc``X\300\200\000\034@\314\3028\205\231\361\355"
 	.ascii	"\231\247\213X\272\231\3470306\0100nf\224a`<\300\002"
 	.ascii	"d\002\011\006\006\220\202i\255\207\316\263\203\0240"
@@ -26,7 +26,7 @@
 	.ascii	"#\343V\250<#D\032\010\352\347031Ahff\260\031`&+\224"
 	.ascii	"fc``\007\272\015\0005\"\036\231"
 	.text
-	.section	.gnu.lto_.inline.cb9c98515340dd1d,"",%progbits
+	.section	.gnu.lto_.inline.9ae81f52c9155ec,"",%progbits
 	.ascii	"x\234cc``8\306\200\000\034\014\014\234R\214\014L@&\333"
 	.ascii	"\002y\020\305\300\314\303\000\342C)F\006v6\240<\307"
 	.ascii	"\001;\270\002&\026^\036FF\006\016F\240\"\241\013=\214"
@@ -34,11 +34,11 @@
 	.ascii	"\003+\013L\003\\\034\246\236\025\237$\033\003\033+\320"
 	.ascii	"0\266\017zp\303\3301\315g\000\000\234X\021\310"
 	.text
-	.section	.gnu.lto_.pureconst.cb9c98515340dd1d,"",%progbits
+	.section	.gnu.lto_.pureconst.9ae81f52c9155ec,"",%progbits
 	.ascii	"x\234cc``\020\004b\016\006\011F)&)f)\026)V)6)v)\000"
 	.ascii	"\011\246\001\012"
 	.text
-	.section	.gnu.lto_WWDG_DeInit.cb9c98515340dd1d,"",%progbits
+	.section	.gnu.lto_WWDG_DeInit.9ae81f52c9155ec,"",%progbits
 	.ascii	"x\234cc``\020`d`\360\005\322\322@\314\310\314\300\310"
 	.ascii	"4\341\034\003C#\007\023##\210\321\300\301\310P\317\304"
 	.ascii	"X\317\330\303<\205\231\361P\373\263\235L\232\313\033"
@@ -57,7 +57,7 @@
 	.ascii	"b\030\277\242\">\270$% \265(\263 #\036\"\247_\\\224"
 	.ascii	"\254_\\\222kl\224\006\222./OI\327Kf\000\000\222Ds&"
 	.text
-	.section	.gnu.lto_WWDG_SetPrescaler.cb9c98515340dd1d,"",%progbits
+	.section	.gnu.lto_WWDG_SetPrescaler.9ae81f52c9155ec,"",%progbits
 	.ascii	"x\234\205R\317KTQ\024>\337\273o~ \216\355BH\310E\"\022"
 	.ascii	"\370\300\351O\220ZD!\030H\213\030t\234l\300\011y3\244"
 	.ascii	";\3578\316h\324\242 _$\217\030\251Q\"\262\302\246I\033"
@@ -90,7 +90,7 @@
 	.ascii	"t\230\261d\264\273?f\372S\211\0013\326\367\013\376\007"
 	.ascii	"\332w"
 	.text
-	.section	.gnu.lto_WWDG_SetWindowValue.cb9c98515340dd1d,"",%progbits
+	.section	.gnu.lto_WWDG_SetWindowValue.9ae81f52c9155ec,"",%progbits
 	.ascii	"x\234}S\337KTA\024\236\357\316\335\273K7\365\261\260"
 	.ascii	"\205|\021\361!oi\177B\364\022E`\024\364b\376\330l\301"
 	.ascii	"5Y\255\365\315Y\367\207\232\005\005\271\322r\211\255"
@@ -127,7 +127,7 @@
 	.ascii	"T\237\225\327\241PSsU#\323O\371[\233\316\207N\326\267"
 	.ascii	"\\\360i\035\201\266\240\257\371\017c^\016\322"
 	.text
-	.section	.gnu.lto_WWDG_EnableIT.cb9c98515340dd1d,"",%progbits
+	.section	.gnu.lto_WWDG_EnableIT.9ae81f52c9155ec,"",%progbits
 	.ascii	"x\234cc``x\016\304\276@,\015\304\214\314\014\214L\023"
 	.ascii	"\316104r012\202\030\015\034\214\014\365L\214\365\214"
 	.ascii	"=\314S\230\031\017\265?\333\311\244\271\274\001\010"
@@ -146,7 +146,7 @@
 	.ascii	"\017\221\323/.J\326/.\31156J\003I\227\227\247\244\353"
 	.ascii	"%3\000\000\021\370jb"
 	.text
-	.section	.gnu.lto_WWDG_SetCounter.cb9c98515340dd1d,"",%progbits
+	.section	.gnu.lto_WWDG_SetCounter.9ae81f52c9155ec,"",%progbits
 	.ascii	"x\2345PMH\233A\020\235\267\033?E\214^\005S\360&\271"
 	.ascii	"\370\025\343\251W\213\227\242\010\326\263X\023m\240"
 	.ascii	"\332\372%\032on\222\306\330\352\241E\2154D\211\007\011"
@@ -174,7 +174,7 @@
 	.ascii	"\012y\007\233\373\251\262\355\345\350p\320g\335\001"
 	.ascii	"6\334\225\366"
 	.text
-	.section	.gnu.lto_WWDG_Enable.cb9c98515340dd1d,"",%progbits
+	.section	.gnu.lto_WWDG_Enable.9ae81f52c9155ec,"",%progbits
 	.ascii	"x\2345P=H\233Q\024\275\347\275\370)\301\340*\030\320"
 	.ascii	"-\270\344+\306\271\213\342\"\226\202:\213?\261\015T"
 	.ascii	"+_\342\317\226\227\304\030[\035\024MD\011\032\007\021"
@@ -200,7 +200,7 @@
 	.ascii	"\363v\244^3\203\326\270\031\014M\371\272&uy~~\342\215"
 	.ascii	"w\234\032{\336\317N\207\374\326\023\275.\226E"
 	.text
-	.section	.gnu.lto_WWDG_GetFlagStatus.cb9c98515340dd1d,"",%progbits
+	.section	.gnu.lto_WWDG_GetFlagStatus.9ae81f52c9155ec,"",%progbits
 	.ascii	"x\234m\220\317KTQ\024\307\317\367\336\3538\015\315\246"
 	.ascii	"e<(\210Y\350\302\027\316\374\011\021D\024\201AK\361"
 	.ascii	"W\365 #\346\275\322\235g\034C\307B\012\232i\222A&\""
@@ -227,7 +227,7 @@
 	.ascii	"\\?\333\343\372A\177\272\375\264\035\017\014\364\236"
 	.ascii	"i\353\241]\335^\340\007]\301E\177\033\272q\254\023"
 	.text
-	.section	.gnu.lto_WWDG_ClearFlag.cb9c98515340dd1d,"",%progbits
+	.section	.gnu.lto_WWDG_ClearFlag.9ae81f52c9155ec,"",%progbits
 	.ascii	"x\2345P\277KBQ\030\375\316\273f\022\2704\005\0115\005"
 	.ascii	".^\320\376\204h\021!\260]J\255\036d\304S\322\315ke*"
 	.ascii	"5\024\244\021<\3425\224SH\330/!\342\341\324TPKsAEDC"
@@ -247,17 +247,17 @@
 	.ascii	"3\343I#\312\223\251D\300?\245\306\351tl\332\027\245"
 	.ascii	"?\\ls~"
 	.text
-	.section	.gnu.lto_.symbol_nodes.cb9c98515340dd1d,"",%progbits
+	.section	.gnu.lto_.symbol_nodes.9ae81f52c9155ec,"",%progbits
 	.ascii	"x\234U\310\271\015\2000\024\004\321]\233\303eAekqCD"
 	.ascii	"\021t@FLL\015T\2020d?\030\215\364\012\000{\012\256\241"
 	.ascii	"\200\365\002\322\216X'i)Z\351(g\245\247\274\225\201"
 	.ascii	"\312\254\214Tne\242\012+3U\032\341B\205_\200\030+\300"
 	.ascii	"#`\273\037~?\323\361\002\254\344,\277"
 	.text
-	.section	.gnu.lto_.refs.cb9c98515340dd1d,"",%progbits
+	.section	.gnu.lto_.refs.9ae81f52c9155ec,"",%progbits
 	.ascii	"x\234cc```\004b\006\000\000D\000\010"
 	.text
-	.section	.gnu.lto_.decls.cb9c98515340dd1d,"",%progbits
+	.section	.gnu.lto_.decls.9ae81f52c9155ec,"",%progbits
 	.ascii	"x\234\265V\177LTW\026~\347\275\031\030\006f\260\332"
 	.ascii	"4n\302\037\304\220@v\003S\265Im\322lj\001]w\267\215"
 	.ascii	"\001\273f7\233\214\343\360\2241\303Lwf\250\355\177O"
@@ -373,7 +373,7 @@
 	.ascii	"+!\243\303l\306l\012\361\353\222\370\370$>9)\214\262"
 	.ascii	"n\302=M\020\267\375\033\201\234qT"
 	.text
-	.section	.gnu.lto_.symtab.cb9c98515340dd1d,"",%progbits
+	.section	.gnu.lto_.symtab.9ae81f52c9155ec,"",%progbits
 	.ascii	"WWDG_DeInit\000"
 	.ascii	"\000"
 	.ascii	"\000"

@@ -6610,6 +6610,9 @@ _Bool
     mixerIsTricopter(void);
 
 void mixerSetThrottleAngleCorrection(int correctionValue);
+
+extern float shadowThrottle;
+extern float shadowRcCommandThrottle;
 # 41 "./src/main/io/serial_4way.c" 2
 
 # 1 "./src/main/io/beeper.h" 1

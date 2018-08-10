@@ -9,14 +9,14 @@
 	.eabi_attribute 34, 1
 	.eabi_attribute 18, 4
 	.file	"buf_writer.c"
-	.section	.gnu.lto_.profile.97d2fa6ffb036d1a,"",%progbits
+	.section	.gnu.lto_.profile.e257e58ca2faf3ca,"",%progbits
 	.ascii	"x\234cc```\001bF\006G5\000\001 \000s"
 	.text
-	.section	.gnu.lto_.icf.97d2fa6ffb036d1a,"",%progbits
+	.section	.gnu.lto_.icf.e257e58ca2faf3ca,"",%progbits
 	.ascii	"x\234cc``\020a@\000f\206\003Og\317cg|\326\274g\016\027"
 	.ascii	"\323\216?\315\247\330\030\000_\033\010\330"
 	.text
-	.section	.gnu.lto_.jmpfuncs.97d2fa6ffb036d1a,"",%progbits
+	.section	.gnu.lto_.jmpfuncs.e257e58ca2faf3ca,"",%progbits
 	.ascii	"x\234cc``\270\310\200\000\314\014,\214@\300_?\207\231"
 	.ascii	"\001\210\031\201\230\011\210\231\031\231\030\031\231"
 	.ascii	"\201\014\026 fec``<\300\302\310\000\304\377\201\200"
@@ -26,7 +26,7 @@
 	.ascii	"Z\006\262\231\205\260E8M\206\232\304\000\000\364\305"
 	.ascii	"4c"
 	.text
-	.section	.gnu.lto_.inline.97d2fa6ffb036d1a,"",%progbits
+	.section	.gnu.lto_.inline.e257e58ca2faf3ca,"",%progbits
 	.ascii	"x\234]O1\012\0021\020\234MrI<\205\223S\261\021.\235"
 	.ascii	"\326>@\256\264\362!\372\016A\260\261\020+\213+\305\326"
 	.ascii	"\017\210\245\215\326\276\300\3127\270\331\343,L`2\273"
@@ -39,10 +39,10 @@
 	.ascii	")\313\331\252\020W\366J6c\366\372\330\300\221\344\210"
 	.ascii	"X\326E)E\315\345\233\034\3024)\360\005^N%\352"
 	.text
-	.section	.gnu.lto_.pureconst.97d2fa6ffb036d1a,"",%progbits
+	.section	.gnu.lto_.pureconst.e257e58ca2faf3ca,"",%progbits
 	.ascii	"x\234cc```\007bf\006)F)&)\000\001\275\000b"
 	.text
-	.section	.gnu.lto_bufWriterInit.97d2fa6ffb036d1a,"",%progbits
+	.section	.gnu.lto_bufWriterInit.e257e58ca2faf3ca,"",%progbits
 	.ascii	"x\234\235\221\317k\023Q\020\307\337w\337\356&Mk\205"
 	.ascii	"z\021\355!\240\022z\351zS\212W\301\263\377@Ij\224\200"
 	.ascii	"?`\023\025\274t\2336M\264V\213\264Q\226 \021\014\005"
@@ -76,7 +76,7 @@
 	.ascii	"\356\343f(\0224;{\030\002\236\310\221\210\377`w8t\""
 	.ascii	"\250\327\302\334o\036\370\005\012R\035k"
 	.text
-	.section	.gnu.lto_bufWriterAppend.97d2fa6ffb036d1a,"",%progbits
+	.section	.gnu.lto_bufWriterAppend.e257e58ca2faf3ca,"",%progbits
 	.ascii	"x\234\225S\333K\224A\024\237\3377\363\355\272\027\205"
 	.ascii	" \002\303\207\005\023\321\0077\251\307\350\251\277\241"
 	.ascii	"\327H32\250\207\265\013\364\342\347mW\253\207\2104["
@@ -120,7 +120,7 @@
 	.ascii	"PE\260\344\350\376=\307C\345G\312BE\245\002%V\351\201"
 	.ascii	"_\347\025\231\035"
 	.text
-	.section	.gnu.lto_bufWriterFlush.97d2fa6ffb036d1a,"",%progbits
+	.section	.gnu.lto_bufWriterFlush.e257e58ca2faf3ca,"",%progbits
 	.ascii	"x\234\225\222\317k\023A\024\307\337w\337n\262M\032o"
 	.ascii	"\036*=\004,\224^\272\027\275\372\257\210\255-D\320\303"
 	.ascii	"\326\037\307Lc\3556\350A\304V\014\213\354AQ,\342omj"
@@ -153,15 +153,15 @@
 	.ascii	"\026\216\017\271#\316\300\261\341\375'\334\302\321!"
 	.ascii	"\267\177\2200\360\023\246\362\0111"
 	.text
-	.section	.gnu.lto_.symbol_nodes.97d2fa6ffb036d1a,"",%progbits
+	.section	.gnu.lto_.symbol_nodes.e257e58ca2faf3ca,"",%progbits
 	.ascii	"x\234cc``p\005b\006&\206z\006\206\011\347\030@\324\256"
 	.ascii	"\006G\240\000c=#\252\000S=\023\212\000\013#\303\226"
 	.ascii	"\366\273\354\014,L\014_~\276cd`\000\000.\020\020\343"
 	.text
-	.section	.gnu.lto_.refs.97d2fa6ffb036d1a,"",%progbits
+	.section	.gnu.lto_.refs.e257e58ca2faf3ca,"",%progbits
 	.ascii	"x\234cc```\004b\006\000\000D\000\010"
 	.text
-	.section	.gnu.lto_.decls.97d2fa6ffb036d1a,"",%progbits
+	.section	.gnu.lto_.decls.e257e58ca2faf3ca,"",%progbits
 	.ascii	"x\234\265UmLSg\024\276\247o)\245|\006\235aI\223\021"
 	.ascii	"\322\037$K\251N\023\347?\227%\373\372\261\177\313\242"
 	.ascii	"\177ji\253\255\201\226\265\227-\376\273\212\032\002"
@@ -247,7 +247,7 @@
 	.ascii	" /\317\355s%\315\350\037\345\344\007=\377\000\216\345"
 	.ascii	"\010\251"
 	.text
-	.section	.gnu.lto_.symtab.97d2fa6ffb036d1a,"",%progbits
+	.section	.gnu.lto_.symtab.e257e58ca2faf3ca,"",%progbits
 	.ascii	"bufWriterInit\000"
 	.ascii	"\000"
 	.ascii	"\000"

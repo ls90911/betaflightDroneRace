@@ -42,10 +42,11 @@ obj/main/OMNIBUSF4SD/flight/position.o: src/main/flight/position.c \
  src/main/common/utils.h src/main/target/common_defaults_post.h \
  src/main/pg/pg.h src/main/build/build_config.h src/main/flight/imu.h \
  src/main/common/axis.h src/main/flight/pid.h src/main/common/filter.h \
- src/main/io/gps.h src/main/sensors/sensors.h \
+ src/main/drivers/adc.h src/main/drivers/io_types.h \
+ src/main/drivers/time.h src/main/io/gps.h src/main/sensors/sensors.h \
  src/main/sensors/barometer.h src/main/drivers/barometer/barometer.h \
  src/main/drivers/bus.h src/main/drivers/bus_i2c.h \
- src/main/drivers/io_types.h src/main/drivers/rcc_types.h
+ src/main/drivers/rcc_types.h
 
 src/main/build/debug.h:
 
@@ -153,6 +154,12 @@ src/main/flight/pid.h:
 
 src/main/common/filter.h:
 
+src/main/drivers/adc.h:
+
+src/main/drivers/io_types.h:
+
+src/main/drivers/time.h:
+
 src/main/io/gps.h:
 
 src/main/sensors/sensors.h:
@@ -164,7 +171,5 @@ src/main/drivers/barometer/barometer.h:
 src/main/drivers/bus.h:
 
 src/main/drivers/bus_i2c.h:
-
-src/main/drivers/io_types.h:
 
 src/main/drivers/rcc_types.h:

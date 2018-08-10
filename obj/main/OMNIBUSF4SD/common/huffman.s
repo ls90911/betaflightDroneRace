@@ -9,19 +9,19 @@
 	.eabi_attribute 34, 1
 	.eabi_attribute 18, 4
 	.file	"huffman.c"
-	.section	.gnu.lto_.profile.71037430f09801fb,"",%progbits
+	.section	.gnu.lto_.profile.8b52224e2697b879,"",%progbits
 	.ascii	"x\234cc```\001bF\206\2100\000\001~\000\272"
 	.text
-	.section	.gnu.lto_.icf.71037430f09801fb,"",%progbits
+	.section	.gnu.lto_.icf.8b52224e2697b879,"",%progbits
 	.ascii	"x\234cc``\340c@\000&\206\236\365\233f\2631n<6u\0013"
 	.ascii	"\003\000)K\005U"
 	.text
-	.section	.gnu.lto_.jmpfuncs.71037430f09801fb,"",%progbits
+	.section	.gnu.lto_.jmpfuncs.8b52224e2697b879,"",%progbits
 	.ascii	"x\234cc``0e@\000&\006VF\020\220\257\237\303\314\000"
 	.ascii	"\304\214@\314\004\245\231\031Y@R\374@&\013\2620\003"
 	.ascii	"\000\016\274\012\236"
 	.text
-	.section	.gnu.lto_.inline.71037430f09801fb,"",%progbits
+	.section	.gnu.lto_.inline.8b52224e2697b879,"",%progbits
 	.ascii	"x\234cc``\210f@\000&\006\006\215u\254\214\214\314\012"
 	.ascii	"\214\014\014\314\356\347&\0072\260w\250310mZ\314\304"
 	.ascii	"\302\300\002T\301\310`\364\232\231\221\231\001\250\200"
@@ -29,10 +29,10 @@
 	.ascii	"\203\211\201\361\005;\013\204d`iZ\300(\301 \0012\032"
 	.ascii	"\000\215\021\015\357"
 	.text
-	.section	.gnu.lto_.pureconst.71037430f09801fb,"",%progbits
+	.section	.gnu.lto_.pureconst.8b52224e2697b879,"",%progbits
 	.ascii	"x\234cc```\005b&\006)F)\000\000\374\000C"
 	.text
-	.section	.gnu.lto_huffmanEncodeBuf.71037430f09801fb,"",%progbits
+	.section	.gnu.lto_huffmanEncodeBuf.8b52224e2697b879,"",%progbits
 	.ascii	"x\234}VYLTW\030>\377=w\231}\306\001\001a\232\032#\242"
 	.ascii	"\270\200A}\362\251M\2324\351C\037\372\320\207&\215E"
 	.ascii	"l1\005\214\342C\223\246\016\242 \240U)\202\275\216u"
@@ -133,7 +133,7 @@
 	.ascii	"\266\221\2375\213\32462\3750oj\2263\272A\2742}\372\177"
 	.ascii	"\205c\237\255"
 	.text
-	.section	.gnu.lto_huffmanEncodeBufStreaming.71037430f09801fb,"",%progbits
+	.section	.gnu.lto_huffmanEncodeBufStreaming.8b52224e2697b879,"",%progbits
 	.ascii	"x\234\245W]lTE\024\236s\347\356\336\273\377\013bi\315"
 	.ascii	"\252\010\224ZQ\213\360\340\233\017\230\030\023M\364"
 	.ascii	"\301\027c\214\251\245D@\212\261\213\211O^\272\330\362"
@@ -241,15 +241,15 @@
 	.ascii	"\260h\032\177mN\261\021.,\016O\235\0216\011\371\370"
 	.ascii	"\234i\205\236\344\003\322i3g\376\015\326/\242\264"
 	.text
-	.section	.gnu.lto_.symbol_nodes.71037430f09801fb,"",%progbits
+	.section	.gnu.lto_.symbol_nodes.8b52224e2697b879,"",%progbits
 	.ascii	"x\234cc``P\003b\006\246\026\306z\006\206\011\347\030"
 	.ascii	"\030\200\324\256\006G\240H+c=#\212\010\003\000\263\267"
 	.ascii	"\010\353"
 	.text
-	.section	.gnu.lto_.refs.71037430f09801fb,"",%progbits
+	.section	.gnu.lto_.refs.8b52224e2697b879,"",%progbits
 	.ascii	"x\234cc```\004b\006\000\000D\000\010"
 	.text
-	.section	.gnu.lto_.decls.71037430f09801fb,"",%progbits
+	.section	.gnu.lto_.decls.8b52224e2697b879,"",%progbits
 	.ascii	"x\234\265VYLTg\024\276g\376a\273\262)\246\301\2244\306"
 	.ascii	"\020:\017\205qK\255I\323\2076MM\323\364\3056\215\274"
 	.ascii	"\320a\030d\0143\3232\227\264\276]\001-V1\232 \"\332"
@@ -343,7 +343,7 @@
 	.ascii	"\243\264`:z\265\222b2X\314\326\265\004\343\377\027d"
 	.ascii	"\366\216G"
 	.text
-	.section	.gnu.lto_.symtab.71037430f09801fb,"",%progbits
+	.section	.gnu.lto_.symtab.8b52224e2697b879,"",%progbits
 	.ascii	"huffmanEncodeBuf\000"
 	.ascii	"\000"
 	.ascii	"\000"

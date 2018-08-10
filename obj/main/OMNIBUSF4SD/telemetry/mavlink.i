@@ -805,6 +805,743 @@ char *__attribute__((__nonnull__(1))) basename (const char *) __asm__("" "__gnu_
 
 
 # 29 "./src/main/telemetry/mavlink.c" 2
+# 1 "/home/jiahao/betaflight/tools/gcc-arm-none-eabi-7-2017-q4-major/arm-none-eabi/include/stdio.h" 1 3
+# 36 "/home/jiahao/betaflight/tools/gcc-arm-none-eabi-7-2017-q4-major/arm-none-eabi/include/stdio.h" 3
+# 1 "/home/jiahao/betaflight/tools/gcc-arm-none-eabi-7-2017-q4-major/lib/gcc/arm-none-eabi/7.2.1/include/stddef.h" 1 3 4
+# 37 "/home/jiahao/betaflight/tools/gcc-arm-none-eabi-7-2017-q4-major/arm-none-eabi/include/stdio.h" 2 3
+
+
+
+# 1 "/home/jiahao/betaflight/tools/gcc-arm-none-eabi-7-2017-q4-major/lib/gcc/arm-none-eabi/7.2.1/include/stdarg.h" 1 3 4
+# 40 "/home/jiahao/betaflight/tools/gcc-arm-none-eabi-7-2017-q4-major/lib/gcc/arm-none-eabi/7.2.1/include/stdarg.h" 3 4
+typedef __builtin_va_list __gnuc_va_list;
+# 41 "/home/jiahao/betaflight/tools/gcc-arm-none-eabi-7-2017-q4-major/arm-none-eabi/include/stdio.h" 2 3
+
+
+
+
+
+typedef __gnuc_va_list va_list;
+# 61 "/home/jiahao/betaflight/tools/gcc-arm-none-eabi-7-2017-q4-major/arm-none-eabi/include/stdio.h" 3
+# 1 "/home/jiahao/betaflight/tools/gcc-arm-none-eabi-7-2017-q4-major/arm-none-eabi/include/sys/types.h" 1 3
+# 28 "/home/jiahao/betaflight/tools/gcc-arm-none-eabi-7-2017-q4-major/arm-none-eabi/include/sys/types.h" 3
+typedef __uint8_t u_int8_t;
+
+
+typedef __uint16_t u_int16_t;
+
+
+typedef __uint32_t u_int32_t;
+
+
+typedef __uint64_t u_int64_t;
+
+typedef int register_t;
+# 62 "/home/jiahao/betaflight/tools/gcc-arm-none-eabi-7-2017-q4-major/arm-none-eabi/include/sys/types.h" 3
+# 1 "/home/jiahao/betaflight/tools/gcc-arm-none-eabi-7-2017-q4-major/lib/gcc/arm-none-eabi/7.2.1/include/stddef.h" 1 3 4
+# 63 "/home/jiahao/betaflight/tools/gcc-arm-none-eabi-7-2017-q4-major/arm-none-eabi/include/sys/types.h" 2 3
+
+
+
+
+# 1 "/home/jiahao/betaflight/tools/gcc-arm-none-eabi-7-2017-q4-major/arm-none-eabi/include/machine/endian.h" 1 3
+
+
+
+
+
+# 1 "/home/jiahao/betaflight/tools/gcc-arm-none-eabi-7-2017-q4-major/arm-none-eabi/include/machine/_endian.h" 1 3
+# 7 "/home/jiahao/betaflight/tools/gcc-arm-none-eabi-7-2017-q4-major/arm-none-eabi/include/machine/endian.h" 2 3
+# 68 "/home/jiahao/betaflight/tools/gcc-arm-none-eabi-7-2017-q4-major/arm-none-eabi/include/sys/types.h" 2 3
+# 1 "/home/jiahao/betaflight/tools/gcc-arm-none-eabi-7-2017-q4-major/arm-none-eabi/include/sys/select.h" 1 3
+# 25 "/home/jiahao/betaflight/tools/gcc-arm-none-eabi-7-2017-q4-major/arm-none-eabi/include/sys/select.h" 3
+# 1 "/home/jiahao/betaflight/tools/gcc-arm-none-eabi-7-2017-q4-major/arm-none-eabi/include/sys/_sigset.h" 1 3
+# 41 "/home/jiahao/betaflight/tools/gcc-arm-none-eabi-7-2017-q4-major/arm-none-eabi/include/sys/_sigset.h" 3
+typedef unsigned long __sigset_t;
+# 26 "/home/jiahao/betaflight/tools/gcc-arm-none-eabi-7-2017-q4-major/arm-none-eabi/include/sys/select.h" 2 3
+# 1 "/home/jiahao/betaflight/tools/gcc-arm-none-eabi-7-2017-q4-major/arm-none-eabi/include/sys/_timeval.h" 1 3
+# 35 "/home/jiahao/betaflight/tools/gcc-arm-none-eabi-7-2017-q4-major/arm-none-eabi/include/sys/_timeval.h" 3
+typedef __suseconds_t suseconds_t;
+
+
+
+
+typedef __int_least64_t time_t;
+# 52 "/home/jiahao/betaflight/tools/gcc-arm-none-eabi-7-2017-q4-major/arm-none-eabi/include/sys/_timeval.h" 3
+struct timeval {
+ time_t tv_sec;
+ suseconds_t tv_usec;
+};
+# 27 "/home/jiahao/betaflight/tools/gcc-arm-none-eabi-7-2017-q4-major/arm-none-eabi/include/sys/select.h" 2 3
+# 1 "/home/jiahao/betaflight/tools/gcc-arm-none-eabi-7-2017-q4-major/arm-none-eabi/include/sys/timespec.h" 1 3
+# 38 "/home/jiahao/betaflight/tools/gcc-arm-none-eabi-7-2017-q4-major/arm-none-eabi/include/sys/timespec.h" 3
+# 1 "/home/jiahao/betaflight/tools/gcc-arm-none-eabi-7-2017-q4-major/arm-none-eabi/include/sys/_timespec.h" 1 3
+# 45 "/home/jiahao/betaflight/tools/gcc-arm-none-eabi-7-2017-q4-major/arm-none-eabi/include/sys/_timespec.h" 3
+struct timespec {
+ time_t tv_sec;
+ long tv_nsec;
+};
+# 39 "/home/jiahao/betaflight/tools/gcc-arm-none-eabi-7-2017-q4-major/arm-none-eabi/include/sys/timespec.h" 2 3
+# 58 "/home/jiahao/betaflight/tools/gcc-arm-none-eabi-7-2017-q4-major/arm-none-eabi/include/sys/timespec.h" 3
+struct itimerspec {
+ struct timespec it_interval;
+ struct timespec it_value;
+};
+# 28 "/home/jiahao/betaflight/tools/gcc-arm-none-eabi-7-2017-q4-major/arm-none-eabi/include/sys/select.h" 2 3
+
+
+
+typedef __sigset_t sigset_t;
+# 45 "/home/jiahao/betaflight/tools/gcc-arm-none-eabi-7-2017-q4-major/arm-none-eabi/include/sys/select.h" 3
+typedef unsigned long fd_mask;
+
+
+
+
+
+
+
+typedef struct _types_fd_set {
+ fd_mask fds_bits[(((64)+(((sizeof (fd_mask) * 8))-1))/((sizeof (fd_mask) * 8)))];
+} _types_fd_set;
+# 71 "/home/jiahao/betaflight/tools/gcc-arm-none-eabi-7-2017-q4-major/arm-none-eabi/include/sys/select.h" 3
+
+
+int select (int __n, _types_fd_set *__readfds, _types_fd_set *__writefds, _types_fd_set *__exceptfds, struct timeval *__timeout)
+                                                   ;
+
+int pselect (int __n, _types_fd_set *__readfds, _types_fd_set *__writefds, _types_fd_set *__exceptfds, const struct timespec *__timeout, const sigset_t *__set)
+
+                           ;
+
+
+
+# 69 "/home/jiahao/betaflight/tools/gcc-arm-none-eabi-7-2017-q4-major/arm-none-eabi/include/sys/types.h" 2 3
+
+
+
+
+typedef __uint32_t in_addr_t;
+
+
+
+
+typedef __uint16_t in_port_t;
+# 87 "/home/jiahao/betaflight/tools/gcc-arm-none-eabi-7-2017-q4-major/arm-none-eabi/include/sys/types.h" 3
+typedef unsigned char u_char;
+
+
+
+typedef unsigned short u_short;
+
+
+
+typedef unsigned int u_int;
+
+
+
+typedef unsigned long u_long;
+
+
+
+
+
+
+
+typedef unsigned short ushort;
+typedef unsigned int uint;
+typedef unsigned long ulong;
+
+
+
+typedef __blkcnt_t blkcnt_t;
+
+
+
+
+typedef __blksize_t blksize_t;
+
+
+
+
+typedef unsigned long clock_t;
+# 135 "/home/jiahao/betaflight/tools/gcc-arm-none-eabi-7-2017-q4-major/arm-none-eabi/include/sys/types.h" 3
+typedef long daddr_t;
+
+
+
+typedef char * caddr_t;
+
+
+
+
+typedef __fsblkcnt_t fsblkcnt_t;
+typedef __fsfilcnt_t fsfilcnt_t;
+
+
+
+
+typedef __id_t id_t;
+
+
+
+
+typedef __ino_t ino_t;
+# 173 "/home/jiahao/betaflight/tools/gcc-arm-none-eabi-7-2017-q4-major/arm-none-eabi/include/sys/types.h" 3
+typedef __off_t off_t;
+
+
+
+typedef __dev_t dev_t;
+
+
+
+typedef __uid_t uid_t;
+
+
+
+typedef __gid_t gid_t;
+
+
+
+
+typedef __pid_t pid_t;
+
+
+
+
+typedef __key_t key_t;
+
+
+
+
+typedef _ssize_t ssize_t;
+
+
+
+
+typedef __mode_t mode_t;
+
+
+
+
+typedef __nlink_t nlink_t;
+
+
+
+
+typedef __clockid_t clockid_t;
+
+
+
+
+
+typedef __timer_t timer_t;
+
+
+
+
+
+typedef __useconds_t useconds_t;
+# 236 "/home/jiahao/betaflight/tools/gcc-arm-none-eabi-7-2017-q4-major/arm-none-eabi/include/sys/types.h" 3
+typedef __int64_t sbintime_t;
+
+
+# 1 "/home/jiahao/betaflight/tools/gcc-arm-none-eabi-7-2017-q4-major/arm-none-eabi/include/sys/_pthreadtypes.h" 1 3
+# 23 "/home/jiahao/betaflight/tools/gcc-arm-none-eabi-7-2017-q4-major/arm-none-eabi/include/sys/_pthreadtypes.h" 3
+# 1 "/home/jiahao/betaflight/tools/gcc-arm-none-eabi-7-2017-q4-major/arm-none-eabi/include/sys/sched.h" 1 3
+# 48 "/home/jiahao/betaflight/tools/gcc-arm-none-eabi-7-2017-q4-major/arm-none-eabi/include/sys/sched.h" 3
+struct sched_param {
+  int sched_priority;
+# 61 "/home/jiahao/betaflight/tools/gcc-arm-none-eabi-7-2017-q4-major/arm-none-eabi/include/sys/sched.h" 3
+};
+# 24 "/home/jiahao/betaflight/tools/gcc-arm-none-eabi-7-2017-q4-major/arm-none-eabi/include/sys/_pthreadtypes.h" 2 3
+# 32 "/home/jiahao/betaflight/tools/gcc-arm-none-eabi-7-2017-q4-major/arm-none-eabi/include/sys/_pthreadtypes.h" 3
+typedef __uint32_t pthread_t;
+# 61 "/home/jiahao/betaflight/tools/gcc-arm-none-eabi-7-2017-q4-major/arm-none-eabi/include/sys/_pthreadtypes.h" 3
+typedef struct {
+  int is_initialized;
+  void *stackaddr;
+  int stacksize;
+  int contentionscope;
+  int inheritsched;
+  int schedpolicy;
+  struct sched_param schedparam;
+
+
+
+
+
+  int detachstate;
+} pthread_attr_t;
+# 154 "/home/jiahao/betaflight/tools/gcc-arm-none-eabi-7-2017-q4-major/arm-none-eabi/include/sys/_pthreadtypes.h" 3
+typedef __uint32_t pthread_mutex_t;
+
+typedef struct {
+  int is_initialized;
+# 168 "/home/jiahao/betaflight/tools/gcc-arm-none-eabi-7-2017-q4-major/arm-none-eabi/include/sys/_pthreadtypes.h" 3
+  int recursive;
+} pthread_mutexattr_t;
+
+
+
+
+
+
+typedef __uint32_t pthread_cond_t;
+
+
+
+typedef struct {
+  int is_initialized;
+  clock_t clock;
+
+
+
+} pthread_condattr_t;
+
+
+
+typedef __uint32_t pthread_key_t;
+
+typedef struct {
+  int is_initialized;
+  int init_executed;
+} pthread_once_t;
+# 240 "/home/jiahao/betaflight/tools/gcc-arm-none-eabi-7-2017-q4-major/arm-none-eabi/include/sys/types.h" 2 3
+# 1 "/home/jiahao/betaflight/tools/gcc-arm-none-eabi-7-2017-q4-major/arm-none-eabi/include/machine/types.h" 1 3
+# 241 "/home/jiahao/betaflight/tools/gcc-arm-none-eabi-7-2017-q4-major/arm-none-eabi/include/sys/types.h" 2 3
+# 62 "/home/jiahao/betaflight/tools/gcc-arm-none-eabi-7-2017-q4-major/arm-none-eabi/include/stdio.h" 2 3
+
+
+
+
+typedef __FILE FILE;
+
+
+
+
+
+
+typedef _fpos_t fpos_t;
+
+
+
+
+
+# 1 "/home/jiahao/betaflight/tools/gcc-arm-none-eabi-7-2017-q4-major/arm-none-eabi/include/sys/stdio.h" 1 3
+# 80 "/home/jiahao/betaflight/tools/gcc-arm-none-eabi-7-2017-q4-major/arm-none-eabi/include/stdio.h" 2 3
+# 181 "/home/jiahao/betaflight/tools/gcc-arm-none-eabi-7-2017-q4-major/arm-none-eabi/include/stdio.h" 3
+char * ctermid (char *);
+
+
+
+
+FILE * tmpfile (void);
+char * tmpnam (char *);
+
+char * tempnam (const char *, const char *);
+
+int fclose (FILE *);
+int fflush (FILE *);
+FILE * freopen (const char *restrict, const char *restrict, FILE *restrict);
+void setbuf (FILE *restrict, char *restrict);
+int setvbuf (FILE *restrict, char *restrict, int, size_t);
+int fprintf (FILE *restrict, const char *restrict, ...) __attribute__ ((__format__ (__printf__, 2, 3)))
+                                                            ;
+int fscanf (FILE *restrict, const char *restrict, ...) __attribute__ ((__format__ (__scanf__, 2, 3)))
+                                                           ;
+int printf (const char *restrict, ...) __attribute__ ((__format__ (__printf__, 1, 2)))
+                                                            ;
+int scanf (const char *restrict, ...) __attribute__ ((__format__ (__scanf__, 1, 2)))
+                                                           ;
+int sscanf (const char *restrict, const char *restrict, ...) __attribute__ ((__format__ (__scanf__, 2, 3)))
+                                                           ;
+int vfprintf (FILE *restrict, const char *restrict, __gnuc_va_list) __attribute__ ((__format__ (__printf__, 2, 0)))
+                                                            ;
+int vprintf (const char *, __gnuc_va_list) __attribute__ ((__format__ (__printf__, 1, 0)))
+                                                            ;
+int vsprintf (char *restrict, const char *restrict, __gnuc_va_list) __attribute__ ((__format__ (__printf__, 2, 0)))
+                                                            ;
+int fgetc (FILE *);
+char * fgets (char *restrict, int, FILE *restrict);
+int fputc (int, FILE *);
+int fputs (const char *restrict, FILE *restrict);
+int getc (FILE *);
+int getchar (void);
+char * gets (char *);
+int putc (int, FILE *);
+int putchar (int);
+int puts (const char *);
+int ungetc (int, FILE *);
+size_t fread (void * restrict, size_t _size, size_t _n, FILE *restrict);
+size_t fwrite (const void * restrict , size_t _size, size_t _n, FILE *);
+
+
+
+int fgetpos (FILE *restrict, fpos_t *restrict);
+
+int fseek (FILE *, long, int);
+
+
+
+int fsetpos (FILE *, const fpos_t *);
+
+long ftell ( FILE *);
+void rewind (FILE *);
+void clearerr (FILE *);
+int feof (FILE *);
+int ferror (FILE *);
+void perror (const char *);
+
+FILE * fopen (const char *restrict _name, const char *restrict _type);
+int sprintf (char *restrict, const char *restrict, ...) __attribute__ ((__format__ (__printf__, 2, 3)))
+                                                            ;
+int remove (const char *);
+int rename (const char *, const char *);
+# 257 "/home/jiahao/betaflight/tools/gcc-arm-none-eabi-7-2017-q4-major/arm-none-eabi/include/stdio.h" 3
+int fseeko (FILE *, off_t, int);
+off_t ftello ( FILE *);
+
+
+
+int fcloseall (void);
+
+
+
+int snprintf (char *restrict, size_t, const char *restrict, ...) __attribute__ ((__format__ (__printf__, 3, 4)))
+                                                            ;
+int vsnprintf (char *restrict, size_t, const char *restrict, __gnuc_va_list) __attribute__ ((__format__ (__printf__, 3, 0)))
+                                                            ;
+int vfscanf (FILE *restrict, const char *restrict, __gnuc_va_list) __attribute__ ((__format__ (__scanf__, 2, 0)))
+                                                           ;
+int vscanf (const char *, __gnuc_va_list) __attribute__ ((__format__ (__scanf__, 1, 0)))
+                                                           ;
+int vsscanf (const char *restrict, const char *restrict, __gnuc_va_list) __attribute__ ((__format__ (__scanf__, 2, 0)))
+                                                           ;
+
+
+int asprintf (char **restrict, const char *restrict, ...) __attribute__ ((__format__ (__printf__, 2, 3)))
+                                                            ;
+int vasprintf (char **, const char *, __gnuc_va_list) __attribute__ ((__format__ (__printf__, 2, 0)))
+                                                            ;
+
+
+int asiprintf (char **, const char *, ...) __attribute__ ((__format__ (__printf__, 2, 3)))
+                                                            ;
+char * asniprintf (char *, size_t *, const char *, ...) __attribute__ ((__format__ (__printf__, 3, 4)))
+                                                            ;
+char * asnprintf (char *restrict, size_t *restrict, const char *restrict, ...) __attribute__ ((__format__ (__printf__, 3, 4)))
+                                                            ;
+
+int diprintf (int, const char *, ...) __attribute__ ((__format__ (__printf__, 2, 3)))
+                                                            ;
+
+int fiprintf (FILE *, const char *, ...) __attribute__ ((__format__ (__printf__, 2, 3)))
+                                                            ;
+int fiscanf (FILE *, const char *, ...) __attribute__ ((__format__ (__scanf__, 2, 3)))
+                                                           ;
+int iprintf (const char *, ...) __attribute__ ((__format__ (__printf__, 1, 2)))
+                                                            ;
+int iscanf (const char *, ...) __attribute__ ((__format__ (__scanf__, 1, 2)))
+                                                           ;
+int siprintf (char *, const char *, ...) __attribute__ ((__format__ (__printf__, 2, 3)))
+                                                            ;
+int siscanf (const char *, const char *, ...) __attribute__ ((__format__ (__scanf__, 2, 3)))
+                                                           ;
+int sniprintf (char *, size_t, const char *, ...) __attribute__ ((__format__ (__printf__, 3, 4)))
+                                                            ;
+int vasiprintf (char **, const char *, __gnuc_va_list) __attribute__ ((__format__ (__printf__, 2, 0)))
+                                                            ;
+char * vasniprintf (char *, size_t *, const char *, __gnuc_va_list) __attribute__ ((__format__ (__printf__, 3, 0)))
+                                                            ;
+char * vasnprintf (char *, size_t *, const char *, __gnuc_va_list) __attribute__ ((__format__ (__printf__, 3, 0)))
+                                                            ;
+int vdiprintf (int, const char *, __gnuc_va_list) __attribute__ ((__format__ (__printf__, 2, 0)))
+                                                            ;
+int vfiprintf (FILE *, const char *, __gnuc_va_list) __attribute__ ((__format__ (__printf__, 2, 0)))
+                                                            ;
+int vfiscanf (FILE *, const char *, __gnuc_va_list) __attribute__ ((__format__ (__scanf__, 2, 0)))
+                                                           ;
+int viprintf (const char *, __gnuc_va_list) __attribute__ ((__format__ (__printf__, 1, 0)))
+                                                            ;
+int viscanf (const char *, __gnuc_va_list) __attribute__ ((__format__ (__scanf__, 1, 0)))
+                                                           ;
+int vsiprintf (char *, const char *, __gnuc_va_list) __attribute__ ((__format__ (__printf__, 2, 0)))
+                                                            ;
+int vsiscanf (const char *, const char *, __gnuc_va_list) __attribute__ ((__format__ (__scanf__, 2, 0)))
+                                                           ;
+int vsniprintf (char *, size_t, const char *, __gnuc_va_list) __attribute__ ((__format__ (__printf__, 3, 0)))
+                                                            ;
+# 339 "/home/jiahao/betaflight/tools/gcc-arm-none-eabi-7-2017-q4-major/arm-none-eabi/include/stdio.h" 3
+FILE * fdopen (int, const char *);
+
+int fileno (FILE *);
+
+
+int pclose (FILE *);
+FILE * popen (const char *, const char *);
+
+
+
+void setbuffer (FILE *, char *, int);
+int setlinebuf (FILE *);
+
+
+
+int getw (FILE *);
+int putw (int, FILE *);
+
+
+int getc_unlocked (FILE *);
+int getchar_unlocked (void);
+void flockfile (FILE *);
+int ftrylockfile (FILE *);
+void funlockfile (FILE *);
+int putc_unlocked (int, FILE *);
+int putchar_unlocked (int);
+# 374 "/home/jiahao/betaflight/tools/gcc-arm-none-eabi-7-2017-q4-major/arm-none-eabi/include/stdio.h" 3
+int dprintf (int, const char *restrict, ...) __attribute__ ((__format__ (__printf__, 2, 3)))
+                                                            ;
+
+FILE * fmemopen (void *restrict, size_t, const char *restrict);
+
+
+FILE * open_memstream (char **, size_t *);
+int vdprintf (int, const char *restrict, __gnuc_va_list) __attribute__ ((__format__ (__printf__, 2, 0)))
+                                                            ;
+
+
+
+int renameat (int, const char *, int, const char *);
+# 396 "/home/jiahao/betaflight/tools/gcc-arm-none-eabi-7-2017-q4-major/arm-none-eabi/include/stdio.h" 3
+int _asiprintf_r (struct _reent *, char **, const char *, ...) __attribute__ ((__format__ (__printf__, 3, 4)))
+                                                            ;
+char * _asniprintf_r (struct _reent *, char *, size_t *, const char *, ...) __attribute__ ((__format__ (__printf__, 4, 5)))
+                                                            ;
+char * _asnprintf_r (struct _reent *, char *restrict, size_t *restrict, const char *restrict, ...) __attribute__ ((__format__ (__printf__, 4, 5)))
+                                                            ;
+int _asprintf_r (struct _reent *, char **restrict, const char *restrict, ...) __attribute__ ((__format__ (__printf__, 3, 4)))
+                                                            ;
+int _diprintf_r (struct _reent *, int, const char *, ...) __attribute__ ((__format__ (__printf__, 3, 4)))
+                                                            ;
+int _dprintf_r (struct _reent *, int, const char *restrict, ...) __attribute__ ((__format__ (__printf__, 3, 4)))
+                                                            ;
+int _fclose_r (struct _reent *, FILE *);
+int _fcloseall_r (struct _reent *);
+FILE * _fdopen_r (struct _reent *, int, const char *);
+int _fflush_r (struct _reent *, FILE *);
+int _fgetc_r (struct _reent *, FILE *);
+int _fgetc_unlocked_r (struct _reent *, FILE *);
+char * _fgets_r (struct _reent *, char *restrict, int, FILE *restrict);
+char * _fgets_unlocked_r (struct _reent *, char *restrict, int, FILE *restrict);
+
+
+
+
+int _fgetpos_r (struct _reent *, FILE *, fpos_t *);
+int _fsetpos_r (struct _reent *, FILE *, const fpos_t *);
+
+int _fiprintf_r (struct _reent *, FILE *, const char *, ...) __attribute__ ((__format__ (__printf__, 3, 4)))
+                                                            ;
+int _fiscanf_r (struct _reent *, FILE *, const char *, ...) __attribute__ ((__format__ (__scanf__, 3, 4)))
+                                                           ;
+FILE * _fmemopen_r (struct _reent *, void *restrict, size_t, const char *restrict);
+FILE * _fopen_r (struct _reent *, const char *restrict, const char *restrict);
+FILE * _freopen_r (struct _reent *, const char *restrict, const char *restrict, FILE *restrict);
+int _fprintf_r (struct _reent *, FILE *restrict, const char *restrict, ...) __attribute__ ((__format__ (__printf__, 3, 4)))
+                                                            ;
+int _fpurge_r (struct _reent *, FILE *);
+int _fputc_r (struct _reent *, int, FILE *);
+int _fputc_unlocked_r (struct _reent *, int, FILE *);
+int _fputs_r (struct _reent *, const char *restrict, FILE *restrict);
+int _fputs_unlocked_r (struct _reent *, const char *restrict, FILE *restrict);
+size_t _fread_r (struct _reent *, void * restrict, size_t _size, size_t _n, FILE *restrict);
+size_t _fread_unlocked_r (struct _reent *, void * restrict, size_t _size, size_t _n, FILE *restrict);
+int _fscanf_r (struct _reent *, FILE *restrict, const char *restrict, ...) __attribute__ ((__format__ (__scanf__, 3, 4)))
+                                                           ;
+int _fseek_r (struct _reent *, FILE *, long, int);
+int _fseeko_r (struct _reent *, FILE *, _off_t, int);
+long _ftell_r (struct _reent *, FILE *);
+_off_t _ftello_r (struct _reent *, FILE *);
+void _rewind_r (struct _reent *, FILE *);
+size_t _fwrite_r (struct _reent *, const void * restrict, size_t _size, size_t _n, FILE *restrict);
+size_t _fwrite_unlocked_r (struct _reent *, const void * restrict, size_t _size, size_t _n, FILE *restrict);
+int _getc_r (struct _reent *, FILE *);
+int _getc_unlocked_r (struct _reent *, FILE *);
+int _getchar_r (struct _reent *);
+int _getchar_unlocked_r (struct _reent *);
+char * _gets_r (struct _reent *, char *);
+int _iprintf_r (struct _reent *, const char *, ...) __attribute__ ((__format__ (__printf__, 2, 3)))
+                                                            ;
+int _iscanf_r (struct _reent *, const char *, ...) __attribute__ ((__format__ (__scanf__, 2, 3)))
+                                                           ;
+FILE * _open_memstream_r (struct _reent *, char **, size_t *);
+void _perror_r (struct _reent *, const char *);
+int _printf_r (struct _reent *, const char *restrict, ...) __attribute__ ((__format__ (__printf__, 2, 3)))
+                                                            ;
+int _putc_r (struct _reent *, int, FILE *);
+int _putc_unlocked_r (struct _reent *, int, FILE *);
+int _putchar_unlocked_r (struct _reent *, int);
+int _putchar_r (struct _reent *, int);
+int _puts_r (struct _reent *, const char *);
+int _remove_r (struct _reent *, const char *);
+int _rename_r (struct _reent *, const char *_old, const char *_new)
+                                          ;
+int _scanf_r (struct _reent *, const char *restrict, ...) __attribute__ ((__format__ (__scanf__, 2, 3)))
+                                                           ;
+int _siprintf_r (struct _reent *, char *, const char *, ...) __attribute__ ((__format__ (__printf__, 3, 4)))
+                                                            ;
+int _siscanf_r (struct _reent *, const char *, const char *, ...) __attribute__ ((__format__ (__scanf__, 3, 4)))
+                                                           ;
+int _sniprintf_r (struct _reent *, char *, size_t, const char *, ...) __attribute__ ((__format__ (__printf__, 4, 5)))
+                                                            ;
+int _snprintf_r (struct _reent *, char *restrict, size_t, const char *restrict, ...) __attribute__ ((__format__ (__printf__, 4, 5)))
+                                                            ;
+int _sprintf_r (struct _reent *, char *restrict, const char *restrict, ...) __attribute__ ((__format__ (__printf__, 3, 4)))
+                                                            ;
+int _sscanf_r (struct _reent *, const char *restrict, const char *restrict, ...) __attribute__ ((__format__ (__scanf__, 3, 4)))
+                                                           ;
+char * _tempnam_r (struct _reent *, const char *, const char *);
+FILE * _tmpfile_r (struct _reent *);
+char * _tmpnam_r (struct _reent *, char *);
+int _ungetc_r (struct _reent *, int, FILE *);
+int _vasiprintf_r (struct _reent *, char **, const char *, __gnuc_va_list) __attribute__ ((__format__ (__printf__, 3, 0)))
+                                                            ;
+char * _vasniprintf_r (struct _reent*, char *, size_t *, const char *, __gnuc_va_list) __attribute__ ((__format__ (__printf__, 4, 0)))
+                                                            ;
+char * _vasnprintf_r (struct _reent*, char *, size_t *, const char *, __gnuc_va_list) __attribute__ ((__format__ (__printf__, 4, 0)))
+                                                            ;
+int _vasprintf_r (struct _reent *, char **, const char *, __gnuc_va_list) __attribute__ ((__format__ (__printf__, 3, 0)))
+                                                            ;
+int _vdiprintf_r (struct _reent *, int, const char *, __gnuc_va_list) __attribute__ ((__format__ (__printf__, 3, 0)))
+                                                            ;
+int _vdprintf_r (struct _reent *, int, const char *restrict, __gnuc_va_list) __attribute__ ((__format__ (__printf__, 3, 0)))
+                                                            ;
+int _vfiprintf_r (struct _reent *, FILE *, const char *, __gnuc_va_list) __attribute__ ((__format__ (__printf__, 3, 0)))
+                                                            ;
+int _vfiscanf_r (struct _reent *, FILE *, const char *, __gnuc_va_list) __attribute__ ((__format__ (__scanf__, 3, 0)))
+                                                           ;
+int _vfprintf_r (struct _reent *, FILE *restrict, const char *restrict, __gnuc_va_list) __attribute__ ((__format__ (__printf__, 3, 0)))
+                                                            ;
+int _vfscanf_r (struct _reent *, FILE *restrict, const char *restrict, __gnuc_va_list) __attribute__ ((__format__ (__scanf__, 3, 0)))
+                                                           ;
+int _viprintf_r (struct _reent *, const char *, __gnuc_va_list) __attribute__ ((__format__ (__printf__, 2, 0)))
+                                                            ;
+int _viscanf_r (struct _reent *, const char *, __gnuc_va_list) __attribute__ ((__format__ (__scanf__, 2, 0)))
+                                                           ;
+int _vprintf_r (struct _reent *, const char *restrict, __gnuc_va_list) __attribute__ ((__format__ (__printf__, 2, 0)))
+                                                            ;
+int _vscanf_r (struct _reent *, const char *restrict, __gnuc_va_list) __attribute__ ((__format__ (__scanf__, 2, 0)))
+                                                           ;
+int _vsiprintf_r (struct _reent *, char *, const char *, __gnuc_va_list) __attribute__ ((__format__ (__printf__, 3, 0)))
+                                                            ;
+int _vsiscanf_r (struct _reent *, const char *, const char *, __gnuc_va_list) __attribute__ ((__format__ (__scanf__, 3, 0)))
+                                                           ;
+int _vsniprintf_r (struct _reent *, char *, size_t, const char *, __gnuc_va_list) __attribute__ ((__format__ (__printf__, 4, 0)))
+                                                            ;
+int _vsnprintf_r (struct _reent *, char *restrict, size_t, const char *restrict, __gnuc_va_list) __attribute__ ((__format__ (__printf__, 4, 0)))
+                                                            ;
+int _vsprintf_r (struct _reent *, char *restrict, const char *restrict, __gnuc_va_list) __attribute__ ((__format__ (__printf__, 3, 0)))
+                                                            ;
+int _vsscanf_r (struct _reent *, const char *restrict, const char *restrict, __gnuc_va_list) __attribute__ ((__format__ (__scanf__, 3, 0)))
+                                                           ;
+
+
+
+int fpurge (FILE *);
+ssize_t __getdelim (char **, size_t *, int, FILE *);
+ssize_t __getline (char **, size_t *, FILE *);
+
+
+void clearerr_unlocked (FILE *);
+int feof_unlocked (FILE *);
+int ferror_unlocked (FILE *);
+int fileno_unlocked (FILE *);
+int fflush_unlocked (FILE *);
+int fgetc_unlocked (FILE *);
+int fputc_unlocked (int, FILE *);
+size_t fread_unlocked (void * restrict, size_t _size, size_t _n, FILE *restrict);
+size_t fwrite_unlocked (const void * restrict , size_t _size, size_t _n, FILE *);
+
+
+
+char * fgets_unlocked (char *restrict, int, FILE *restrict);
+int fputs_unlocked (const char *restrict, FILE *restrict);
+# 577 "/home/jiahao/betaflight/tools/gcc-arm-none-eabi-7-2017-q4-major/arm-none-eabi/include/stdio.h" 3
+int __srget_r (struct _reent *, FILE *);
+int __swbuf_r (struct _reent *, int, FILE *);
+# 601 "/home/jiahao/betaflight/tools/gcc-arm-none-eabi-7-2017-q4-major/arm-none-eabi/include/stdio.h" 3
+FILE *funopen (const void * __cookie, int (*__readfn)(void * __cookie, char *__buf, int __n), int (*__writefn)(void * __cookie, const char *__buf, int __n), fpos_t (*__seekfn)(void * __cookie, fpos_t __off, int __whence), int (*__closefn)(void * __cookie))
+
+
+
+
+
+                                   ;
+FILE *_funopen_r (struct _reent *, const void * __cookie, int (*__readfn)(void * __cookie, char *__buf, int __n), int (*__writefn)(void * __cookie, const char *__buf, int __n), fpos_t (*__seekfn)(void * __cookie, fpos_t __off, int __whence), int (*__closefn)(void * __cookie))
+
+
+
+
+
+                                   ;
+# 624 "/home/jiahao/betaflight/tools/gcc-arm-none-eabi-7-2017-q4-major/arm-none-eabi/include/stdio.h" 3
+typedef ssize_t cookie_read_function_t(void *__cookie, char *__buf, size_t __n);
+typedef ssize_t cookie_write_function_t(void *__cookie, const char *__buf,
+     size_t __n);
+
+
+
+
+typedef int cookie_seek_function_t(void *__cookie, off_t *__off, int __whence);
+
+typedef int cookie_close_function_t(void *__cookie);
+typedef struct
+{
+
+
+  cookie_read_function_t *read;
+  cookie_write_function_t *write;
+  cookie_seek_function_t *seek;
+  cookie_close_function_t *close;
+} cookie_io_functions_t;
+FILE *fopencookie (void *__cookie, const char *__mode, cookie_io_functions_t __functions)
+                                                         ;
+FILE *_fopencookie_r (struct _reent *, void *__cookie, const char *__mode, cookie_io_functions_t __functions)
+                                                         ;
+# 687 "/home/jiahao/betaflight/tools/gcc-arm-none-eabi-7-2017-q4-major/arm-none-eabi/include/stdio.h" 3
+static __inline__ int __sputc_r(struct _reent *_ptr, int _c, FILE *_p) {
+
+
+
+
+ if (--_p->_w >= 0 || (_p->_w >= _p->_lbfsize && (char)_c != '\n'))
+  return (*_p->_p++ = _c);
+ else
+  return (__swbuf_r(_ptr, _c, _p));
+}
+# 741 "/home/jiahao/betaflight/tools/gcc-arm-none-eabi-7-2017-q4-major/arm-none-eabi/include/stdio.h" 3
+static __inline int
+_getchar_unlocked(void)
+{
+ struct _reent *_ptr;
+
+ _ptr = _impure_ptr;
+ return ((--(((_ptr)->_stdin))->_r < 0 ? __srget_r(_ptr, ((_ptr)->_stdin)) : (int)(*(((_ptr)->_stdin))->_p++)));
+}
+
+static __inline int
+_putchar_unlocked(int _c)
+{
+ struct _reent *_ptr;
+
+ _ptr = _impure_ptr;
+ return (__sputc_r(_ptr, _c, ((_ptr)->_stdout)));
+}
+# 797 "/home/jiahao/betaflight/tools/gcc-arm-none-eabi-7-2017-q4-major/arm-none-eabi/include/stdio.h" 3
+
+# 30 "./src/main/telemetry/mavlink.c" 2
 
 # 1 "./src/main/platform.h" 1
 # 21 "./src/main/platform.h"
@@ -5588,7 +6325,7 @@ extern const char* const buildTime;
 
 # 1 "./src/main/target/common_defaults_post.h" 1
 # 117 "./src/main/platform.h" 2
-# 31 "./src/main/telemetry/mavlink.c" 2
+# 32 "./src/main/telemetry/mavlink.c" 2
 
 
 
@@ -5693,7 +6430,7 @@ static inline float constrainf(float amt, float low, float high)
     else
         return amt;
 }
-# 35 "./src/main/telemetry/mavlink.c" 2
+# 36 "./src/main/telemetry/mavlink.c" 2
 # 1 "./src/main/common/axis.h" 1
 # 21 "./src/main/common/axis.h"
        
@@ -5719,7 +6456,7 @@ typedef enum {
     AI_ROLL = 0,
     AI_PITCH
 } angle_index_t;
-# 36 "./src/main/telemetry/mavlink.c" 2
+# 37 "./src/main/telemetry/mavlink.c" 2
 # 1 "./src/main/common/color.h" 1
 # 21 "./src/main/common/color.h"
        
@@ -5761,7 +6498,7 @@ typedef struct hsvColor_s {
     uint8_t s;
     uint8_t v;
 } hsvColor_t;
-# 37 "./src/main/telemetry/mavlink.c" 2
+# 38 "./src/main/telemetry/mavlink.c" 2
 
 # 1 "./src/main/config/feature.h" 1
 # 21 "./src/main/config/feature.h"
@@ -5890,12 +6627,12 @@ uint32_t featureMask(void);
 void intFeatureClearAll(uint32_t *features);
 void intFeatureSet(uint32_t mask, uint32_t *features);
 void intFeatureClear(uint32_t mask, uint32_t *features);
-# 39 "./src/main/telemetry/mavlink.c" 2
+# 40 "./src/main/telemetry/mavlink.c" 2
 
 # 1 "./src/main/pg/pg_ids.h" 1
 # 21 "./src/main/pg/pg_ids.h"
        
-# 41 "./src/main/telemetry/mavlink.c" 2
+# 42 "./src/main/telemetry/mavlink.c" 2
 # 1 "./src/main/pg/rx.h" 1
 # 21 "./src/main/pg/rx.h"
        
@@ -5951,7 +6688,7 @@ typedef struct rxConfig_s {
 } rxConfig_t;
 
 extern rxConfig_t rxConfig_System; extern rxConfig_t rxConfig_Copy; static inline const rxConfig_t* rxConfig(void) { return &rxConfig_System; } static inline rxConfig_t* rxConfigMutable(void) { return &rxConfig_System; } struct _dummy;
-# 42 "./src/main/telemetry/mavlink.c" 2
+# 43 "./src/main/telemetry/mavlink.c" 2
 
 # 1 "./src/main/drivers/accgyro/accgyro.h" 1
 # 21 "./src/main/drivers/accgyro/accgyro.h"
@@ -6612,7 +7349,7 @@ static inline void gyroDevUnLock(gyroDev_t *gyro)
 
 }
 #pragma GCC diagnostic pop
-# 44 "./src/main/telemetry/mavlink.c" 2
+# 45 "./src/main/telemetry/mavlink.c" 2
 
 # 1 "./src/main/drivers/time.h" 1
 # 21 "./src/main/drivers/time.h"
@@ -6631,7 +7368,7 @@ timeMs_t millis(void);
 
 uint32_t ticks(void);
 timeDelta_t ticks_diff_us(uint32_t begin, uint32_t end);
-# 46 "./src/main/telemetry/mavlink.c" 2
+# 47 "./src/main/telemetry/mavlink.c" 2
 
 # 1 "./src/main/fc/config.h" 1
 # 21 "./src/main/fc/config.h"
@@ -6691,7 +7428,7 @@ uint16_t getCurrentMinthrottle(void);
 void resetConfigs(void);
 void targetConfiguration(void);
 void targetValidateConfiguration(void);
-# 48 "./src/main/telemetry/mavlink.c" 2
+# 49 "./src/main/telemetry/mavlink.c" 2
 # 1 "./src/main/fc/rc_controls.h" 1
 # 21 "./src/main/fc/rc_controls.h"
        
@@ -6914,7 +7651,7 @@ int32_t getRcStickDeflection(int32_t axis, uint16_t midrc);
 struct pidProfile_s;
 struct modeActivationCondition_s;
 void useRcControlsConfig(struct pidProfile_s *pidProfileToUse);
-# 49 "./src/main/telemetry/mavlink.c" 2
+# 50 "./src/main/telemetry/mavlink.c" 2
 # 1 "./src/main/fc/runtime_config.h" 1
 # 21 "./src/main/fc/runtime_config.h"
        
@@ -7008,7 +7745,7 @@ void sensorsClear(uint32_t mask);
 uint32_t sensorsMask(void);
 
 void mwDisarm(void);
-# 50 "./src/main/telemetry/mavlink.c" 2
+# 51 "./src/main/telemetry/mavlink.c" 2
 
 # 1 "./src/main/flight/mixer.h" 1
 # 21 "./src/main/flight/mixer.h"
@@ -7556,7 +8293,10 @@ _Bool
     mixerIsTricopter(void);
 
 void mixerSetThrottleAngleCorrection(int correctionValue);
-# 52 "./src/main/telemetry/mavlink.c" 2
+
+extern float shadowThrottle;
+extern float shadowRcCommandThrottle;
+# 53 "./src/main/telemetry/mavlink.c" 2
 # 1 "./src/main/flight/pid.h" 1
 # 21 "./src/main/flight/pid.h"
        
@@ -7740,7 +8480,7 @@ void pidSetAntiGravityState(
 _Bool 
 # 200 "./src/main/flight/pid.h"
     pidAntiGravityEnabled(void);
-# 53 "./src/main/telemetry/mavlink.c" 2
+# 54 "./src/main/telemetry/mavlink.c" 2
 # 1 "./src/main/flight/imu.h" 1
 # 21 "./src/main/flight/imu.h"
        
@@ -7767,6 +8507,7 @@ extern float gyroz;
 extern float accmx;
 extern float accmy;
 extern float accmz;
+extern int16_t sonar_adc_cm;
 
 typedef struct {
     float w,x,y,z;
@@ -7822,21 +8563,21 @@ void imuUpdateAttitude(timeUs_t currentTimeUs);
 
 void imuResetAccelerationSum(void);
 void imuInit(void);
-# 105 "./src/main/flight/imu.h"
+# 106 "./src/main/flight/imu.h"
 void imuQuaternionComputeProducts(quaternion *quat, quaternionProducts *quatProd);
 
-# 106 "./src/main/flight/imu.h" 3 4
+# 107 "./src/main/flight/imu.h" 3 4
 _Bool 
-# 106 "./src/main/flight/imu.h"
+# 107 "./src/main/flight/imu.h"
     imuQuaternionHeadfreeOffsetSet(void);
 void imuQuaternionHeadfreeTransformVectorEarthToBody(t_fp_vector_def * v);
 void imuComputeQuaternionFromRPY(quaternionProducts *qP, int16_t initialRoll, int16_t initialPitch, int16_t initialYaw);
 
-# 109 "./src/main/flight/imu.h" 3 4
+# 110 "./src/main/flight/imu.h" 3 4
 _Bool 
-# 109 "./src/main/flight/imu.h"
+# 110 "./src/main/flight/imu.h"
     shouldInitializeGPSHeading(void);
-# 54 "./src/main/telemetry/mavlink.c" 2
+# 55 "./src/main/telemetry/mavlink.c" 2
 # 1 "./src/main/flight/failsafe.h" 1
 # 21 "./src/main/flight/failsafe.h"
        
@@ -7929,7 +8670,7 @@ void failsafeOnRxResume(void);
 
 void failsafeOnValidDataReceived(void);
 void failsafeOnValidDataFailed(void);
-# 55 "./src/main/telemetry/mavlink.c" 2
+# 56 "./src/main/telemetry/mavlink.c" 2
 # 1 "./src/main/flight/position.h" 1
 # 21 "./src/main/flight/position.h"
        
@@ -7944,7 +8685,7 @@ _Bool
 void calculateEstimatedAltitude(timeUs_t currentTimeUs);
 int32_t getEstimatedAltitude(void);
 int16_t getEstimatedVario(void);
-# 56 "./src/main/telemetry/mavlink.c" 2
+# 57 "./src/main/telemetry/mavlink.c" 2
 
 # 1 "./src/main/io/serial.h" 1
 # 21 "./src/main/io/serial.h"
@@ -8344,7 +9085,7 @@ baudRate_e lookupBaudRateIndex(uint32_t baudRate);
 
 
 void serialPassthrough(serialPort_t *left, serialPort_t *right, serialConsumer *leftC, serialConsumer *rightC);
-# 58 "./src/main/telemetry/mavlink.c" 2
+# 59 "./src/main/telemetry/mavlink.c" 2
 # 1 "./src/main/io/gimbal.h" 1
 # 21 "./src/main/io/gimbal.h"
        
@@ -8363,7 +9104,7 @@ typedef struct gimbalConfig_s {
 } gimbalConfig_t;
 
 extern gimbalConfig_t gimbalConfig_System; extern gimbalConfig_t gimbalConfig_Copy; static inline const gimbalConfig_t* gimbalConfig(void) { return &gimbalConfig_System; } static inline gimbalConfig_t* gimbalConfigMutable(void) { return &gimbalConfig_System; } struct _dummy;
-# 59 "./src/main/telemetry/mavlink.c" 2
+# 60 "./src/main/telemetry/mavlink.c" 2
 # 1 "./src/main/io/gps.h" 1
 # 21 "./src/main/io/gps.h"
        
@@ -8501,7 +9242,7 @@ void onGpsNewData(void);
 void GPS_reset_home_position(void);
 void GPS_calc_longitude_scaling(int32_t lat);
 void GPS_distance_cm_bearing(int32_t *currentLat1, int32_t *currentLon1, int32_t *destinationLat2, int32_t *destinationLon2, uint32_t *dist, int32_t *bearing);
-# 60 "./src/main/telemetry/mavlink.c" 2
+# 61 "./src/main/telemetry/mavlink.c" 2
 # 1 "./src/main/io/ledstrip.h" 1
 # 21 "./src/main/io/ledstrip.h"
        
@@ -8651,11 +9392,11 @@ void applyDefaultModeColors(modeColorIndexes_t *modeColors);
 void applyDefaultSpecialColors(specialColorIndexes_t *specialColors);
 
 void updateRequiredOverlay(void);
-# 61 "./src/main/telemetry/mavlink.c" 2
+# 62 "./src/main/telemetry/mavlink.c" 2
 # 1 "./src/main/io/motors.h" 1
 # 21 "./src/main/io/motors.h"
        
-# 62 "./src/main/telemetry/mavlink.c" 2
+# 63 "./src/main/telemetry/mavlink.c" 2
 
 # 1 "./src/main/rx/rx.h" 1
 # 21 "./src/main/rx/rx.h"
@@ -8797,7 +9538,7 @@ void suspendRxSignal(void);
 void resumeRxSignal(void);
 
 uint16_t rxGetRefreshRate(void);
-# 64 "./src/main/telemetry/mavlink.c" 2
+# 65 "./src/main/telemetry/mavlink.c" 2
 
 # 1 "./src/main/sensors/sensors.h" 1
 # 21 "./src/main/sensors/sensors.h"
@@ -8839,7 +9580,7 @@ typedef enum {
     SENSOR_GPS = 1 << 5,
     SENSOR_GPSMAG = 1 << 6
 } sensors_e;
-# 66 "./src/main/telemetry/mavlink.c" 2
+# 67 "./src/main/telemetry/mavlink.c" 2
 # 1 "./src/main/sensors/acceleration.h" 1
 # 21 "./src/main/sensors/acceleration.h"
        
@@ -8930,7 +9671,7 @@ _Bool
 union flightDynamicsTrims_u;
 void setAccelerationTrims(union flightDynamicsTrims_u *accelerationTrimsToUse);
 void accInitFilters(void);
-# 67 "./src/main/telemetry/mavlink.c" 2
+# 68 "./src/main/telemetry/mavlink.c" 2
 
 # 1 "./src/main/sensors/barometer.h" 1
 # 21 "./src/main/sensors/barometer.h"
@@ -9015,7 +9756,7 @@ _Bool
     isBaroReady(void);
 int32_t baroCalculateAltitude(void);
 void performBaroCalibrationCycle(void);
-# 69 "./src/main/telemetry/mavlink.c" 2
+# 70 "./src/main/telemetry/mavlink.c" 2
 # 1 "./src/main/sensors/boardalignment.h" 1
 # 21 "./src/main/sensors/boardalignment.h"
        
@@ -9032,7 +9773,7 @@ extern boardAlignment_t boardAlignment_System; extern boardAlignment_t boardAlig
 
 void alignSensors(float *dest, uint8_t rotation);
 void initBoardAlignment(const boardAlignment_t *boardAlignment);
-# 70 "./src/main/telemetry/mavlink.c" 2
+# 71 "./src/main/telemetry/mavlink.c" 2
 # 1 "./src/main/sensors/battery.h" 1
 # 21 "./src/main/sensors/battery.h"
        
@@ -9458,7 +10199,7 @@ int32_t getMAhDrawn(void);
 void batteryUpdateCurrentMeter(timeUs_t currentTimeUs);
 
 const lowVoltageCutoff_t *getLowVoltageCutoff(void);
-# 71 "./src/main/telemetry/mavlink.c" 2
+# 72 "./src/main/telemetry/mavlink.c" 2
 
 # 1 "./src/main/telemetry/telemetry.h" 1
 # 28 "./src/main/telemetry/telemetry.h"
@@ -9579,7 +10320,7 @@ void telemetryProcess(uint32_t currentTime);
 _Bool 
 # 69 "./src/main/telemetry/telemetry.h"
     telemetryDetermineEnabledState(portSharing_e portSharing);
-# 73 "./src/main/telemetry/mavlink.c" 2
+# 74 "./src/main/telemetry/mavlink.c" 2
 # 1 "./src/main/telemetry/mavlink.h" 1
 # 21 "./src/main/telemetry/mavlink.h"
        
@@ -9590,7 +10331,72 @@ void checkMAVLinkTelemetryState(void);
 
 void freeMAVLinkTelemetryPort(void);
 void configureMAVLinkTelemetryPort(void);
-# 74 "./src/main/telemetry/mavlink.c" 2
+# 75 "./src/main/telemetry/mavlink.c" 2
+# 1 "./src/main/build/debug.h" 1
+# 21 "./src/main/build/debug.h"
+       
+
+
+extern int16_t debug[4];
+extern uint8_t debugMode;
+
+
+
+
+
+
+extern uint32_t sectionTimes[2][4];
+# 51 "./src/main/build/debug.h"
+typedef enum {
+    DEBUG_NONE,
+    DEBUG_CYCLETIME,
+    DEBUG_BATTERY,
+    DEBUG_GYRO_FILTERED,
+    DEBUG_ACCELEROMETER,
+    DEBUG_PIDLOOP,
+    DEBUG_GYRO_SCALED,
+    DEBUG_RC_INTERPOLATION,
+    DEBUG_ANGLERATE,
+    DEBUG_ESC_SENSOR,
+    DEBUG_SCHEDULER,
+    DEBUG_STACK,
+    DEBUG_ESC_SENSOR_RPM,
+    DEBUG_ESC_SENSOR_TMP,
+    DEBUG_ALTITUDE,
+    DEBUG_FFT,
+    DEBUG_FFT_TIME,
+    DEBUG_FFT_FREQ,
+    DEBUG_RX_FRSKY_SPI,
+    DEBUG_GYRO_RAW,
+    DEBUG_DUAL_GYRO,
+    DEBUG_DUAL_GYRO_RAW,
+    DEBUG_DUAL_GYRO_COMBINE,
+    DEBUG_DUAL_GYRO_DIFF,
+    DEBUG_MAX7456_SIGNAL,
+    DEBUG_MAX7456_SPICLOCK,
+    DEBUG_SBUS,
+    DEBUG_FPORT,
+    DEBUG_RANGEFINDER,
+    DEBUG_RANGEFINDER_QUALITY,
+    DEBUG_LIDAR_TF,
+    DEBUG_CORE_TEMP,
+    DEBUG_RUNAWAY_TAKEOFF,
+    DEBUG_SDIO,
+    DEBUG_CURRENT,
+    DEBUG_USB,
+    DEBUG_SMARTAUDIO,
+    DEBUG_RTH,
+    DEBUG_ITERM_RELAX,
+    DEBUG_ACRO_TRAINER,
+    DEBUG_RC_SMOOTHING,
+    DEBUG_RX_SIGNAL_LOSS,
+    DEBUG_RC_SMOOTHING_RATE,
+    DEBUG_ANTI_GRAVITY,
+    DEBUG_COUNT
+} debugType_e;
+
+extern const char * const debugModeNames[DEBUG_COUNT];
+# 76 "./src/main/telemetry/mavlink.c" 2
 
 
 
@@ -29695,7 +30501,7 @@ static inline void mavlink_msg_debug_decode(const mavlink_message_t* msg, mavlin
 }
 # 773 "./lib/main/MAVLink/common/common.h" 2
 # 26 "./lib/main/MAVLink/common/mavlink.h" 2
-# 80 "./src/main/telemetry/mavlink.c" 2
+# 82 "./src/main/telemetry/mavlink.c" 2
 #pragma GCC diagnostic pop
 
 
@@ -29705,20 +30511,20 @@ static inline void mavlink_msg_debug_decode(const mavlink_message_t* msg, mavlin
 extern uint16_t rssi;
 
 static serialPort_t *mavlinkPort = 
-# 88 "./src/main/telemetry/mavlink.c" 3 4
+# 90 "./src/main/telemetry/mavlink.c" 3 4
                                   ((void *)0)
-# 88 "./src/main/telemetry/mavlink.c"
+# 90 "./src/main/telemetry/mavlink.c"
                                       ;
 static serialPortConfig_t *portConfig;
 
 static 
-# 91 "./src/main/telemetry/mavlink.c" 3 4
+# 93 "./src/main/telemetry/mavlink.c" 3 4
       _Bool 
-# 91 "./src/main/telemetry/mavlink.c"
+# 93 "./src/main/telemetry/mavlink.c"
            mavlinkTelemetryEnabled = 
-# 91 "./src/main/telemetry/mavlink.c" 3 4
+# 93 "./src/main/telemetry/mavlink.c" 3 4
                                       0
-# 91 "./src/main/telemetry/mavlink.c"
+# 93 "./src/main/telemetry/mavlink.c"
                                            ;
 static portSharing_e mavlinkPortSharing;
 
@@ -29770,14 +30576,14 @@ void freeMAVLinkTelemetryPort(void)
 {
     closeSerialPort(mavlinkPort);
     mavlinkPort = 
-# 141 "./src/main/telemetry/mavlink.c" 3 4
+# 143 "./src/main/telemetry/mavlink.c" 3 4
                  ((void *)0)
-# 141 "./src/main/telemetry/mavlink.c"
+# 143 "./src/main/telemetry/mavlink.c"
                      ;
     mavlinkTelemetryEnabled = 
-# 142 "./src/main/telemetry/mavlink.c" 3 4
+# 144 "./src/main/telemetry/mavlink.c" 3 4
                              0
-# 142 "./src/main/telemetry/mavlink.c"
+# 144 "./src/main/telemetry/mavlink.c"
                                   ;
 }
 
@@ -29800,13 +30606,13 @@ void configureMAVLinkTelemetryPort(void)
     }
 
     mavlinkPort = openSerialPort(portConfig->identifier, FUNCTION_TELEMETRY_MAVLINK, 
-# 163 "./src/main/telemetry/mavlink.c" 3 4
+# 165 "./src/main/telemetry/mavlink.c" 3 4
                                                                                     ((void *)0)
-# 163 "./src/main/telemetry/mavlink.c"
+# 165 "./src/main/telemetry/mavlink.c"
                                                                                         , 
-# 163 "./src/main/telemetry/mavlink.c" 3 4
+# 165 "./src/main/telemetry/mavlink.c" 3 4
                                                                                           ((void *)0)
-# 163 "./src/main/telemetry/mavlink.c"
+# 165 "./src/main/telemetry/mavlink.c"
                                                                                               , baudRates[baudRateIndex], MODE_TX, telemetryConfig()->telemetry_inverted ? SERIAL_INVERTED : SERIAL_NOT_INVERTED);
 
     if (!mavlinkPort) {
@@ -29814,9 +30620,9 @@ void configureMAVLinkTelemetryPort(void)
     }
 
     mavlinkTelemetryEnabled = 
-# 169 "./src/main/telemetry/mavlink.c" 3 4
+# 171 "./src/main/telemetry/mavlink.c" 3 4
                              1
-# 169 "./src/main/telemetry/mavlink.c"
+# 171 "./src/main/telemetry/mavlink.c"
                                  ;
 }
 
@@ -29824,22 +30630,22 @@ void checkMAVLinkTelemetryState(void)
 {
     if (portConfig && telemetryCheckRxPortShared(portConfig)) {
         if (!mavlinkTelemetryEnabled && telemetrySharedPort != 
-# 175 "./src/main/telemetry/mavlink.c" 3 4
+# 177 "./src/main/telemetry/mavlink.c" 3 4
                                                               ((void *)0)
-# 175 "./src/main/telemetry/mavlink.c"
+# 177 "./src/main/telemetry/mavlink.c"
                                                                   ) {
             mavlinkPort = telemetrySharedPort;
             mavlinkTelemetryEnabled = 
-# 177 "./src/main/telemetry/mavlink.c" 3 4
+# 179 "./src/main/telemetry/mavlink.c" 3 4
                                      1
-# 177 "./src/main/telemetry/mavlink.c"
+# 179 "./src/main/telemetry/mavlink.c"
                                          ;
         }
     } else {
         
-# 180 "./src/main/telemetry/mavlink.c" 3 4
+# 182 "./src/main/telemetry/mavlink.c" 3 4
        _Bool 
-# 180 "./src/main/telemetry/mavlink.c"
+# 182 "./src/main/telemetry/mavlink.c"
             newTelemetryEnabledValue = telemetryDetermineEnabledState(mavlinkPortSharing);
 
         if (newTelemetryEnabledValue == mavlinkTelemetryEnabled) {
@@ -29858,7 +30664,7 @@ void mavlinkSendSystemStatus(void)
     uint16_t msgLength;
 
     uint32_t onboardControlAndSensors = 35843;
-# 209 "./src/main/telemetry/mavlink.c"
+# 211 "./src/main/telemetry/mavlink.c"
     if (sensors(SENSOR_MAG)) onboardControlAndSensors |= 4100;
     if (sensors(SENSOR_BARO)) onboardControlAndSensors |= 8200;
     if (sensors(SENSOR_GPS)) onboardControlAndSensors |= 16416;
@@ -29942,15 +30748,15 @@ void mavlinkSendRCChannelsAndRSSI(void)
 void mavlinkSendMAVStates(void)
 {
     uint16_t msgLength;
-    mavlink_msg_hil_state_pack(0, 200, &mavMsg,
+    mavlink_msg_highres_imu_pack(0, 200, &mavMsg,
 
     micros(),
 
-    ((attitude.values.roll) / 10.0f * 0.0174532925f),
+    accmx,
 
-    ((-attitude.values.pitch) / 10.0f * 0.0174532925f),
+    accmy,
 
-    ((attitude.values.yaw) / 10.0f * 0.0174532925f),
+    accmz,
 
     gyrox,
 
@@ -29958,29 +30764,33 @@ void mavlinkSendMAVStates(void)
 
     gyroz,
 
-    0,
+    ((attitude.values.roll) / 10.0f * 0.0174532925f),
 
-    0,
+    ((-attitude.values.pitch) / 10.0f * 0.0174532925f),
 
+    ((attitude.values.yaw) / 10.0f * 0.0174532925f),
 
-        (sensors(SENSOR_RANGEFINDER)) ? getEstimatedAltitude() * 10 : 0,
-
-
-
-
-    0,
+    (float)sonar_adc_cm/100.0,
 
     0,
 
     0,
 
-    accmx,
+    0,
 
-    accmy,
-
-    accmz);
+    0);
     msgLength = mavlink_msg_to_send_buffer(mavBuffer, &mavMsg);
     mavlinkSerialWrite(mavBuffer, msgLength);
+    fprintf(
+# 327 "./src/main/telemetry/mavlink.c" 3
+           (_impure_ptr->_stderr)
+# 327 "./src/main/telemetry/mavlink.c"
+                 , "stderr!\n");
+    fprintf(
+# 328 "./src/main/telemetry/mavlink.c" 3
+           (_impure_ptr->_stdout)
+# 328 "./src/main/telemetry/mavlink.c"
+                 , "stdout!\n");
 }
 
 void processMAVLinkTelemetry(void)

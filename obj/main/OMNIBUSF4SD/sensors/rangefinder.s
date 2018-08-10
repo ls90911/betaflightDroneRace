@@ -9,11 +9,11 @@
 	.eabi_attribute 34, 1
 	.eabi_attribute 18, 4
 	.file	"rangefinder.c"
-	.section	.gnu.lto_.profile.9587c05691882d59,"",%progbits
+	.section	.gnu.lto_.profile.da93de6e51363fa3,"",%progbits
 	.ascii	"x\234cc```\003bF\206\253\314\377\030\001\005\376\001"
 	.ascii	"\345"
 	.text
-	.section	.gnu.lto_.icf.9587c05691882d59,"",%progbits
+	.section	.gnu.lto_.icf.da93de6e51363fa3,"",%progbits
 	.ascii	"x\234cc``\330\305\200\000\362\014'\016/?\316\303xe\322"
 	.ascii	"\207\253\234Lk\376\336\270\316\306<}\325\301\203,,`"
 	.ascii	"6k\367\324\233\255|\354g\276^\332\314\301yr\321\323"
@@ -25,7 +25,7 @@
 	.ascii	"\3277o_#\277<X\227\302\261\253m_\371\024\257]\331\365"
 	.ascii	"\205Q\011l2\003\000\301\346a\250"
 	.text
-	.section	.gnu.lto_.jmpfuncs.9587c05691882d59,"",%progbits
+	.section	.gnu.lto_.jmpfuncs.da93de6e51363fa3,"",%progbits
 	.ascii	"x\234\235\221=O\3030\020\206\357\265\323\244\225@\316"
 	.ascii	"\002H\320\201?\200:\362\333\230R\006&\026(\037S\204"
 	.ascii	"\"@Ll|\224R>B\031\220@\202\261\003L\314\014 \326\"\270"
@@ -46,7 +46,7 @@
 	.ascii	"\\6\343\332[\221\246\364\023#\312\357\306tv\254\363"
 	.ascii	"\266\3109K4GT\225\352\037\270Y\320}"
 	.text
-	.section	.gnu.lto_.inline.9587c05691882d59,"",%progbits
+	.section	.gnu.lto_.inline.da93de6e51363fa3,"",%progbits
 	.ascii	"x\234mP\273J\004A\020\254\236\351}\334\271\347\216\250"
 	.ascii	"'\350\342m&\030\034F\206\006~\300\376\205\202\376\207"
 	.ascii	"\210x\301\006r \034\270\201\211\030\211\217\310\300"
@@ -65,11 +65,11 @@
 	.ascii	"\337z\242\303\330w0c\025\027\301Z\024\375\203K-\215"
 	.ascii	"S\031b3\311\027\177\033\307DW"
 	.text
-	.section	.gnu.lto_.pureconst.9587c05691882d59,"",%progbits
+	.section	.gnu.lto_.pureconst.da93de6e51363fa3,"",%progbits
 	.ascii	"x\234cc``\220\004b\036\006\011V\011N\011^\026~\011\001"
 	.ascii	"\011Q\0111\026q\011)\026i\026\031\011\000\027l\001\311"
 	.text
-	.section	.gnu.lto_computePseudoSnr.9587c05691882d59,"",%progbits
+	.section	.gnu.lto_computePseudoSnr.da93de6e51363fa3,"",%progbits
 	.ascii	"x\234\215U[OTW\024\336\353\354s\2333\347\314\200\255"
 	.ascii	"\332\030PL4j\037\304K\372\342\213\375\015\366\241\017"
 	.ascii	"M\232\020\231*I\035\014\330\364\255\2342\026DkB\215"
@@ -150,7 +150,7 @@
 	.ascii	"\300\263\2714\360Ia\361{\301\022(\232\227\346\276\276"
 	.ascii	"x\323\246\342 >o\331X\272|#\373\027(\234\353\001"
 	.text
-	.section	.gnu.lto_rangefinderDetect.9587c05691882d59,"",%progbits
+	.section	.gnu.lto_rangefinderDetect.da93de6e51363fa3,"",%progbits
 	.ascii	"x\234}T]L\\E\024\236\357\316\375\331\037~\252+D\314"
 	.ascii	"\215\321\244\015\362 \224\330\030\237L|\363]}6\004V"
 	.ascii	"\313\2034\331M\352#\227\237\012\033\013A,\027K.\262"
@@ -213,7 +213,7 @@
 	.ascii	"\333<!K\"\245;\303kCz\347\357o/\216F\266n\313\337\316"
 	.ascii	"\376\003<\305e\211"
 	.text
-	.section	.gnu.lto_applyMedianFilter.9587c05691882d59,"",%progbits
+	.section	.gnu.lto_applyMedianFilter.da93de6e51363fa3,"",%progbits
 	.ascii	"x\234\215TKO\023Q\024>g\356<J-%\356\214\351\002\023"
 	.ascii	"\022\202&4\350\306\3603\\\0327\004*aaM\332\205\313^"
 	.ascii	")\002UC\210\301\222\324\306\314B\002q!\022A)/G\252\320"
@@ -255,7 +255,7 @@
 	.ascii	"`4\024\216^\216D\203\221\206ps\350bK\270)\024\251m\004"
 	.ascii	"o8t\345\\\250\241\251%\334\374\007\354Eo\215"
 	.text
-	.section	.gnu.lto_isSurfaceAltitudeValid.part.0.9587c05691882d59,"",%progbits
+	.section	.gnu.lto_isSurfaceAltitudeValid.part.0.da93de6e51363fa3,"",%progbits
 	.ascii	"x\234\215\222\317kSA\020\307\347\273\373\336\276\020"
 	.ascii	"m\013\236\024\202(=\325C\237`\317\376\031\036\274\225"
 	.ascii	"\032\245\007\243$\177@\326\304\220\006=\210\230*\341"
@@ -288,7 +288,7 @@
 	.ascii	"yx4\341\247\342\211\324\225d\312O\016'.\305/\216&.\304"
 	.ascii	"\223\203#\364\027\345\230\010\352"
 	.text
-	.section	.gnu.lto_rangefinderResetDynamicThreshold.9587c05691882d59,"",%progbits
+	.section	.gnu.lto_rangefinderResetDynamicThreshold.da93de6e51363fa3,"",%progbits
 	.ascii	"x\234\205\220=K\003A\020\206\347\335\275$\007\242\265"
 	.ascii	"\240\215X\245\311\376\246\020\243\244\360\204\273\037"
 	.ascii	"\2205!&A\013\021\2234A\2164V\"b\214\236\037\341H\241"
@@ -308,7 +308,7 @@
 	.ascii	"Q^\326\361\346\\O\271ig&;\235s\246\262n*C\237b\306\212"
 	.ascii	"-"
 	.text
-	.section	.gnu.lto_rangefinderInit.9587c05691882d59,"",%progbits
+	.section	.gnu.lto_rangefinderInit.da93de6e51363fa3,"",%progbits
 	.ascii	"x\234\215V\337S\023W\024\276g\357nv\223\220D\320Z\036"
 	.ascii	"\260\245\323\227\372\342v\246\323>\372\217\364\311\261"
 	.ascii	"\330\2613\2453\320\367l\015\001Qq\234N\211B\267\235"
@@ -370,7 +370,7 @@
 	.ascii	"\255-;\315\217w\354n6[\233\232[?ii5[v4\177\330\264k"
 	.ascii	"w\363\007M-\333v\262\377\001\360=+\037"
 	.text
-	.section	.gnu.lto_rangefinderUpdate.9587c05691882d59,"",%progbits
+	.section	.gnu.lto_rangefinderUpdate.da93de6e51363fa3,"",%progbits
 	.ascii	"x\234\215\222\313k\023Q\024\306\317w\317L2-6\013W\012"
 	.ascii	"](TJ6\035\\\370G\270\327?\240\304Q\262\350\0103\272"
 	.ascii	"\3165\017\233\240\202\212i\241\2142J\213\212\210\366"
@@ -399,7 +399,7 @@
 	.ascii	"`\330?\342\035.\372\207\274`\250@}\205\343A\340\371"
 	.ascii	"\307\016\024G\274\203\341o0\366\312\222"
 	.text
-	.section	.gnu.lto_isSurfaceAltitudeValid.9587c05691882d59,"",%progbits
+	.section	.gnu.lto_isSurfaceAltitudeValid.da93de6e51363fa3,"",%progbits
 	.ascii	"x\234mP\317+\204Q\024\275\347\335o~$c!\013j\026d5\233"
 	.ascii	"\371\246X\373_\304\320,\214\232\371\003\3461&&\026\222"
 	.ascii	"\031\245/\315\316\012\311\030fl\276XX\010e\301\224\311"
@@ -421,7 +421,7 @@
 	.ascii	"\027\266\223\211\021{b8\026\267\223\321xr2\221\264\023"
 	.ascii	"\303\361\361\350X,>\032M\204G\350\023v\345\211H"
 	.text
-	.section	.gnu.lto_rangefinderProcess.9587c05691882d59,"",%progbits
+	.section	.gnu.lto_rangefinderProcess.da93de6e51363fa3,"",%progbits
 	.ascii	"x\234\235XkTT\327\025>\373\334y1\314\003f\030f\230\007"
 	.ascii	"\240@]\266\256\214\232\325\364\265\022W\327\212\371"
 	.ascii	"\333\256\256\256\3747\206f\271\232\220\265$\177S&\202"
@@ -550,7 +550,7 @@
 	.ascii	"\023\213\231c\361\253\325\277_\362\362k\277\256z\351"
 	.ascii	"\345J\333\213K\252_[T\265\270\362\177>\350\347f"
 	.text
-	.section	.gnu.lto_rangefinderGetLatestAltitude.9587c05691882d59,"",%progbits
+	.section	.gnu.lto_rangefinderGetLatestAltitude.da93de6e51363fa3,"",%progbits
 	.ascii	"x\234-O=K\003A\020\235w\033\223\0231m\012SD\254\322"
 	.ascii	"d\177\222\204\030%\205'\334\375\200\2549\305\210\026"
 	.ascii	"\"&b8$\026b%F\214\321\013\012\207\215\225\237\255V\012"
@@ -569,7 +569,7 @@
 	.ascii	"\234\366\334\202\236\315\227\034\355\025\035o\316\365"
 	.ascii	"\264\233wf\212\323%g\252\350\346\012\364\007\232_h\254"
 	.text
-	.section	.gnu.lto_rangefinderGetLatestRawAltitude.9587c05691882d59,"",%progbits
+	.section	.gnu.lto_rangefinderGetLatestRawAltitude.da93de6e51363fa3,"",%progbits
 	.ascii	"x\234-O=K\003A\020\235w\033\223\0231\255\240)\"Vir\377"
 	.ascii	"\307.\304SRx\302\335\017\2705QL\320\"\210\0271\034r"
 	.ascii	"M\260\022\025c\364\202\302ac\345g\253\225V\212\012\251"
@@ -588,7 +588,7 @@
 	.ascii	"*\216\345\331\216\267\344z\226[r\026\354\371\2123g\273"
 	.ascii	"\3052\375\001\212,gZ"
 	.text
-	.section	.gnu.lto_rangefinderIsHealthy.9587c05691882d59,"",%progbits
+	.section	.gnu.lto_rangefinderIsHealthy.da93de6e51363fa3,"",%progbits
 	.ascii	"x\234UOMK\002Q\024\275g\256\216n\254m\224\201\321\312"
 	.ascii	"\215\023\324\277\350W\210Y\271\310\300\371\001\276\034"
 	.ascii	"\314\244\026\021i\022C\330\252UDe\226J0\264\211\010"
@@ -610,14 +610,14 @@
 	.ascii	"e'\323\366r\306\2662\361\364Br>\225\236Kfb\011\372\005"
 	.ascii	"M.}\213"
 	.text
-	.section	.gnu.lto_pgResetTemplate_sonarConfig.9587c05691882d59,"",%progbits
+	.section	.gnu.lto_pgResetTemplate_sonarConfig.da93de6e51363fa3,"",%progbits
 	.ascii	"x\234cc``p\006bF\006\010\230\302\314\370\256\345\351"
 	.ascii	"\003\356n\3469\314\014\214\022@n\307\361{W\031!\\A "
 	.ascii	"\367\316\325)-\234\026\333\032:\0264(\314af\234\012"
 	.ascii	"\024\336\302(3\225\231\221q3\243\014\003\343VF\013\006"
 	.ascii	"\000F\325\025H"
 	.text
-	.section	.gnu.lto_sonarConfig_Registry.9587c05691882d59,"",%progbits
+	.section	.gnu.lto_sonarConfig_Registry.da93de6e51363fa3,"",%progbits
 	.ascii	"x\234cc``\270\006\304\312\014\0200\205\231\261\371\327"
 	.ascii	"\376\317|\365\177\033f44<\350\236\317\274\212\177\016"
 	.ascii	"3\303\002f\210\334\241\247\353\330-\2665t,h\020\230"
@@ -633,13 +633,13 @@
 	.ascii	"\375\242\304\274\364\324\264\314\274\224\324\"\275d"
 	.ascii	"\006\000\262\023V\342"
 	.text
-	.section	.gnu.lto_pgResetTemplate_rangefinderConfig.9587c05691882d59,"",%progbits
+	.section	.gnu.lto_pgResetTemplate_rangefinderConfig.da93de6e51363fa3,"",%progbits
 	.ascii	"x\234cc``\320\005bF\006\010\230\302\314\270\376\315"
 	.ascii	"\316\237\274\335\314s\230\201\202@\356\316\271\355\267"
 	.ascii	"\371,\2665t,h\020\230\303\3148\025(\274\231Q\206\201"
 	.ascii	"q\013\243\005\003\000\225\014\016\320"
 	.text
-	.section	.gnu.lto_rangefinderConfig_Registry.9587c05691882d59,"",%progbits
+	.section	.gnu.lto_rangefinderConfig_Registry.da93de6e51363fa3,"",%progbits
 	.ascii	"x\234cc``\270\006\304\312\014\0200\205\231\261\371\327"
 	.ascii	"\376\317|\365\177\033f44<\350\236\301\274\306p\0163"
 	.ascii	"\303\002f\210\334\241\247\353\330-\2665t,h\020\230\303"
@@ -654,7 +654,7 @@
 	.ascii	"\211\231y\372\305\251y\305\371E\305\372E\211y\351\251"
 	.ascii	"i\231y)\251Ez\311\014\000\316\354W\024"
 	.text
-	.section	.gnu.lto_.symbol_nodes.9587c05691882d59,"",%progbits
+	.section	.gnu.lto_.symbol_nodes.da93de6e51363fa3,"",%progbits
 	.ascii	"x\234m\220MO\023Q\024\206\337w\316\334B\201\302\360"
 	.ascii	"\331D%\232*\250\230\370\033\364\227\030\022\011qg\240"
 	.ascii	"\033Wg4\265$\256\374\007~\021\243\306(**\305\317bm\025"
@@ -681,7 +681,7 @@
 	.ascii	"\300zce\207\344\355\332\207\325 \314cc!\251\355\262"
 	.ascii	":\253\307/_\242\310)"
 	.text
-	.section	.gnu.lto_.refs.9587c05691882d59,"",%progbits
+	.section	.gnu.lto_.refs.da93de6e51363fa3,"",%progbits
 	.ascii	"x\234-\215\333J\304@\030\203\223\177\246\235\2366\333"
 	.ascii	"\351\036\354\324]k\025\021\021oT\304\013\305g\027\361"
 	.ascii	"\275\234]\274I\010\344KJ\0003\201\032 a\201\256\241"
@@ -695,7 +695,7 @@
 	.ascii	"\364\015\350\007L\277\340\224\177xy\222\003d\356\312"
 	.ascii	"\202\315vt\213E\273\261k\374\001\342`\016f"
 	.text
-	.section	.gnu.lto_.decls.9587c05691882d59,"",%progbits
+	.section	.gnu.lto_.decls.da93de6e51363fa3,"",%progbits
 	.ascii	"x\234\265{{TTW\272g\235\332\247x\024/\203&1\335t\267"
 	.ascii	"\311\365&\254{;1I\247\323\323k\365]\323\266\222\304"
 	.ascii	"i_\003$\323\311]wh\032J\245[\300\246\312\3348\263\326"
@@ -1228,7 +1228,7 @@
 	.ascii	"\\\315+V\300J\310u\246,3\030]B)Geo\230^}t\016\212p\374"
 	.ascii	"?\337\365M;"
 	.text
-	.section	.gnu.lto_.symtab.9587c05691882d59,"",%progbits
+	.section	.gnu.lto_.symtab.da93de6e51363fa3,"",%progbits
 	.ascii	"sonarConfig_System\000"
 	.ascii	"\000"
 	.ascii	"\004"

@@ -9065,6 +9065,9 @@ _Bool
     mixerIsTricopter(void);
 
 void mixerSetThrottleAngleCorrection(int correctionValue);
+
+extern float shadowThrottle;
+extern float shadowRcCommandThrottle;
 # 74 "./src/main/telemetry/ltm.c" 2
 # 1 "./src/main/flight/pid.h" 1
 # 21 "./src/main/flight/pid.h"
@@ -9276,6 +9279,7 @@ extern float gyroz;
 extern float accmx;
 extern float accmy;
 extern float accmz;
+extern int16_t sonar_adc_cm;
 
 typedef struct {
     float w,x,y,z;
@@ -9331,19 +9335,19 @@ void imuUpdateAttitude(timeUs_t currentTimeUs);
 
 void imuResetAccelerationSum(void);
 void imuInit(void);
-# 105 "./src/main/flight/imu.h"
+# 106 "./src/main/flight/imu.h"
 void imuQuaternionComputeProducts(quaternion *quat, quaternionProducts *quatProd);
 
-# 106 "./src/main/flight/imu.h" 3 4
+# 107 "./src/main/flight/imu.h" 3 4
 _Bool 
-# 106 "./src/main/flight/imu.h"
+# 107 "./src/main/flight/imu.h"
     imuQuaternionHeadfreeOffsetSet(void);
 void imuQuaternionHeadfreeTransformVectorEarthToBody(t_fp_vector_def * v);
 void imuComputeQuaternionFromRPY(quaternionProducts *qP, int16_t initialRoll, int16_t initialPitch, int16_t initialYaw);
 
-# 109 "./src/main/flight/imu.h" 3 4
+# 110 "./src/main/flight/imu.h" 3 4
 _Bool 
-# 109 "./src/main/flight/imu.h"
+# 110 "./src/main/flight/imu.h"
     shouldInitializeGPSHeading(void);
 # 76 "./src/main/telemetry/ltm.c" 2
 # 1 "./src/main/flight/failsafe.h" 1

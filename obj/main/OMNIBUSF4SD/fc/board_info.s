@@ -9,10 +9,10 @@
 	.eabi_attribute 34, 1
 	.eabi_attribute 18, 4
 	.file	"board_info.c"
-	.section	.gnu.lto_.profile.fffb3760662ac761,"",%progbits
+	.section	.gnu.lto_.profile.db1759c72c35e20a,"",%progbits
 	.ascii	"x\234cc```\005bF\206\277\214y\000\003\364\001y"
 	.text
-	.section	.gnu.lto_.icf.fffb3760662ac761,"",%progbits
+	.section	.gnu.lto_.icf.db1759c72c35e20a,"",%progbits
 	.ascii	"x\234cc``hc@\0001\206-\233o_\341d\234\264s\375\031\026"
 	.ascii	"\346\256%\213\0171\261<;\372\363:#\353\304\366\356\375"
 	.ascii	"\234l}\2377N`e_1\343\325OV\2167\215\275\373\2308\327"
@@ -22,7 +22,7 @@
 	.ascii	"]\020L\012=Y\326\261\221G\370\327\236\311\2138E\300"
 	.ascii	"\262\242`q1\2608\003\000\321%Dp"
 	.text
-	.section	.gnu.lto_.jmpfuncs.fffb3760662ac761,"",%progbits
+	.section	.gnu.lto_.jmpfuncs.db1759c72c35e20a,"",%progbits
 	.ascii	"x\234}\224\313/\003Q\024\306\3177w:3\372T\312\252\013"
 	.ascii	"\033\377\206\377\313jD\"\022l$B\"\015\263\020[\011\245"
 	.ascii	"\352\331\326\273\250\255\204\212`)\221.-\204s{\207\350"
@@ -45,7 +45,7 @@
 	.ascii	"~\377\3332\"\276\215\274&7\300\227\014\022\025\210\206"
 	.ascii	"\224\312\214R\015\313\277\307\017(=1\267"
 	.text
-	.section	.gnu.lto_.inline.fffb3760662ac761,"",%progbits
+	.section	.gnu.lto_.inline.db1759c72c35e20a,"",%progbits
 	.ascii	"x\234u\217=\022\302 \020\205\037\020I\010A\362_\330"
 	.ascii	"X\332y\224\334\310\031\017`\221\003Xd<Q\216\342\021"
 	.ascii	"\334dF\030A(\330\235\357\355\276\007\022\300\213\301"
@@ -56,12 +56,12 @@
 	.ascii	"\373\352?_\221\345<5I\245E\021*\\\323\325E\201}\034"
 	.ascii	"8@\351\377\266c\302\026\037\213\217\"\277"
 	.text
-	.section	.gnu.lto_.pureconst.fffb3760662ac761,"",%progbits
+	.section	.gnu.lto_.pureconst.db1759c72c35e20a,"",%progbits
 	.ascii	"x\234cc``P\006bA\006)f\011V\011v)\016\011n\011\036)"
 	.ascii	"^\006>\006~\026\001\011A\011!\011a\006\021\026Q\011"
 	.ascii	"1\011\000*q\002F"
 	.text
-	.section	.gnu.lto_initBoardInformation.part.0.fffb3760662ac761,"",%progbits
+	.section	.gnu.lto_initBoardInformation.part.0.db1759c72c35e20a,"",%progbits
 	.ascii	"x\234\225RKKBQ\020>\337=\367^\215\310}/h\343\302E\372"
 	.ascii	"\223\242\024\241E\006\366\003<\225\241V\213\220\262"
 	.ascii	"\220K\\rQ\320\242$\255\354\251\226\321&{l\333\025\270"
@@ -87,7 +87,7 @@
 	.ascii	"^\317\330\344h\32072\036\360O\272\275\354\033\260\376"
 	.ascii	"\355\025"
 	.text
-	.section	.gnu.lto_setManufacturerId.part.1.fffb3760662ac761,"",%progbits
+	.section	.gnu.lto_setManufacturerId.part.1.db1759c72c35e20a,"",%progbits
 	.ascii	"x\234]Q\317KTQ\024>\337=\357\275\031\024\007\332\005"
 	.ascii	">\242E .\364\005\356\335F\213\240\377@\306\321\001\027"
 	.ascii	"\2150*-\337-\033\235A\027!9\351\360\220\001M7\201\277"
@@ -114,7 +114,7 @@
 	.ascii	"\373\3333t+\327\373\364Q:7\224Mg\006\207\362\275\371"
 	.ascii	"\207=\177\000|H\231N"
 	.text
-	.section	.gnu.lto_setBoardName.part.2.fffb3760662ac761,"",%progbits
+	.section	.gnu.lto_setBoardName.part.2.db1759c72c35e20a,"",%progbits
 	.ascii	"x\234]P=K\034Q\024\275\347\335\231\331E\342V\026\202"
 	.ascii	"\203X\004\304@\334\200}\212\374\000\377B\330l\024-\\"
 	.ascii	"A\213\224\363\242\331\270\213)$\350\006\206\301\014"
@@ -141,7 +141,7 @@
 	.ascii	"\263\317\006sC\317\237\366\027z\007;\363t\257\320\363"
 	.ascii	"\342\211\016\272s\003=\267rv\230&"
 	.text
-	.section	.gnu.lto_setSignature.part.4.fffb3760662ac761,"",%progbits
+	.section	.gnu.lto_setSignature.part.4.db1759c72c35e20a,"",%progbits
 	.ascii	"x\234-PMK[Q\020\235s\347\345E\244\321\255\322\207\270"
 	.ascii	"\020\202\005\215\340\336\337 \364\007H\214\037d\321"
 	.ascii	"\010\261\3422\267\332\220\244-T\212\037\030\0366\210"
@@ -166,7 +166,7 @@
 	.ascii	"Dlt*\236\036\033I\246&\246\372\023\364$5>\373<9\231"
 	.ascii	"\212\277\234I\217\377\007m<\210\373"
 	.text
-	.section	.gnu.lto_initBoardInformation.fffb3760662ac761,"",%progbits
+	.section	.gnu.lto_initBoardInformation.db1759c72c35e20a,"",%progbits
 	.ascii	"x\234\215S[O\023A\024\236ogg[\201\266^xA1!1>\300\003"
 	.ascii	"}\361g\370\037\014\326\220\360 $\370\003:R\260\200<"
 	.ascii	" \221\202\244\321M4\250\211\246^\020-*. ^\252\024E\274"
@@ -206,7 +206,7 @@
 	.ascii	"\033\232\232\303\215\221\360\321\226\206\326cG\232\232"
 	.ascii	"\033[\352#\3547W\215\213\261"
 	.text
-	.section	.gnu.lto_persistBoardInformation.part.3.fffb3760662ac761,"",%progbits
+	.section	.gnu.lto_persistBoardInformation.part.3.db1759c72c35e20a,"",%progbits
 	.ascii	"x\234\225S\357KSQ\030>\317=wwkk\013\244\017\225\013"
 	.ascii	"\374\262\017~\310\005}\257?\245\314\020\374\220\202"
 	.ascii	"\375\001;\351\2263\015Jr\302\274\324\005\243\"\010\263"
@@ -245,7 +245,7 @@
 	.ascii	"\2255\265\301\352\252\340\331\272\312\372s\247kj\253"
 	.ascii	"\353*\252\330\037\204\371p|"
 	.text
-	.section	.gnu.lto_persistSignature.part.5.fffb3760662ac761,"",%progbits
+	.section	.gnu.lto_persistSignature.part.5.db1759c72c35e20a,"",%progbits
 	.ascii	"x\234\215RMk\023Q\024\275\347\335\311d\014\264\210\033"
 	.ascii	"\025#t\223E\027v\004\367\342?\221\032)ta\013\365\007"
 	.ascii	"\344\331$4i\005\245\230H\303`\007D\215\013\251\301\266"
@@ -275,7 +275,7 @@
 	.ascii	"\216d\375#\375\203C\376@\326?4\334?r\370\340\340\320"
 	.ascii	"\300p_\226~\001\242\230\343i"
 	.text
-	.section	.gnu.lto_getManufacturerId.fffb3760662ac761,"",%progbits
+	.section	.gnu.lto_getManufacturerId.db1759c72c35e20a,"",%progbits
 	.ascii	"x\234\025O=K\303P\024\275'/\246\031\264\243K*t\355\322"
 	.ascii	"L\376\007\377\205\324H\241\203-\324\037\220gc\261\242"
 	.ascii	"\203\210V\220 q\022\\T\332\252q\220\340\340 \250(n\202"
@@ -293,7 +293,7 @@
 	.ascii	"\312\376z3\360\327*\265\272_\015\374\225F\245\271\272"
 	.ascii	"\\\253W\033\345@\376\001\374P`c"
 	.text
-	.section	.gnu.lto_getBoardName.fffb3760662ac761,"",%progbits
+	.section	.gnu.lto_getBoardName.db1759c72c35e20a,"",%progbits
 	.ascii	"x\234\025O=K\303P\024\275'/\266\0314\253C\253t\355\322"
 	.ascii	"L\376\007\377\205\324J\241\203-\324\037\220gc\261\242"
 	.ascii	"\203\210V\220 qrT1~\324A\202C\207\202\212\256\202\203"
@@ -311,7 +311,7 @@
 	.ascii	"h\327\274\365j\243\351\325k\336j\253\332^[i4\353\255"
 	.ascii	"JM\376\001)#`\255"
 	.text
-	.section	.gnu.lto_boardInformationIsSet.fffb3760662ac761,"",%progbits
+	.section	.gnu.lto_boardInformationIsSet.db1759c72c35e20a,"",%progbits
 	.ascii	"x\234-N\275J\003A\030\234\331\325\3135\261\023\213D"
 	.ascii	"\264M\223\023l|\033\211'\201\024&\020\037\3406\027\202"
 	.ascii	"\006-D\314)\022\344:\355DL\224`\263\370\000\006l\024"
@@ -328,7 +328,7 @@
 	.ascii	"\324\352A5\014\266\032\225\346\366f\255^m\224C\374\002"
 	.ascii	"(vPo"
 	.text
-	.section	.gnu.lto_setManufacturerId.fffb3760662ac761,"",%progbits
+	.section	.gnu.lto_setManufacturerId.db1759c72c35e20a,"",%progbits
 	.ascii	"x\234mP\277K[Q\030\375\316\375^\236!h\300M\360Q:\010"
 	.ascii	"\342\222W\311\356*\016\376\015\022\243\201\014\215\220"
 	.ascii	"V:\346j\214\032t\020\321\210\341Q2\264t\254\266\251"
@@ -355,7 +355,7 @@
 	.ascii	"\277\032Nd&S\211\344\313\311\354xvh\354\001u\365\233"
 	.ascii	"\030"
 	.text
-	.section	.gnu.lto_setBoardName.fffb3760662ac761,"",%progbits
+	.section	.gnu.lto_setBoardName.db1759c72c35e20a,"",%progbits
 	.ascii	"x\234mPMK[Q\020\235s\347\345%\210\272\266\364!]\010"
 	.ascii	"b\027Fq\357\302\037\320\277 1*da\004]\270\314\2551h"
 	.ascii	"\250\013\021M!<J@\304\225\370\331\306TK\037\352\302"
@@ -382,7 +382,7 @@
 	.ascii	"\322\375\203\255I\252M\367\215t)\360.1\320\367\002m"
 	.ascii	"g\232\037"
 	.text
-	.section	.gnu.lto_persistBoardInformation.fffb3760662ac761,"",%progbits
+	.section	.gnu.lto_persistBoardInformation.db1759c72c35e20a,"",%progbits
 	.ascii	"x\234mO=K\003A\020\235\267s\371@\214\265\220\363\007"
 	.ascii	"\244\311)\351\375\027\326\022#\201\024&\020\177\300"
 	.ascii	"\255\211A\017-D\314\011!H\260\261\0241~\004\233CE,D"
@@ -403,7 +403,7 @@
 	.ascii	">\324\247eG\030\226\"\212'\235\305b\306YH\347\362N6"
 	.ascii	"\343\314\025\322\305\371\331\\>[Hf\350\033\312=v\274"
 	.text
-	.section	.gnu.lto_getSignature.fffb3760662ac761,"",%progbits
+	.section	.gnu.lto_getSignature.db1759c72c35e20a,"",%progbits
 	.ascii	"x\234\025O\313J\303P\024<\223[\323\010\232\037h\012"
 	.ascii	"\335v\323|\222\324H\241\013[\250\037\220k\253XQDD+H"
 	.ascii	"(q\245;\025S\265.$\270\350B\360\271ug\027\"\224B?\300"
@@ -421,7 +421,7 @@
 	.ascii	"\327Z\201\277Z\2557\374Z\340/7\253\255\225\245z\243"
 	.ascii	"\326\254\004\362\017\027.a\201"
 	.text
-	.section	.gnu.lto_signatureIsSet.fffb3760662ac761,"",%progbits
+	.section	.gnu.lto_signatureIsSet.db1759c72c35e20a,"",%progbits
 	.ascii	"x\234-N\261J\003A\024|\263\253w\327$\265\220\004l\323"
 	.ascii	"\344\004?H\342I \205\011\304\017\270\365\216C\203\026"
 	.ascii	"\"\346\004\011rV\226\"FM\260Y\374\000\005\033A\301\302"
@@ -439,7 +439,7 @@
 	.ascii	"\330\212\302\365n\263\267\261\326\356\264\272\215H~"
 	.ascii	"\001f\262P\242"
 	.text
-	.section	.gnu.lto_setSignature.fffb3760662ac761,"",%progbits
+	.section	.gnu.lto_setSignature.db1759c72c35e20a,"",%progbits
 	.ascii	"x\234mPMK[Q\020\235s\347\345%\210\332\255`\220\202\202"
 	.ascii	"\230\205\021\334\367O\370\003$\246*Y\030!\255\270\314"
 	.ascii	"\325\030\332\320.D4\215\341a\263hq%Z\374\214\266\360"
@@ -465,7 +465,7 @@
 	.ascii	"\030\356LR}\272\177\264'5\230N\274\034\311\364\337\003"
 	.ascii	":\305\2327"
 	.text
-	.section	.gnu.lto_persistSignature.fffb3760662ac761,"",%progbits
+	.section	.gnu.lto_persistSignature.db1759c72c35e20a,"",%progbits
 	.ascii	"x\234mO\277KBQ\024>\337=O\237D6\007\275hv\361\025\356"
 	.ascii	"\375\027\315a\206\340\220\202\375\001\3364\251G\015"
 	.ascii	"\021\371\012\211p\253-\"\373!-\017kh*ii\020\202\202"
@@ -486,7 +486,7 @@
 	.ascii	"\247\334\205d&\353\246S\356\\.\231\237\237\315d\323"
 	.ascii	"\271x\212\276\001\036\235w."
 	.text
-	.section	.gnu.lto_.symbol_nodes.fffb3760662ac761,"",%progbits
+	.section	.gnu.lto_.symbol_nodes.db1759c72c35e20a,"",%progbits
 	.ascii	"x\234]\217\273N\0031\020E\357\365\304\311\302.\220 "
 	.ascii	"\361(\0215\342\033\340\313f\025!\244\204Wx?\032@\002"
 	.ascii	"\304/@\207\004-\237\200\302vt)\251\020\2667\315l\343"
@@ -502,7 +502,7 @@
 	.ascii	"\337M\351\371\204\305<a\251\203j\362AY.\342\025\377"
 	.ascii	"M9\200\350"
 	.text
-	.section	.gnu.lto_.refs.fffb3760662ac761,"",%progbits
+	.section	.gnu.lto_.refs.db1759c72c35e20a,"",%progbits
 	.ascii	"x\234\025\214\011\016\303@\010\304\360l\227d\323#W\333"
 	.ascii	"\367\346\351\031\220\260\220\205\234\021qy\025@\010"
 	.ascii	"\232\036\320\2250\331\314s\271a\331%\333\22424\261\214"
@@ -510,7 +510,7 @@
 	.ascii	"*\262\306\200\255\260\027\216\302\351$\337X\340W\370"
 	.ascii	"\033q\003\256\340\002\177"
 	.text
-	.section	.gnu.lto_.decls.fffb3760662ac761,"",%progbits
+	.section	.gnu.lto_.decls.db1759c72c35e20a,"",%progbits
 	.ascii	"x\234\265X{PT\327\031\277\347\336\345\261\313\202\006"
 	.ascii	"\324he\322\304\222\204L\012\033\363\030\223\231v\306"
 	.ascii	"1i\023\333\230i\307\351$v\246\305\025\027\334\014,\026"
@@ -719,7 +719,7 @@
 	.ascii	"[\242}\024S\312\327s\226\330\315\013\242,\377\005\212"
 	.ascii	"@\317\223"
 	.text
-	.section	.gnu.lto_.symtab.fffb3760662ac761,"",%progbits
+	.section	.gnu.lto_.symtab.db1759c72c35e20a,"",%progbits
 	.ascii	"initBoardInformation\000"
 	.ascii	"\000"
 	.ascii	"\000"

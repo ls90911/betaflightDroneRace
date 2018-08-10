@@ -9,24 +9,24 @@
 	.eabi_attribute 34, 1
 	.eabi_attribute 18, 4
 	.file	"usb_msc.c"
-	.section	.gnu.lto_.profile.ac5937cdd703cadd,"",%progbits
+	.section	.gnu.lto_.profile.65bc45cfb8b62193,"",%progbits
 	.ascii	"x\234cc```\001bF\006\031N\000\000\271\0001"
 	.text
-	.section	.gnu.lto_.icf.ac5937cdd703cadd,"",%progbits
+	.section	.gnu.lto_.icf.65bc45cfb8b62193,"",%progbits
 	.ascii	"x\234cc``\340`@\000F\206\247+&\274ec\000\000\017\011"
 	.ascii	"\003 "
 	.text
-	.section	.gnu.lto_.jmpfuncs.ac5937cdd703cadd,"",%progbits
+	.section	.gnu.lto_.jmpfuncs.65bc45cfb8b62193,"",%progbits
 	.ascii	"x\234cc```g@\000F\010\005\000\001-\000\017"
 	.text
-	.section	.gnu.lto_.inline.ac5937cdd703cadd,"",%progbits
+	.section	.gnu.lto_.inline.65bc45cfb8b62193,"",%progbits
 	.ascii	"x\234cc``\220g@\000F\006\006n\021F\006&\216\033Z\014"
 	.ascii	"l\013\344\231@bL\3340\202\001\000/\231\0024"
 	.text
-	.section	.gnu.lto_.pureconst.ac5937cdd703cadd,"",%progbits
+	.section	.gnu.lto_.pureconst.65bc45cfb8b62193,"",%progbits
 	.ascii	"x\234cc```\006bF\006\011\000\000}\000#"
 	.text
-	.section	.gnu.lto_mscCheckFilesystemReady.ac5937cdd703cadd,"",%progbits
+	.section	.gnu.lto_mscCheckFilesystemReady.65bc45cfb8b62193,"",%progbits
 	.ascii	"x\234U\216?/DA\024\305\357\231k\346=B4\012\221WHT\273"
 	.ascii	"\222}\3047\360E\204\255\024Hlh\337\330%kC\241\340\021"
 	.ascii	"Q\350\3506\342\1774/$\242\0206\032\211\355$\032\331"
@@ -48,16 +48,16 @@
 	.ascii	"\235\013\013\323\371pbt|2\034\237\012g\012c#\023\205"
 	.ascii	"|.O_t\233}\326"
 	.text
-	.section	.gnu.lto_.symbol_nodes.ac5937cdd703cadd,"",%progbits
+	.section	.gnu.lto_.symbol_nodes.65bc45cfb8b62193,"",%progbits
 	.ascii	"x\234cc``p\005b\006\246N\306z\006\206\011\347\030\030"
 	.ascii	"\200\324\256\006G\006\006\306n\306zF\260\010\003CC\203"
 	.ascii	"\003P\240\213\261\236\011Y\200\231\201\211a\311\203"
 	.ascii	"\177\214\314\014\214\014O~\3501\000\0008\302\020\233"
 	.text
-	.section	.gnu.lto_.refs.ac5937cdd703cadd,"",%progbits
+	.section	.gnu.lto_.refs.65bc45cfb8b62193,"",%progbits
 	.ascii	"x\234cc```\004b\006\000\000D\000\010"
 	.text
-	.section	.gnu.lto_.decls.ac5937cdd703cadd,"",%progbits
+	.section	.gnu.lto_.decls.65bc45cfb8b62193,"",%progbits
 	.ascii	"x\234\265RKl\023W\024}w\306$\216\003N\004H\244\225\027"
 	.ascii	"V6\311\306\036>\225\000Q\261(\022\260\252\020\025B\260"
 	.ascii	"\031M\306\023<\301\236\241\2361R\020\213G\003.\242R"
@@ -111,7 +111,7 @@
 	.ascii	"\3354\224D\250\004\034K\351;\265\224%90l\370\027\274"
 	.ascii	"\365\272\343"
 	.text
-	.section	.gnu.lto_.symtab.ac5937cdd703cadd,"",%progbits
+	.section	.gnu.lto_.symtab.65bc45cfb8b62193,"",%progbits
 	.ascii	"mscCheckFilesystemReady\000"
 	.ascii	"\000"
 	.ascii	"\000"

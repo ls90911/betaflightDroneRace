@@ -9,10 +9,10 @@
 	.eabi_attribute 34, 1
 	.eabi_attribute 18, 4
 	.file	"cms_menu_vtx_smartaudio.c"
-	.section	.gnu.lto_.profile.27427be4340a8240,"",%progbits
+	.section	.gnu.lto_.profile.c7bf07b427b7f1b2,"",%progbits
 	.ascii	"x\234cc```\003bF\206\225\254\277\230\000\005M\001\270"
 	.text
-	.section	.gnu.lto_.icf.27427be4340a8240,"",%progbits
+	.section	.gnu.lto_.icf.c7bf07b427b7f1b2,"",%progbits
 	.ascii	"x\234cc``\270\305\310\000\007\001\014\277\226\037:\311"
 	.ascii	"\315\264\251a\351]n\3463_/m\346`Y\266v\322\016FV\260"
 	.ascii	"\010\033X\204}\332\347\177\257\0319\326N9\177\231\207"
@@ -39,7 +39,7 @@
 	.ascii	"D\204\202\2100\020\021y{\313\347\237\374Q{\037\276k"
 	.ascii	"ge\000\000\015\237\001X"
 	.text
-	.section	.gnu.lto_.jmpfuncs.27427be4340a8240,"",%progbits
+	.section	.gnu.lto_.jmpfuncs.c7bf07b427b7f1b2,"",%progbits
 	.ascii	"x\234\255\225Mk\023Q\024\206\317{of\222\246\251]\211"
 	.ascii	"]\004l\374@\255`\251\372\223\372'\272J\241tUQ\304\""
 	.ascii	"\012\001\203\250;A\210\375HZ5\3264Z\255\246Z?\220\320"
@@ -72,7 +72,7 @@
 	.ascii	"]\354\367\026\373C<\354s\204\030\245\2357\177Y'/\216"
 	.ascii	"\363\347\302\270\374\001\247<\276/"
 	.text
-	.section	.gnu.lto_.inline.27427be4340a8240,"",%progbits
+	.section	.gnu.lto_.inline.c7bf07b427b7f1b2,"",%progbits
 	.ascii	"x\234cc``X\313\304\000\007\022\014\014\034\354\214\014"
 	.ascii	"L\\O|\031\330\026\310\203eX\030XY\200B,\013\344\341"
 	.ascii	"B\354\230B\034\014\034\002@!\246\013\374\010\215\274"
@@ -91,13 +91,13 @@
 	.ascii	"T\033\364\031TA\341\340t\353?\232\204\021\003\0133Z"
 	.ascii	"2a\000\000tYK\335"
 	.text
-	.section	.gnu.lto_.pureconst.27427be4340a8240,"",%progbits
+	.section	.gnu.lto_.pureconst.c7bf07b427b7f1b2,"",%progbits
 	.ascii	"x\234\015\303\313\012@P\024\000\300\263\020\022K\231"
 	.ascii	"\244\270(\217\005\361\377\037\307\324\344\021\361\374"
 	.ascii	"\205L\241T\2515}\253\303`4If\213\325fw8]n\257\017s\376"
 	.ascii	"\005\""
 	.text
-	.section	.gnu.lto_saCmsSetPORFreqOnEnter.27427be4340a8240,"",%progbits
+	.section	.gnu.lto_saCmsSetPORFreqOnEnter.c7bf07b427b7f1b2,"",%progbits
 	.ascii	"x\234e\221MO\023Q\024\206\317{\317\2643T\341\027L\014"
 	.ascii	"\333\206\204Y\020\227\376\226\246\251,X\024\022Z\214"
 	.ascii	"a\323A \370\225h\214\324\244\014\246\256dCjc\371(*\014"
@@ -125,7 +125,7 @@
 	.ascii	"\245\223=\275^*\235\321\225Hw\367\016$\256e\257'2\351"
 	.ascii	"d\17769p\265\247\2573E\307\365\341\3038"
 	.text
-	.section	.gnu.lto_saCmsSetUserFreqOnEnter.27427be4340a8240,"",%progbits
+	.section	.gnu.lto_saCmsSetUserFreqOnEnter.c7bf07b427b7f1b2,"",%progbits
 	.ascii	"x\234eO\273J\003Q\020\235\2637/\221\344\007\014h\033"
 	.ascii	"\204\244\360\003\374\002\277!\204ha\261\021\362\020"
 	.ascii	"\273\275&\212\317BD#\304U\326\3122\212\321\270*\270"
@@ -145,7 +145,7 @@
 	.ascii	"\342\211\\6\2350S\223\231D\332\314I%\315\211L!9\235"
 	.ascii	"\237I\346\314T6\237*\214ON\305\323\364\003\232D~\210"
 	.text
-	.section	.gnu.lto_saCmsConfigUserFreq.27427be4340a8240,"",%progbits
+	.section	.gnu.lto_saCmsConfigUserFreq.c7bf07b427b7f1b2,"",%progbits
 	.ascii	"x\234e\221\317K\033Q\020\307\347\273o\263\011\210\236"
 	.ascii	"\003\315\241\224B\010\210\001\013\375\013\374?BH-\004"
 	.ascii	"L\032\262Qz\313k\264j\242\302Zl\212\311Rr\321^\012m"
@@ -171,7 +171,7 @@
 	.ascii	"b\246:\241\330d|:4\223z\0322c\341d*<\375(\372d,B\256"
 	.ascii	"\304D\324L\350\346\344\324\343k[_\2512"
 	.text
-	.section	.gnu.lto_saCmsORFreqGetString.27427be4340a8240,"",%progbits
+	.section	.gnu.lto_saCmsORFreqGetString.c7bf07b427b7f1b2,"",%progbits
 	.ascii	"x\234\215R\277OSQ\024>\337\273\245}\010\366\037\240"
 	.ascii	"\011ephb(\0033\377J\323\264\014\014\305\204\002a1\357"
 	.ascii	"\332\252`dP\221J\310K}.8\002\241\200\025\254OL\030L"
@@ -198,7 +198,7 @@
 	.ascii	"\2722\205\341\321\211\314\344\370T\246X\310\216\215"
 	.ascii	"g'\362#w\372s\022\2715\230\227\337\206\265\303\302"
 	.text
-	.section	.gnu.lto_saCmsUserFreqGetString.27427be4340a8240,"",%progbits
+	.section	.gnu.lto_saCmsUserFreqGetString.c7bf07b427b7f1b2,"",%progbits
 	.ascii	"x\234\215R=OSQ\030~\237{J{\371\352\037\240\011e`hB\250"
 	.ascii	"\203;?\245i\012\003C!\241`\234\270\307V\004\003\203"
 	.ascii	"\202\026Bn\340\262\300\010\204*T\244\\1q \341CV6\231"
@@ -225,7 +225,7 @@
 	.ascii	"\220\317\216\214f\307\372\007\207{s\022\351~\334/\177"
 	.ascii	"\000\220\300\303\230"
 	.text
-	.section	.gnu.lto_saCmsSetPORFreq.27427be4340a8240,"",%progbits
+	.section	.gnu.lto_saCmsSetPORFreq.c7bf07b427b7f1b2,"",%progbits
 	.ascii	"x\234]PM+DQ\030~\237{\356\334\271\022\177\300$\0135"
 	.ascii	"M\311\024ei\345\177L\323\240\246\314\220\213\224\305"
 	.ascii	"\034\203\020\213I\214\214Kc\241\331\250!\343c|\214\233"
@@ -251,7 +251,7 @@
 	.ascii	"\333\243\335\215\021\362\364\264E\255\036\335\352\350"
 	.ascii	"\352\374\006\372\331\235\346"
 	.text
-	.section	.gnu.lto_saCmsCommence.27427be4340a8240,"",%progbits
+	.section	.gnu.lto_saCmsCommence.c7bf07b427b7f1b2,"",%progbits
 	.ascii	"x\234\225W]TTU\024>\373\334{\347\377\207\001\312T*\037"
 	.ascii	"r\261l\225\263\372YK\037\312\227z\350\255\207\336zq"
 	.ascii	"\271\214Z\254\202\\\202\326\033W@\005\377\"\304i\211"
@@ -342,7 +342,7 @@
 	.ascii	"\371\320Y\230\367\331{y\305\305\371\205\037\025\271"
 	.ascii	"\026-\316[\032\177\370\017\353\322\316+"
 	.text
-	.section	.gnu.lto_saCmsConfigPowerByGvar.part.0.27427be4340a8240,"",%progbits
+	.section	.gnu.lto_saCmsConfigPowerByGvar.part.0.c7bf07b427b7f1b2,"",%progbits
 	.ascii	"x\234\215S\333K\324A\024\236o\316\357\346Z\012\321S"
 	.ascii	"\030\004\262\017J\270\321C\217=\365\177\210l\006Bk\342"
 	.ascii	"j\364\346\344\005\335\354\301$W[\266X\361!\010,%\257"
@@ -380,7 +380,7 @@
 	.ascii	"\012\273\352RE\270\312\012\227_\275\362\007\225\301"
 	.ascii	"@\337"
 	.text
-	.section	.gnu.lto_saCmsConfigPowerByGvar.27427be4340a8240,"",%progbits
+	.section	.gnu.lto_saCmsConfigPowerByGvar.c7bf07b427b7f1b2,"",%progbits
 	.ascii	"x\234mRMO\023Q\024\275g\356L;m\371\330\272`A\002ISb"
 	.ascii	"h\242\211;]\371?\232\246b\322\304\"2`\334\365\011\030"
 	.ascii	"ht\321\030\251XFS\027\312\312\240\261\202E\205\0210"
@@ -412,7 +412,7 @@
 	.ascii	"\034>\227\276\330\233\"k\340l\332\0310\235\276\013\347"
 	.ascii	"\017\001TG\335Z"
 	.text
-	.section	.gnu.lto_sacms_SetupTopMenu.part.1.27427be4340a8240,"",%progbits
+	.section	.gnu.lto_sacms_SetupTopMenu.part.1.c7bf07b427b7f1b2,"",%progbits
 	.ascii	"x\234\205\222MO\024A\020\206\353\355\232\351\331%\312"
 	.ascii	"/\360N\026\223\035\377\204\277c\263Y=pXLX \334\266\025"
 	.ascii	"\225!p0F\326\260\231\230\361\344\301\210\032\371Z?\020"
@@ -441,7 +441,7 @@
 	.ascii	"\017\225j\325r_\177y\340D\317\251b\205~\001\037%\356"
 	.ascii	"L"
 	.text
-	.section	.gnu.lto_cmsx_menuVtxSmartAudio.27427be4340a8240,"",%progbits
+	.section	.gnu.lto_cmsx_menuVtxSmartAudio.c7bf07b427b7f1b2,"",%progbits
 	.ascii	"x\234cc``(\002bm\006\010\230\302\314\270s\347\233\333"
 	.ascii	"\354\365\177\033:\032\032\036t\237\025md\235\303\314"
 	.ascii	"\260\200\031\"7\255\365\320y\366n\3469\314\214\214\350"
@@ -451,7 +451,7 @@
 	.ascii	"\213\213\222\365s\0233\363\364\223s\213A8>75\2574\276"
 	.ascii	"\254\244\"\27687\261\250$\2614%3_/\231\001\000cv88"
 	.text
-	.section	.gnu.lto_saCmsMenuChanModeEntries.27427be4340a8240,"",%progbits
+	.section	.gnu.lto_saCmsMenuChanModeEntries.c7bf07b427b7f1b2,"",%progbits
 	.ascii	"x\234u\325[H\024Q\030\000\340\371\367\354\356\350z\353"
 	.ascii	"*\004\0339o\365\240R\275H/a\246%\221\232\031A\004\""
 	.ascii	"\326\203\204\005\231\321\233\223\024\232YP\251t\231"
@@ -505,7 +505,7 @@
 	.ascii	"\177J!\341a\353\327F'\247DoX\031\237\030\026.\374\006"
 	.ascii	"\347\331A\014"
 	.text
-	.section	.gnu.lto_saCmsMenuFreqModeEntries.27427be4340a8240,"",%progbits
+	.section	.gnu.lto_saCmsMenuFreqModeEntries.c7bf07b427b7f1b2,"",%progbits
 	.ascii	"x\234u\324KL\023A\030\007\360\375v\272],\224\372D\211"
 	.ascii	"=\320\243\007h\344D\274\030D0D\005\004\214'C\010z\340"
 	.ascii	"PLx\030o,DBE.F@\300M(\370\200P\015\020-RP)\010\310\263"
@@ -550,7 +550,7 @@
 	.ascii	"\211\311\221g\217\307\306\207\2042\177\000\031\334\323"
 	.ascii	"n"
 	.text
-	.section	.gnu.lto_sacms_SetupTopMenu.27427be4340a8240,"",%progbits
+	.section	.gnu.lto_sacms_SetupTopMenu.c7bf07b427b7f1b2,"",%progbits
 	.ascii	"x\234m\221\313k\023a\024\305\357\231of2\366\221?\240"
 	.ascii	"t\321]\211Jg\341\332\235\377G\010i\027]\244\205\246"
 	.ascii	"\025w\231>l\307\027TiS\250Af'\024\244\212}\030\037u"
@@ -579,7 +579,7 @@
 	.ascii	"\221\316\215\214M\245/O^I\347s\231\211\311\314\324\360"
 	.ascii	"\350\370PV\376\001\344\324\323\302"
 	.text
-	.section	.gnu.lto_saCmsMenuOfflineEntries.27427be4340a8240,"",%progbits
+	.section	.gnu.lto_saCmsMenuOfflineEntries.c7bf07b427b7f1b2,"",%progbits
 	.ascii	"x\234cc``\370\304\304\300\340\307\000\001S\230\031\327"
 	.ascii	"\277\331\371\223\267\233y\0163\003#\210;\255\365\320"
 	.ascii	"yv\020\227\021\314}{m\365\032f\020\227\211\221\017Y"
@@ -612,7 +612,7 @@
 	.ascii	"C\034C\"\200\231CXW!,$B!\330\3271(\3041\324\305\323"
 	.ascii	"_A\227\001\000;\236\016\024"
 	.text
-	.section	.gnu.lto_saCmsConfigFreqModeByGvar.27427be4340a8240,"",%progbits
+	.section	.gnu.lto_saCmsConfigFreqModeByGvar.c7bf07b427b7f1b2,"",%progbits
 	.ascii	"x\234\215RMk\023Q\024\275\347\275\231dZm\266\242D\020"
 	.ascii	"\024B\2124\240\330?\240\377#\204X!`jiZq\227gRiC]\004"
 	.ascii	"\321X\323Q\307\205\225\272\251\305\304\032?\332\261"
@@ -646,7 +646,7 @@
 	.ascii	"g\272\342d\366\235H\244\372\214T\317\351S?\001\233!"
 	.ascii	"\361A"
 	.text
-	.section	.gnu.lto_saCmsConfigPitFModeByGvar.part.2.27427be4340a8240,"",%progbits
+	.section	.gnu.lto_saCmsConfigPitFModeByGvar.part.2.c7bf07b427b7f1b2,"",%progbits
 	.ascii	"x\234\215R\335K\223a\024?\277\367\274_N[\020A\004\013"
 	.ascii	"\002\331\305,4\274\360/\350\357h\214e0h&N\243\273=\331"
 	.ascii	"\302\015\273\220>\246\215\025\013\251\350\"\234\244"
@@ -678,7 +678,7 @@
 	.ascii	"=\027N\304#=\275\221\276\223\2613\255Q\262\272\217\307"
 	.ascii	"\022\335f\242\363\364\251\277\365\004\346\365"
 	.text
-	.section	.gnu.lto_saCmsConfigPitFModeByGvar.27427be4340a8240,"",%progbits
+	.section	.gnu.lto_saCmsConfigPitFModeByGvar.c7bf07b427b7f1b2,"",%progbits
 	.ascii	"x\234]R\321KSq\024>\337=\367nw\233\372\320\213\004>"
 	.ascii	"\370\020\215A8(\330[o\275\364W\214\261\014\006\315\314"
 	.ascii	"i\364\266_j\350\250\207\021\271h^k=\264\360!T\232\332"
@@ -710,7 +710,7 @@
 	.ascii	"`b\350R\352jO\222\254\376\013\251L\277\231\351\275r"
 	.ascii	"\371/\213m\334\377"
 	.text
-	.section	.gnu.lto_saCmsConfigOpmodelByGvar.part.3.27427be4340a8240,"",%progbits
+	.section	.gnu.lto_saCmsConfigOpmodelByGvar.part.3.c7bf07b427b7f1b2,"",%progbits
 	.ascii	"x\234uRAk\023Q\020\236og\263\273X\314E<Tr\360`\015\201"
 	.ascii	"\322\210\036\274y\362\177\204\220F\010t\223\320\264"
 	.ascii	"\342-\257\255\305\304\026\211\242Q\327U\"\242=(X\261"
@@ -742,7 +742,7 @@
 	.ascii	"\345Of\012y\263\220\036:e\347\362nn0=\364\0331$\331"
 	.ascii	"\011"
 	.text
-	.section	.gnu.lto_saCmsConfigOpmodelByGvar.27427be4340a8240,"",%progbits
+	.section	.gnu.lto_saCmsConfigOpmodelByGvar.c7bf07b427b7f1b2,"",%progbits
 	.ascii	"x\234\215S\315KTQ\024?\347\335\3675oF#Z).$\022Q\304"
 	.ascii	"\221\\\264\312U\313\376\007\0215\020\034\025G\243\335"
 	.ascii	"\\?B-\013\213\234j|\345D\224\270\010\023\277\322L_:"
@@ -786,7 +786,7 @@
 	.ascii	"\205\345\240\324]\250\362\327\311\376\312\352KZm\235"
 	.ascii	"\257\266\242\262\372/?\207|8"
 	.text
-	.section	.gnu.lto_saCmsConfigChanByGvar.part.4.27427be4340a8240,"",%progbits
+	.section	.gnu.lto_saCmsConfigChanByGvar.part.4.c7bf07b427b7f1b2,"",%progbits
 	.ascii	"x\234mR\317O\023Q\020~\337\316n[[YL\274\030\323\203"
 	.ascii	"\227\036\232 M=\350?\340\377\3214\025\223&\266\022\012"
 	.ascii	"\306[\037T\245\025\017\215\321\022\233\325\324p0\234"
@@ -821,7 +821,7 @@
 	.ascii	"\207\316$\317\367&\224\325\177:\231\35173}\347\316\376"
 	.ascii	"\001\320\277\374\""
 	.text
-	.section	.gnu.lto_saCmsConfigChanByGvar.27427be4340a8240,"",%progbits
+	.section	.gnu.lto_saCmsConfigChanByGvar.c7bf07b427b7f1b2,"",%progbits
 	.ascii	"x\234\215T\337K\024Q\024\276\347\336\371\275\256%AT"
 	.ascii	"H\010\006b\204\013\031\275\364\332C\377\205\210\031"
 	.ascii	"\010\255\211\253\321S;\271\232J=H\344f\353\024\333C"
@@ -868,7 +868,7 @@
 	.ascii	"\304\347-\255\256)\255\275Xq\245\250\214\210U\347+|"
 	.ascii	"U\202\257\374\362\245\277\223I\2473"
 	.text
-	.section	.gnu.lto_saCmsConfigBandByGvar.part.5.27427be4340a8240,"",%progbits
+	.section	.gnu.lto_saCmsConfigBandByGvar.part.5.c7bf07b427b7f1b2,"",%progbits
 	.ascii	"x\234mR\317O\023Q\020~\337\316n[[)&^\214\351\301K\017"
 	.ascii	"\215HS\017\376\005\376\037MS1ib+\241`\274\365AUZ\361"
 	.ascii	"\320\030-\261Y\315\032\016\006/`D\241U\333\212?\220"
@@ -901,7 +901,7 @@
 	.ascii	"&\323YY\361\364@f$~n\370|<\233N\014\015'FN\245\316\366"
 	.ascii	"'\2255x2\225\0354\263\003gN\377\001]\232\373\340"
 	.text
-	.section	.gnu.lto_saCmsConfigBandByGvar.27427be4340a8240,"",%progbits
+	.section	.gnu.lto_saCmsConfigBandByGvar.c7bf07b427b7f1b2,"",%progbits
 	.ascii	"x\234\215T\357KSa\024~\317}\357\3579K\202\2500\020\014"
 	.ascii	"D\011\007\031\375\005}\350\277\020Q\003\241\2318\215"
 	.ascii	">\265[\323TL\220\310\245\363V\353CIP\2304\265Y\351M"
@@ -947,7 +947,7 @@
 	.ascii	"R\237\267\254\266\256\254\276\242\352rq9\221j\316W\371"
 	.ascii	"jD_\345\245\213\177\001\334.\245\270"
 	.text
-	.section	.gnu.lto_saUpdateStatusString.part.6.27427be4340a8240,"",%progbits
+	.section	.gnu.lto_saUpdateStatusString.part.6.c7bf07b427b7f1b2,"",%progbits
 	.ascii	"x\234\215X\377ST\327\025\177\347\276\375\376\225\335"
 	.ascii	"\005\004D\205Del\3230L\372C\246\235:\223\316\264\277"
 	.ascii	"v\332\177\3008\332\314\344\007\355LL:\375\215%|[\022"
@@ -1066,7 +1066,7 @@
 	.ascii	"\361/\212\345\205\337\377\001\277L\353~\275\025\207"
 	.ascii	"\347\266*\377\007\253\3201\265"
 	.text
-	.section	.gnu.lto_saUpdateStatusString.27427be4340a8240,"",%progbits
+	.section	.gnu.lto_saUpdateStatusString.c7bf07b427b7f1b2,"",%progbits
 	.ascii	"x\234\215UYO\024A\020\356\352\236kg\366\362A0\306\007"
 	.ascii	"\023M\024L\330\007\177\205\361G\020\202<\360\000&\034"
 	.ascii	"\3067F\0219=BdE\334\310\232`\004\0031D@\027QW@\016\345"
@@ -1116,7 +1116,7 @@
 	.ascii	"\337\371%E\245\225\371'*N\346\227\227\024\224U\024T"
 	.ascii	"\036+>\236WH\376\002\352\367'\307"
 	.text
-	.section	.gnu.lto_saCmsUpdate.27427be4340a8240,"",%progbits
+	.section	.gnu.lto_saCmsUpdate.c7bf07b427b7f1b2,"",%progbits
 	.ascii	"x\234\215\225\333k\024I\024\306\353T\365}f:*\254lDA"
 	.ascii	"\364A\242\220y\025\366\377\3605\204\350\203\017Q0*\276"
 	.ascii	"\245u\324db\026e\321Y\015\023w\026\205U\226E\262\032"
@@ -1174,7 +1174,7 @@
 	.ascii	"n\251kj\254\337\260\261~\323\352\265\353k\033\310\177"
 	.ascii	"\315\207\274x"
 	.text
-	.section	.gnu.lto_saCmsResetOpmodel.27427be4340a8240,"",%progbits
+	.section	.gnu.lto_saCmsResetOpmodel.c7bf07b427b7f1b2,"",%progbits
 	.ascii	"x\234M\216?K\303P\024\305\357yO\323\240\350\252\240"
 	.ascii	"_ \024\232\217\024Bt\350\220\012M+ny\266\324Vt\020\321"
 	.ascii	"v\011\022'G\021\353\237l\217\202k\205\256\335:\210\210"
@@ -1191,7 +1191,7 @@
 	.ascii	"nT\016\334\320/\226\334 \214\014^\270]\252z\273\225"
 	.ascii	"=/\012\375r\305\257n\025w\012\001\375\000T\010\\\322"
 	.text
-	.section	.gnu.lto_saCmsMenuStats.27427be4340a8240,"",%progbits
+	.section	.gnu.lto_saCmsMenuStats.c7bf07b427b7f1b2,"",%progbits
 	.ascii	"x\234cc``H\005bm\006\010\230\302\314\270s\347\233\333"
 	.ascii	"\354\365\177\033:\032\032\036t\337\344\326\230\303\314"
 	.ascii	"\260\200\031\"5\255\365\320y\366n\3469\314\214\214("
@@ -1201,7 +1201,7 @@
 	.ascii	"f\236~rn1\010\307\347\246\346\225\306\227\225T\304\027"
 	.ascii	"\347&\026\225$\226\246d\346\353%3\000\000\241\3551I"
 	.text
-	.section	.gnu.lto_saCmsEntBand.27427be4340a8240,"",%progbits
+	.section	.gnu.lto_saCmsEntBand.c7bf07b427b7f1b2,"",%progbits
 	.ascii	"x\234cc``\310\007bm\006\010\230\302\314\330\374k\377"
 	.ascii	"g\276\372\277\0153\032\032\036t\337\345\256\231\303"
 	.ascii	"\314\260\200\031\"ur\311\256?<\335\314s\230\031\031"
@@ -1212,7 +1212,7 @@
 	.ascii	"\270(Y?713O?9\267\030\204\343sS\363J\343\313J*\342\213"
 	.ascii	"s\023\213J\022KS2\363\365\222\031\000\031W7\375"
 	.text
-	.section	.gnu.lto_saCmsEntChan.27427be4340a8240,"",%progbits
+	.section	.gnu.lto_saCmsEntChan.c7bf07b427b7f1b2,"",%progbits
 	.ascii	"x\234cc``\310\007bm\006\010\230\302\314\330\374k\377"
 	.ascii	"g\276\372\277\0153\032\032\036t\337\347\256\231\303"
 	.ascii	"\314\260\200\031\"5k\367\227S\254\335\314s\230\031\031"
@@ -1223,7 +1223,7 @@
 	.ascii	"\270(Y?713O?9\267\030\204\343sS\363J\343\313J*\342\213"
 	.ascii	"s\023\213J\022KS2\363\365\222\031\000\027\0167\376"
 	.text
-	.section	.gnu.lto_saCmsEntFreqRef.27427be4340a8240,"",%progbits
+	.section	.gnu.lto_saCmsEntFreqRef.c7bf07b427b7f1b2,"",%progbits
 	.ascii	"x\234cc``\250\005bm\006\010\230\302\314\270\376\315"
 	.ascii	"\316\237\274\335\314s\230\031\030A\334\303\317\316\356"
 	.ascii	"\347\200p{\364\200\374\317\037\026=c\205\360\037h\003"
@@ -1234,7 +1234,7 @@
 	.ascii	"\270(Y?713O?9\267\030\204\343sS\363J\343\313J*\342\213"
 	.ascii	"s\023\213J\022KS2\363\365\222\031\000zR:\337"
 	.text
-	.section	.gnu.lto_saCmsEntPower.27427be4340a8240,"",%progbits
+	.section	.gnu.lto_saCmsEntPower.c7bf07b427b7f1b2,"",%progbits
 	.ascii	"x\234cc``\310\007bm\006\010\230\302\314\330\374k\377"
 	.ascii	"g\276\372\277\0153\032\032\036t\277\344\316\231\303"
 	.ascii	"\314\260\200\031\"u\261e\303\034\346n\3469\314\214\214"
@@ -1245,7 +1245,7 @@
 	.ascii	"\234[\014\302\361\271\251y\245\361e%\025\361\305\271"
 	.ascii	"\211E%\211\245)\231\371z\311\014\000\366\2327\326"
 	.text
-	.section	.gnu.lto_saCmsMenuCommence.27427be4340a8240,"",%progbits
+	.section	.gnu.lto_saCmsMenuCommence.c7bf07b427b7f1b2,"",%progbits
 	.ascii	"x\234cc``H\003bm\006\010\230\302\314\270s\347\233\333"
 	.ascii	"\354\365\177\033:\032\032\036t\237\024nd\235\303\314"
 	.ascii	"\260\200\031\"7\255\365\320y\366n\3469\314\214\214("
@@ -1255,7 +1255,7 @@
 	.ascii	"f\236~rn1\010\307\347\246\346\225\306\227\225T\304\027"
 	.ascii	"\347&\026\225$\226\246d\346\353%3\000\000\327\2011\240"
 	.text
-	.section	.gnu.lto_saCmsMenuConfig.27427be4340a8240,"",%progbits
+	.section	.gnu.lto_saCmsMenuConfig.c7bf07b427b7f1b2,"",%progbits
 	.ascii	"x\234cc``H\003bm\006\010\230\302\314\270s\347\233\333"
 	.ascii	"\354\365\177\033:\032\032\036t\317\023nd\235\303\314"
 	.ascii	"\260\200\031\"7\255\365\320y\366n\3469\314\214\214("
@@ -1265,7 +1265,7 @@
 	.ascii	"f\236~rn1\010\307\347\246\346\225\306\227\225T\304\027"
 	.ascii	"\347&\026\225$\226\246d\346\353%3\000\000\301\3261u"
 	.text
-	.section	.gnu.lto_saCmsMenuUserFreq.27427be4340a8240,"",%progbits
+	.section	.gnu.lto_saCmsMenuUserFreq.c7bf07b427b7f1b2,"",%progbits
 	.ascii	"x\234cc``(\002bm\006\010\230\302\314\270s\347\233\333"
 	.ascii	"\354\365\177\033:\032\032\036t\277\026ld\235\303\314"
 	.ascii	"\260\200\031\"7\255\365\320y\366n\3469\314\214\214\350"
@@ -1276,7 +1276,7 @@
 	.ascii	"\254\244\"\27687\261\250$\2614%3_/\231\001\000{\304"
 	.ascii	"8l"
 	.text
-	.section	.gnu.lto_saCmsMenuCommenceEntries.27427be4340a8240,"",%progbits
+	.section	.gnu.lto_saCmsMenuCommenceEntries.c7bf07b427b7f1b2,"",%progbits
 	.ascii	"x\234cc``0ab`\260g\200\200)\314\214\353\337\354\374"
 	.ascii	"\311\333\315<\207\231\201\021\304\235\326z\350<;\210"
 	.ascii	"\313\010\346\276\275\266z\0153\210\313\304\310\207,"
@@ -1303,7 +1303,7 @@
 	.ascii	"KS2\363\365\222\031X\"]\203\0318\234\375\375\334<\203"
 	.ascii	"|\031\000r\011\311\213"
 	.text
-	.section	.gnu.lto_saCmsMenuConfigEntries.27427be4340a8240,"",%progbits
+	.section	.gnu.lto_saCmsMenuConfigEntries.c7bf07b427b7f1b2,"",%progbits
 	.ascii	"x\234u\324IL\023a\024\000\340y\363w\241\005\212h4\036"
 	.ascii	"\232\330\036=\000\221\023\036\021\301\020\221V\312A"
 	.ascii	"O\204\240\007\016hd1\336\0306YL\324D T\207\320\004\021"
@@ -1348,7 +1348,7 @@
 	.ascii	"\304]\215\311,\356$0\2720\203%\332\020cJ\214\213?c\010"
 	.ascii	"c\376\001\253=\340\015"
 	.text
-	.section	.gnu.lto___compound_literal.11.27427be4340a8240,"",%progbits
+	.section	.gnu.lto___compound_literal.11.c7bf07b427b7f1b2,"",%progbits
 	.ascii	"x\234cc``(\000bm\006\010\230\302\314\330\374k\377g\276"
 	.ascii	"\372\277\0153\032\032\036t\377\026|h:\207\231a\0013"
 	.ascii	"D\356\350\377\357\007\370\273\231\3470322\001\271;w"
@@ -1360,7 +1360,7 @@
 	.ascii	"\225\306\227\225T\304\027\347&\026\225$\226\246d\346"
 	.ascii	"\353%3\000\000\304\3619B"
 	.text
-	.section	.gnu.lto_saCmsEntFselMode.27427be4340a8240,"",%progbits
+	.section	.gnu.lto_saCmsEntFselMode.c7bf07b427b7f1b2,"",%progbits
 	.ascii	"x\234cc``(\000bm\006\010\230\302\314\330\374k\377g\276"
 	.ascii	"\372\277\0153\032\032\036t\277\023\274\310?\207\231"
 	.ascii	"a\0013Dn\313\221\343m\034\335\314s\230\031\031\031\201"
@@ -1371,7 +1371,7 @@
 	.ascii	"713O?9\267\030\204\343sS\363J\343\313J*\342\213s\023"
 	.ascii	"\213J\022KS2\363\365\222\031\000BB84"
 	.text
-	.section	.gnu.lto_saCmsEntPitFMode.27427be4340a8240,"",%progbits
+	.section	.gnu.lto_saCmsEntPitFMode.c7bf07b427b7f1b2,"",%progbits
 	.ascii	"x\234cc``\310\007bm\006\010\230\302\314\330\374k\377"
 	.ascii	"g\276\372\277\0153\032\032\036t\367\361V\315afX\300"
 	.ascii	"\014\221\332r\344x\033G7\363\034fFFF w\347\3167\267"
@@ -1382,7 +1382,7 @@
 	.ascii	"\370\334\324\274\322\370\262\222\212\370\342\334\304"
 	.ascii	"\242\222\304\322\224\314|\275d\006\000\31237i"
 	.text
-	.section	.gnu.lto_saCmsMenuPORFreq.27427be4340a8240,"",%progbits
+	.section	.gnu.lto_saCmsMenuPORFreq.c7bf07b427b7f1b2,"",%progbits
 	.ascii	"x\234cc``(\002bm\006\010\230\302\314\270s\347\233\333"
 	.ascii	"\354\365\177\033:\032\032\036t\357\025ld\235\303\314"
 	.ascii	"\260\200\031\"7\255\365\320y\366n\3469\314\214\214\350"
@@ -1393,7 +1393,7 @@
 	.ascii	"\254\244\"\27687\261\250$\2614%3_/\231\001\000P\322"
 	.ascii	"8\020"
 	.text
-	.section	.gnu.lto_saCmsOpmodelNames.27427be4340a8240,"",%progbits
+	.section	.gnu.lto_saCmsOpmodelNames.c7bf07b427b7f1b2,"",%progbits
 	.ascii	"x\234cc``8\004\304\266\014\0200\205\231q\372\277#?\230"
 	.ascii	"\025\231\3467\314P\230\303\014\026\231\264r\325K\366"
 	.ascii	"\372\277\0153\032\032\036<n\220\017\235\303\314\310"
@@ -1409,7 +1409,7 @@
 	.ascii	"\311\014\254nA\256\256\014\254\272@\300\000\000\203"
 	.ascii	"iW\374"
 	.text
-	.section	.gnu.lto_saCmsFselModeNames.27427be4340a8240,"",%progbits
+	.section	.gnu.lto_saCmsFselModeNames.c7bf07b427b7f1b2,"",%progbits
 	.ascii	"x\234cc``h\000bs\006\010\230\302\314\270\360\361\231"
 	.ascii	"\233|\212L\363\033f(\314a\006\213<^\261\177?o\375\337"
 	.ascii	"\206\031\015\015\017\036?\220\027\235\303\314\310\270"
@@ -1422,7 +1422,7 @@
 	.ascii	"\231\257\227\314\300\352\354\341\350\307\000\000\007"
 	.ascii	"JA\032"
 	.text
-	.section	.gnu.lto_saCmsMenuUserFreqEntries.27427be4340a8240,"",%progbits
+	.section	.gnu.lto_saCmsMenuUserFreqEntries.c7bf07b427b7f1b2,"",%progbits
 	.ascii	"x\234u\222_HSQ\034\307\317\357\236\335\375s\233o\321"
 	.ascii	"`\017\273\217=\270\221/\355\325d\275\010Q\332\210\236"
 	.ascii	"\326X=\3700\003\247\022\364\340M\212\311\242\210\320"
@@ -1459,7 +1459,7 @@
 	.ascii	"\247\325\275\037\031\232=\255\354\315\322`\367\264\271"
 	.ascii	"\231\2617\240\277JL?t"
 	.text
-	.section	.gnu.lto___compound_literal.9.27427be4340a8240,"",%progbits
+	.section	.gnu.lto___compound_literal.9.c7bf07b427b7f1b2,"",%progbits
 	.ascii	"x\234cc``\250\003bm\006\010\230\302\314\270\376\315"
 	.ascii	"\316\237\274\335\314s\230\031\030A\334]W~42C\270\357"
 	.ascii	"\365\200\374)\255g\3361A\370\035\352@\376\316\235on"
@@ -1470,7 +1470,7 @@
 	.ascii	"\247\237\234[\014\302\361\271\251y\245\361e%\025\361"
 	.ascii	"\305\271\211E%\211\245)\231\371z\311\014\000p\272:\304"
 	.text
-	.section	.gnu.lto___compound_literal.10.27427be4340a8240,"",%progbits
+	.section	.gnu.lto___compound_literal.10.c7bf07b427b7f1b2,"",%progbits
 	.ascii	"x\234cc``\250\005bm\006\010\230\302\314\270\345\310"
 	.ascii	"\3616\216n\3469\314\014\214\214@\356\256+?\032\231!"
 	.ascii	"\334\367z@\376\224\3263\357\230 \374\016u \177\347\316"
@@ -1482,7 +1482,7 @@
 	.ascii	"\222\212\370\342\334\304\242\222\304\322\224\314|\275"
 	.ascii	"d\006\000\336\2259\356"
 	.text
-	.section	.gnu.lto_saCmsMenuPORFreqEntries.27427be4340a8240,"",%progbits
+	.section	.gnu.lto_saCmsMenuPORFreqEntries.c7bf07b427b7f1b2,"",%progbits
 	.ascii	"x\234u\222ML\023A\030\206\347\333\351\366gi\341@4\036"
 	.ascii	"z\350\036=\320F.\366\212\244^H\024Q\242\267\332T\017"
 	.ascii	"\034\212\011\005b\342\201\225@J \0325\3204\272\206F"
@@ -1517,7 +1517,7 @@
 	.ascii	"\231\246sv/\322\035w\235@\246#\256\223\266\303\015\256"
 	.ascii	"c\310T\333\330\300f\226*[\375Q6\267U\241\277\313E?c"
 	.text
-	.section	.gnu.lto___compound_literal.7.27427be4340a8240,"",%progbits
+	.section	.gnu.lto___compound_literal.7.c7bf07b427b7f1b2,"",%progbits
 	.ascii	"x\234cc``\250\003bm\006\010\230\302\314\270\376\315"
 	.ascii	"\316\237\274\335\314s\230\031\030A\334]W~42C\270\357"
 	.ascii	"\365\200\374)\255g\3361A\370\035\352@\376\316\235on"
@@ -1528,7 +1528,7 @@
 	.ascii	"\247\237\234[\014\302\361\271\251y\245\361e%\025\361"
 	.ascii	"\305\271\211E%\211\245)\231\371z\311\014\000W.:\206"
 	.text
-	.section	.gnu.lto___compound_literal.8.27427be4340a8240,"",%progbits
+	.section	.gnu.lto___compound_literal.8.c7bf07b427b7f1b2,"",%progbits
 	.ascii	"x\234cc``\250\005bm\006\010\230\302\314\270\345\310"
 	.ascii	"\3616\216n\3469\314\014\214\214@\356\256+?\032\231!"
 	.ascii	"\334\367z@\376\224\3263\357\230 \374\016u \177\347\316"
@@ -1540,7 +1540,7 @@
 	.ascii	"\262\222\212\370\342\334\304\242\222\304\322\224\314"
 	.ascii	"|\275d\006\000\305G9\260"
 	.text
-	.section	.gnu.lto_saCmsPitFModeNames.27427be4340a8240,"",%progbits
+	.section	.gnu.lto_saCmsPitFModeNames.c7bf07b427b7f1b2,"",%progbits
 	.ascii	"x\234cc``8\014\304V\014\0200\205\231\361\335\345G\037"
 	.ascii	"X\025\231\3467\314P\230\303\014\026y\364\354Y\013s\375"
 	.ascii	"\337\206\031\015\015\017\346\367\3602\316afd\334\314"
@@ -1555,7 +1555,7 @@
 	.ascii	"\271\251y\245\361e%\025\361\305\271\211E%\211\245)\231"
 	.ascii	"\371z\311@\345\236A\014,\272\272\272\014\000+\343Z0"
 	.text
-	.section	.gnu.lto_saCmsMenuStatsEntries.27427be4340a8240,"",%progbits
+	.section	.gnu.lto_saCmsMenuStatsEntries.c7bf07b427b7f1b2,"",%progbits
 	.ascii	"x\234u\324KL\023A\030\007\360\371v\272\335RZ\360b\274"
 	.ascii	"\364\300\036=\010Q/\304[\201zP#\246\005\243\027\011"
 	.ascii	"A\023=\240F\300x1V\005\301GL|\240\250k\254F\243\001"
@@ -1604,7 +1604,7 @@
 	.ascii	"\365 \373\214\024\2173\205\026\236\224\031\350/\333"
 	.ascii	"JE\224"
 	.text
-	.section	.gnu.lto_saCmsEntOnline.27427be4340a8240,"",%progbits
+	.section	.gnu.lto_saCmsEntOnline.c7bf07b427b7f1b2,"",%progbits
 	.ascii	"x\234cc``\310\007bm\006\010\230\302\314\330\374k\377"
 	.ascii	"g\276\372\277\0153\032\032\036t\257\342\256\231\303"
 	.ascii	"\314\260\200\031\"u\364\377\367\003\374\335\314s\230"
@@ -1616,7 +1616,7 @@
 	.ascii	"*\342\213s\023\213J\022KS2\363\365\222\031\0005\374"
 	.ascii	"8J"
 	.text
-	.section	.gnu.lto___compound_literal.0.27427be4340a8240,"",%progbits
+	.section	.gnu.lto___compound_literal.0.c7bf07b427b7f1b2,"",%progbits
 	.ascii	"x\234cc``\210\005bm\006\010\230\302\314\270\376\315"
 	.ascii	"\316\237\274\335\314s\230\031\030A\334\235;\337\334"
 	.ascii	"f\257\377\333\320\321\320\360\240{=w\356\034f\306\005"
@@ -1626,7 +1626,7 @@
 	.ascii	"~rn1\010\307\347\246\346\225\306\227\225T\304\027\347"
 	.ascii	"&\026\225$\226\246d\346\353%3\000\000Y\011/4"
 	.text
-	.section	.gnu.lto___compound_literal.1.27427be4340a8240,"",%progbits
+	.section	.gnu.lto___compound_literal.1.c7bf07b427b7f1b2,"",%progbits
 	.ascii	"x\234cc``\330\011\304\332\014\0200\205\231q\375\233"
 	.ascii	"\235?y\273\231\347030\202\270\323Z\017\235g\007q\031"
 	.ascii	"\301\334\235;\337\334f\257\377\333\300\001\024X\300"
@@ -1641,7 +1641,7 @@
 	.ascii	"+\215/+\251\210/\316M,*I,M\311\314\327Kf\000\0006\030"
 	.ascii	"La"
 	.text
-	.section	.gnu.lto___compound_literal.2.27427be4340a8240,"",%progbits
+	.section	.gnu.lto___compound_literal.2.c7bf07b427b7f1b2,"",%progbits
 	.ascii	"x\234cc``\330\011\304\332\014\0200\205\231q\375\233"
 	.ascii	"\235?y\273\231\347030\202\270\323Z\017\235g\007q\031"
 	.ascii	"\301\334\235;\337\334f\257\377\333\300\001\024X\300"
@@ -1655,7 +1655,7 @@
 	.ascii	"\334\304\314<\375\344\334b\020\216\317M\315+\215/+\251"
 	.ascii	"\210/\316M,*I,M\311\314\327Kf\000\0006\241Lb"
 	.text
-	.section	.gnu.lto___compound_literal.3.27427be4340a8240,"",%progbits
+	.section	.gnu.lto___compound_literal.3.c7bf07b427b7f1b2,"",%progbits
 	.ascii	"x\234cc``\330\011\304\332\014\0200\205\231q\375\233"
 	.ascii	"\235?y\273\231\347030\202\270\323Z\017\235g\007q\031"
 	.ascii	"\301\334\235;\337\334f\257\377\333\300\001\024X\300"
@@ -1670,7 +1670,7 @@
 	.ascii	"+\215/+\251\210/\316M,*I,M\311\314\327Kf\000\0007*L"
 	.ascii	"c"
 	.text
-	.section	.gnu.lto___compound_literal.4.27427be4340a8240,"",%progbits
+	.section	.gnu.lto___compound_literal.4.c7bf07b427b7f1b2,"",%progbits
 	.ascii	"x\234cc``\330\011\304\332\014\0200\205\231q\375\233"
 	.ascii	"\235?y\273\231\347030\202\270\323Z\017\235g\007q\031"
 	.ascii	"\301\334\235;\337\334f\257\377\333\300\001\024X\300"
@@ -1684,7 +1684,7 @@
 	.ascii	"\334\304\314<\375\344\334b\020\216\317M\315+\215/+\251"
 	.ascii	"\210/\316M,*I,M\311\314\327Kf\000\0007\263Ld"
 	.text
-	.section	.gnu.lto___compound_literal.5.27427be4340a8240,"",%progbits
+	.section	.gnu.lto___compound_literal.5.c7bf07b427b7f1b2,"",%progbits
 	.ascii	"x\234cc``\330\011\304\332\014\0200\205\231q\375\233"
 	.ascii	"\235?y\273\231\347030\202\270\323Z\017\235g\007q\031"
 	.ascii	"\301\334\235;\337\334f\257\377\333\300\001\024X\300"
@@ -1699,7 +1699,7 @@
 	.ascii	"+\215/+\251\210/\316M,*I,M\311\314\327Kf\000\0008<L"
 	.ascii	"e"
 	.text
-	.section	.gnu.lto___compound_literal.6.27427be4340a8240,"",%progbits
+	.section	.gnu.lto___compound_literal.6.c7bf07b427b7f1b2,"",%progbits
 	.ascii	"x\234cc``\330\011\304\332\014\0200\205\231q\375\233"
 	.ascii	"\235?y\273\231\347030\202\270\323Z\017\235g\007q\031"
 	.ascii	"\301\334\235;\337\334f\257\377\333\300\001\024X\300"
@@ -1713,7 +1713,7 @@
 	.ascii	"\334\304\314<\375\344\334b\020\216\317M\315+\215/+\251"
 	.ascii	"\210/\316M,*I,M\311\314\327Kf\000\0008\305Lf"
 	.text
-	.section	.gnu.lto_saCmsDeviceStatusNames.27427be4340a8240,"",%progbits
+	.section	.gnu.lto_saCmsDeviceStatusNames.c7bf07b427b7f1b2,"",%progbits
 	.ascii	"x\234cc``8\004\304\216\014\0200\205\231q\343\221\243"
 	.ascii	"\033\371\024\231\3467\314P\230\303\014\026y4\277g2K"
 	.ascii	"\375\337\206\031\015\015\017^\177\020\016\235\303\314"
@@ -1729,7 +1729,7 @@
 	.ascii	"E%\211\245)\231\371z\311P\035\206\014\254\376nn>\014"
 	.ascii	"\000\276\334[\034"
 	.text
-	.section	.gnu.lto_.symbol_nodes.27427be4340a8240,"",%progbits
+	.section	.gnu.lto_.symbol_nodes.c7bf07b427b7f1b2,"",%progbits
 	.ascii	"x\234]\224\327SSA\024\306\367\313\222PC/\241&\004\224"
 	.ascii	"\242\202\275+\360\227\235\3100:\303\003(XQ\0015\366"
 	.ascii	"\006V@Q\211\024\025\001{\243G\300\206\242/\314\2503"
@@ -1770,7 +1770,7 @@
 	.ascii	"\017\227\305AU\271q^j\305_\257\206\323P\273\000U5\352"
 	.ascii	"H%\305\242\262f\314%KKD\240v\326-\376\002\034\223h\370"
 	.text
-	.section	.gnu.lto_.refs.27427be4340a8240,"",%progbits
+	.section	.gnu.lto_.refs.c7bf07b427b7f1b2,"",%progbits
 	.ascii	"x\234UR\347R\0331\030\334]\351\316\355\254+66\006\316"
 	.ascii	"\204\020\233\200h\006\002\201@\312L\352\237\364\344"
 	.ascii	"y\323{\357y\202\274Ft\231\311L\362C\253\321~+\355W\024"
@@ -1801,7 +1801,7 @@
 	.ascii	"\237\340M\375\000o\351;x\273\202;\025\334\255\340^\005"
 	.ascii	"\367\003\3407wI@X"
 	.text
-	.section	.gnu.lto_.decls.27427be4340a8240,"",%progbits
+	.section	.gnu.lto_.decls.c7bf07b427b7f1b2,"",%progbits
 	.ascii	"x\234\265|\011\\U\327\325\357=w\337{\201\313d01&\265"
 	.ascii	"m\232\237M\355{/1&m\222\276\337\257}\031\232\264\371"
 	.ascii	"^\223\364\327\014\375\232o\240\250\230\320*\030\300"
@@ -2560,7 +2560,7 @@
 	.ascii	"L\326\216\256\277\246\245\273\341=\342\275C\256x4\376"
 	.ascii	"?\314\360\232\015"
 	.text
-	.section	.gnu.lto_.symtab.27427be4340a8240,"",%progbits
+	.section	.gnu.lto_.symtab.c7bf07b427b7f1b2,"",%progbits
 	.ascii	"saCmsORFreq\000"
 	.ascii	"\000"
 	.ascii	"\000"

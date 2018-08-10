@@ -9,10 +9,10 @@
 	.eabi_attribute 34, 1
 	.eabi_attribute 18, 4
 	.file	"rc_modes.c"
-	.section	.gnu.lto_.profile.bb0551a4860a520b,"",%progbits
+	.section	.gnu.lto_.profile.ec8878336a8a821e,"",%progbits
 	.ascii	"x\234cc```\003bF\206\307\314?\030\001\006*\001\355"
 	.text
-	.section	.gnu.lto_.icf.bb0551a4860a520b,"",%progbits
+	.section	.gnu.lto_.icf.ec8878336a8a821e,"",%progbits
 	.ascii	"x\234cc``\210b@\000~\206\203w?+3\365\377}\377\234\227"
 	.ascii	"\371R\347\034\177\0260\223\265{\317\342s\314l\263\236"
 	.ascii	"l\234\317\310\336\277\261\361\037\013\307\343\317g'"
@@ -20,7 +20,7 @@
 	.ascii	"\351\340\342\371>\347\311\007N\336\247]k\2473\363\265"
 	.ascii	"\234\334\373\216\207\037,\316\000\000)\362-\027"
 	.text
-	.section	.gnu.lto_.jmpfuncs.bb0551a4860a520b,"",%progbits
+	.section	.gnu.lto_.jmpfuncs.ec8878336a8a821e,"",%progbits
 	.ascii	"x\234\255\224\277O\302@\024\307\357{-m%\242#K'F\377"
 	.ascii	"/\377\010&:\210\2111q F\023\303\340\352`\324\210bA\005"
 	.ascii	"\321\304\304\30589\2702\262\351b\374Q\337\353\235\215"
@@ -45,7 +45,7 @@
 	.ascii	"\247w\326\243\316\016\21090\0266\3748\354,\251\302\034"
 	.ascii	"\334\352k\234t~\277]\325\234\314v#\205\020?43\242\351"
 	.text
-	.section	.gnu.lto_.inline.bb0551a4860a520b,"",%progbits
+	.section	.gnu.lto_.inline.ec8878336a8a821e,"",%progbits
 	.ascii	"x\234mQ\275J\003A\020\376fw\357n\357rIN\221\020EM\012"
 	.ascii	"M `\364\005\222\306\312\302{\020}\020\005\233+\304\312"
 	.ascii	"\"\205 \226\032\225T\022\260\025D\261\210O\240\245\265"
@@ -66,11 +66,11 @@
 	.ascii	"=u\305\3373F\362f\236B,]_\304\205A\031\253O\3124[w\347"
 	.ascii	"\275\237\2563\026\014\277\001[\214J\215"
 	.text
-	.section	.gnu.lto_.pureconst.bb0551a4860a520b,"",%progbits
+	.section	.gnu.lto_.pureconst.ec8878336a8a821e,"",%progbits
 	.ascii	"x\234cc``\020\005b.\006If\011VI6\011vV\016INI.I\036"
 	.ascii	"V^I\000\016\204\001?"
 	.text
-	.section	.gnu.lto_updateMasksForStickyModes.part.0.bb0551a4860a520b,"",%progbits
+	.section	.gnu.lto_updateMasksForStickyModes.part.0.ec8878336a8a821e,"",%progbits
 	.ascii	"x\234\215T[O\\U\024\336\353\354s\2319sa\270\230\000"
 	.ascii	"\231\007\022%\330\2320V\033\037\374\011&\306'\023}2"
 	.ascii	"dZS\323\000Ii\342#\247\\\2070\321J\354\200\207I\031"
@@ -138,7 +138,7 @@
 	.ascii	"CoV\325\0355j\016\177H\327\322\234\352pmuum\015\336"
 	.ascii	"\037?RWy\204\375\007g.I\333"
 	.text
-	.section	.gnu.lto_IS_RC_MODE_ACTIVE.bb0551a4860a520b,"",%progbits
+	.section	.gnu.lto_IS_RC_MODE_ACTIVE.ec8878336a8a821e,"",%progbits
 	.ascii	"x\234M\220\317K\002A\024\307\337w\307]\205\322[A\270"
 	.ascii	"\207:\211\027\015\372+\372+\242\264\250\203\011z\351"
 	.ascii	"\266\223\"*\025D\244\205,\261\227\250[E\366\303\204"
@@ -160,7 +160,7 @@
 	.ascii	"\213&\246\027\026\243s\261h*6\225H\306g\323\221\030"
 	.ascii	"\3513\311\245\311\370\017t\000}\""
 	.text
-	.section	.gnu.lto_rcModeUpdate.bb0551a4860a520b,"",%progbits
+	.section	.gnu.lto_rcModeUpdate.ec8878336a8a821e,"",%progbits
 	.ascii	"x\234%\220KKBQ\020\307\347\177\317\355z\241r\033\222"
 	.ascii	"D\013A\334\350W\011\372\000!7\203\026\032\250\320\322"
 	.ascii	"\243\026\332c\021Q\006\"q\027\205-\212\212\354a\271"
@@ -181,7 +181,7 @@
 	.ascii	"\211Q4\"O0\224\210[\241hx>\026\232\263Bqk&\2720\033"
 	.ascii	"I\004-2c\221\305\351d8\031\371\007:hzy"
 	.text
-	.section	.gnu.lto_isAirmodeActive.bb0551a4860a520b,"",%progbits
+	.section	.gnu.lto_isAirmodeActive.ec8878336a8a821e,"",%progbits
 	.ascii	"x\234URMk\024A\020\255\327\225\356\231\004\023s\021"
 	.ascii	"\021\347 \210\207D\310*A\310\331?\"\262*x\210B\362\003"
 	.ascii	"\246\335\354\222\035\342A\304\314\006Y\302B\016\311"
@@ -209,7 +209,7 @@
 	.ascii	"P@\317\312{;5V\230\236*\026&\257\336\274U\270Q,L\025"
 	.ascii	"\257L\336\276v}z\254H\377\000q\213\271\234"
 	.text
-	.section	.gnu.lto_isRangeActive.bb0551a4860a520b,"",%progbits
+	.section	.gnu.lto_isRangeActive.ec8878336a8a821e,"",%progbits
 	.ascii	"x\234\225TMl\224U\024}\347\275\357\2773C\201\222P3\211"
 	.ascii	"$.\032\252\351H\334\271p\343\312\204\204\255\256L3T"
 	.ascii	"k\264\323\244\325\204]?\230\376\221\316\2024\264\324"
@@ -262,7 +262,7 @@
 	.ascii	"\223\333\335\261\307\356i\317}\330\361R]\177\266\273"
 	.ascii	"\253\253;G\371\247\235\275m\235\342\005\346m\251\023"
 	.text
-	.section	.gnu.lto_updateMasksForMac.bb0551a4860a520b,"",%progbits
+	.section	.gnu.lto_updateMasksForMac.ec8878336a8a821e,"",%progbits
 	.ascii	"x\234\225TklTU\020>s\317\336{w\357\276\267 ]X`\241/"
 	.ascii	"+\011\205\350/\177\030\375kb\370e\242\277L-\030\014"
 	.ascii	"i\233P\023\177\366\322\327\226tI\020\244\217e\225\006"
@@ -343,7 +343,7 @@
 	.ascii	"\242\322\342\342\322\022\\\177\262\266l\371Z\366'\267"
 	.ascii	"8\376\016"
 	.text
-	.section	.gnu.lto_updateMasksForStickyModes.bb0551a4860a520b,"",%progbits
+	.section	.gnu.lto_updateMasksForStickyModes.ec8878336a8a821e,"",%progbits
 	.ascii	"x\234\225Umk\024W\024>\317\334\331\231\331u\263&\253"
 	.ascii	"\335\032\233\300\202\037b\374\340~\355o(\3647\224\260"
 	.ascii	"F(%)\230\017\375\270c\336%\246X1\233t;\264[\202\004"
@@ -396,7 +396,7 @@
 	.ascii	"\265|\270\247\271mw\226TKS\326mj\335\363nS\333\007n"
 	.ascii	"k\363G\362\376\017\015\306\001~"
 	.text
-	.section	.gnu.lto_updateActivatedModes.bb0551a4860a520b,"",%progbits
+	.section	.gnu.lto_updateActivatedModes.ec8878336a8a821e,"",%progbits
 	.ascii	"x\234\215V\353o\024U\024\277g\356\274\366\335\226\212"
 	.ascii	"\255,\241\2324\202\032V\022?\360O\360\311o\370\301\220"
 	.ascii	"\202\021\010`\250\211\361\203\331\201\276\255\002V\272"
@@ -484,7 +484,7 @@
 	.ascii	"\026\255\\\274`Q\351rm\345\222O\330?,}Q\334\207\344"
 	.ascii	"\177g\013G\337"
 	.text
-	.section	.gnu.lto_isModeActivationConditionPresent.bb0551a4860a520b,"",%progbits
+	.section	.gnu.lto_isModeActivationConditionPresent.ec8878336a8a821e,"",%progbits
 	.ascii	"x\234\215T\333oLa\020\237\337\231\357\\\272\335\326"
 	.ascii	"\003\017.G\322D\204\"\226H<z\367\017x\025)\302CI\352"
 	.ascii	"\017\330\303\266jC\244\301\226\254\023)R\227\025\251"
@@ -531,7 +531,7 @@
 	.ascii	"\272\232X\355\246\355;b[kbu5\033kwn\336\262ke\015Y\332"
 	.ascii	"X\277\031\333\377\005\331F?\001\373n\2766"
 	.text
-	.section	.gnu.lto_removeModeActivationCondition.bb0551a4860a520b,"",%progbits
+	.section	.gnu.lto_removeModeActivationCondition.ec8878336a8a821e,"",%progbits
 	.ascii	"x\234\215U\377O[U\024\277\347\336\367\255}m)\340\006"
 	.ascii	"3\365{\026\3344\253d\376\340/\376\350\017&\376\340\177"
 	.ascii	"`\014\033q?l\213\303_\015O`\005\202&\314IIJ\263\224"
@@ -601,7 +601,7 @@
 	.ascii	"VV\004OT\274q\364\370\241\303U\007*\230F\233W\017i\307"
 	.ascii	"++\253\016\277\003G\036d\371\026\373\037\010u\225_"
 	.text
-	.section	.gnu.lto_modeActivationConditions_Registry.bb0551a4860a520b,"",%progbits
+	.section	.gnu.lto_modeActivationConditions_Registry.ec8878336a8a821e,"",%progbits
 	.ascii	"x\234cc``\330\003\304\322\014\0200\205\231\361S\377"
 	.ascii	"\271\257,\026\333\032:\0264\010\314af\230\312\314\300"
 	.ascii	"\250'\003\222\230\326z\350<{7\363\034fFF\020w\347\316"
@@ -614,7 +614,7 @@
 	.ascii	"\372\271\211\231y\372i\311\372E\311\361\271\371)\251"
 	.ascii	"\305z\311\014\000\021mJ\252"
 	.text
-	.section	.gnu.lto_.symbol_nodes.bb0551a4860a520b,"",%progbits
+	.section	.gnu.lto_.symbol_nodes.ec8878336a8a821e,"",%progbits
 	.ascii	"x\234U\217=/\004a\024\205\317\235\273\263;3,\273>7\032"
 	.ascii	"\262?\300/\020\241\365\017T*\021\021\211\240Q\335!\303"
 	.ascii	"&$\"\374\003\226\370\376\376\332\245 \331\212\230J\224"
@@ -636,14 +636,14 @@
 	.ascii	"vv\232\021,\206\201d\006\336\275?\312I\325\250\024?"
 	.ascii	"6m\236&"
 	.text
-	.section	.gnu.lto_.refs.bb0551a4860a520b,"",%progbits
+	.section	.gnu.lto_.refs.ec8878336a8a821e,"",%progbits
 	.ascii	"x\234\035\211\261\015\2000\020\003m\347\223\000&P \012"
 	.ascii	"h\030\216\375w\340E\341\323\235\334\000\2749\001\354"
 	.ascii	"\322\315\242\020+\203lJt\260q\002w\315\212\"\215\276"
 	.ascii	"\310\025n\360\014o\360\011_\214'V\230p\201#\317\030"
 	.ascii	"\262\376J9\264e\355\370\000\2133\002\254"
 	.text
-	.section	.gnu.lto_.decls.bb0551a4860a520b,"",%progbits
+	.section	.gnu.lto_.decls.ec8878336a8a821e,"",%progbits
 	.ascii	"x\234\265ziTTY\266f\234{n\020\020\004`\241\225ef\221"
 	.ascii	"\3752\263-\245\207\2244\255\327\325\257\327[\335I**"
 	.ascii	"]\232\346\002\364\225\276\256\"\021\"M\262\024l\010"
@@ -1066,7 +1066,7 @@
 	.ascii	"S\270]\265\323\317[)a\370\304\254\003$\327\250\217\013"
 	.ascii	"\315\211\374\203\271\027\353v\032H#\374?]\372\366u"
 	.text
-	.section	.gnu.lto_.symtab.bb0551a4860a520b,"",%progbits
+	.section	.gnu.lto_.symtab.ec8878336a8a821e,"",%progbits
 	.ascii	"IS_RC_MODE_ACTIVE\000"
 	.ascii	"\000"
 	.ascii	"\000"

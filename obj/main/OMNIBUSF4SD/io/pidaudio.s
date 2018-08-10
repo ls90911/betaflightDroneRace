@@ -9,16 +9,16 @@
 	.eabi_attribute 34, 1
 	.eabi_attribute 18, 4
 	.file	"pidaudio.c"
-	.section	.gnu.lto_.profile.aa2f8406aba4fad6,"",%progbits
+	.section	.gnu.lto_.profile.b5194a19da4106fc,"",%progbits
 	.ascii	"x\234cc```\005bF\206\215\214\336\000\002\355\001\012"
 	.text
-	.section	.gnu.lto_.icf.aa2f8406aba4fad6,"",%progbits
+	.section	.gnu.lto_.icf.b5194a19da4106fc,"",%progbits
 	.ascii	"x\234cc``\260`@\000N\206OK\332\227\2613.\236\265k3\037"
 	.ascii	"\363\342+\253\332\030Y\300$+\230d\373\326\371\346\001"
 	.ascii	";\373\3533\035?\3319Z\346N\337\314\310\271\346\357\215"
 	.ascii	"\353l\014\000\343d\032H"
 	.text
-	.section	.gnu.lto_.jmpfuncs.aa2f8406aba4fad6,"",%progbits
+	.section	.gnu.lto_.jmpfuncs.b5194a19da4106fc,"",%progbits
 	.ascii	"x\234cc``\010bd\200\003v \346b``<\300\302\310\000\304"
 	.ascii	"\365\014\214\214Z2p.Pb\0123\343\324\277S\373\231\273"
 	.ascii	"\231\347030~af\334\314\010\221\377\302\014W\360\250"
@@ -28,7 +28,7 @@
 	.ascii	"\266/kd@\036fbTg\334\0125X\035l\022\003\000\245\365"
 	.ascii	"7\351"
 	.text
-	.section	.gnu.lto_.inline.aa2f8406aba4fad6,"",%progbits
+	.section	.gnu.lto_.inline.b5194a19da4106fc,"",%progbits
 	.ascii	"x\234cc``\270\310\200\000\354\014\014\306J\254\014L"
 	.ascii	"F\027z\030\031\330\026\3103\201\005\005\030\030X'\370"
 	.ascii	"\341f2q300N\360cf`\341ad\000i\201\351d\344\002\022,"
@@ -36,11 +36,11 @@
 	.ascii	"\024\342`\020R\002\012\011\335\250A\325\215 \230y\200"
 	.ascii	"\014\006\006\000\261\262\0204"
 	.text
-	.section	.gnu.lto_.pureconst.aa2f8406aba4fad6,"",%progbits
+	.section	.gnu.lto_.pureconst.b5194a19da4106fc,"",%progbits
 	.ascii	"x\234cc``\340\007bv\006\011f\011\026\011V\0116\026v"
 	.ascii	"\011\016\011\000\007\037\000\322"
 	.text
-	.section	.gnu.lto_pidAudioUpdate.part.0.aa2f8406aba4fad6,"",%progbits
+	.section	.gnu.lto_pidAudioUpdate.part.0.b5194a19da4106fc,"",%progbits
 	.ascii	"x\234\225\226]L\024W\024\307\357\231;;3\013\354\002"
 	.ascii	"\342\007\352\232\3226>hS\250m\2326\251M\233\364\321"
 	.ascii	"\364\311\227\332\027C\325&<(\215\037i\337\030\\XX\225"
@@ -130,7 +130,7 @@
 	.ascii	"Es\277Pf~\245\314\314Uf~g\033f\030\366\215\031\377\001"
 	.ascii	"\214\216\342\255"
 	.text
-	.section	.gnu.lto_pidAudioInit.aa2f8406aba4fad6,"",%progbits
+	.section	.gnu.lto_pidAudioInit.b5194a19da4106fc,"",%progbits
 	.ascii	"x\234cc``X\016\304\322P\314\310\314\300\3104\341\034"
 	.ascii	"\003C#\007\023##\210\321\300\301\310P\317\304X\317\330"
 	.ascii	"\303<\205\231\361P\373\263\235L\232\313\033\200\340"
@@ -145,7 +145,7 @@
 	.ascii	"\231y\372\231\371\372\005\231)\211\245)\231\371z\311"
 	.ascii	"\014\000h:A\277"
 	.text
-	.section	.gnu.lto_pidAudioStart.aa2f8406aba4fad6,"",%progbits
+	.section	.gnu.lto_pidAudioStart.b5194a19da4106fc,"",%progbits
 	.ascii	"x\234cc``X\016\304\322P\314\310\314\300\3104\341\034"
 	.ascii	"\003C#\007\023##\210\321\300\301\310P\317\304X\317\330"
 	.ascii	"\303<\205\231\361P\373\263\235L\232\313\033\200\340"
@@ -160,7 +160,7 @@
 	.ascii	"y\372\231\371\372\005\231)\211\245)\231\371z\311\014"
 	.ascii	"\000M\024A?"
 	.text
-	.section	.gnu.lto_pidAudioStop.aa2f8406aba4fad6,"",%progbits
+	.section	.gnu.lto_pidAudioStop.b5194a19da4106fc,"",%progbits
 	.ascii	"x\234cc``X\016\304\322P\314\310\314\300\3104\341\034"
 	.ascii	"\003C#\007\023##\210\321\300\301\310P\317\304X\317\330"
 	.ascii	"\303<\205\231\361P\373\263\235L\232\313\033\200\340"
@@ -175,7 +175,7 @@
 	.ascii	"y\372\231\371\372\005\231)\211\245)\231\371z\311\014"
 	.ascii	"\000\212\317A\312"
 	.text
-	.section	.gnu.lto_pidAudioGetMode.aa2f8406aba4fad6,"",%progbits
+	.section	.gnu.lto_pidAudioGetMode.b5194a19da4106fc,"",%progbits
 	.ascii	"x\234cc``\270\001\304\322P\314\310\314\300\3104\341"
 	.ascii	"\034\003C#\007\023##\210\321\300\301\310P\317\304X\317"
 	.ascii	"\330\303<\205\231qj\347\356\353\274\232\313\033\032"
@@ -191,7 +191,7 @@
 	.ascii	"l%#\310\" [RO\277\270(Y?713O?3_\277 3%\2614%3_/\231"
 	.ascii	"\001\000\356\251N\346"
 	.text
-	.section	.gnu.lto_pidAudioSetMode.aa2f8406aba4fad6,"",%progbits
+	.section	.gnu.lto_pidAudioSetMode.b5194a19da4106fc,"",%progbits
 	.ascii	"x\234%\217\275K\003A\020\305\347\355\306\344\360#\330"
 	.ascii	"I\360\012\273\220&'\370\027\305\304\342\212x\242Xg\275"
 	.ascii	"(91\205\370\221@8\344\232\020\261\021I\374\270BXb\257"
@@ -210,7 +210,7 @@
 	.ascii	"Zr\227\035\327sV\334Ji\275\342z\3052\245\252^e\351\017"
 	.ascii	"\344\221b\276"
 	.text
-	.section	.gnu.lto_pidAudioUpdate.aa2f8406aba4fad6,"",%progbits
+	.section	.gnu.lto_pidAudioUpdate.b5194a19da4106fc,"",%progbits
 	.ascii	"x\234\215RKOSA\030\375\316\235\373l\20055u\245\204\300"
 	.ascii	"\202\232t\343\322\377\340\312e\003,\272\220\032\305"
 	.ascii	"\270\354\225\026h\003\211\306\307\265\220\253i\322\005"
@@ -245,7 +245,7 @@
 	.ascii	"\347Rc\311\213c\251\364\310(\271\023\343\227NO&'\307"
 	.ascii	"\377\002&c%\236"
 	.text
-	.section	.gnu.lto_.symbol_nodes.aa2f8406aba4fad6,"",%progbits
+	.section	.gnu.lto_.symbol_nodes.b5194a19da4106fc,"",%progbits
 	.ascii	"x\234U\316;\016\001Q\024\306\361\357\233;\227\361nu"
 	.ascii	"Dm\021\354\302n\316\024\242\320\020\361~\223\261\010"
 	.ascii	":\242\266\004\321Jl\201\230\031S8\315\375'\277s\222"
@@ -258,12 +258,12 @@
 	.ascii	"\244\241?\353\306+\342\032\005\270t\356e|\001\201\277"
 	.ascii	"TJ"
 	.text
-	.section	.gnu.lto_.refs.aa2f8406aba4fad6,"",%progbits
+	.section	.gnu.lto_.refs.b5194a19da4106fc,"",%progbits
 	.ascii	"x\234\015\310\271\015\000 \014\004\301\275\3431\226"
 	.ascii	"\010\021-\320\177\2078\230d&\360\312\000\011w\274\361"
 	.ascii	"\301W\263BQ\332\"\255\014r\361\001\022n\000\303"
 	.text
-	.section	.gnu.lto_.decls.aa2f8406aba4fad6,"",%progbits
+	.section	.gnu.lto_.decls.b5194a19da4106fc,"",%progbits
 	.ascii	"x\234\265\230iPTY\226\307\363\276KfB\222\240\215\226"
 	.ascii	"mu13\325\255\335\332\213RjG\364tD}\350TR\245\033\304"
 	.ascii	"N\320.\215\216\240\020\262Jj\024l\301\211\252\210\351"
@@ -514,7 +514,7 @@
 	.ascii	"-\015\031\353u}\240\357\272\015F\177\015v\331\242\205"
 	.ascii	">!\266\346\233\377\001\015\342\010\207"
 	.text
-	.section	.gnu.lto_.symtab.aa2f8406aba4fad6,"",%progbits
+	.section	.gnu.lto_.symtab.b5194a19da4106fc,"",%progbits
 	.ascii	"pidAudioInit\000"
 	.ascii	"\000"
 	.ascii	"\000"

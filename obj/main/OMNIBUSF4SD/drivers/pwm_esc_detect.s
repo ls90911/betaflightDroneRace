@@ -9,14 +9,14 @@
 	.eabi_attribute 34, 1
 	.eabi_attribute 18, 4
 	.file	"pwm_esc_detect.c"
-	.section	.gnu.lto_.profile.58758ebc283c6c60,"",%progbits
+	.section	.gnu.lto_.profile.61b97cbe092329e9,"",%progbits
 	.ascii	"x\234cc```\001bF\006/\031\000\001(\000r"
 	.text
-	.section	.gnu.lto_.icf.58758ebc283c6c60,"",%progbits
+	.section	.gnu.lto_.icf.61b97cbe092329e9,"",%progbits
 	.ascii	"x\234cc``\340c@\000&\206o_\027nbgZ\363\367\306u6\006"
 	.ascii	"\0004%\006\274"
 	.text
-	.section	.gnu.lto_.jmpfuncs.58758ebc283c6c60,"",%progbits
+	.section	.gnu.lto_.jmpfuncs.61b97cbe092329e9,"",%progbits
 	.ascii	"x\234cc``8\314\200\000\214@\314\004\244\016\26002\000"
 	.ascii	"\361\177 \340g`b\234\302\314xv\341\232sl\335\314s\230"
 	.ascii	"\031\030\271\03073\312\200\325p\201\3241\260\240k\000"
@@ -25,16 +25,16 @@
 	.ascii	"\025\252^\020\254\036$=\255\365\320yv\22043#\003\343"
 	.ascii	"6\2504\003X\032\331\275@.\000\320\2260\237"
 	.text
-	.section	.gnu.lto_.inline.58758ebc283c6c60,"",%progbits
+	.section	.gnu.lto_.inline.61b97cbe092329e9,"",%progbits
 	.ascii	"x\234cc``\260a@\000F\006\006\271\257@\222I\342\331\025"
 	.ascii	"6\006\266\005\362L Qf\036\240\314\004?&n\220\002\020"
 	.ascii	"\207i\202\037\003\013/P\002H\303d\031\000\017\\\007"
 	.ascii	"\304"
 	.text
-	.section	.gnu.lto_.pureconst.58758ebc283c6c60,"",%progbits
+	.section	.gnu.lto_.pureconst.61b97cbe092329e9,"",%progbits
 	.ascii	"x\234cc```\006bF\006\011\000\000}\000#"
 	.text
-	.section	.gnu.lto_detectBrushedESC.58758ebc283c6c60,"",%progbits
+	.section	.gnu.lto_detectBrushedESC.61b97cbe092329e9,"",%progbits
 	.ascii	"x\234\215S\337oTU\020\236\357\234\373\253\273\355\226"
 	.ascii	"ET\220\215i\242\215\241$lx\321\304g_I\374\017\210)}"
 	.ascii	"\250\011\305\264\015\276\220\354m\267\320V\3204\004"
@@ -89,7 +89,7 @@
 	.ascii	"Sj\327\276\326}\315/i\367\345\306&4\376\015\372B\306"
 	.ascii	"]"
 	.text
-	.section	.gnu.lto_.symbol_nodes.58758ebc283c6c60,"",%progbits
+	.section	.gnu.lto_.symbol_nodes.61b97cbe092329e9,"",%progbits
 	.ascii	"x\234U\312\315\015\3020\014\206\341\367k\2222\006\210"
 	.ascii	"I\312dN\245\012$\376\332\256\200:\005g\316L\301\221"
 	.ascii	"!ps\"\007\353\261^\273\005\036>4\027\031Lop\236\371"
@@ -97,11 +97,11 @@
 	.ascii	"\205Q\026\252p\227\305*\334d\351?\0046,\307\3576\320"
 	.ascii	"\362*&>\305\310pZ\015,.?\017\024$\334"
 	.text
-	.section	.gnu.lto_.refs.58758ebc283c6c60,"",%progbits
+	.section	.gnu.lto_.refs.61b97cbe092329e9,"",%progbits
 	.ascii	"x\234cc``\340\007b\026\006\006Ff\006F\016F&~F&\001\006"
 	.ascii	"\000\002\370\000L"
 	.text
-	.section	.gnu.lto_.decls.58758ebc283c6c60,"",%progbits
+	.section	.gnu.lto_.decls.61b97cbe092329e9,"",%progbits
 	.ascii	"x\234\315\232{T\224\311\225\300\373\353j^M\003\016\232"
 	.ascii	"\331IB\262\263\211\231a\2238\2503\311$\347\354\037\301"
 	.ascii	"\206q8;<N\003\223\231\331G\207\321\236\221\034\205\004"
@@ -474,7 +474,7 @@
 	.ascii	"\221J\310\033\273\370K\367\300\220\300 Z\317\377\000"
 	.ascii	"\001a\206E"
 	.text
-	.section	.gnu.lto_.symtab.58758ebc283c6c60,"",%progbits
+	.section	.gnu.lto_.symtab.61b97cbe092329e9,"",%progbits
 	.ascii	"detectBrushedESC\000"
 	.ascii	"\000"
 	.ascii	"\000"

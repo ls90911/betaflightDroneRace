@@ -9,16 +9,16 @@
 	.eabi_attribute 34, 1
 	.eabi_attribute 18, 4
 	.file	"accgyro_spi_mpu6000.c"
-	.section	.gnu.lto_.profile.2e18b084e2fade3c,"",%progbits
+	.section	.gnu.lto_.profile.c2618bea836b4771,"",%progbits
 	.ascii	"x\234cc```\003bF\206U,k\030\001\004\261\001i"
 	.text
-	.section	.gnu.lto_.icf.2e18b084e2fade3c,"",%progbits
+	.section	.gnu.lto_.icf.c2618bea836b4771,"",%progbits
 	.ascii	"x\234cc``0g@\000N\2063S\357\\\347d\374\261\351\314q"
 	.ascii	"6\2465\177o\\gc\236y\347\347\011&\226\011\337\232\347"
 	.ascii	"2\262\236\335\263k\0327\333\323\266C>\354\037W\234\333"
 	.ascii	"\306\305y\262\355\305EV\006\000\027{\033\232"
 	.text
-	.section	.gnu.lto_.jmpfuncs.2e18b084e2fade3c,"",%progbits
+	.section	.gnu.lto_.jmpfuncs.c2618bea836b4771,"",%progbits
 	.ascii	"x\234\245U]k\023Q\020\235\263w\263\331\264\321\355c"
 	.ascii	"?\362?\332\277&\010F\254\212\024\024\251\244\010\213"
 	.ascii	">\024\245`(\244\332Z\373\241\233\306\332\326\246\010"
@@ -54,7 +54,7 @@
 	.ascii	"\331\221\341\223\344/m\212\033\221\376\000\240\272\314"
 	.ascii	"\234"
 	.text
-	.section	.gnu.lto_.inline.2e18b084e2fade3c,"",%progbits
+	.section	.gnu.lto_.inline.c2618bea836b4771,"",%progbits
 	.ascii	"x\234\255R\261N\303@\014}\266\357r\027\332H\351\216"
 	.ascii	"\024\006P\377\240\003\023_\220\017\201\237`\014b\311"
 	.ascii	"\300\202\324!c\245\216H|\0013\003S\307\216\221\220\020"
@@ -73,11 +73,11 @@
 	.ascii	"\010a\247 \244\367\012\021\354\360\017\377\000W\306"
 	.ascii	"L'"
 	.text
-	.section	.gnu.lto_.pureconst.2e18b084e2fade3c,"",%progbits
+	.section	.gnu.lto_.pureconst.c2618bea836b4771,"",%progbits
 	.ascii	"x\234cc``\020\004b\016\006)FIfI\026IV\0116Iv)N)\000"
 	.ascii	"\011\274\001\015"
 	.text
-	.section	.gnu.lto_mpu6000SpiAccInit.2e18b084e2fade3c,"",%progbits
+	.section	.gnu.lto_mpu6000SpiAccInit.c2618bea836b4771,"",%progbits
 	.ascii	"x\2345\217\315+\204q\020\307\347\373\314\263\317n\344"
 	.ascii	"\345\250lqP\333^<\253\304\237\341O\330X\322\036\274"
 	.ascii	"\264\033\345\344g\275,Q\244E\351I+\344$+\257\213\303"
@@ -100,7 +100,7 @@
 	.ascii	"\361\336h\270\253\267\257)\024\012\325G\210\245\374"
 	.ascii	"\013\245c\201\354"
 	.text
-	.section	.gnu.lto_mpu6000AccAndGyroInit.2e18b084e2fade3c,"",%progbits
+	.section	.gnu.lto_mpu6000AccAndGyroInit.c2618bea836b4771,"",%progbits
 	.ascii	"x\234\225VmO\034U\024\276\317\334\331\027XX\212/P\343"
 	.ascii	"jhb\322\364\013K\223F\373W\374\3244h\014\037\252\015"
 	.ascii	"D\023?1P\312v\243\261Fd\033\311\266n\322\254\246)`\251"
@@ -164,7 +164,7 @@
 	.ascii	"\177u\365;\037\326\276\367\317u_\335\301\232}\007\016"
 	.ascii	"\276\377zUUUe5S\205\355op\202\0263"
 	.text
-	.section	.gnu.lto_mpu6000SpiGyroInit.part.0.2e18b084e2fade3c,"",%progbits
+	.section	.gnu.lto_mpu6000SpiGyroInit.part.0.c2618bea836b4771,"",%progbits
 	.ascii	"x\2345PKkSQ\020\236\357\314}\2316Bv\012Y\270\020J]\364"
 	.ascii	"& \342\242\364\257\224\022\037dQ-\011\012\256r\014\251"
 	.ascii	"IQ\210\240\211\264\\\344\202\212n\244\026\237\251\265"
@@ -193,7 +193,7 @@
 	.ascii	"\347\012\247\377\353\301\342H~px\344\314\221L&\323\227"
 	.ascii	"#\307`\177\001:S\263\305"
 	.text
-	.section	.gnu.lto_mpu6000SpiGyroInit.2e18b084e2fade3c,"",%progbits
+	.section	.gnu.lto_mpu6000SpiGyroInit.c2618bea836b4771,"",%progbits
 	.ascii	"x\234\225TkK\024Q\030>\317\274\263\263\233\246\226\226"
 	.ascii	"\225\255e\020\210\004\256RD\177\242\337 a\021~\250D"
 	.ascii	")\350\223\243\251k\030\031\224\023\310\020+\024aaj\245"
@@ -240,7 +240,7 @@
 	.ascii	"\313\367\035\311\316>~6\357Tx\316\312\317\315\311:\221"
 	.ascii	"{\372`FFFz\266\320\345\267\3372\332\311g"
 	.text
-	.section	.gnu.lto_mpu6000SpiDetect.part.1.2e18b084e2fade3c,"",%progbits
+	.section	.gnu.lto_mpu6000SpiDetect.part.1.c2618bea836b4771,"",%progbits
 	.ascii	"x\234}RKLSQ\020\275\363\346\265\024\004\214F\0111/\304"
 	.ascii	"\205\204\020\015\255Q\324\205\033\215\033\266\306\225"
 	.ascii	"\033\202\205`\027\205\246-\032W\275\374\224\252\011"
@@ -282,7 +282,7 @@
 	.ascii	"\317\301\022\326p\224\225\232\217\037-\337\347,\370"
 	.ascii	"\003MS\027\036"
 	.text
-	.section	.gnu.lto_mpu6000SpiDetect.2e18b084e2fade3c,"",%progbits
+	.section	.gnu.lto_mpu6000SpiDetect.c2618bea836b4771,"",%progbits
 	.ascii	"x\234\205\225\337SUU\024\307\367\367\354\363\213\237"
 	.ascii	"F\001\245\335\214\207\034s\246\361\322\3244>\364\322"
 	.ascii	"c=5\375\003\016\021c<\240\014\240M/\261\341\002\305"
@@ -343,7 +343,7 @@
 	.ascii	"QqY\351\013\005\\Y\270}\233\375\312\313;\236)z\366_"
 	.ascii	"v\3657\374"
 	.text
-	.section	.gnu.lto_mpu6000SpiAccDetect.2e18b084e2fade3c,"",%progbits
+	.section	.gnu.lto_mpu6000SpiAccDetect.c2618bea836b4771,"",%progbits
 	.ascii	"x\234\235\221\313kSQ\020\306\347;s\3630\265\272uq\013"
 	.ascii	"]\010%\233\336\210\245n\304\177\245\324(\222E\265$("
 	.ascii	"\270\312i\332\220\006]Hi\"\206K\011R\021\021[\213V\223"
@@ -376,7 +376,7 @@
 	.ascii	" 5\234\030\030\032>\336\037\213\305z\343\304\222\376"
 	.ascii	"\0168_\367\364"
 	.text
-	.section	.gnu.lto_mpu6000SpiGyroDetect.2e18b084e2fade3c,"",%progbits
+	.section	.gnu.lto_mpu6000SpiGyroDetect.c2618bea836b4771,"",%progbits
 	.ascii	"x\234\235\222\357KSQ\030\307\317\367>\367nsj\365\262"
 	.ascii	"\027w\344\213@\354\205w\221H\257\374WD\326\017\366\302"
 	.ascii	"\222IB\257v\234\312\034\005\005\266E\353f{Q\031H\331"
@@ -413,7 +413,7 @@
 	.ascii	"\366\266psk\333\201\306`0X\037\022\272\212}\0056\315"
 	.ascii	"#\207"
 	.text
-	.section	.gnu.lto_.symbol_nodes.2e18b084e2fade3c,"",%progbits
+	.section	.gnu.lto_.symbol_nodes.c2618bea836b4771,"",%progbits
 	.ascii	"x\234]\220\311J\003A\024E\337\355J\227C\0223\273T\360"
 	.ascii	"\003\374\006\375\262\327H\223@\"Q\234g\243\266\303\017"
 	.ascii	"\270\210\273Hc@\320?\020Tz)\270\026D\254)\222r\323\247"
@@ -434,11 +434,11 @@
 	.ascii	"\005{^\252\3272T\177\351\341iU\010Y\243xhnBZy\034\206"
 	.ascii	"\364\013\037\024\301G"
 	.text
-	.section	.gnu.lto_.refs.2e18b084e2fade3c,"",%progbits
+	.section	.gnu.lto_.refs.c2618bea836b4771,"",%progbits
 	.ascii	"x\234cc``\220\004b&F bd\222cbgb`f\342`a\342dbaf\342"
 	.ascii	"ba\000\000\010\311\000\207"
 	.text
-	.section	.gnu.lto_.decls.2e18b084e2fade3c,"",%progbits
+	.section	.gnu.lto_.decls.c2618bea836b4771,"",%progbits
 	.ascii	"x\234\275|yTTW\272/\247vU1\025`\320\244M\332\036n'\335"
 	.ascii	"\355\355\333\211h\346\267\356\037\327 \032\326Uq\001"
 	.ascii	"v\322y\367\256j\242\230\320\255\230'\230N\262\326\353"
@@ -1129,7 +1129,7 @@
 	.ascii	"\334\336\201\011\241O\006\337\270\321p\320\3526x\276"
 	.ascii	"\371\1777Nn\374"
 	.text
-	.section	.gnu.lto_.symtab.2e18b084e2fade3c,"",%progbits
+	.section	.gnu.lto_.symtab.c2618bea836b4771,"",%progbits
 	.ascii	"mpu6000SpiAccInit\000"
 	.ascii	"\000"
 	.ascii	"\000"

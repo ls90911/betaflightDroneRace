@@ -9,10 +9,10 @@
 	.eabi_attribute 34, 1
 	.eabi_attribute 18, 4
 	.file	"esc_sensor.c"
-	.section	.gnu.lto_.profile.200d9dd4b093b465,"",%progbits
+	.section	.gnu.lto_.profile.ff0b842a155edc25,"",%progbits
 	.ascii	"x\234cc```\003bF\206;\314\213\231\000\005e\001\222"
 	.text
-	.section	.gnu.lto_.icf.200d9dd4b093b465,"",%progbits
+	.section	.gnu.lto_.icf.ff0b842a155edc25,"",%progbits
 	.ascii	"x\234cc``X\311\200\0002\014\257\226\035_\311\310\274"
 	.ascii	"\372\307\345\351<,k\376\336\270\316\306zo\362\317J\266"
 	.ascii	"\356+\273\367\361qu~}q\223\235\373\376\214\307gYx\366"
@@ -25,7 +25,7 @@
 	.ascii	"+'x\344\027N\237\323\302\244\000V\303\000\000\274\256"
 	.ascii	"W\347"
 	.text
-	.section	.gnu.lto_.jmpfuncs.200d9dd4b093b465,"",%progbits
+	.section	.gnu.lto_.jmpfuncs.ff0b842a155edc25,"",%progbits
 	.ascii	"x\234]P\313J\003A\020\354\232\216;\343\306\370B\321"
 	.ascii	"\303\370\013\376\237\247\0350\"(\311)\3444\007\375\004"
 	.ascii	"\321D\327S\360(\202G\017\376\202x\226\240\254\335\263"
@@ -42,7 +42,7 @@
 	.ascii	"\347\246 ?\256\223\354\253\267\351\244/\274\223\272"
 	.ascii	"\264E\377k\246a\245"
 	.text
-	.section	.gnu.lto_.inline.200d9dd4b093b465,"",%progbits
+	.section	.gnu.lto_.inline.ff0b842a155edc25,"",%progbits
 	.ascii	"x\234UP/O\303@\024\377\275\273\333\355\272u\335\332"
 	.ascii	"B6\302H\221(\354\002b\037\241\237\000\024\016<|\000"
 	.ascii	"\246 !'\220\210\032>\000Ab&\2460,,\200\235\304\220 "
@@ -60,11 +60,11 @@
 	.ascii	"e\374u\333\274|o\241\336\376u\353\361\003Un\276D\351"
 	.ascii	"\306\017\003\3223`"
 	.text
-	.section	.gnu.lto_.pureconst.200d9dd4b093b465,"",%progbits
+	.section	.gnu.lto_.pureconst.ff0b842a155edc25,"",%progbits
 	.ascii	"x\234cc``\220\006b^\006).\011n)^)>\011\001)A)!\026\021"
 	.ascii	"\011QIqV\011)Y\026\000\036%\002\021"
 	.text
-	.section	.gnu.lto_decodeEscFrame.200d9dd4b093b465,"",%progbits
+	.section	.gnu.lto_decodeEscFrame.ff0b842a155edc25,"",%progbits
 	.ascii	"x\234\225XkPTG\026\356\323=\357'/_8F\214\022\237%\272"
 	.ascii	"\246\312D\243y\372Hb\266\366\367\376\2616T~\244*\233"
 	.ascii	"\255\222\332\177[\345U\024\031\005u\263\001\343\204"
@@ -199,13 +199,13 @@
 	.ascii	"r\336x;\347/kr\262\336\310\311^\255\306s\263\2319{M"
 	.ascii	"\366\352\277\302\233\002\177\377\013\235\374n\322"
 	.text
-	.section	.gnu.lto_telemetryBuffer.200d9dd4b093b465,"",%progbits
+	.section	.gnu.lto_telemetryBuffer.ff0b842a155edc25,"",%progbits
 	.ascii	"x\234cc``\320\005bF\006\010\230\302\314\270\376\315"
 	.ascii	"\316\237\274\335\314s\230\201\202@\356\335\351[Zy-\266"
 	.ascii	"5t,h\020\230\303\314\310h(\303\270\231Q\206\201q\013"
 	.ascii	"\243\005\003\000\220F\016z"
 	.text
-	.section	.gnu.lto_selectNextMotor.200d9dd4b093b465,"",%progbits
+	.section	.gnu.lto_selectNextMotor.ff0b842a155edc25,"",%progbits
 	.ascii	"x\234\215\222MK[A\024\206\317;g\022C\250Ytm@\\\010\331"
 	.ascii	"$\205\272(\364'\370#\212\004\027.T\310\375\001\231&"
 	.ascii	"j\022\333E)\365\012\022\345J!]\211\210_\211\037\315"
@@ -231,7 +231,7 @@
 	.ascii	"\315L\216MLe\234\361)g:\347d\306\235\354\2130Og\351"
 	.ascii	"?\246\316\301\302"
 	.text
-	.section	.gnu.lto_escSensorDataReceive.part.0.200d9dd4b093b465,"",%progbits
+	.section	.gnu.lto_escSensorDataReceive.part.0.ff0b842a155edc25,"",%progbits
 	.ascii	"x\234\215\222\317kSA\020\307\367\273\363\362^~\320*"
 	.ascii	"(x\311\241 \261\344`#x\363\237\221\020{\360`\205\306"
 	.ascii	"{\266im\022\365 \245\215\032_%\376(=\010ji\252\306\266"
@@ -265,7 +265,7 @@
 	.ascii	"R\331\316\256\354\361\356l\2523\2339l\367\035\031\201"
 	.ascii	"\214s$}\"\375\013\340\241\000\352"
 	.text
-	.section	.gnu.lto_escSensorDataReceive.200d9dd4b093b465,"",%progbits
+	.section	.gnu.lto_escSensorDataReceive.ff0b842a155edc25,"",%progbits
 	.ascii	"x\234m\222\315KTQ\030\306\337\347\274\347\336\271~\225"
 	.ascii	"\013\241\315,\204\212a6\336E\340\177\320\337\021\303"
 	.ascii	"\350\242\205\006\336\366s,C\245\210\026:\302p\215)p"
@@ -296,7 +296,7 @@
 	.ascii	"\371S\311\272/O\310\353\201\334\331\334o\307\236\311"
 	.ascii	"\227"
 	.text
-	.section	.gnu.lto_getEscSensorData.part.1.200d9dd4b093b465,"",%progbits
+	.section	.gnu.lto_getEscSensorData.part.1.ff0b842a155edc25,"",%progbits
 	.ascii	"x\234\225W[PTG\020\275=s\367\275\254\312\313\327\242"
 	.ascii	"(\242\"\352J,\363\345G*\037\251\312O\276\363gE\313\017"
 	.ascii	"?\324*I*\037\251\012WP\036j\214O\224\225\230\215J\214"
@@ -401,7 +401,7 @@
 	.ascii	",\333\2630{\301<9\236\271@q,^\372\371\322e\237|\261"
 	.ascii	"x\376\302el\336|6\3573X\364\037\341\264.\225"
 	.text
-	.section	.gnu.lto_startEscDataRead.200d9dd4b093b465,"",%progbits
+	.section	.gnu.lto_startEscDataRead.ff0b842a155edc25,"",%progbits
 	.ascii	"x\234m\220\317K\024a\030\307\237\357<\2733\213\246^"
 	.ascii	"\202\202\366 \024l^\034\241\233\307\316\375\017\"\313"
 	.ascii	"lup\203\235<\357\353\332\354\272\351A\304\024\206!&"
@@ -429,7 +429,7 @@
 	.ascii	"\206G\234\233\243\271\234Sh\353[N\376\366\375;\177\000"
 	.ascii	"\267\250\302\024"
 	.text
-	.section	.gnu.lto_getNumberEscBytesRead.200d9dd4b093b465,"",%progbits
+	.section	.gnu.lto_getNumberEscBytesRead.ff0b842a155edc25,"",%progbits
 	.ascii	"x\234-N=K\003Q\020\334yO\357\016\341:;S\204T\246\311"
 	.ascii	"\011\376 \221#\205\205\021\362~\300m\"AC,,\314\371\301"
 	.ascii	"!ge\347\007~\021\322<\362\003T\004\261\020\033\301B"
@@ -446,7 +446,7 @@
 	.ascii	"\321\352\362J#2\365\206Yk\232\250n\342\245?^\213\351"
 	.ascii	"\007\371\206U\245"
 	.text
-	.section	.gnu.lto_isEscSensorActive.200d9dd4b093b465,"",%progbits
+	.section	.gnu.lto_isEscSensorActive.ff0b842a155edc25,"",%progbits
 	.ascii	"x\234]\216?K\303P\024\305\317\311k\332 \324Y\260Cq\253"
 	.ascii	"C#\370\201DB\007\007+4\037 \317\204P\203\016\"6\202"
 	.ascii	"\004\311&\350 b\255\026\227\320\017P\377,\016N:\212"
@@ -464,7 +464,7 @@
 	.ascii	"\324\233\256\337\361\334\365\325\265\266\353\267\332"
 	.ascii	"\376F\307w[\276\2672\325M\017?\344\224^7"
 	.text
-	.section	.gnu.lto_getEscSensorData.200d9dd4b093b465,"",%progbits
+	.section	.gnu.lto_getEscSensorData.ff0b842a155edc25,"",%progbits
 	.ascii	"x\234]RMKTQ\030~\237s\356\227\363\241\265(\010f!\270"
 	.ascii	"0]8I+7\376\204\350\037D\211\213\026*8\265\236\223\243"
 	.ascii	"8\242\213\010\235b\272\304\024X\220\204E\3661Y6:\243"
@@ -507,7 +507,7 @@
 	.ascii	"\242M'O7Gc\215\315\261\226\326X\2641\326p\302\277\327"
 	.ascii	"4P\260\251\345LK\353\261\263M\247\032[\377\002z%A\031"
 	.text
-	.section	.gnu.lto_escSensorInit.200d9dd4b093b465,"",%progbits
+	.section	.gnu.lto_escSensorInit.ff0b842a155edc25,"",%progbits
 	.ascii	"x\234}T\337O\034U\024>\337\334\371\265?\230\322Z[$\373"
 	.ascii	"@b\032S\177\260m|\362\305\230\370\207\030C\252\341A"
 	.ascii	"0l\337w\312Ba\251%\215\312\232\254\023\262\261\032\022"
@@ -563,7 +563,7 @@
 	.ascii	"#\211\2267\202}s\013\205\337m\3578\372z{\333[\255o\243"
 	.ascii	"\365oPq\302\277"
 	.text
-	.section	.gnu.lto_calculateCrc8.200d9dd4b093b465,"",%progbits
+	.section	.gnu.lto_calculateCrc8.ff0b842a155edc25,"",%progbits
 	.ascii	"x\234\215T\337o\024U\024>g\356\374\332\331_P\240?\310"
 	.ascii	"&6Q\322\240\2445\350\213\017\276\370\354\377@\314\246"
 	.ascii	"$$Z\223nxf\332\205-\213`\372 E\207U\333(\0215\304\252"
@@ -622,7 +622,7 @@
 	.ascii	"\244^\333\275\323\306\357\365\316.\225\356N\363.\013"
 	.ascii	"\353\216\335\377\000\226\220\314\343"
 	.text
-	.section	.gnu.lto_escSensorProcess.200d9dd4b093b465,"",%progbits
+	.section	.gnu.lto_escSensorProcess.ff0b842a155edc25,"",%progbits
 	.ascii	"x\234\215XkTT\327\025>\373\234\231;\017\346\0013\003"
 	.ascii	"bD\2131\226\250 \020\333\225\372\243\355\257\376\351"
 	.ascii	"Z\355\352\217\366wV\226\313\037\371\241\256%\366\267"
@@ -757,7 +757,7 @@
 	.ascii	"\316\274\271\177\253\262?\375\251\312=o\301\242\005"
 	.ascii	"\013\335U\213\336^4\367\177\357\241\230\202"
 	.text
-	.section	.gnu.lto_calcEscRpm.200d9dd4b093b465,"",%progbits
+	.section	.gnu.lto_calcEscRpm.ff0b842a155edc25,"",%progbits
 	.ascii	"x\234MPKK\033a\024\275g\356L& \352\262\213\272\010\264"
 	.ascii	"\020\262\311,\374\023\376\205B\241\224\220E\027>\310"
 	.ascii	"\374\200|&\232\244\350B\212\017\032\207\022+\".D\305"
@@ -784,13 +784,13 @@
 	.ascii	"\237y\023\325\351\014\331\331\334\310\340?h\023\241"
 	.ascii	"3"
 	.text
-	.section	.gnu.lto_pgResetTemplate_escSensorConfig.200d9dd4b093b465,"",%progbits
+	.section	.gnu.lto_pgResetTemplate_escSensorConfig.ff0b842a155edc25,"",%progbits
 	.ascii	"x\234cc``\320\005bF\006\010\230\302\314\270\376\315"
 	.ascii	"\316\237\274\335\314s\230\201\202@\356\316\271\355\267"
 	.ascii	"\371,\2665t,h\020\230\303\3148\025(\274\231Q\206\201"
 	.ascii	"q\013\243\005\003\000\225\014\016\320"
 	.text
-	.section	.gnu.lto_escSensorConfig_Registry.200d9dd4b093b465,"",%progbits
+	.section	.gnu.lto_escSensorConfig_Registry.ff0b842a155edc25,"",%progbits
 	.ascii	"x\234cc``\270\006\304J\014\0200\205\231\261\371\327"
 	.ascii	"\376\317|\365\177\033f44<\350\356e\376\307?\207\231"
 	.ascii	"a\0013D\356\320\323u\354\026\333\032:\0264\010\314a"
@@ -805,7 +805,7 @@
 	.ascii	"\324\274\342\374\242b\375\324\342\344x\010[/\231\001"
 	.ascii	"\000^\271Vt"
 	.text
-	.section	.gnu.lto_.symbol_nodes.200d9dd4b093b465,"",%progbits
+	.section	.gnu.lto_.symbol_nodes.ff0b842a155edc25,"",%progbits
 	.ascii	"x\234]\220\313/CA\030\305\277s\307m\351\323\243M,$\250"
 	.ascii	"\307\322\316\236\277D$\244\261\023\272\261\372.\271"
 	.ascii	"\366bA\302BC\275\337\004U\361h\321J\005K6\342\221.m"
@@ -828,7 +828,7 @@
 	.ascii	"\222\375Q\220\332B\251\342\255T\242\327\273:Q\353\243"
 	.ascii	"\334x\300\221\221I%O\355\364\005t\014\2444"
 	.text
-	.section	.gnu.lto_.refs.200d9dd4b093b465,"",%progbits
+	.section	.gnu.lto_.refs.ff0b842a155edc25,"",%progbits
 	.ascii	"x\234%\220\335j\023a\024E\327>\347;\363\323&9\261\323"
 	.ascii	"\006g\2224m\252(\026\203\226\006\177j\364\361|-\033"
 	.ascii	"\304+\021\037\311Q/6\013\366\315\202U\001_\005\003H"
@@ -847,7 +847,7 @@
 	.ascii	"\007\352\317\254\306b\253\343X\350;Z\323\230olaWv\311"
 	.ascii	"\037\263\225\033:"
 	.text
-	.section	.gnu.lto_.decls.200d9dd4b093b465,"",%progbits
+	.section	.gnu.lto_.decls.ff0b842a155edc25,"",%progbits
 	.ascii	"x\234\315}\011TTY\226`\374x\261\021l\246ZjUQ\231Y\325"
 	.ascii	"v\2453=\231\346V\225Us\246N\227\013Yew\272\034\304\254"
 	.ascii	"\312\354\323C\241\204&\325\002\026\204Y\231\323\323"
@@ -1654,7 +1654,7 @@
 	.ascii	"\210#\333\231\315\260\235\261\207)\000\313\230\217n"
 	.ascii	"#\255\353\3777b-\312\015"
 	.text
-	.section	.gnu.lto_.symtab.200d9dd4b093b465,"",%progbits
+	.section	.gnu.lto_.symtab.ff0b842a155edc25,"",%progbits
 	.ascii	"startEscDataRead\000"
 	.ascii	"\000"
 	.ascii	"\000"

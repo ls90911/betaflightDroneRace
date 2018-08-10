@@ -9,10 +9,10 @@
 	.eabi_attribute 34, 1
 	.eabi_attribute 18, 4
 	.file	"rangefinder_lidartf.c"
-	.section	.gnu.lto_.profile.21ff5e97f298c65a,"",%progbits
+	.section	.gnu.lto_.profile.c547d48ea9802871,"",%progbits
 	.ascii	"x\234cc```\003bF\206n\246u\214\000\0043\001J"
 	.text
-	.section	.gnu.lto_.icf.21ff5e97f298c65a,"",%progbits
+	.section	.gnu.lto_.icf.c547d48ea9802871,"",%progbits
 	.ascii	"x\234cc``\310a@\000!\206\345o\372\346p3N\332\276\370"
 	.ascii	".3\023\230d\376q\342\341NF\226\275\017\337\265\263\262"
 	.ascii	"\356\177\377\344\031#\333\232\2777\256\263\261o\377"
@@ -21,7 +21,7 @@
 	.ascii	"]n\201\3313\366\177\346\022\274\360}\216\267\320\214"
 	.ascii	"o\307\203\204\267M\\\372\222\215\001\000\272;6\267"
 	.text
-	.section	.gnu.lto_.jmpfuncs.21ff5e97f298c65a,"",%progbits
+	.section	.gnu.lto_.jmpfuncs.c547d48ea9802871,"",%progbits
 	.ascii	"x\234\215QKJ\304@\020}\257;I7\003\376\267s\006\3577"
 	.ascii	"\253d1\"\342\007\204AP\002\272\035\\\211\216\0323\202"
 	.ascii	"\270\024\301\003x\005q\245\"\242huO\033\303\264\240"
@@ -40,7 +40,7 @@
 	.ascii	"a\351\017\352x\177c\030\250\212\227\201:q\305\027\243"
 	.ascii	"\327\245\033"
 	.text
-	.section	.gnu.lto_.inline.21ff5e97f298c65a,"",%progbits
+	.section	.gnu.lto_.inline.c547d48ea9802871,"",%progbits
 	.ascii	"x\234u\217\255\016\3020\024F\277\333v\377\035\033\003"
 	.ascii	"C Y\302[\240I\220s\274\004<\010\002S\201\234\230@`\011"
 	.ascii	"\301\0234\002\215\304\343\221\334\302\322\020\022jn"
@@ -53,11 +53,11 @@
 	.ascii	"\274\377\242Y\000\005\202\214\343|\376I\243\367\367"
 	.ascii	"\006/\\\362!I"
 	.text
-	.section	.gnu.lto_.pureconst.21ff5e97f298c65a,"",%progbits
+	.section	.gnu.lto_.pureconst.c547d48ea9802871,"",%progbits
 	.ascii	"x\234cc``\020\004b\016\006\011f\026V\011.\013\001)A"
 	.ascii	"I!\011a\011\000\012\351\001G"
 	.text
-	.section	.gnu.lto_lidarTFInit.21ff5e97f298c65a,"",%progbits
+	.section	.gnu.lto_lidarTFInit.c547d48ea9802871,"",%progbits
 	.ascii	"x\234]\220\271K\003A\024\306\337\267\223\354\206\210"
 	.ascii	"V\026\202\026\026B\2641\225 \370\307H\310FY\320\024"
 	.ascii	"\253\244\315\030\217D\024\024\211Qd\225\025\024\261"
@@ -81,7 +81,7 @@
 	.ascii	"}Q;\226\354NtYI3a\377\317;{,3f\367w\265\306I\230\211"
 	.ascii	"\324/\"\324\235\006"
 	.text
-	.section	.gnu.lto_lidarTFGetDistance.21ff5e97f298c65a,"",%progbits
+	.section	.gnu.lto_lidarTFGetDistance.c547d48ea9802871,"",%progbits
 	.ascii	"x\234MPMKBA\024\275\347\215\251\021\331\017H\310E n"
 	.ascii	"|\253\"\210~K\210\357\031\017\312\3053\334:iaQ\213\210"
 	.ascii	"2\222W<\027\022\255*2\313>\340\021\264\354s\027-\202"
@@ -101,7 +101,7 @@
 	.ascii	"\254igt;\221\0363SV\3320\355v<:n\031\011{2\025O\222"
 	.ascii	"0\314\354/\375\302y\366"
 	.text
-	.section	.gnu.lto_lidarTFSendCommand.21ff5e97f298c65a,"",%progbits
+	.section	.gnu.lto_lidarTFSendCommand.c547d48ea9802871,"",%progbits
 	.ascii	"x\234\215\222\317k\023A\024\307\347\273\263\263Y\025"
 	.ascii	"\333\213\247R\320k/\315I\374\007\374?$4\211\0044\207"
 	.ascii	"\255x\315\244i\332\024\205\226R\023(\251\256\024\351"
@@ -135,7 +135,7 @@
 	.ascii	"\"{6\225\316d\223)o\277}\346\\&\231\360.\244\007\207"
 	.ascii	"\304\037I\3360M"
 	.text
-	.section	.gnu.lto_tfCmdTFmini.21ff5e97f298c65a,"",%progbits
+	.section	.gnu.lto_tfCmdTFmini.c547d48ea9802871,"",%progbits
 	.ascii	"x\234M\214\273\012\3020\024\206s\032\255\016U_ /\241"
 	.ascii	"S\037/\203\212(\210\203\233\035\034\004'i\301Z\355\305"
 	.ascii	"[Q\304\321E_\300\321\251\010\245(\350I\223\241!\037"
@@ -148,7 +148,7 @@
 	.ascii	"\210\257r\243\322CV\210\213,\201\021\330\203I\376\241"
 	.ascii	"\347Q\260"
 	.text
-	.section	.gnu.lto_tfCmdTF02.21ff5e97f298c65a,"",%progbits
+	.section	.gnu.lto_tfCmdTF02.c547d48ea9802871,"",%progbits
 	.ascii	"x\234M\214\273\012\3020\024\206s\032\255\016U_ /\241"
 	.ascii	"S\037/\203\212(\210\203\233\035\034\004'i\301Z\355\305"
 	.ascii	"[Q\304\321E_\300\321\251\010\245(\350I\223\241!\037"
@@ -161,7 +161,7 @@
 	.ascii	"\210\257r\243\322CV\210\213,\201\021\330\203I\376\241"
 	.ascii	"\347Q\260"
 	.text
-	.section	.gnu.lto_lidarTFUpdate.21ff5e97f298c65a,"",%progbits
+	.section	.gnu.lto_lidarTFUpdate.c547d48ea9802871,"",%progbits
 	.ascii	"x\234\225XYpT\307\025\355\333=\373\252u\264\215\366"
 	.ascii	"\225%&\224+ER\216\253\222\237T\312.\273\\\371r\345'"
 	.ascii	"E\001N\251\022\223*\3418\177a`\264 \0146\261\215\204"
@@ -324,7 +324,7 @@
 	.ascii	"\375y\250t,\254\\\362\302\374\305\013\026\375\017\240"
 	.ascii	"\360\007="
 	.text
-	.section	.gnu.lto_lidarTFDetect.part.0.21ff5e97f298c65a,"",%progbits
+	.section	.gnu.lto_lidarTFDetect.part.0.c547d48ea9802871,"",%progbits
 	.ascii	"x\234\225TKO\024A\020\356ozvvY^\321\203\007\263\007"
 	.ascii	"\017\022\302\2055!\032\017\3364\036\375\001^\024a!\233"
 	.ascii	"(\232\205\220x0\264<\262\240\220\250\310j6\013A\214"
@@ -370,7 +370,7 @@
 	.ascii	"\355\333|\356m[\003\005\253\267\346\345\370s\177\000"
 	.ascii	"\335\267\263>"
 	.text
-	.section	.gnu.lto_lidarTFDetect.21ff5e97f298c65a,"",%progbits
+	.section	.gnu.lto_lidarTFDetect.c547d48ea9802871,"",%progbits
 	.ascii	"x\234US[KTQ\024\336\353\354s\346\214s\263\324\336\346"
 	.ascii	"\301 \021A\034!\202\2020\250\236\373\013!\316(\0035"
 	.ascii	"\312(BOnub\232\314\212\310\221\344(\023&b%\231Y\346"
@@ -414,7 +414,7 @@
 	.ascii	"\327W\257\342Ww\246\306g\253\251\016\326\035\253\016"
 	.ascii	"T\372\253\376\003\255\347Dm"
 	.text
-	.section	.gnu.lto_lidarTFminiDetect.21ff5e97f298c65a,"",%progbits
+	.section	.gnu.lto_lidarTFminiDetect.c547d48ea9802871,"",%progbits
 	.ascii	"x\234MO=K\003A\020\235w\223\304\240\304\302J\360\212"
 	.ascii	"\024JH\223\023D\020\374\005\376\012\011\371\220\003"
 	.ascii	"Mq\221\264Y\023C\014ZX\030\205p\202\"\207Xi\320\250"
@@ -436,7 +436,7 @@
 	.ascii	"\037\317/\332\351\244\263\234M\244\210\323\231\302/"
 	.ascii	"K5r\302"
 	.text
-	.section	.gnu.lto_lidarTF02Detect.21ff5e97f298c65a,"",%progbits
+	.section	.gnu.lto_lidarTF02Detect.c547d48ea9802871,"",%progbits
 	.ascii	"x\234MO=K\003A\020\235\331\271\304\240\304\302J\360"
 	.ascii	"\212\024JH\223\023D\020\374\007\376\011\011\271\213"
 	.ascii	"\034h\212\213\244\27551\304`\012\013\023!\234\250`\220"
@@ -458,7 +458,7 @@
 	.ascii	"\226\2233\234Tv\316\312\330Y\323r\376\343\331y\333L"
 	.ascii	"9\213\231d\032\310\264\362\277\225\212r\364"
 	.text
-	.section	.gnu.lto_.symbol_nodes.21ff5e97f298c65a,"",%progbits
+	.section	.gnu.lto_.symbol_nodes.c547d48ea9802871,"",%progbits
 	.ascii	"x\234]\217;O\0031\020\204g\354\370\2228 q<C\207\250"
 	.ascii	"\351\220\250\241\344W\255\213\324!\274\337\020\302\001"
 	.ascii	"5%\221\020BBD\242\310o8\345\007@EA\203\360\235\001a"
@@ -475,7 +475,7 @@
 	.ascii	"\322&Z\037\003\257\023\030\335\256\350\311\024\275\002"
 	.ascii	"O\005\305\027u\025i\201"
 	.text
-	.section	.gnu.lto_.refs.21ff5e97f298c65a,"",%progbits
+	.section	.gnu.lto_.refs.c547d48ea9802871,"",%progbits
 	.ascii	"x\234\015\216\301j\302P\024D\317\334\274\227\027s\233"
 	.ascii	"\304 \242\333R\272(nJ)ED?\272\337PA\027\202\242\264"
 	.ascii	"E\350\307\364\016\034f\230\315L\015|\006\206Bf\252H"
@@ -486,7 +486,7 @@
 	.ascii	"C\303w\\\371A\366\013\345\016\375\037i\032\273Fc\355"
 	.ascii	"\304\252V\243J\346\037x\317\021-"
 	.text
-	.section	.gnu.lto_.decls.21ff5e97f298c65a,"",%progbits
+	.section	.gnu.lto_.decls.c547d48ea9802871,"",%progbits
 	.ascii	"x\234\265{\011TTW\272n\355\332U\014EQ(\332\206\344r"
 	.ascii	"\323y\271\3364wP\222tn\272\363\326[w\265\003\246\275"
 	.ascii	"qZ\200\246\343Z\357\022\224\322\320\227\301\007e_\363"
@@ -958,7 +958,7 @@
 	.ascii	"\276\230g\346\206\241\254i\203\202\002\203\202\377\017"
 	.ascii	"f\262N\005"
 	.text
-	.section	.gnu.lto_.symtab.21ff5e97f298c65a,"",%progbits
+	.section	.gnu.lto_.symtab.c547d48ea9802871,"",%progbits
 	.ascii	"lidarTFInit\000"
 	.ascii	"\000"
 	.ascii	"\000"

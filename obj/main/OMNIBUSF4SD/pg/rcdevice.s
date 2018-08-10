@@ -9,26 +9,26 @@
 	.eabi_attribute 34, 1
 	.eabi_attribute 18, 4
 	.file	"rcdevice.c"
-	.section	.gnu.lto_.profile.acb38b834d1ded5e,"",%progbits
+	.section	.gnu.lto_.profile.a38cf1a2edb0967,"",%progbits
 	.ascii	"x\234cc```\001bF\006\026f\000\000\203\000\023"
 	.text
-	.section	.gnu.lto_.icf.acb38b834d1ded5e,"",%progbits
+	.section	.gnu.lto_.icf.a38cf1a2edb0967,"",%progbits
 	.ascii	"x\234cc``\220d@\000\026\206k\347\372_02\276\275z\313"
 	.ascii	"\235\251\377\357\373\347\274\314`\222\001\000\2508\015"
 	.ascii	"\007"
 	.text
-	.section	.gnu.lto_.jmpfuncs.acb38b834d1ded5e,"",%progbits
+	.section	.gnu.lto_.jmpfuncs.a38cf1a2edb0967,"",%progbits
 	.ascii	"x\234cc``\340b@\000F\006FF\306\3729\314\014\014\000"
 	.ascii	"\006\245\0013"
 	.text
-	.section	.gnu.lto_.inline.acb38b834d1ded5e,"",%progbits
+	.section	.gnu.lto_.inline.a38cf1a2edb0967,"",%progbits
 	.ascii	"x\234cc``\020e@\000F\006\006V\026F\006&\246\013\374"
 	.ascii	"\014\034\037\364\230\300\202\000\030,\0022"
 	.text
-	.section	.gnu.lto_.pureconst.acb38b834d1ded5e,"",%progbits
+	.section	.gnu.lto_.pureconst.a38cf1a2edb0967,"",%progbits
 	.ascii	"x\234cc```\006bF\006)\000\000\177\000%"
 	.text
-	.section	.gnu.lto_pgResetFn_rcdeviceConfig.acb38b834d1ded5e,"",%progbits
+	.section	.gnu.lto_pgResetFn_rcdeviceConfig.a38cf1a2edb0967,"",%progbits
 	.ascii	"x\234\225P\273J\003Q\020\235\2637\273F\202Z\330(\246"
 	.ascii	"\260\020B,\334\217\360Kd}\220\302(\021ls\023#\211ha"
 	.ascii	"\341\213\260\3106>\0325\276\215\306\270\246\020\011"
@@ -51,7 +51,7 @@
 	.ascii	"\0352cV\377\300x\304\032\350\261\250\271^\367\216D\007"
 	.ascii	"#C\277\023\350\234\352"
 	.text
-	.section	.gnu.lto_rcdeviceConfig_Registry.acb38b834d1ded5e,"",%progbits
+	.section	.gnu.lto_rcdeviceConfig_Registry.a38cf1a2edb0967,"",%progbits
 	.ascii	"x\234cc``\270\006\304\322\014\0200\205\231q\347\316"
 	.ascii	"7\267\331\353\3776t44<\350\336!U7\207\231a\0323Djf\323"
 	.ascii	"\355\357\374\026\333\032:\0264\010\314af\234\312\314"
@@ -64,16 +64,16 @@
 	.ascii	"\005$$\365\364\213\213\222\365s\0233\363\364\013\322"
 	.ascii	"\365\213\222SR\3132\223S\365\222\031\000\026$S\""
 	.text
-	.section	.gnu.lto_.symbol_nodes.acb38b834d1ded5e,"",%progbits
+	.section	.gnu.lto_.symbol_nodes.a38cf1a2edb0967,"",%progbits
 	.ascii	"x\234cc``\260\006b\006\246\011\214\365\014\014\023\316"
 	.ascii	"10\000\251]\013\034\031\030X\373\031\031Z\225\030\364"
 	.ascii	"\012\322\343\213R\3233\213K\212*\201\202=\214\214\215"
 	.ascii	"J@\365\254\275\214L`\006\003\000\300+\015S"
 	.text
-	.section	.gnu.lto_.refs.acb38b834d1ded5e,"",%progbits
+	.section	.gnu.lto_.refs.a38cf1a2edb0967,"",%progbits
 	.ascii	"x\234cc``\340\004bfF&&&f&\006\006\000\001E\000\037"
 	.text
-	.section	.gnu.lto_.decls.acb38b834d1ded5e,"",%progbits
+	.section	.gnu.lto_.decls.a38cf1a2edb0967,"",%progbits
 	.ascii	"x\234\265VkPT\311\025\276\347\366\035\031\206A,\300"
 	.ascii	",\244\250-\327\2142?\002\263j*f\377\244\2222\225M~$"
 	.ascii	"?6\225T%\251\335qv\270\302X0Cf.V\231?\271\212\"\253"
@@ -206,7 +206,7 @@
 	.ascii	"P\246\217\243\375\207\245\036\214u\302\270\321\005\310"
 	.ascii	"\353?(\352\004z"
 	.text
-	.section	.gnu.lto_.symtab.acb38b834d1ded5e,"",%progbits
+	.section	.gnu.lto_.symtab.a38cf1a2edb0967,"",%progbits
 	.ascii	"pgResetFn_rcdeviceConfig\000"
 	.ascii	"\000"
 	.ascii	"\000"

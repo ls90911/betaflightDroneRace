@@ -9,14 +9,14 @@
 	.eabi_attribute 34, 1
 	.eabi_attribute 18, 4
 	.file	"bus_i2c_config.c"
-	.section	.gnu.lto_.profile.d01e3ba7e23295a9,"",%progbits
+	.section	.gnu.lto_.profile.2a2a7201f530e057,"",%progbits
 	.ascii	"x\234cc```\001bF\006\177c\000\001I\000\216"
 	.text
-	.section	.gnu.lto_.icf.d01e3ba7e23295a9,"",%progbits
+	.section	.gnu.lto_.icf.2a2a7201f530e057,"",%progbits
 	.ascii	"x\234cc```g@\000F\206\273\255M\345\014\000\012\006\002"
 	.ascii	"j"
 	.text
-	.section	.gnu.lto_.jmpfuncs.d01e3ba7e23295a9,"",%progbits
+	.section	.gnu.lto_.jmpfuncs.2a2a7201f530e057,"",%progbits
 	.ascii	"x\234cc``\250e@\000F\006FF\306\3729\314\014L@\366\001"
 	.ascii	"\026F\006 \376\317\210\306cC\360\376\374\377\377\237"
 	.ascii	"\237\221i\0123\343\264\326C\347\331\273\231\34703\002"
@@ -24,15 +24,15 @@
 	.ascii	"R\306\304\250\302\270\205\021\"\255\002\226f\000\000"
 	.ascii	"\337\013\033\342"
 	.text
-	.section	.gnu.lto_.inline.d01e3ba7e23295a9,"",%progbits
+	.section	.gnu.lto_.inline.2a2a7201f530e057,"",%progbits
 	.ascii	"x\234cc``\320c@\000F\006\006\323=\214\214\014L\001\023"
 	.ascii	"f\0130\260-\220g\002\2112\363010N\360\203R,\274\214"
 	.ascii	"\014\314\023\374\200\342\000\245\204\006P"
 	.text
-	.section	.gnu.lto_.pureconst.d01e3ba7e23295a9,"",%progbits
+	.section	.gnu.lto_.pureconst.2a2a7201f530e057,"",%progbits
 	.ascii	"x\234cc```\006bF\006)\000\000\177\000%"
 	.text
-	.section	.gnu.lto_i2cHardwareConfigure.d01e3ba7e23295a9,"",%progbits
+	.section	.gnu.lto_i2cHardwareConfigure.2a2a7201f530e057,"",%progbits
 	.ascii	"x\234\235XmsS\307\025\336\263{%]IW\272\222\337\010\251"
 	.ascii	"\015\314\000eH\015.\355L;\323i\371\222~\352d\2463\375"
 	.ascii	"\003\031j\334\304\037\002\0313\245\375\346\213\345`"
@@ -144,20 +144,20 @@
 	.ascii	"fu\325o\265\327\177Z\265\336\275\272j}ue\225\376\352"
 	.ascii	"\252\232\325\277YUS\345~]\216\375\007?\320\347\356"
 	.text
-	.section	.gnu.lto_.symbol_nodes.d01e3ba7e23295a9,"",%progbits
+	.section	.gnu.lto_.symbol_nodes.2a2a7201f530e057,"",%progbits
 	.ascii	"x\234cc``\210\003b\006\246.\306z\006\206\011\347\030"
 	.ascii	"\030\200\324\256\006G\006\006\326nF\006\005\240\014"
 	.ascii	"k\017##\210f\354c\254g\004\253``hhp\000\012\3642\326"
 	.ascii	"3!\01303\2600\264\264=\267d\006\262\236\034\177\247"
 	.ascii	"\003\242\217\234~\247\303\000\000\217\276\0254"
 	.text
-	.section	.gnu.lto_.refs.d01e3ba7e23295a9,"",%progbits
+	.section	.gnu.lto_.refs.2a2a7201f530e057,"",%progbits
 	.ascii	"x\234\015\303Q\012@@\000E\321wo\341K\215I\341C\023?"
 	.ascii	"\262\204\331\377\3068u\306$\375_#\004\303\240S\230\261"
 	.ascii	"\204\005kXq\013;\036\361\214\015/\274\361\3017\0373"
 	.ascii	"P\001\365"
 	.text
-	.section	.gnu.lto_.decls.d01e3ba7e23295a9,"",%progbits
+	.section	.gnu.lto_.decls.2a2a7201f530e057,"",%progbits
 	.ascii	"x\234\265Z{PTW\232\357sOw\323\335<\264\320\312\272\263"
 	.ascii	"\354\214\311\022\213\332\035A\320\215\223\252\375#\216"
 	.ascii	"\232\211U3\223\254:\2512\373G\007\241\325\316\362p\232"
@@ -422,7 +422,7 @@
 	.ascii	"\317\264\252\030\015\220\024aXY\002\253\266\006\374"
 	.ascii	"\377\000\376\272S8"
 	.text
-	.section	.gnu.lto_.symtab.d01e3ba7e23295a9,"",%progbits
+	.section	.gnu.lto_.symtab.2a2a7201f530e057,"",%progbits
 	.ascii	"i2cHardwareConfigure\000"
 	.ascii	"\000"
 	.ascii	"\000"

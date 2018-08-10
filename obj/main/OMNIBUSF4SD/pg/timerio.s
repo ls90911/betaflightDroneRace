@@ -9,29 +9,29 @@
 	.eabi_attribute 34, 1
 	.eabi_attribute 18, 4
 	.file	"timerio.c"
-	.section	.gnu.lto_.profile.d40be493b6c68b74,"",%progbits
+	.section	.gnu.lto_.profile.ab199a34c252b38d,"",%progbits
 	.ascii	"x\234cc```\004b\006\000\000D\000\010"
 	.text
-	.section	.gnu.lto_.icf.d40be493b6c68b74,"",%progbits
+	.section	.gnu.lto_.icf.ab199a34c252b38d,"",%progbits
 	.ascii	"x\234cc```b@\006\000\000\232\000\011"
 	.text
-	.section	.gnu.lto_.inline.d40be493b6c68b74,"",%progbits
+	.section	.gnu.lto_.inline.ab199a34c252b38d,"",%progbits
 	.ascii	"x\234cc```b@\006\000\000\232\000\011"
 	.text
-	.section	.gnu.lto_.pureconst.d40be493b6c68b74,"",%progbits
+	.section	.gnu.lto_.pureconst.ab199a34c252b38d,"",%progbits
 	.ascii	"x\234cc```\004b\006\000\000D\000\010"
 	.text
-	.section	.gnu.lto_.symbol_nodes.d40be493b6c68b74,"",%progbits
+	.section	.gnu.lto_.symbol_nodes.ab199a34c252b38d,"",%progbits
 	.ascii	"x\234cc```b\000\001\000\000R\000\011"
 	.text
-	.section	.gnu.lto_.refs.d40be493b6c68b74,"",%progbits
+	.section	.gnu.lto_.refs.ab199a34c252b38d,"",%progbits
 	.ascii	"x\234cc```\004b\006\000\000D\000\010"
 	.text
-	.section	.gnu.lto_.decls.d40be493b6c68b74,"",%progbits
+	.section	.gnu.lto_.decls.ab199a34c252b38d,"",%progbits
 	.ascii	"x\234cc\200\000F V\001\342\377@\000b\037d \000\000\276"
 	.ascii	"|\004\352"
 	.text
-	.section	.gnu.lto_.symtab.d40be493b6c68b74,"",%progbits
+	.section	.gnu.lto_.symtab.ab199a34c252b38d,"",%progbits
 	.text
 	.section	.gnu.lto_.opts,"",%progbits
 	.ascii	"'-fno-math-errno' '-fno-signed-zeros' '-fno-trappin"

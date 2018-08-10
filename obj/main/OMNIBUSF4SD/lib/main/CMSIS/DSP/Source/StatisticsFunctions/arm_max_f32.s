@@ -9,27 +9,27 @@
 	.eabi_attribute 34, 1
 	.eabi_attribute 18, 4
 	.file	"arm_max_f32.c"
-	.section	.gnu.lto_.profile.ab1cb035f285367e,"",%progbits
+	.section	.gnu.lto_.profile.d5cdf95a546fcbed,"",%progbits
 	.ascii	"x\234cc```\001bF\006U\025\000\000\346\000U"
 	.text
-	.section	.gnu.lto_.icf.ab1cb035f285367e,"",%progbits
+	.section	.gnu.lto_.icf.d5cdf95a546fcbed,"",%progbits
 	.ascii	"x\234cc``\340`@\000F\206\305\207\236\335\346`\000\000"
 	.ascii	"\017%\003>"
 	.text
-	.section	.gnu.lto_.jmpfuncs.ab1cb035f285367e,"",%progbits
+	.section	.gnu.lto_.jmpfuncs.d5cdf95a546fcbed,"",%progbits
 	.ascii	"x\234cc``\220d@\000F\006\026F \340\257\237\303\314\000"
 	.ascii	"\304\214P\232\211\001\0005?\004\263"
 	.text
-	.section	.gnu.lto_.inline.ab1cb035f285367e,"",%progbits
+	.section	.gnu.lto_.inline.d5cdf95a546fcbed,"",%progbits
 	.ascii	"x\234cc``\260e@\000F\006\006\265NFVf\006\005 \013D0"
 	.ascii	"30\202\230lV\013\236\3633p|\320cb`\272\300\317\302\300"
 	.ascii	"\370\202\235\203\011L2\260}\320\023`\020\000i\006\000"
 	.ascii	"\363\221\010}"
 	.text
-	.section	.gnu.lto_.pureconst.ab1cb035f285367e,"",%progbits
+	.section	.gnu.lto_.pureconst.d5cdf95a546fcbed,"",%progbits
 	.ascii	"x\234cc```\006bF\006)\000\000\177\000%"
 	.text
-	.section	.gnu.lto_arm_max_f32.ab1cb035f285367e,"",%progbits
+	.section	.gnu.lto_arm_max_f32.d5cdf95a546fcbed,"",%progbits
 	.ascii	"x\234uVkLTW\020>s\317\335{\357\276w\301gD\255QD\024"
 	.ascii	"YE\323\364\031\177h\232\370\243MS\022\3775\006\251\246"
 	.ascii	"D\004#Kj\333\264\254\240\353\243\332\324T\321\334\202"
@@ -128,14 +128,14 @@
 	.ascii	"4\362\013\2034\325\246\344N\037\237\027\3448\327\321"
 	.ascii	"\305\244\254\334\014\353=\372?f-\252\377"
 	.text
-	.section	.gnu.lto_.symbol_nodes.ab1cb035f285367e,"",%progbits
+	.section	.gnu.lto_.symbol_nodes.d5cdf95a546fcbed,"",%progbits
 	.ascii	"x\234cc``\020\001b\006\246v\306z\006\206\011\347\030"
 	.ascii	"\030\200\324\256\006G\240\020\0001\230\004|"
 	.text
-	.section	.gnu.lto_.refs.ab1cb035f285367e,"",%progbits
+	.section	.gnu.lto_.refs.d5cdf95a546fcbed,"",%progbits
 	.ascii	"x\234cc```\004b\006\000\000D\000\010"
 	.text
-	.section	.gnu.lto_.decls.ab1cb035f285367e,"",%progbits
+	.section	.gnu.lto_.decls.d5cdf95a546fcbed,"",%progbits
 	.ascii	"x\234\265S[H\024Q\030>\377\314\262\256\263f\022\021"
 	.ascii	"\005=\210\004\356\313\356\224\006\021E/F\227\007#Xz"
 	.ascii	"\360i\032\327\321\035\331\235)w\026\252\207\030\272"
@@ -187,7 +187,7 @@
 	.ascii	"\030e\250\202j\356\264\222-\377\207b\223\037\024\177"
 	.ascii	"\241\241"
 	.text
-	.section	.gnu.lto_.symtab.ab1cb035f285367e,"",%progbits
+	.section	.gnu.lto_.symtab.d5cdf95a546fcbed,"",%progbits
 	.ascii	"arm_max_f32\000"
 	.ascii	"\000"
 	.ascii	"\000"

@@ -5978,6 +5978,9 @@ _Bool
     mixerIsTricopter(void);
 
 void mixerSetThrottleAngleCorrection(int correctionValue);
+
+extern float shadowThrottle;
+extern float shadowRcCommandThrottle;
 # 37 "./src/main/io/beeper.c" 2
 
 # 1 "./src/main/fc/config.h" 1

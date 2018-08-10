@@ -6597,6 +6597,7 @@ extern float gyroz;
 extern float accmx;
 extern float accmy;
 extern float accmz;
+extern int16_t sonar_adc_cm;
 
 typedef struct {
     float w,x,y,z;
@@ -6652,19 +6653,19 @@ void imuUpdateAttitude(timeUs_t currentTimeUs);
 
 void imuResetAccelerationSum(void);
 void imuInit(void);
-# 105 "./src/main/flight/imu.h"
+# 106 "./src/main/flight/imu.h"
 void imuQuaternionComputeProducts(quaternion *quat, quaternionProducts *quatProd);
 
-# 106 "./src/main/flight/imu.h" 3 4
+# 107 "./src/main/flight/imu.h" 3 4
 _Bool 
-# 106 "./src/main/flight/imu.h"
+# 107 "./src/main/flight/imu.h"
     imuQuaternionHeadfreeOffsetSet(void);
 void imuQuaternionHeadfreeTransformVectorEarthToBody(t_fp_vector_def * v);
 void imuComputeQuaternionFromRPY(quaternionProducts *qP, int16_t initialRoll, int16_t initialPitch, int16_t initialYaw);
 
-# 109 "./src/main/flight/imu.h" 3 4
+# 110 "./src/main/flight/imu.h" 3 4
 _Bool 
-# 109 "./src/main/flight/imu.h"
+# 110 "./src/main/flight/imu.h"
     shouldInitializeGPSHeading(void);
 # 34 "./src/main/flight/position.c" 2
 # 1 "./src/main/flight/pid.h" 1
@@ -6926,6 +6927,103 @@ _Bool
 # 200 "./src/main/flight/pid.h"
     pidAntiGravityEnabled(void);
 # 35 "./src/main/flight/position.c" 2
+# 1 "./src/main/drivers/adc.h" 1
+# 21 "./src/main/drivers/adc.h"
+       
+
+
+
+# 1 "./src/main/drivers/io_types.h" 1
+# 21 "./src/main/drivers/io_types.h"
+       
+
+
+
+
+
+typedef uint8_t ioTag_t;
+typedef void* IO_t;
+# 48 "./src/main/drivers/io_types.h"
+typedef uint8_t ioConfig_t;
+# 26 "./src/main/drivers/adc.h" 2
+# 1 "./src/main/drivers/time.h" 1
+# 21 "./src/main/drivers/time.h"
+       
+
+
+
+
+
+void delayMicroseconds(timeUs_t us);
+void delay(timeMs_t ms);
+
+timeUs_t micros(void);
+timeUs_t microsISR(void);
+timeMs_t millis(void);
+
+uint32_t ticks(void);
+timeDelta_t ticks_diff_us(uint32_t begin, uint32_t end);
+# 27 "./src/main/drivers/adc.h" 2
+# 46 "./src/main/drivers/adc.h"
+typedef enum ADCDevice {
+    ADCINVALID = -1,
+    ADCDEV_1 = 0,
+
+    ADCDEV_2,
+    ADCDEV_3,
+
+
+
+
+    ADCDEV_COUNT
+} ADCDevice;
+
+
+
+
+typedef enum {
+    ADC_BATTERY = 0,
+    ADC_CURRENT = 1,
+    ADC_EXTERNAL1 = 2,
+    ADC_RSSI = 3,
+    ADC_CHANNEL_COUNT
+} AdcChannel;
+
+typedef struct adcOperatingConfig_s {
+    ioTag_t tag;
+    uint8_t adcChannel;
+    uint8_t dmaIndex;
+    
+# 74 "./src/main/drivers/adc.h" 3 4
+   _Bool 
+# 74 "./src/main/drivers/adc.h"
+        enabled;
+    uint8_t sampleTime;
+} adcOperatingConfig_t;
+
+struct adcConfig_s;
+void adcInit(const struct adcConfig_s *config);
+uint16_t adcGetChannel(uint8_t channel);
+
+
+extern uint16_t adcVREFINTCAL;
+extern uint16_t adcTSCAL1;
+extern uint16_t adcTSCAL2;
+extern uint16_t adcTSSlopeK;
+
+
+# 88 "./src/main/drivers/adc.h" 3 4
+_Bool 
+# 88 "./src/main/drivers/adc.h"
+    adcInternalIsBusy(void);
+void adcInternalStartConversion(void);
+uint16_t adcInternalReadVrefint(void);
+uint16_t adcInternalReadTempsensor(void);
+
+
+
+ADCDevice adcDeviceByInstance(ADC_TypeDef *instance);
+# 36 "./src/main/flight/position.c" 2
 
 # 1 "./src/main/io/gps.h" 1
 # 21 "./src/main/io/gps.h"
@@ -7064,7 +7162,7 @@ void onGpsNewData(void);
 void GPS_reset_home_position(void);
 void GPS_calc_longitude_scaling(int32_t lat);
 void GPS_distance_cm_bearing(int32_t *currentLat1, int32_t *currentLon1, int32_t *destinationLat2, int32_t *destinationLon2, uint32_t *dist, int32_t *bearing);
-# 37 "./src/main/flight/position.c" 2
+# 38 "./src/main/flight/position.c" 2
 
 # 1 "./src/main/sensors/sensors.h" 1
 # 21 "./src/main/sensors/sensors.h"
@@ -7106,7 +7204,7 @@ typedef enum {
     SENSOR_GPS = 1 << 5,
     SENSOR_GPSMAG = 1 << 6
 } sensors_e;
-# 39 "./src/main/flight/position.c" 2
+# 40 "./src/main/flight/position.c" 2
 # 1 "./src/main/sensors/barometer.h" 1
 # 21 "./src/main/sensors/barometer.h"
        
@@ -7128,19 +7226,7 @@ typedef enum {
 
 
 
-# 1 "./src/main/drivers/io_types.h" 1
-# 21 "./src/main/drivers/io_types.h"
-       
 
-
-
-
-
-typedef uint8_t ioTag_t;
-typedef void* IO_t;
-# 48 "./src/main/drivers/io_types.h"
-typedef uint8_t ioConfig_t;
-# 26 "./src/main/drivers/bus_i2c.h" 2
 # 1 "./src/main/drivers/rcc_types.h" 1
 # 21 "./src/main/drivers/rcc_types.h"
        
@@ -7300,7 +7386,7 @@ _Bool
     isBaroReady(void);
 int32_t baroCalculateAltitude(void);
 void performBaroCalibrationCycle(void);
-# 40 "./src/main/flight/position.c" 2
+# 41 "./src/main/flight/position.c" 2
 
 static int32_t estimatedAltitude = 0;
 
@@ -7309,13 +7395,13 @@ static int32_t estimatedAltitude = 0;
 
 
 static 
-# 47 "./src/main/flight/position.c" 3 4
+# 48 "./src/main/flight/position.c" 3 4
       _Bool 
-# 47 "./src/main/flight/position.c"
+# 48 "./src/main/flight/position.c"
            altitudeOffsetSet = 
-# 47 "./src/main/flight/position.c" 3 4
+# 48 "./src/main/flight/position.c" 3 4
                                0
-# 47 "./src/main/flight/position.c"
+# 48 "./src/main/flight/position.c"
                                     ;
 
 void calculateEstimatedAltitude(timeUs_t currentTimeUs)
@@ -7331,7 +7417,6 @@ void calculateEstimatedAltitude(timeUs_t currentTimeUs)
     previousTimeUs = currentTimeUs;
 
     int32_t baroAlt = 0;
-
     int32_t gpsAlt = 0;
     float gpsTrust = 0.3;
     

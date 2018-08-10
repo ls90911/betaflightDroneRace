@@ -523,12 +523,15 @@ void stopPwmAllMotors(void)
     delayMicroseconds(1500);
 }
 
+float shadowThrottle;
 static FAST_RAM_ZERO_INIT float throttle = 0;
 static FAST_RAM_ZERO_INIT float motorOutputMin;
 static FAST_RAM_ZERO_INIT float motorRangeMin;
 static FAST_RAM_ZERO_INIT float motorRangeMax;
 static FAST_RAM_ZERO_INIT float motorOutputRange;
 static FAST_RAM_ZERO_INIT int8_t motorOutputMixSign;
+
+float shadowRcCommandThrottle;
 
 static void calculateThrottleAndCurrentMotorEndpoints(timeUs_t currentTimeUs)
 {
@@ -619,6 +622,8 @@ static void calculateThrottleAndCurrentMotorEndpoints(timeUs_t currentTimeUs)
     }
 
     throttle = constrainf(throttle / currentThrottleInputRange, 0.0f, 1.0f);
+    shadowThrottle = throttle;
+    shadowRcCommandThrottle = rcCommand[THROTTLE];
 }
 
 #define CRASH_FLIP_DEADBAND 20

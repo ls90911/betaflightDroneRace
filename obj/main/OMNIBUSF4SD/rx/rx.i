@@ -8649,7 +8649,7 @@ static void updateRSSIADC(timeUs_t currentTimeUs)
     }
     rssiUpdateAt = currentTimeUs + (1000000 / 50);
 
-    const uint16_t adcRssiSample = adcGetChannel(ADC_RSSI);
+    const uint16_t adcRssiSample =1023;
     uint16_t rssiValue = adcRssiSample / (4096 / 1024);
 
 

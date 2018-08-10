@@ -9,23 +9,23 @@
 	.eabi_attribute 34, 1
 	.eabi_attribute 18, 4
 	.file	"fat_standard.c"
-	.section	.gnu.lto_.profile.a2fc772ef2fc06a2,"",%progbits
+	.section	.gnu.lto_.profile.a7465e20f3a34041,"",%progbits
 	.ascii	"x\234cc```\001bF\006\017}\000\0017\000\203"
 	.text
-	.section	.gnu.lto_.icf.a2fc772ef2fc06a2,"",%progbits
+	.section	.gnu.lto_.icf.a7465e20f3a34041,"",%progbits
 	.ascii	"x\234cc``\320f@\000v\206/\013/\337bg\\\276\371\347t"
 	.ascii	"\016\246\353+\236,db>\320=m7\037\313\366\277\323\336"
 	.ascii	"2\263^\370\360\364\025'\333\202\246\225\351\014\000"
 	.ascii	"\331\346\025="
 	.text
-	.section	.gnu.lto_.jmpfuncs.a2fc772ef2fc06a2,"",%progbits
+	.section	.gnu.lto_.jmpfuncs.a7465e20f3a34041,"",%progbits
 	.ascii	"x\234cc``\250f@\000v\006FF\306\3729\314 \012D32Aif("
 	.ascii	"\315\002\241\231X\2414\033P\0013\220\001\302,L\014\014"
 	.ascii	"\214\007X\030\031\200\370?\310\000m\231)\314\214\353"
 	.ascii	"[\237\254\344\350f\236\303\314\012\022\334\314(\203"
 	.ascii	"\256JK\006$\312\000\000\034\323\026\230"
 	.text
-	.section	.gnu.lto_.inline.a2fc772ef2fc06a2,"",%progbits
+	.section	.gnu.lto_.inline.a7465e20f3a34041,"",%progbits
 	.ascii	"x\234cc``\270\315\200\000\354\014\014,\314\214\214\014"
 	.ascii	"\002\214\014\014\314@>\333\002y&\006\246\013\374, I"
 	.ascii	"F\210\234\00269&<r\314x\344X\030XY\200r\034\214 U0I"
@@ -33,11 +33,11 @@
 	.ascii	"d\262\254\237\027\"\017\262\226\207\221\201q\202\037"
 	.ascii	"\224b\000\000!\270\022\217"
 	.text
-	.section	.gnu.lto_.pureconst.a2fc772ef2fc06a2,"",%progbits
+	.section	.gnu.lto_.pureconst.a7465e20f3a34041,"",%progbits
 	.ascii	"x\234cc``\340\007bv\006\006F\006&\006f\006\026VVV6)"
 	.ascii	"\000\002\331\000V"
 	.text
-	.section	.gnu.lto_fat16_isEndOfChainMarker.a2fc772ef2fc06a2,"",%progbits
+	.section	.gnu.lto_fat16_isEndOfChainMarker.a7465e20f3a34041,"",%progbits
 	.ascii	"x\234-\217\277KBQ\024\307\317\367\0363A\314 \267\336"
 	.ascii	"\320f\022\370\202\226\376\212\376\205x\371\003\2044"
 	.ascii	"xO\207&\237:\230\325\020\244\025bc\324\022\025\331/"
@@ -57,7 +57,7 @@
 	.ascii	"ff\315\264\234\365\\\"m\345\323\216)u\331\311[\271\244"
 	.ascii	"e'\343\011\012%V\013N>e/\025\262+)\373\017c\343k\352"
 	.text
-	.section	.gnu.lto_fat32_isEndOfChainMarker.a2fc772ef2fc06a2,"",%progbits
+	.section	.gnu.lto_fat32_isEndOfChainMarker.a7465e20f3a34041,"",%progbits
 	.ascii	"x\234-\217;K\003A\024\205\357\331\033C@6\240\244s\213"
 	.ascii	"\024B\014BV\260\361W\370\027d\335$\0200\021v\223\302"
 	.ascii	"*\223\007\304\240\205\202Q\011\253\225\242`a\30476["
@@ -77,7 +77,7 @@
 	.ascii	"\025\263\256)\353\234[\264\012i\313I\247l\322\355\205"
 	.ascii	"\222[\3148\263\245\374|\306\371\003\251\016m\004"
 	.text
-	.section	.gnu.lto_fat32_decodeClusterNumber.a2fc772ef2fc06a2,"",%progbits
+	.section	.gnu.lto_fat32_decodeClusterNumber.a7465e20f3a34041,"",%progbits
 	.ascii	"x\234M\217;K\003A\024\205\357\231\211!\240I#ba\212\024"
 	.ascii	"B\014B\266\365'X\371\027d\335$\0200+\354&\205U&\017"
 	.ascii	"\337\026\026>`\011\202\305j\351+\276\012a+\033Q\320"
@@ -96,7 +96,7 @@
 	.ascii	"\314\271\006\277\323n\321\2643\246\223I[\024\265fKn"
 	.ascii	"1\353L\225\0123Y\347\027P\015nB"
 	.text
-	.section	.gnu.lto_fat_isFreeSpace.a2fc772ef2fc06a2,"",%progbits
+	.section	.gnu.lto_fat_isFreeSpace.a7465e20f3a34041,"",%progbits
 	.ascii	"x\234-O=K\003Q\020\334\271\2151 \227N\013\275\"\205"
 	.ascii	"\020\203\220\023l\374\025\376\0059\363\001\001\023!"
 	.ascii	"\227\024Vy\371\220\030\264\2600*\341\264\021\321N\305"
@@ -116,7 +116,7 @@
 	.ascii	"N!\355\332R\347\334\202\223K:\371d<Afb\241\350\026R"
 	.ascii	"\371\331bv>\225\377\003\232:hv"
 	.text
-	.section	.gnu.lto_fat_isDirectoryEntryTerminator.a2fc772ef2fc06a2,"",%progbits
+	.section	.gnu.lto_fat_isDirectoryEntryTerminator.a7465e20f3a34041,"",%progbits
 	.ascii	"x\234]P=K\003A\020\235w{\271\010\242\2356\246H!h\024"
 	.ascii	"\274\210?H\216\250\220\302\010I\020\254\334\304\217"
 	.ascii	"(\212X\230(\341\2204\032\033\211b\374L\2243\205\225"
@@ -139,7 +139,7 @@
 	.ascii	"\230\243V4fF\307L+1\021\213\214X\311\221\204\311q0\221"
 	.ascii	"\264bCV|\250/B\276\341X2>\361\003h!\217\253"
 	.text
-	.section	.gnu.lto_fat_isDirectoryEntryEmpty.a2fc772ef2fc06a2,"",%progbits
+	.section	.gnu.lto_fat_isDirectoryEntryEmpty.a7465e20f3a34041,"",%progbits
 	.ascii	"x\234-P;K\003A\020\236\357\366r\021$vba\300\024\202"
 	.ascii	"/\310)\376 9\022\205\024FH\322X\271&j|\025\026&J8$\010"
 	.ascii	">\032Q\361\255QN\013\273(>\320\024b\341\243P!\240 ("
@@ -164,7 +164,7 @@
 	.ascii	"\233\034;\342\011+\032\266b\341`\210<\235\321D\254\367"
 	.ascii	"\027\311\314\221S"
 	.text
-	.section	.gnu.lto_fat_convertFilenameToFATStyle.a2fc772ef2fc06a2,"",%progbits
+	.section	.gnu.lto_fat_convertFilenameToFATStyle.a7465e20f3a34041,"",%progbits
 	.ascii	"x\234\205U\337O\\E\024\2363s\177\357\336{w\371a\310"
 	.ascii	"v\323l\250d\241M\300D}\361I_\364\3170\033(\011\211\305"
 	.ascii	"\244\020\023}\341\226\237\205\332j\242\305\346fmh\264"
@@ -235,17 +235,17 @@
 	.ascii	"\243\215\251cGC\270\361j\260\206\206\277\001\223\034"
 	.ascii	"cl"
 	.text
-	.section	.gnu.lto_.symbol_nodes.a2fc772ef2fc06a2,"",%progbits
+	.section	.gnu.lto_.symbol_nodes.a7465e20f3a34041,"",%progbits
 	.ascii	"x\234U\310\271\015\2000\020\005\321\361\265.\207\026"
 	.ascii	"\240\262\357\022H\311\251\202\230\020A\005\224\202\204"
 	.ascii	"!\333`4\3223`\351\021\021\314'\337\2666u\010\012\036"
 	.ascii	"\242\242\207\244\344!+{(*\036L\346 T\325\037\240\265"
 	.ascii	"\021\222U\366\347(\337\327\353\036x\001\253[$\026"
 	.text
-	.section	.gnu.lto_.refs.a2fc772ef2fc06a2,"",%progbits
+	.section	.gnu.lto_.refs.a7465e20f3a34041,"",%progbits
 	.ascii	"x\234cc```\004b\006\000\000D\000\010"
 	.text
-	.section	.gnu.lto_.decls.a2fc772ef2fc06a2,"",%progbits
+	.section	.gnu.lto_.decls.a7465e20f3a34041,"",%progbits
 	.ascii	"x\234\265WkPT\311\025\276}\373\002\3030\002\005\224"
 	.ascii	"\205\326\3045\226Y&?`|lb\366G\252\326\270\232\255J\342"
 	.ascii	"VES\251\370\207\035\207\3132.\314\220\231\313n\221?"
@@ -390,7 +390,7 @@
 	.ascii	"\230(\332\205\304$\273(\304\213\246X?\253M\212\263\333"
 	.ascii	"\276\012U\025g&[\021\364\3707\032$\201\323"
 	.text
-	.section	.gnu.lto_.symtab.a2fc772ef2fc06a2,"",%progbits
+	.section	.gnu.lto_.symtab.a7465e20f3a34041,"",%progbits
 	.ascii	"fat16_isEndOfChainMarker\000"
 	.ascii	"\000"
 	.ascii	"\000"

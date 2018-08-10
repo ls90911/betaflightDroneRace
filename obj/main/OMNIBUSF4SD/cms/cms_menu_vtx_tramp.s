@@ -9,10 +9,10 @@
 	.eabi_attribute 34, 1
 	.eabi_attribute 18, 4
 	.file	"cms_menu_vtx_tramp.c"
-	.section	.gnu.lto_.profile.b99c6e317b4333cd,"",%progbits
+	.section	.gnu.lto_.profile.8d7d6df5b0f76411,"",%progbits
 	.ascii	"x\234cc```\005bF\206\036\246j\000\002\260\001\026"
 	.text
-	.section	.gnu.lto_.icf.b99c6e317b4333cd,"",%progbits
+	.section	.gnu.lto_.icf.8d7d6df5b0f76411,"",%progbits
 	.ascii	"x\234cc``X\316\200\0002\014\363[n\275fg\354\276\262"
 	.ascii	"{\037\037\023\230d9\363\365\322f\016\326}\235\227~1"
 	.ascii	"\261\201I\366'3\336\257\342\344\000\313r~:\370\351#"
@@ -25,7 +25,7 @@
 	.ascii	"\353\316m~\265\363G\2474rh\355}\370\256\235\225\001"
 	.ascii	"\000j!U_"
 	.text
-	.section	.gnu.lto_.jmpfuncs.b99c6e317b4333cd,"",%progbits
+	.section	.gnu.lto_.jmpfuncs.8d7d6df5b0f76411,"",%progbits
 	.ascii	"x\234\215\221IK\003A\020\205\353M\317\226\015\025%\210"
 	.ascii	"\344\2209\344\"\210\210\376#\375\037\006\304\223\373"
 	.ascii	"\202x\030Tp\271\350A\\b\214[\214q\211\036<(\202\210"
@@ -52,7 +52,7 @@
 	.ascii	"`\273\013\377#\2539\"3\331\306\207\254d\252;\325\331"
 	.ascii	"C\206\252\364TW\017}\003\242\342\001\034"
 	.text
-	.section	.gnu.lto_.inline.b99c6e317b4333cd,"",%progbits
+	.section	.gnu.lto_.inline.8d7d6df5b0f76411,"",%progbits
 	.ascii	"x\234u\315!\016\3020\024\006\340\277\355\326ue[ ,\204"
 	.ascii	"\314 H\206\001\015\212#\364\000\234\252H\034\022\211"
 	.ascii	"\300\221\020\024\307@p\022\336[\232\206\012\352\372"
@@ -64,11 +64,11 @@
 	.ascii	"\002fXnh\320\337N2m\312\033j\003\370l\210r\267b\301"
 	.ascii	"\027\311\227\035 "
 	.text
-	.section	.gnu.lto_.pureconst.b99c6e317b4333cd,"",%progbits
+	.section	.gnu.lto_.pureconst.8d7d6df5b0f76411,"",%progbits
 	.ascii	"x\234cc``\020\005b.\006\011V\0116\011v\011N\011\001"
 	.ascii	"\011A\011a\011\021\0111I\000\020\251\001\220"
 	.text
-	.section	.gnu.lto_trampCmsUpdateFreqRef.b99c6e317b4333cd,"",%progbits
+	.section	.gnu.lto_trampCmsUpdateFreqRef.8d7d6df5b0f76411,"",%progbits
 	.ascii	"x\234m\222\313k\023Q\024\306\317w\357\334\231\230\264"
 	.ascii	"\325\225\210t\247\010-\330\020\374\023\374/\334\204"
 	.ascii	"\022\\\270H\221\266\212\273\3346jR\037\020D\307*\243"
@@ -99,7 +99,7 @@
 	.ascii	"\036\031\312\227\312#\262\213\345\303C\307\212\307G"
 	.ascii	"O\024G\207\007\313G\007J\364\027\201\025\355\267"
 	.text
-	.section	.gnu.lto_trampCmsConfigBand.b99c6e317b4333cd,"",%progbits
+	.section	.gnu.lto_trampCmsConfigBand.8d7d6df5b0f76411,"",%progbits
 	.ascii	"x\234\215R\317k\023Q\020\236ogw\223\2666g\305=x(\204"
 	.ascii	"\036l\010\336=\351\337\021J\250P0%4U\274\345\231T\332"
 	.ascii	"\240\224 \0321]e=\224\036c0\265Fm\2636\036Dl\232\212"
@@ -129,7 +129,7 @@
 	.ascii	"\372\2442\023S\027R\027g.\245f\246\3073\331\2614Y\331"
 	.ascii	"3\223\271\254\231\2338\177\356\007\240M\321e"
 	.text
-	.section	.gnu.lto_trampCmsConfigChan.b99c6e317b4333cd,"",%progbits
+	.section	.gnu.lto_trampCmsConfigChan.8d7d6df5b0f76411,"",%progbits
 	.ascii	"x\234\215RKk\023Q\024>\337\234y\265\265u\2530\013\027"
 	.ascii	"\205\320\205\015\301\275+\375\035\241\204\012\005SB"
 	.ascii	"S\305]\256I\245\015\212\006\321\210\351(\343\242\024"
@@ -159,7 +159,7 @@
 	.ascii	"\317\244\317N\236KON\214ds\303\031\262r'\306\36293?"
 	.ascii	"z\372\324\017\230{\321\311"
 	.text
-	.section	.gnu.lto_trampCmsConfigPower.b99c6e317b4333cd,"",%progbits
+	.section	.gnu.lto_trampCmsConfigPower.8d7d6df5b0f76411,"",%progbits
 	.ascii	"x\234\215R\337KSa\030~\237\363~\347\2345\323\360\256"
 	.ascii	"\213\021A\302P\310\021\365'\364\177\014\031\006B\223"
 	.ascii	"\261Yt\267\257\251\350(hH-\235GY\027\325\245I\263\265"
@@ -189,7 +189,7 @@
 	.ascii	"/\231\352M\220\235\2728\220I\251L\377\345K\177\000\320"
 	.ascii	"6\300<"
 	.text
-	.section	.gnu.lto_trampCmsInitSettings.b99c6e317b4333cd,"",%progbits
+	.section	.gnu.lto_trampCmsInitSettings.8d7d6df5b0f76411,"",%progbits
 	.ascii	"x\234mT[KTQ\024^k\357s?\343%$\352\301\207\242\302\012"
 	.ascii	"\322\244\327\376C?ADz\360\301\010\255\350mN3\325\314"
 	.ascii	"t\201!l\224a\212\251\210\240$\321\354\242\225\216\216"
@@ -239,7 +239,7 @@
 	.ascii	"\017\034\2569r\350h\315\241\306\332\206\203\225u\200"
 	.ascii	"\365\177\001\3644\306|"
 	.text
-	.section	.gnu.lto_trampCmsOnEnter.b99c6e317b4333cd,"",%progbits
+	.section	.gnu.lto_trampCmsOnEnter.8d7d6df5b0f76411,"",%progbits
 	.ascii	"x\234\035N\261J\003A\024|\263\357r\236H\374\001\257"
 	.ascii	"\260\020!M\256\260\361o\216pXX\\\220$\212\335\255FP"
 	.ascii	"\321\302B#\350\012\261J!\222\210\321x\335Uv\212\261"
@@ -257,7 +257,7 @@
 	.ascii	"\264\010\343\225\372z\270\321\332\014[\215Z\274V\215"
 	.ascii	"\350\0374WY\270"
 	.text
-	.section	.gnu.lto_trampCmsCommence.b99c6e317b4333cd,"",%progbits
+	.section	.gnu.lto_trampCmsCommence.8d7d6df5b0f76411,"",%progbits
 	.ascii	"x\234\225\224\317O\023Q\020\307\337\354\353\266\333"
 	.ascii	"\"\005E*j\017\034H\0101\320\020\377\005\377\010o\204"
 	.ascii	"\020LH,!\024\215\267.\024\004\324Ccd\215e5\313\241\361"
@@ -304,7 +304,7 @@
 	.ascii	"\376\232\222\012&\327\234\253\012\324\330\002\225\027"
 	.ascii	"/\374\005\275\335\363L"
 	.text
-	.section	.gnu.lto_trampCmsSetPitMode.b99c6e317b4333cd,"",%progbits
+	.section	.gnu.lto_trampCmsSetPitMode.8d7d6df5b0f76411,"",%progbits
 	.ascii	"x\234\215R\317k\023a\020\235\267\263\233\244\321\346"
 	.ascii	"&x\310\241\207B\310\301\206\340\335\223\377G(\261B\301"
 	.ascii	"\224\330T\361\226\317$\332\006=\004\261\021\323\215"
@@ -335,7 +335,7 @@
 	.ascii	"\023S\027\022\027g.%f\246\307S\351\261$Y\351\323\223"
 	.ascii	"\231\264\231\2318w\366\020\315S\335v"
 	.text
-	.section	.gnu.lto_trampCmsUpdateStatusString.part.0.b99c6e317b4333cd,"",%progbits
+	.section	.gnu.lto_trampCmsUpdateStatusString.part.0.8d7d6df5b0f76411,"",%progbits
 	.ascii	"x\234UO=K\003A\020\335\267s\271\234\340\007\226\001"
 	.ascii	"\013\025A,\222\340/\012\022\024,.H\242\222\356VE<1\205"
 	.ascii	"\212\306\024\2079\020\211\240 j\214\271\370AH\241\235"
@@ -358,7 +358,7 @@
 	.ascii	"\316\351L\331\223\231\271\324\374l>5\233\235\260g\022"
 	.ascii	"ia\016\3069\304/\211C\2131"
 	.text
-	.section	.gnu.lto_trampCmsUpdateStatusString.b99c6e317b4333cd,"",%progbits
+	.section	.gnu.lto_trampCmsUpdateStatusString.8d7d6df5b0f76411,"",%progbits
 	.ascii	"x\234\215U\375STU\030>\357=w\357\307\262\354\242\225"
 	.ascii	"\212R\301\214\014#\231\016\3064\323_\303\030\326L?\340"
 	.ascii	"4~4\325/{q1V\305\0312\333\034\332\221\373\203JS\214"
@@ -427,7 +427,7 @@
 	.ascii	"y\025\177L\315\315/\315\177m\033\373\017\352\365\026"
 	.ascii	"\234"
 	.text
-	.section	.gnu.lto_cmsx_menuVtxTramp.b99c6e317b4333cd,"",%progbits
+	.section	.gnu.lto_cmsx_menuVtxTramp.8d7d6df5b0f76411,"",%progbits
 	.ascii	"x\234cc``(\000b5\006\010\230\302\314\270s\347\233\333"
 	.ascii	"\354\365\177\033:\032\032\036t\337c\327\230\303\314"
 	.ascii	"\260\200\031\"5\255\365\320y\366n\3469\314\214\214\350"
@@ -438,7 +438,7 @@
 	.ascii	"4\276\254\244\"\276\244(1\267@/\231\001\000\362\357"
 	.ascii	"5\276"
 	.text
-	.section	.gnu.lto_trampMenuEntries.b99c6e317b4333cd,"",%progbits
+	.section	.gnu.lto_trampMenuEntries.8d7d6df5b0f76411,"",%progbits
 	.ascii	"x\234u\325]L\024W\024\007\360{\366\316\316,\313Wk\375"
 	.ascii	"H\223}`\222>\350\003\220\332\027\336\032\212\3306F\273"
 	.ascii	"\005\2226\266)1\324\007\0370\215_\351\233#\251\001)"
@@ -495,7 +495,7 @@
 	.ascii	"\361\006>\324\2065D\362\277Y\301\276&\275\371y\025e"
 	.ascii	"\305\353\375y\371\344_\021\177tz"
 	.text
-	.section	.gnu.lto_trampCmsEntPitMode.b99c6e317b4333cd,"",%progbits
+	.section	.gnu.lto_trampCmsEntPitMode.8d7d6df5b0f76411,"",%progbits
 	.ascii	"x\234cc``\310\007b5\006\010\230\302\314\330\374k\377"
 	.ascii	"g\276\372\277\0153\032\032\036t\367\261\326\315afX\300"
 	.ascii	"\014\221:\372\377\373\001\376n\3469\314\214\214L@\356"
@@ -506,7 +506,7 @@
 	.ascii	"\271\251y\245\361e%\025\361%E\211\271\005z\311\014\000"
 	.ascii	"\032(6;"
 	.text
-	.section	.gnu.lto_trampCmsEntBand.b99c6e317b4333cd,"",%progbits
+	.section	.gnu.lto_trampCmsEntBand.8d7d6df5b0f76411,"",%progbits
 	.ascii	"x\234cc``(\000b5\006\010\230\302\314\330\374k\377g\276"
 	.ascii	"\372\277\0153\032\032\036t\317`\356b\236\303\314\260"
 	.ascii	"\200\031\"wr\311\256?<\335@\021FFV w\347\3167\267\331"
@@ -517,7 +517,7 @@
 	.ascii	"\334\324\274\322\370\262\222\212\370\222\242\304\334"
 	.ascii	"\002\275d\006\000\356\2245\257"
 	.text
-	.section	.gnu.lto_trampCmsEntChan.b99c6e317b4333cd,"",%progbits
+	.section	.gnu.lto_trampCmsEntChan.8d7d6df5b0f76411,"",%progbits
 	.ascii	"x\234cc``(\000b5\006\010\230\302\314\330\374k\377g\276"
 	.ascii	"\372\277\0153\032\032\036t\317b\356b\236\303\314\260"
 	.ascii	"\200\031\"7k\367\227S\254\335@\021FF\016 w\347\3167"
@@ -528,7 +528,7 @@
 	.ascii	"\341\370\334\324\274\322\370\262\222\212\370\222\242"
 	.ascii	"\304\334\002\275d\006\000\354H5\260"
 	.text
-	.section	.gnu.lto_trampCmsEntFreqRef.b99c6e317b4333cd,"",%progbits
+	.section	.gnu.lto_trampCmsEntFreqRef.8d7d6df5b0f76411,"",%progbits
 	.ascii	"x\234cc``\250\005b5\006\010\230\302\314\270\376\315"
 	.ascii	"\316\237\274\335\314s\230\031\030A\334\303\317\316\356"
 	.ascii	"\347\200p{\364\200\374\317\037\026=c\205\360\037h\003"
@@ -539,7 +539,7 @@
 	.ascii	"\277\270(Y?713O?9\267\030\204\343sS\363J\343\313J*\342"
 	.ascii	"K\212\022s\013\364\222\031\000/\3378l"
 	.text
-	.section	.gnu.lto_trampCmsEntPower.b99c6e317b4333cd,"",%progbits
+	.section	.gnu.lto_trampCmsEntPower.8d7d6df5b0f76411,"",%progbits
 	.ascii	"x\234cc``(\000b5\006\010\230\302\314\330\374k\377g\276"
 	.ascii	"\372\277\0153\032\032\036t\257`^\301<\207\231a\0013"
 	.ascii	"D\356\357\207\013\177y\272\201\"\214\214\\@\356\316"
@@ -550,7 +550,7 @@
 	.ascii	"\361\271\251y\245\361e%\025\361%E\211\271\005z\311\014"
 	.ascii	"\000o06\343"
 	.text
-	.section	.gnu.lto_trampCmsEntTemp.b99c6e317b4333cd,"",%progbits
+	.section	.gnu.lto_trampCmsEntTemp.8d7d6df5b0f76411,"",%progbits
 	.ascii	"x\234cc``\250\005b5\006\010\230\302\314\270\376\315"
 	.ascii	"\316\237\274\335\314s\230\031\030A\334\357\263o=\342"
 	.ascii	"\200p\3270\001\371\207V\354\236\306\017\341\317\251"
@@ -561,7 +561,7 @@
 	.ascii	"\277\270(Y?713O?9\267\030\204\343sS\363J\343\313J*\342"
 	.ascii	"K\212\022s\013\364\222\031\000\003\2248,"
 	.text
-	.section	.gnu.lto_trampCmsMenuCommence.b99c6e317b4333cd,"",%progbits
+	.section	.gnu.lto_trampCmsMenuCommence.8d7d6df5b0f76411,"",%progbits
 	.ascii	"x\234cc``H\005b5\006\010\230\302\314\270s\347\233\333"
 	.ascii	"\354\365\177\033:\032\032\036t\257f\327\230\303\314"
 	.ascii	"\260\200\031\"5\255\365\320y\366n\3469\314\214\214("
@@ -571,7 +571,7 @@
 	.ascii	"f\236~rn1\010\307\347\246\346\225\306\227\225T\304\227"
 	.ascii	"\024%\346\026\350%3\000\000\220\254.\370"
 	.text
-	.section	.gnu.lto_trampCmsMenuCommenceEntries.b99c6e317b4333cd,"",%progbits
+	.section	.gnu.lto_trampCmsMenuCommenceEntries.8d7d6df5b0f76411,"",%progbits
 	.ascii	"x\234cc``0fb`\260b\200\200)\314\214\353\337\354\374"
 	.ascii	"\311\333\315<\207\231\201\021\304\235\326z\350<;\210"
 	.ascii	"\313\010\346\276\275\266z\0153\210\313\304\310\207,"
@@ -598,7 +598,7 @@
 	.ascii	"^2\003K\244k0\003\207\263\277\237\233g\220/\003\000"
 	.ascii	"\316\235\306\254"
 	.text
-	.section	.gnu.lto_trampCmsPitModeNames.b99c6e317b4333cd,"",%progbits
+	.section	.gnu.lto_trampCmsPitModeNames.8d7d6df5b0f76411,"",%progbits
 	.ascii	"x\234cc``8\010\304\246\014\0200\205\231\361\326\201"
 	.ascii	"U3\230\025\231\3467\314P\230\303\014\026Y\270\365m#"
 	.ascii	"g\375\337\206\031\015\015\017\346\367\2602\316afd\334"
@@ -613,7 +613,7 @@
 	.ascii	"\222\242\304\334\002\275d\240J77\006\026]]]\006\000"
 	.ascii	"\017\345T\370"
 	.text
-	.section	.gnu.lto_.symbol_nodes.b99c6e317b4333cd,"",%progbits
+	.section	.gnu.lto_.symbol_nodes.8d7d6df5b0f76411,"",%progbits
 	.ascii	"x\234]\217\307O\002a\020\305\347\355\272\213\330\000"
 	.ascii	"A\354b\274Z\371\017\364/\233\225\020M01\366^\020\261"
 	.ascii	"\367\016v\023\257z\365h\011G\317&^\214\273\363I\342"
@@ -637,7 +637,7 @@
 	.ascii	":\345\3218\025\006\277|\016\223)\305\302\320k\203\036"
 	.ascii	"\215Pb\370\311\240_\264\207\240S"
 	.text
-	.section	.gnu.lto_.refs.b99c6e317b4333cd,"",%progbits
+	.section	.gnu.lto_.refs.8d7d6df5b0f76411,"",%progbits
 	.ascii	"x\234\035\214\335V\3020\030\004w7i\233&MCS?~\024\025"
 	.ascii	"\021\004\337\377\271|\007\003\027{13\347l\017\340\257"
 	.ascii	"\315\003$\344\340F\372\250\256\021\351\324C\244\234"
@@ -649,7 +649,7 @@
 	.ascii	"\331\254\237\346\251\337V\244=O\362\255\006\335y\326"
 	.ascii	"\215\027]y\325\202\177\317\207\011b"
 	.text
-	.section	.gnu.lto_.decls.b99c6e317b4333cd,"",%progbits
+	.section	.gnu.lto_.decls.8d7d6df5b0f76411,"",%progbits
 	.ascii	"x\234\265{\011XUW\226\356\335g\337\313p\271\200%vb\247"
 	.ascii	"\350zI\332N\250\356NH\245\272\246\357\275~\2572XU\351"
 	.ascii	"\227\251\313\244\276\224\257\253\011\301k$\255`\303"
@@ -1161,7 +1161,7 @@
 	.ascii	"\334\317(\033JT\301\311\222\301\264\350LR\325\017\342"
 	.ascii	"\371.\273\245\374?\254\231A("
 	.text
-	.section	.gnu.lto_.symtab.b99c6e317b4333cd,"",%progbits
+	.section	.gnu.lto_.symtab.8d7d6df5b0f76411,"",%progbits
 	.ascii	"trampCmsBand\000"
 	.ascii	"\000"
 	.ascii	"\000"

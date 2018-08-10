@@ -5769,103 +5769,39 @@ extern const char* const buildTime;
 # 1 "./src/main/target/common_defaults_post.h" 1
 # 117 "./src/main/platform.h" 2
 # 28 "./src/main/flight/imu.c" 2
-
-# 1 "./src/main/build/build_config.h" 1
-# 21 "./src/main/build/build_config.h"
-       
-# 30 "./src/main/flight/imu.c" 2
-# 1 "./src/main/build/debug.h" 1
-# 21 "./src/main/build/debug.h"
+# 1 "./src/main/drivers/adc.h" 1
+# 21 "./src/main/drivers/adc.h"
        
 
 
-extern int16_t debug[4];
-extern uint8_t debugMode;
 
-
-
-
-
-
-extern uint32_t sectionTimes[2][4];
-# 51 "./src/main/build/debug.h"
-typedef enum {
-    DEBUG_NONE,
-    DEBUG_CYCLETIME,
-    DEBUG_BATTERY,
-    DEBUG_GYRO_FILTERED,
-    DEBUG_ACCELEROMETER,
-    DEBUG_PIDLOOP,
-    DEBUG_GYRO_SCALED,
-    DEBUG_RC_INTERPOLATION,
-    DEBUG_ANGLERATE,
-    DEBUG_ESC_SENSOR,
-    DEBUG_SCHEDULER,
-    DEBUG_STACK,
-    DEBUG_ESC_SENSOR_RPM,
-    DEBUG_ESC_SENSOR_TMP,
-    DEBUG_ALTITUDE,
-    DEBUG_FFT,
-    DEBUG_FFT_TIME,
-    DEBUG_FFT_FREQ,
-    DEBUG_RX_FRSKY_SPI,
-    DEBUG_GYRO_RAW,
-    DEBUG_DUAL_GYRO,
-    DEBUG_DUAL_GYRO_RAW,
-    DEBUG_DUAL_GYRO_COMBINE,
-    DEBUG_DUAL_GYRO_DIFF,
-    DEBUG_MAX7456_SIGNAL,
-    DEBUG_MAX7456_SPICLOCK,
-    DEBUG_SBUS,
-    DEBUG_FPORT,
-    DEBUG_RANGEFINDER,
-    DEBUG_RANGEFINDER_QUALITY,
-    DEBUG_LIDAR_TF,
-    DEBUG_CORE_TEMP,
-    DEBUG_RUNAWAY_TAKEOFF,
-    DEBUG_SDIO,
-    DEBUG_CURRENT,
-    DEBUG_USB,
-    DEBUG_SMARTAUDIO,
-    DEBUG_RTH,
-    DEBUG_ITERM_RELAX,
-    DEBUG_ACRO_TRAINER,
-    DEBUG_RC_SMOOTHING,
-    DEBUG_RX_SIGNAL_LOSS,
-    DEBUG_RC_SMOOTHING_RATE,
-    DEBUG_ANTI_GRAVITY,
-    DEBUG_COUNT
-} debugType_e;
-
-extern const char * const debugModeNames[DEBUG_COUNT];
-# 31 "./src/main/flight/imu.c" 2
-
-# 1 "./src/main/common/axis.h" 1
-# 21 "./src/main/common/axis.h"
+# 1 "./src/main/drivers/io_types.h" 1
+# 21 "./src/main/drivers/io_types.h"
        
 
-typedef enum {
-    X = 0,
-    Y,
-    Z
-} axis_e;
 
 
 
 
-typedef enum {
-    FD_ROLL = 0,
-    FD_PITCH,
-    FD_YAW
-} flight_dynamics_index_t;
+typedef uint8_t ioTag_t;
+typedef void* IO_t;
+# 48 "./src/main/drivers/io_types.h"
+typedef uint8_t ioConfig_t;
+# 26 "./src/main/drivers/adc.h" 2
+# 1 "./src/main/drivers/time.h" 1
+# 21 "./src/main/drivers/time.h"
+       
 
 
 
-typedef enum {
-    AI_ROLL = 0,
-    AI_PITCH
-} angle_index_t;
-# 33 "./src/main/flight/imu.c" 2
+# 1 "./src/main/common/time.h" 1
+# 21 "./src/main/common/time.h"
+       
+
+
+
+
+
 
 # 1 "./src/main/pg/pg.h" 1
 # 21 "./src/main/pg/pg.h"
@@ -5874,7 +5810,10 @@ typedef enum {
 
 
 
-
+# 1 "./src/main/build/build_config.h" 1
+# 21 "./src/main/build/build_config.h"
+       
+# 27 "./src/main/pg/pg.h" 2
 
 typedef uint16_t pgn_t;
 
@@ -5933,22 +5872,9 @@ _Bool
 # 194 "./src/main/pg/pg.h"
     pgResetCopy(void *copy, pgn_t pgn);
 void pgReset(const pgRegistry_t* reg);
-# 35 "./src/main/flight/imu.c" 2
-# 1 "./src/main/pg/pg_ids.h" 1
-# 21 "./src/main/pg/pg_ids.h"
-       
-# 36 "./src/main/flight/imu.c" 2
-
-# 1 "./src/main/drivers/time.h" 1
-# 21 "./src/main/drivers/time.h"
-       
+# 29 "./src/main/common/time.h" 2
 
 
-
-# 1 "./src/main/common/time.h" 1
-# 21 "./src/main/common/time.h"
-       
-# 31 "./src/main/common/time.h"
 typedef int32_t timeDelta_t;
 
 typedef uint32_t timeMs_t ;
@@ -6062,7 +5988,169 @@ timeMs_t millis(void);
 
 uint32_t ticks(void);
 timeDelta_t ticks_diff_us(uint32_t begin, uint32_t end);
-# 38 "./src/main/flight/imu.c" 2
+# 27 "./src/main/drivers/adc.h" 2
+# 46 "./src/main/drivers/adc.h"
+typedef enum ADCDevice {
+    ADCINVALID = -1,
+    ADCDEV_1 = 0,
+
+    ADCDEV_2,
+    ADCDEV_3,
+
+
+
+
+    ADCDEV_COUNT
+} ADCDevice;
+
+
+
+
+typedef enum {
+    ADC_BATTERY = 0,
+    ADC_CURRENT = 1,
+    ADC_EXTERNAL1 = 2,
+    ADC_RSSI = 3,
+    ADC_CHANNEL_COUNT
+} AdcChannel;
+
+typedef struct adcOperatingConfig_s {
+    ioTag_t tag;
+    uint8_t adcChannel;
+    uint8_t dmaIndex;
+    
+# 74 "./src/main/drivers/adc.h" 3 4
+   _Bool 
+# 74 "./src/main/drivers/adc.h"
+        enabled;
+    uint8_t sampleTime;
+} adcOperatingConfig_t;
+
+struct adcConfig_s;
+void adcInit(const struct adcConfig_s *config);
+uint16_t adcGetChannel(uint8_t channel);
+
+
+extern uint16_t adcVREFINTCAL;
+extern uint16_t adcTSCAL1;
+extern uint16_t adcTSCAL2;
+extern uint16_t adcTSSlopeK;
+
+
+# 88 "./src/main/drivers/adc.h" 3 4
+_Bool 
+# 88 "./src/main/drivers/adc.h"
+    adcInternalIsBusy(void);
+void adcInternalStartConversion(void);
+uint16_t adcInternalReadVrefint(void);
+uint16_t adcInternalReadTempsensor(void);
+
+
+
+ADCDevice adcDeviceByInstance(ADC_TypeDef *instance);
+# 29 "./src/main/flight/imu.c" 2
+
+
+# 1 "./src/main/build/debug.h" 1
+# 21 "./src/main/build/debug.h"
+       
+
+
+extern int16_t debug[4];
+extern uint8_t debugMode;
+
+
+
+
+
+
+extern uint32_t sectionTimes[2][4];
+# 51 "./src/main/build/debug.h"
+typedef enum {
+    DEBUG_NONE,
+    DEBUG_CYCLETIME,
+    DEBUG_BATTERY,
+    DEBUG_GYRO_FILTERED,
+    DEBUG_ACCELEROMETER,
+    DEBUG_PIDLOOP,
+    DEBUG_GYRO_SCALED,
+    DEBUG_RC_INTERPOLATION,
+    DEBUG_ANGLERATE,
+    DEBUG_ESC_SENSOR,
+    DEBUG_SCHEDULER,
+    DEBUG_STACK,
+    DEBUG_ESC_SENSOR_RPM,
+    DEBUG_ESC_SENSOR_TMP,
+    DEBUG_ALTITUDE,
+    DEBUG_FFT,
+    DEBUG_FFT_TIME,
+    DEBUG_FFT_FREQ,
+    DEBUG_RX_FRSKY_SPI,
+    DEBUG_GYRO_RAW,
+    DEBUG_DUAL_GYRO,
+    DEBUG_DUAL_GYRO_RAW,
+    DEBUG_DUAL_GYRO_COMBINE,
+    DEBUG_DUAL_GYRO_DIFF,
+    DEBUG_MAX7456_SIGNAL,
+    DEBUG_MAX7456_SPICLOCK,
+    DEBUG_SBUS,
+    DEBUG_FPORT,
+    DEBUG_RANGEFINDER,
+    DEBUG_RANGEFINDER_QUALITY,
+    DEBUG_LIDAR_TF,
+    DEBUG_CORE_TEMP,
+    DEBUG_RUNAWAY_TAKEOFF,
+    DEBUG_SDIO,
+    DEBUG_CURRENT,
+    DEBUG_USB,
+    DEBUG_SMARTAUDIO,
+    DEBUG_RTH,
+    DEBUG_ITERM_RELAX,
+    DEBUG_ACRO_TRAINER,
+    DEBUG_RC_SMOOTHING,
+    DEBUG_RX_SIGNAL_LOSS,
+    DEBUG_RC_SMOOTHING_RATE,
+    DEBUG_ANTI_GRAVITY,
+    DEBUG_COUNT
+} debugType_e;
+
+extern const char * const debugModeNames[DEBUG_COUNT];
+# 32 "./src/main/flight/imu.c" 2
+
+# 1 "./src/main/common/axis.h" 1
+# 21 "./src/main/common/axis.h"
+       
+
+typedef enum {
+    X = 0,
+    Y,
+    Z
+} axis_e;
+
+
+
+
+typedef enum {
+    FD_ROLL = 0,
+    FD_PITCH,
+    FD_YAW
+} flight_dynamics_index_t;
+
+
+
+typedef enum {
+    AI_ROLL = 0,
+    AI_PITCH
+} angle_index_t;
+# 34 "./src/main/flight/imu.c" 2
+
+
+# 1 "./src/main/pg/pg_ids.h" 1
+# 21 "./src/main/pg/pg_ids.h"
+       
+# 37 "./src/main/flight/imu.c" 2
+
+
 
 # 1 "./src/main/fc/runtime_config.h" 1
 # 21 "./src/main/fc/runtime_config.h"
@@ -6157,7 +6245,7 @@ void sensorsClear(uint32_t mask);
 uint32_t sensorsMask(void);
 
 void mwDisarm(void);
-# 40 "./src/main/flight/imu.c" 2
+# 41 "./src/main/flight/imu.c" 2
 
 # 1 "./src/main/flight/imu.h" 1
 # 21 "./src/main/flight/imu.h"
@@ -6286,6 +6374,7 @@ extern float gyroz;
 extern float accmx;
 extern float accmy;
 extern float accmz;
+extern int16_t sonar_adc_cm;
 
 typedef struct {
     float w,x,y,z;
@@ -6341,21 +6430,21 @@ void imuUpdateAttitude(timeUs_t currentTimeUs);
 
 void imuResetAccelerationSum(void);
 void imuInit(void);
-# 105 "./src/main/flight/imu.h"
+# 106 "./src/main/flight/imu.h"
 void imuQuaternionComputeProducts(quaternion *quat, quaternionProducts *quatProd);
 
-# 106 "./src/main/flight/imu.h" 3 4
+# 107 "./src/main/flight/imu.h" 3 4
 _Bool 
-# 106 "./src/main/flight/imu.h"
+# 107 "./src/main/flight/imu.h"
     imuQuaternionHeadfreeOffsetSet(void);
 void imuQuaternionHeadfreeTransformVectorEarthToBody(t_fp_vector_def * v);
 void imuComputeQuaternionFromRPY(quaternionProducts *qP, int16_t initialRoll, int16_t initialPitch, int16_t initialYaw);
 
-# 109 "./src/main/flight/imu.h" 3 4
+# 110 "./src/main/flight/imu.h" 3 4
 _Bool 
-# 109 "./src/main/flight/imu.h"
+# 110 "./src/main/flight/imu.h"
     shouldInitializeGPSHeading(void);
-# 42 "./src/main/flight/imu.c" 2
+# 43 "./src/main/flight/imu.c" 2
 # 1 "./src/main/flight/mixer.h" 1
 # 21 "./src/main/flight/mixer.h"
        
@@ -6368,19 +6457,7 @@ _Bool
 # 21 "./src/main/drivers/pwm_output_counts.h"
        
 # 28 "./src/main/flight/mixer.h" 2
-# 1 "./src/main/drivers/io_types.h" 1
-# 21 "./src/main/drivers/io_types.h"
-       
 
-
-
-
-
-typedef uint8_t ioTag_t;
-typedef void* IO_t;
-# 48 "./src/main/drivers/io_types.h"
-typedef uint8_t ioConfig_t;
-# 29 "./src/main/flight/mixer.h" 2
 # 1 "./src/main/drivers/pwm_output.h" 1
 # 21 "./src/main/drivers/pwm_output.h"
        
@@ -6919,7 +6996,10 @@ _Bool
     mixerIsTricopter(void);
 
 void mixerSetThrottleAngleCorrection(int correctionValue);
-# 43 "./src/main/flight/imu.c" 2
+
+extern float shadowThrottle;
+extern float shadowRcCommandThrottle;
+# 44 "./src/main/flight/imu.c" 2
 # 1 "./src/main/flight/pid.h" 1
 # 21 "./src/main/flight/pid.h"
        
@@ -7178,7 +7258,7 @@ void pidSetAntiGravityState(
 _Bool 
 # 200 "./src/main/flight/pid.h"
     pidAntiGravityEnabled(void);
-# 44 "./src/main/flight/imu.c" 2
+# 45 "./src/main/flight/imu.c" 2
 
 # 1 "./src/main/io/gps.h" 1
 # 21 "./src/main/io/gps.h"
@@ -7317,7 +7397,7 @@ void onGpsNewData(void);
 void GPS_reset_home_position(void);
 void GPS_calc_longitude_scaling(int32_t lat);
 void GPS_distance_cm_bearing(int32_t *currentLat1, int32_t *currentLon1, int32_t *destinationLat2, int32_t *destinationLon2, uint32_t *dist, int32_t *bearing);
-# 46 "./src/main/flight/imu.c" 2
+# 47 "./src/main/flight/imu.c" 2
 
 # 1 "./src/main/sensors/acceleration.h" 1
 # 21 "./src/main/sensors/acceleration.h"
@@ -7988,7 +8068,7 @@ _Bool
 union flightDynamicsTrims_u;
 void setAccelerationTrims(union flightDynamicsTrims_u *accelerationTrimsToUse);
 void accInitFilters(void);
-# 48 "./src/main/flight/imu.c" 2
+# 49 "./src/main/flight/imu.c" 2
 # 1 "./src/main/sensors/barometer.h" 1
 # 21 "./src/main/sensors/barometer.h"
        
@@ -8072,7 +8152,7 @@ _Bool
     isBaroReady(void);
 int32_t baroCalculateAltitude(void);
 void performBaroCalibrationCycle(void);
-# 49 "./src/main/flight/imu.c" 2
+# 50 "./src/main/flight/imu.c" 2
 # 1 "./src/main/sensors/compass.h" 1
 # 21 "./src/main/sensors/compass.h"
        
@@ -8120,8 +8200,8 @@ void compassUpdate(timeUs_t currentTime);
 _Bool 
 # 65 "./src/main/sensors/compass.h"
     compassInit(void);
-# 50 "./src/main/flight/imu.c" 2
-# 87 "./src/main/flight/imu.c"
+# 51 "./src/main/flight/imu.c" 2
+# 88 "./src/main/flight/imu.c"
 int32_t accSum[3];
 float accAverage[3];
 
@@ -8129,13 +8209,13 @@ uint32_t accTimeSum = 0;
 int accSumCount = 0;
 float accVelScale;
 
-# 93 "./src/main/flight/imu.c" 3 4
+# 94 "./src/main/flight/imu.c" 3 4
 _Bool 
-# 93 "./src/main/flight/imu.c"
+# 94 "./src/main/flight/imu.c"
     canUseGPSHeading = 
-# 93 "./src/main/flight/imu.c" 3 4
+# 94 "./src/main/flight/imu.c" 3 4
                        1
-# 93 "./src/main/flight/imu.c"
+# 94 "./src/main/flight/imu.c"
                            ;
 
 static float throttleAngleScale;
@@ -8164,6 +8244,9 @@ float gyroz = 0;
 float accmx = 0;
 float accmy = 0;
 float accmz = 0;
+
+int16_t sonar_adc_raw = 0;
+int16_t sonar_adc_cm = 0;
 
 extern const imuConfig_t pgResetTemplate_imuConfig; imuConfig_t imuConfig_System; imuConfig_t imuConfig_Copy; extern const pgRegistry_t imuConfig_Registry; const pgRegistry_t imuConfig_Registry __attribute__ ((section(".pg_registry"), used, aligned(4))) = { .pgn = 22 | (0 << 12), .size = sizeof(imuConfig_t) | PGR_SIZE_SYSTEM_FLAG, .address = (uint8_t*)&imuConfig_System, .copy = (uint8_t*)&imuConfig_Copy, .ptr = 0, .reset = {.ptr = (void*)&pgResetTemplate_imuConfig}, };
 
@@ -8229,9 +8312,9 @@ void imuInit(void)
 
 
     canUseGPSHeading = 
-# 185 "./src/main/flight/imu.c" 3 4
+# 189 "./src/main/flight/imu.c" 3 4
                       1
-# 185 "./src/main/flight/imu.c"
+# 189 "./src/main/flight/imu.c"
                           ;
 
 
@@ -8262,19 +8345,19 @@ static float invSqrt(float x)
 
 static void imuMahonyAHRSupdate(float dt, float gx, float gy, float gz,
                                 
-# 214 "./src/main/flight/imu.c" 3 4
+# 218 "./src/main/flight/imu.c" 3 4
                                _Bool 
-# 214 "./src/main/flight/imu.c"
+# 218 "./src/main/flight/imu.c"
                                     useAcc, float ax, float ay, float az,
                                 
-# 215 "./src/main/flight/imu.c" 3 4
+# 219 "./src/main/flight/imu.c" 3 4
                                _Bool 
-# 215 "./src/main/flight/imu.c"
+# 219 "./src/main/flight/imu.c"
                                     useMag, float mx, float my, float mz,
                                 
-# 216 "./src/main/flight/imu.c" 3 4
+# 220 "./src/main/flight/imu.c" 3 4
                                _Bool 
-# 216 "./src/main/flight/imu.c"
+# 220 "./src/main/flight/imu.c"
                                     useCOG, float courseOverGround, const float dcmKpGain)
 {
     static float integralFBx = 0.0f, integralFBy = 0.0f, integralFBz = 0.0f;
@@ -8327,7 +8410,7 @@ static void imuMahonyAHRSupdate(float dt, float gx, float gy, float gz,
         ey += rMat[2][1] * ez_ef;
         ez += rMat[2][2] * ez_ef;
     }
-# 276 "./src/main/flight/imu.c"
+# 280 "./src/main/flight/imu.c"
     float recipAccNorm = ((ax)*(ax)) + ((ay)*(ay)) + ((az)*(az));
     if (useAcc && recipAccNorm > 0.01f) {
 
@@ -8417,9 +8500,9 @@ static void imuUpdateEulerAngles(void)
 }
 
 static 
-# 364 "./src/main/flight/imu.c" 3 4
+# 368 "./src/main/flight/imu.c" 3 4
       _Bool 
-# 364 "./src/main/flight/imu.c"
+# 368 "./src/main/flight/imu.c"
            imuIsAccelerometerHealthy(float *accAverage)
 {
     float accMagnitude = 0;
@@ -8441,46 +8524,46 @@ static
 
 
 float imuCalcKpGain(timeUs_t currentTimeUs, 
-# 384 "./src/main/flight/imu.c" 3 4
+# 388 "./src/main/flight/imu.c" 3 4
                                            _Bool 
-# 384 "./src/main/flight/imu.c"
+# 388 "./src/main/flight/imu.c"
                                                 useAcc, float *gyroAverage)
 {
     static 
-# 386 "./src/main/flight/imu.c" 3 4
+# 390 "./src/main/flight/imu.c" 3 4
           _Bool 
-# 386 "./src/main/flight/imu.c"
+# 390 "./src/main/flight/imu.c"
                lastArmState = 
-# 386 "./src/main/flight/imu.c" 3 4
+# 390 "./src/main/flight/imu.c" 3 4
                               0
-# 386 "./src/main/flight/imu.c"
+# 390 "./src/main/flight/imu.c"
                                    ;
     static timeUs_t gyroQuietPeriodTimeEnd = 0;
     static timeUs_t attitudeResetTimeEnd = 0;
     static 
-# 389 "./src/main/flight/imu.c" 3 4
+# 393 "./src/main/flight/imu.c" 3 4
           _Bool 
-# 389 "./src/main/flight/imu.c"
+# 393 "./src/main/flight/imu.c"
                attitudeResetCompleted = 
-# 389 "./src/main/flight/imu.c" 3 4
+# 393 "./src/main/flight/imu.c" 3 4
                                         0
-# 389 "./src/main/flight/imu.c"
+# 393 "./src/main/flight/imu.c"
                                              ;
     float ret;
     
-# 391 "./src/main/flight/imu.c" 3 4
+# 395 "./src/main/flight/imu.c" 3 4
    _Bool 
-# 391 "./src/main/flight/imu.c"
+# 395 "./src/main/flight/imu.c"
         attitudeResetActive = 
-# 391 "./src/main/flight/imu.c" 3 4
+# 395 "./src/main/flight/imu.c" 3 4
                               0
-# 391 "./src/main/flight/imu.c"
+# 395 "./src/main/flight/imu.c"
                                    ;
 
     const 
-# 393 "./src/main/flight/imu.c" 3 4
+# 397 "./src/main/flight/imu.c" 3 4
          _Bool 
-# 393 "./src/main/flight/imu.c"
+# 397 "./src/main/flight/imu.c"
               armState = (armingFlags & (ARMED));
 
     if (!armState) {
@@ -8488,9 +8571,9 @@ float imuCalcKpGain(timeUs_t currentTimeUs,
             gyroQuietPeriodTimeEnd = currentTimeUs + 250000;
             attitudeResetTimeEnd = 0;
             attitudeResetCompleted = 
-# 399 "./src/main/flight/imu.c" 3 4
+# 403 "./src/main/flight/imu.c" 3 4
                                     0
-# 399 "./src/main/flight/imu.c"
+# 403 "./src/main/flight/imu.c"
                                          ;
         }
 
@@ -8512,15 +8595,15 @@ float imuCalcKpGain(timeUs_t currentTimeUs,
                 gyroQuietPeriodTimeEnd = 0;
                 attitudeResetTimeEnd = 0;
                 attitudeResetCompleted = 
-# 419 "./src/main/flight/imu.c" 3 4
+# 423 "./src/main/flight/imu.c" 3 4
                                         1
-# 419 "./src/main/flight/imu.c"
+# 423 "./src/main/flight/imu.c"
                                             ;
             } else {
                 attitudeResetActive = 
-# 421 "./src/main/flight/imu.c" 3 4
+# 425 "./src/main/flight/imu.c" 3 4
                                      1
-# 421 "./src/main/flight/imu.c"
+# 425 "./src/main/flight/imu.c"
                                          ;
             }
         } else if ((gyroQuietPeriodTimeEnd > 0) && (currentTimeUs >= gyroQuietPeriodTimeEnd)) {
@@ -8547,31 +8630,31 @@ static void imuCalculateEstimatedAttitude(timeUs_t currentTimeUs)
 {
     static timeUs_t previousIMUUpdateTime;
     
-# 446 "./src/main/flight/imu.c" 3 4
+# 450 "./src/main/flight/imu.c" 3 4
    _Bool 
-# 446 "./src/main/flight/imu.c"
+# 450 "./src/main/flight/imu.c"
         useAcc = 
-# 446 "./src/main/flight/imu.c" 3 4
+# 450 "./src/main/flight/imu.c" 3 4
                  0
-# 446 "./src/main/flight/imu.c"
+# 450 "./src/main/flight/imu.c"
                       ;
     
-# 447 "./src/main/flight/imu.c" 3 4
+# 451 "./src/main/flight/imu.c" 3 4
    _Bool 
-# 447 "./src/main/flight/imu.c"
+# 451 "./src/main/flight/imu.c"
         useMag = 
-# 447 "./src/main/flight/imu.c" 3 4
+# 451 "./src/main/flight/imu.c" 3 4
                  0
-# 447 "./src/main/flight/imu.c"
+# 451 "./src/main/flight/imu.c"
                       ;
     
-# 448 "./src/main/flight/imu.c" 3 4
+# 452 "./src/main/flight/imu.c" 3 4
    _Bool 
-# 448 "./src/main/flight/imu.c"
+# 452 "./src/main/flight/imu.c"
         useCOG = 
-# 448 "./src/main/flight/imu.c" 3 4
+# 452 "./src/main/flight/imu.c" 3 4
                  0
-# 448 "./src/main/flight/imu.c"
+# 452 "./src/main/flight/imu.c"
                       ;
     float courseOverGround = 0;
 
@@ -8581,9 +8664,9 @@ static void imuCalculateEstimatedAttitude(timeUs_t currentTimeUs)
 
     if (sensors(SENSOR_MAG) && compassIsHealthy()) {
         useMag = 
-# 456 "./src/main/flight/imu.c" 3 4
+# 460 "./src/main/flight/imu.c" 3 4
                 1
-# 456 "./src/main/flight/imu.c"
+# 460 "./src/main/flight/imu.c"
                     ;
     }
 
@@ -8593,9 +8676,9 @@ static void imuCalculateEstimatedAttitude(timeUs_t currentTimeUs)
         if ((stateFlags & (FIXED_WING))) {
             courseOverGround = ((gpsSol.groundCourse) / 10.0f * 0.0174532925f);
             useCOG = 
-# 464 "./src/main/flight/imu.c" 3 4
+# 468 "./src/main/flight/imu.c" 3 4
                     1
-# 464 "./src/main/flight/imu.c"
+# 468 "./src/main/flight/imu.c"
                         ;
         } else {
 
@@ -8605,9 +8688,9 @@ static void imuCalculateEstimatedAttitude(timeUs_t currentTimeUs)
                 courseOverGround = ((gpsSol.groundCourse) / 10.0f * 0.0174532925f);
 
                 useCOG = 
-# 472 "./src/main/flight/imu.c" 3 4
+# 476 "./src/main/flight/imu.c" 3 4
                         1
-# 472 "./src/main/flight/imu.c"
+# 476 "./src/main/flight/imu.c"
                             ;
             }
         }
@@ -8618,24 +8701,31 @@ static void imuCalculateEstimatedAttitude(timeUs_t currentTimeUs)
             imuComputeQuaternionFromRPY(&qP, attitude.values.roll, attitude.values.pitch, gpsSol.groundCourse);
 
             useCOG = 
-# 481 "./src/main/flight/imu.c" 3 4
+# 485 "./src/main/flight/imu.c" 3 4
                     0
-# 481 "./src/main/flight/imu.c"
+# 485 "./src/main/flight/imu.c"
                          ;
         }
     }
-# 501 "./src/main/flight/imu.c"
+# 505 "./src/main/flight/imu.c"
     float gyroAverage[3];
-    gyroGetAccumulationAverage(gyroAverage);
     gyrox = gyroAverage[X];
     gyroy = gyroAverage[Y];
     gyroz = gyroAverage[Z];
+    gyroGetAccumulationAverage(gyroAverage);
     if (accGetAccumulationAverage(accAverage)) {
         useAcc = imuIsAccelerometerHealthy(accAverage);
         accmx = accAverage[X];
         accmy = accAverage[Y];
         accmz = accAverage[Z];
     }
+
+    int16_t sonar_adc_raw = adcGetChannel(ADC_RSSI);
+    int16_t sonar_adc_cm = (float)sonar_adc_raw * 2.54 / 8 - 30;
+    if (sonar_adc_cm < 0) {
+        sonar_adc_cm = 0;
+    }
+    {if (debugMode == (DEBUG_ALTITUDE)) {debug[(3)] = (sonar_adc_cm);}};
 
     imuMahonyAHRSupdate(deltaT * 1e-6f,
                         ((gyroAverage[X]) * 0.0174532925f), ((gyroAverage[Y]) * 0.0174532925f), ((gyroAverage[Z]) * 0.0174532925f),
@@ -8692,39 +8782,39 @@ void imuUpdateAttitude(timeUs_t currentTimeUs)
 }
 
 
-# 567 "./src/main/flight/imu.c" 3 4
+# 578 "./src/main/flight/imu.c" 3 4
 _Bool 
-# 567 "./src/main/flight/imu.c"
+# 578 "./src/main/flight/imu.c"
     shouldInitializeGPSHeading()
 {
     static 
-# 569 "./src/main/flight/imu.c" 3 4
+# 580 "./src/main/flight/imu.c" 3 4
           _Bool 
-# 569 "./src/main/flight/imu.c"
+# 580 "./src/main/flight/imu.c"
                initialized = 
-# 569 "./src/main/flight/imu.c" 3 4
+# 580 "./src/main/flight/imu.c" 3 4
                              0
-# 569 "./src/main/flight/imu.c"
+# 580 "./src/main/flight/imu.c"
                                   ;
 
     if (!initialized) {
         initialized = 
-# 572 "./src/main/flight/imu.c" 3 4
+# 583 "./src/main/flight/imu.c" 3 4
                      1
-# 572 "./src/main/flight/imu.c"
+# 583 "./src/main/flight/imu.c"
                          ;
 
         return 
-# 574 "./src/main/flight/imu.c" 3 4
+# 585 "./src/main/flight/imu.c" 3 4
               1
-# 574 "./src/main/flight/imu.c"
+# 585 "./src/main/flight/imu.c"
                   ;
     }
 
     return 
-# 577 "./src/main/flight/imu.c" 3 4
+# 588 "./src/main/flight/imu.c" 3 4
           0
-# 577 "./src/main/flight/imu.c"
+# 588 "./src/main/flight/imu.c"
                ;
 }
 
@@ -8783,7 +8873,7 @@ void imuComputeQuaternionFromRPY(quaternionProducts *quatProd, int16_t initialRo
 
     imuComputeRotationMatrix();
 }
-# 674 "./src/main/flight/imu.c"
+# 685 "./src/main/flight/imu.c"
 void imuQuaternionComputeProducts(quaternion *quat, quaternionProducts *quatProd)
 {
     quatProd->ww = quat->w * quat->w;
@@ -8799,9 +8889,9 @@ void imuQuaternionComputeProducts(quaternion *quat, quaternionProducts *quatProd
 }
 
 
-# 688 "./src/main/flight/imu.c" 3 4
+# 699 "./src/main/flight/imu.c" 3 4
 _Bool 
-# 688 "./src/main/flight/imu.c"
+# 699 "./src/main/flight/imu.c"
     imuQuaternionHeadfreeOffsetSet(void)
 {
     if ((__extension__ ({ __typeof__ (attitude.values.roll) _x = (attitude.values.roll); _x > 0 ? _x : -_x; }) < 450) && (__extension__ ({ __typeof__ (attitude.values.pitch) _x = (attitude.values.pitch); _x > 0 ? _x : -_x; }) < 450)) {
@@ -8813,15 +8903,15 @@ _Bool
         offset.z = sin_approx(yaw/2);
 
         return 
-# 698 "./src/main/flight/imu.c" 3 4
+# 709 "./src/main/flight/imu.c" 3 4
               1
-# 698 "./src/main/flight/imu.c"
+# 709 "./src/main/flight/imu.c"
                   ;
     } else {
         return 
-# 700 "./src/main/flight/imu.c" 3 4
+# 711 "./src/main/flight/imu.c" 3 4
               0
-# 700 "./src/main/flight/imu.c"
+# 711 "./src/main/flight/imu.c"
                    ;
     }
 }

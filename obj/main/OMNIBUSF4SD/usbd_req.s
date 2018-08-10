@@ -9,10 +9,10 @@
 	.eabi_attribute 34, 1
 	.eabi_attribute 18, 4
 	.file	"usbd_req.c"
-	.section	.gnu.lto_.profile.c9799ed6bb9fc858,"",%progbits
+	.section	.gnu.lto_.profile.44e30efae2e6ad5b,"",%progbits
 	.ascii	"x\234cc```\003bF\206=\234\307X\000\005?\001\235"
 	.text
-	.section	.gnu.lto_.icf.c9799ed6bb9fc858,"",%progbits
+	.section	.gnu.lto_.icf.44e30efae2e6ad5b,"",%progbits
 	.ascii	"x\234cc``\250d@\000\021\206\177\033\317\254\344a\232"
 	.ascii	"1\373\365G>\346\353\313\237\357\342a9\267\274g\027\017"
 	.ascii	"\353\314Io\376\360\262\375x\2748\231}\326\273m\223X"
@@ -23,7 +23,7 @@
 	.ascii	"\365\335\271f~\221\235\367\036\035gb\000\000\310\221"
 	.ascii	"=\227"
 	.text
-	.section	.gnu.lto_.jmpfuncs.c9799ed6bb9fc858,"",%progbits
+	.section	.gnu.lto_.jmpfuncs.44e30efae2e6ad5b,"",%progbits
 	.ascii	"x\234\355V\277K\303@\024\276\357.MK)\326\342\332\241"
 	.ascii	"\377\205\177\226s\247\024DDtp\020E\010\350\342 .J\255"
 	.ascii	"\332Z\333Z\034\034\004\007\021\004w'7G\177\276kb\270"
@@ -52,7 +52,7 @@
 	.ascii	"sd\0129\331I\342\221F\015\235\012h\364\213=\027\374"
 	.ascii	"b\303[\226n\220\353rS\347\221\340\276\000,\033\201\357"
 	.text
-	.section	.gnu.lto_.inline.c9799ed6bb9fc858,"",%progbits
+	.section	.gnu.lto_.inline.44e30efae2e6ad5b,"",%progbits
 	.ascii	"x\234\235V\315k\\U\024?\347\276\373f\356\314d:o\222"
 	.ascii	"N\022\333\320\274\212\245.\\\214\233f'\017\335\270\312"
 	.ascii	"Npa\203\033\277\022\020\377\204\207b\215Dt@)Z\202\316"
@@ -121,11 +121,11 @@
 	.ascii	"<\242@+\333\235M\374/\001\312$O\370\037\376\005\203"
 	.ascii	"\333\301\244"
 	.text
-	.section	.gnu.lto_.pureconst.c9799ed6bb9fc858,"",%progbits
+	.section	.gnu.lto_.pureconst.44e30efae2e6ad5b,"",%progbits
 	.ascii	"x\234cc``\220\007b~\006)&If)\026)V\0116)v)\016).I\036"
 	.ascii	"I>)~I\001IAIa\011\000#?\002;"
 	.text
-	.section	.gnu.lto_USBD_SetFeature.c9799ed6bb9fc858,"",%progbits
+	.section	.gnu.lto_USBD_SetFeature.44e30efae2e6ad5b,"",%progbits
 	.ascii	"x\234\235VkPUU\024\336\353\354s\316}\203VZ!\3164S\216"
 	.ascii	"c\315x\235\254\211\231\3768\345\317j\306\254\337\214"
 	.ascii	"\002N\314\370(4g\352\017\207\207^ \231\214\002\225N"
@@ -210,7 +210,7 @@
 	.ascii	"\323\324\264\225\034\373\256\025i\313W$/Y\226\232\246"
 	.ascii	"\246\246\254X\374?t\225\350\021"
 	.text
-	.section	.gnu.lto_USBD_StdItfReq.part.0.c9799ed6bb9fc858,"",%progbits
+	.section	.gnu.lto_USBD_StdItfReq.part.0.44e30efae2e6ad5b,"",%progbits
 	.ascii	"x\234mRMHTQ\024\276\337;\357\275\261Q\307\242M\306 "
 	.ascii	".\022q\343\213lQ\270\211\022\332\324\312Z\017\376\314"
 	.ascii	"b\240\254\306\022Z\315uRf\304\242\026\216\305\360\224"
@@ -249,7 +249,7 @@
 	.ascii	"9\323X[\037\010\007O\225\327\011\363d}\260\211\330\347"
 	.ascii	"}\372\037n\346\012\012"
 	.text
-	.section	.gnu.lto_USBD_GetString.part.1.c9799ed6bb9fc858,"",%progbits
+	.section	.gnu.lto_USBD_GetString.part.1.44e30efae2e6ad5b,"",%progbits
 	.ascii	"x\234mT]L\034U\024\276g\316\374-,[(\024x@\323\007\011"
 	.ascii	"V\023\326\310\213Ic\322\250\017>\324\304\004}&\005\266"
 	.ascii	"\311&\225F\010F\237z\013\224\205\332\254\377\264N\027"
@@ -312,7 +312,7 @@
 	.ascii	"\324T8\265U\321\212\203\225\021<\020\251\302h\345\333"
 	.ascii	"X^\273\377?j\022\020\004"
 	.text
-	.section	.gnu.lto_USBD_ParseSetupRequest.c9799ed6bb9fc858,"",%progbits
+	.section	.gnu.lto_USBD_ParseSetupRequest.44e30efae2e6ad5b,"",%progbits
 	.ascii	"x\234\245\226]L[e\030\307\317s\336\323o\332\302\200"
 	.ascii	"l\321\306paBf\314\216l7&\336\030\347\245^\241\327\004"
 	.ascii	"X/H\374\354\342\022\257v\350de\250Q\023aY\323\031bd"
@@ -378,7 +378,7 @@
 	.ascii	"\316\252\035\025\001\377\233[\252\025\355\215\035\376"
 	.ascii	"]\014\363\177\000\202\000V!"
 	.text
-	.section	.gnu.lto_USBD_CtlError.c9799ed6bb9fc858,"",%progbits
+	.section	.gnu.lto_USBD_CtlError.44e30efae2e6ad5b,"",%progbits
 	.ascii	"x\234u\220MH\033Q\020\307\347\277\263n\326C-=\233C\017"
 	.ascii	"\205\340\305E\275\010^\212z\324\223\3559\230\270\207"
 	.ascii	"\200\365cE\301S\236Q\211b\305\026l\004\331B.\301\366"
@@ -404,7 +404,7 @@
 	.ascii	"^g\334\352\030tlk\304\211Z\243#\221\276\260c\0177FI"
 	.ascii	"\037\352\263\307X\342\337\022S\255\360"
 	.text
-	.section	.gnu.lto_USBD_GetDescriptor.c9799ed6bb9fc858,"",%progbits
+	.section	.gnu.lto_USBD_GetDescriptor.44e30efae2e6ad5b,"",%progbits
 	.ascii	"x\234\225\230kP\024W\026\200\357\351\236\367\223\247"
 	.ascii	"\257\340\243*1\232-K\\\327\270Z\251Tmm\362#\331\312"
 	.ascii	"\376\312\356\257\255\212\025\015V\271\225u\263\244\264"
@@ -534,7 +534,7 @@
 	.ascii	"\312|7{A\346\222w\347\2775/;\353_\323\027\010\333;o"
 	.ascii	"e-Uql{g\376\222\205\352\333Y\213\377\017\240G<\340"
 	.text
-	.section	.gnu.lto_USBD_SetAddress.c9799ed6bb9fc858,"",%progbits
+	.section	.gnu.lto_USBD_SetAddress.44e30efae2e6ad5b,"",%progbits
 	.ascii	"x\234\235TKlTU\030>\337=\3679-\024X\010\232&\262\220"
 	.ascii	"4,\344\022\333\030\0237\006X`\202+t=\351c\026M\020e"
 	.ascii	"\010M\\\315\351\264e:\241D\026v\304\341\202\343\243"
@@ -589,7 +589,7 @@
 	.ascii	"-\251g\372\333\015\221&Ns\233\276\341\332\206\206\350"
 	.ascii	"\17789%\301"
 	.text
-	.section	.gnu.lto_USBD_SetConfig.c9799ed6bb9fc858,"",%progbits
+	.section	.gnu.lto_USBD_SetConfig.44e30efae2e6ad5b,"",%progbits
 	.ascii	"x\234\235U[L\034U\030>\377\234\331\331\331\331\013\326"
 	.ascii	"\007\215\332\20766!M\232\216\261\017\232\350\203\261"
 	.ascii	">\352\203\251>\223B\367\201\304+\215$>1\273,Y@\220\266"
@@ -658,7 +658,7 @@
 	.ascii	"\356\262\367\325\235o\227y\325\275e%\352{{\213\367\024"
 	.ascii	"\225y\337\335^B\304w\366x\313)\316\377\003D\221/\002"
 	.text
-	.section	.gnu.lto_USBD_GetConfig.c9799ed6bb9fc858,"",%progbits
+	.section	.gnu.lto_USBD_GetConfig.44e30efae2e6ad5b,"",%progbits
 	.ascii	"x\234\205S]L\024W\024\276\337\234\331\231\001aQ\037"
 	.ascii	"\372`| \321\204\030\023\306\250\017M|1\332G\373\320"
 	.ascii	"X\237\211\340\246%\321V\326\224\304'\356.\320\205V#"
@@ -710,7 +710,7 @@
 	.ascii	"\265\017\177\033\016\331g\302e\366wgJO\224\204C\025"
 	.ascii	"\305eB?}\"TIl\377\007 o\275\212"
 	.text
-	.section	.gnu.lto_USBD_GetStatus.c9799ed6bb9fc858,"",%progbits
+	.section	.gnu.lto_USBD_GetStatus.44e30efae2e6ad5b,"",%progbits
 	.ascii	"x\234\215S[H\024Q\030>\337\234\331\331m\325\265\236"
 	.ascii	"\242\330\007\241@\362\301\351\342C\320Kd\217\365\020"
 	.ascii	"\025=\212\332>\010]l%\241\227v\\-/\025]H\015\231r\012"
@@ -759,7 +759,7 @@
 	.ascii	"\007\263\322v\247x=\007\022\323\231\234\271\333\223"
 	.ascii	"\315)\376\001i\236\224y"
 	.text
-	.section	.gnu.lto_USBD_ClrFeature.c9799ed6bb9fc858,"",%progbits
+	.section	.gnu.lto_USBD_ClrFeature.44e30efae2e6ad5b,"",%progbits
 	.ascii	"x\234\225SIL\024A\024\255\327\325\323= \213\333\305"
 	.ascii	"db8\230\020.\266\333A\343\305\250G=\241g\3022\007\022"
 	.ascii	"E\034\243\211\027i\006\314\270\021\321\300\220\220V"
@@ -807,7 +807,7 @@
 	.ascii	"\265-\224om\337\226W\220\023\012n]\230/\364\342\202"
 	.ascii	"\340\016I\361\017\244\020\240\213"
 	.text
-	.section	.gnu.lto_USBD_StdDevReq.c9799ed6bb9fc858,"",%progbits
+	.section	.gnu.lto_USBD_StdDevReq.44e30efae2e6ad5b,"",%progbits
 	.ascii	"x\234u\224KLSA\024@\347v\336\257\255\340J1\206\205\013"
 	.ascii	"\023\202\013jdc\342\306\250K]\241k\"\330\005\211\337"
 	.ascii	"\022I\\1\024\024\211\032\011\261ml\252\326(~B\032 \002"
@@ -858,7 +858,7 @@
 	.ascii	"\203g\\NG\245\253\334q\276\262\354D\251\313y\256\250"
 	.ascii	"\234(gO8\253(\306\177\0009\016\357\205"
 	.text
-	.section	.gnu.lto_USBD_StdItfReq.c9799ed6bb9fc858,"",%progbits
+	.section	.gnu.lto_USBD_StdItfReq.44e30efae2e6ad5b,"",%progbits
 	.ascii	"x\234uRMHTQ\024>\347\335\367\227\243c\313\214\021\\"
 	.ascii	"\004\342\306\027\351Bh\023\331\262V\026-\007\177f1\320"
 	.ascii	"\357HB\233\346\316\250\215\322\237\2043\3020S\257\205"
@@ -901,7 +901,7 @@
 	.ascii	"1\252}\225\306\211\352\212*\267\317s\274\260\022\344"
 	.ascii	"cU\236\032F\361o-\365>\335"
 	.text
-	.section	.gnu.lto_USBD_StdEPReq.c9799ed6bb9fc858,"",%progbits
+	.section	.gnu.lto_USBD_StdEPReq.44e30efae2e6ad5b,"",%progbits
 	.ascii	"x\234\225XYP\325\327\031?\3379w_\331\271p/\213\302\205"
 	.ascii	"\261\017\334l\017v\332\314t\332\2745}J\373\324\007\306"
 	.ascii	"\205\3168\323\332\224L3\323>\224?\213\002\215VB\003"
@@ -1027,7 +1027,7 @@
 	.ascii	"~W\262\201X^\336X\366*\303\271\275\354\345\322u\033"
 	.ascii	"7\226\377\037\366\371j\307"
 	.text
-	.section	.gnu.lto_USBD_GetString.c9799ed6bb9fc858,"",%progbits
+	.section	.gnu.lto_USBD_GetString.44e30efae2e6ad5b,"",%progbits
 	.ascii	"x\234mR_H\223Q\024?\347\236\273}3L\026\364\0201\241"
 	.ascii	"\207\306\360\305E#(z\221\352\241\007\243\007\353y\270"
 	.ascii	"\355\013\006\2464Y\320\323\256\323P)\"\251&\214\257"
@@ -1061,7 +1061,7 @@
 	.ascii	"Ov%\314`w\"\032LvGb\341\204y\2519\0122fvG\215dg<\332"
 	.ascii	"\0253\251\303\354\244H\362\302o\032\005\337|"
 	.text
-	.section	.gnu.lto_.symbol_nodes.c9799ed6bb9fc858,"",%progbits
+	.section	.gnu.lto_.symbol_nodes.44e30efae2e6ad5b,"",%progbits
 	.ascii	"x\234]\221Mo\022Q\024\206\3373w>\020\021\212\225\016"
 	.ascii	"\005\027\246k\343R7,\364\227]\034GPP\250\212V\213Vc"
 	.ascii	"\272q\217\213\232\270(\231\320\244J\2334\244M\024S\203"
@@ -1093,13 +1093,13 @@
 	.ascii	"\346\313\304\320\366\353\3040\263h\365\206E0\007\015"
 	.ascii	"W\241s\300\257=/\340\275:Z\304_\265\264\011v"
 	.text
-	.section	.gnu.lto_.refs.c9799ed6bb9fc858,"",%progbits
+	.section	.gnu.lto_.refs.44e30efae2e6ad5b,"",%progbits
 	.ascii	"x\234\015\303\261\021\200 \020E\301\377\016\025P/\360"
 	.ascii	"\"#\233\240\000Z7P\353\222\235\331ER\033\021\\V\250"
 	.ascii	"I\365d\265-\247\035\237\360l^\346\203\350\304-\342\031"
 	.ascii	"_Y|\322\017NT\004\303"
 	.text
-	.section	.gnu.lto_.decls.c9799ed6bb9fc858,"",%progbits
+	.section	.gnu.lto_.decls.44e30efae2e6ad5b,"",%progbits
 	.ascii	"x\234\265|\011XTI\226.7#3!\223\315R\272\272\272\036"
 	.ascii	"\363\246_\217S\355\353\356*\255\345\353\256\352\327"
 	.ascii	"3S5\3426]\213-VOw\277\231G!\244\026U\012\026`W\365\314"
@@ -1790,7 +1790,7 @@
 	.ascii	"7\337SS\305\206\3656\231d\254\305\316\2061\364\377\001"
 	.ascii	"I\310\261-"
 	.text
-	.section	.gnu.lto_.symtab.c9799ed6bb9fc858,"",%progbits
+	.section	.gnu.lto_.symtab.44e30efae2e6ad5b,"",%progbits
 	.ascii	"USBD_ParseSetupRequest\000"
 	.ascii	"\000"
 	.ascii	"\000"

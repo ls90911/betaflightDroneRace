@@ -9,15 +9,15 @@
 	.eabi_attribute 34, 1
 	.eabi_attribute 18, 4
 	.file	"transponder_ir_arcitimer.c"
-	.section	.gnu.lto_.profile.38effede1aef0838,"",%progbits
+	.section	.gnu.lto_.profile.8d514b3720450db2,"",%progbits
 	.ascii	"x\234cc```\001bF\006m\005\000\000\356\000W"
 	.text
-	.section	.gnu.lto_.icf.38effede1aef0838,"",%progbits
+	.section	.gnu.lto_.icf.8d514b3720450db2,"",%progbits
 	.ascii	"x\234cc``\220b@\000\026\206\326\035W?12\236\371zi3\007"
 	.ascii	"\323\356\346\343{\270\231\017Ljj\347a\000\000\247\300"
 	.ascii	"\013\261"
 	.text
-	.section	.gnu.lto_.jmpfuncs.38effede1aef0838,"",%progbits
+	.section	.gnu.lto_.jmpfuncs.8d514b3720450db2,"",%progbits
 	.ascii	"x\234cc``(`@\000&\006&FF\346\3729\314\014@\314\010d"
 	.ascii	"3\202\330l\014\014\214\007X\030\031\200\370?\020\360"
 	.ascii	"32Maf\234\326z\350<{7\363\034f&F\006\306\315\2142`\314"
@@ -25,17 +25,17 @@
 	.ascii	"\214\033\204\031\2670B\3447\010\203\0250\000\000\324"
 	.ascii	":\032>"
 	.text
-	.section	.gnu.lto_.inline.38effede1aef0838,"",%progbits
+	.section	.gnu.lto_.inline.8d514b3720450db2,"",%progbits
 	.ascii	"x\234cc``\360e@\000&\006\006\211\211\334\214\214\014"
 	.ascii	"\002\214\014\314\011,\352\177\326\314fd`?\260\206\215"
 	.ascii	"\211\201qA/\033\013\224\202(\345\021\001*T`\0042Y;\324"
 	.ascii	"\031\270W\2701\201\304Yx\031\030\230'\370\001Y\000\354"
 	.ascii	"r\012\304"
 	.text
-	.section	.gnu.lto_.pureconst.38effede1aef0838,"",%progbits
+	.section	.gnu.lto_.pureconst.8d514b3720450db2,"",%progbits
 	.ascii	"x\234cc```\005b&\006)&)\000\000\376\000D"
 	.text
-	.section	.gnu.lto_updateTransponderDMABufferArcitimer.38effede1aef0838,"",%progbits
+	.section	.gnu.lto_updateTransponderDMABufferArcitimer.8d514b3720450db2,"",%progbits
 	.ascii	"x\234\215TYL\\U\030>\377=w\233{g 4e\315\030\373 !U\303"
 	.ascii	"H|\266\276\370\342\203O\365\3254\224\305\316Ci3L\214"
 	.ascii	"\372 \027h\207BqM\031t:m&j\013\221\340\224J[\006\001"
@@ -104,7 +104,7 @@
 	.ascii	"\313({S?\354\365\363\215\343\360[I\221\301v\257\036"
 	.ascii	";XQU\376\027=Gr\350"
 	.text
-	.section	.gnu.lto_transponderIrInitArcitimer.38effede1aef0838,"",%progbits
+	.section	.gnu.lto_transponderIrInitArcitimer.8d514b3720450db2,"",%progbits
 	.ascii	"x\234\235\223\317k\023A\024\307\347\273\263\331\304"
 	.ascii	"\304\006A\220\2129\364 \224z\310\342\335\177\304S\011"
 	.ascii	"m\0169\264\312\246x\022\262M\255\211T\261\3206\226\260"
@@ -141,7 +141,7 @@
 	.ascii	"a\204\332\243'O\264\267\206\215\346\210\321\0342Z\""
 	.ascii	"\035\221\266\260\021la\276\035\261\337M\343`\\"
 	.text
-	.section	.gnu.lto_arcitimerTansponderVTable.38effede1aef0838,"",%progbits
+	.section	.gnu.lto_arcitimerTansponderVTable.8d514b3720450db2,"",%progbits
 	.ascii	"x\234cc``\260\004b\003\006\010\230\302\314\270s\347"
 	.ascii	"\233\333\354\365\177\033:\032\032\036t\3671\263\316"
 	.ascii	"af\230\306\014\221\232\331t\373;\277\305\266\206\216"
@@ -150,18 +150,18 @@
 	.ascii	"ZT\254_R\224\230W\\\220\237\227\222Z\024\237Y\024\237"
 	.ascii	"X\224\234Y\222\231\233Z\244\227\314\000\000X\366&\267"
 	.text
-	.section	.gnu.lto_.symbol_nodes.38effede1aef0838,"",%progbits
+	.section	.gnu.lto_.symbol_nodes.8d514b3720450db2,"",%progbits
 	.ascii	"x\234cc``\010\004b\006\2466\306z\006\206\011\347\030"
 	.ascii	"\030\200\324\256\005\216\014\014\254-\214\014\015J\014"
 	.ascii	"\014\314L\255\214\365\214p\251\006\220T;#c#P\212\201"
 	.ascii	"\261\203\261\236\011,\305\300\320\320\340\000R\314\302"
 	.ascii	"\360\344\341?F\006\000\336\372\022\016"
 	.text
-	.section	.gnu.lto_.refs.38effede1aef0838,"",%progbits
+	.section	.gnu.lto_.refs.8d514b3720450db2,"",%progbits
 	.ascii	"x\234cc``\020\005bf\006\006FnFF~FF)F&&ffFf&\006\006"
 	.ascii	"\000\006v\000i"
 	.text
-	.section	.gnu.lto_.decls.38effede1aef0838,"",%progbits
+	.section	.gnu.lto_.decls.8d514b3720450db2,"",%progbits
 	.ascii	"x\234\265W[PTG\032>}z\230\201q\270\254P\256\032v\313"
 	.ascii	"(!\274\300\000\311\306\315\313\226\331\335\252\335<"
 	.ascii	"\354\246*e\266\212<\354d\200\001\306\032\006vf\310V"
@@ -307,7 +307,7 @@
 	.ascii	"\222\321f1\232c\001\221d\010\363\353'11\340\203e\016"
 	.ascii	"\227\255]\020\273\377\002\327f\337\277"
 	.text
-	.section	.gnu.lto_.symtab.38effede1aef0838,"",%progbits
+	.section	.gnu.lto_.symtab.8d514b3720450db2,"",%progbits
 	.ascii	"updateTransponderDMABufferArcitimer\000"
 	.ascii	"\000"
 	.ascii	"\000"

@@ -9,10 +9,10 @@
 	.eabi_attribute 34, 1
 	.eabi_attribute 18, 4
 	.file	"runtime_config.c"
-	.section	.gnu.lto_.profile.81e0322ccdf48d38,"",%progbits
+	.section	.gnu.lto_.profile.ef78f9bf94f9cbfa,"",%progbits
 	.ascii	"x\234cc```\001bF\006\037\003\000\001@\000\210"
 	.text
-	.section	.gnu.lto_.icf.81e0322ccdf48d38,"",%progbits
+	.section	.gnu.lto_.icf.ef78f9bf94f9cbfa,"",%progbits
 	.ascii	"x\234cc``\210c@\000\001\206iM/\023\030\267\177\275\334"
 	.ascii	"\314\317\364\366\336\346+l\314;\276\336\270\306\314"
 	.ascii	"\262\267e\225\034\353\376\356\355\263\270\33065,\275"
@@ -20,14 +20,14 @@
 	.ascii	"tr\203\365\360\200T\363\236;wt5;\337\232\2777\256\263"
 	.ascii	"\361\203I\006\000\266N/\""
 	.text
-	.section	.gnu.lto_.jmpfuncs.81e0322ccdf48d38,"",%progbits
+	.section	.gnu.lto_.jmpfuncs.ef78f9bf94f9cbfa,"",%progbits
 	.ascii	"x\234cc``(a@\000.\006FF\306\3729\314\014LP\232\231\201"
 	.ascii	"\201\205\201\201\025\302cdb\234\302\314\270\265\375"
 	.ascii	"\314F\256n\3469\314 5\233\031e\030\030\017\2600\202"
 	.ascii	"0\003\003;\\\035\232\004\007D\202\231\013JsCi\036\240"
 	.ascii	"\235\000Z\222\022\001"
 	.text
-	.section	.gnu.lto_.inline.81e0322ccdf48d38,"",%progbits
+	.section	.gnu.lto_.inline.ef78f9bf94f9cbfa,"",%progbits
 	.ascii	"x\234}\216\301\015\2030\014E\237\023\307 \022\0256\240"
 	.ascii	"\023t\243\356\306H\214\320sO\214\200\243\212p\210T\037"
 	.ascii	"\237\237\236\276\001_\356\233\300\222\020\354xa\333"
@@ -36,11 +36,11 @@
 	.ascii	"\312\354\355\245\266\333\367j\377\224\261_4\365(\377"
 	.ascii	"\033Y\372E\2344i\027\222"
 	.text
-	.section	.gnu.lto_.pureconst.81e0322ccdf48d38,"",%progbits
+	.section	.gnu.lto_.pureconst.ef78f9bf94f9cbfa,"",%progbits
 	.ascii	"x\234cc``\020\005b.\006\011&\011f\026\026\026V\011v"
 	.ascii	"\011\016\026.\011n\011\036\026\000\014\010\001\004"
 	.text
-	.section	.gnu.lto_setArmingDisabled.81e0322ccdf48d38,"",%progbits
+	.section	.gnu.lto_setArmingDisabled.ef78f9bf94f9cbfa,"",%progbits
 	.ascii	"x\234\215\220\337+\203a\024\307\317\367y^\357\226\342"
 	.ascii	"V\262\"\211\334\330\237$\226\255\225M\015\327\357c\303"
 	.ascii	"\206%\3711\265\336\364\226\226\335!\033\336\241\336"
@@ -63,7 +63,7 @@
 	.ascii	"\243\221pj29\021O\214\014F\306\222\321xl BFtt(\366\015"
 	.ascii	")\345\214\015"
 	.text
-	.section	.gnu.lto_unsetArmingDisabled.81e0322ccdf48d38,"",%progbits
+	.section	.gnu.lto_unsetArmingDisabled.ef78f9bf94f9cbfa,"",%progbits
 	.ascii	"x\234\215\220\313KBA\024\306\3177\347v\225(\327AB\021"
 	.ascii	"Q\264\311\277(\"$E(\203\036k'-\265r\021e\006r\011[\364"
 	.ascii	"\330U\224\225=\340\322\256EE\321.jQ\320B\"p\031\230"
@@ -86,7 +86,7 @@
 	.ascii	"\207\"\341\320\344L|:6>:\034\236\210Gb\321\3010Y\221"
 	.ascii	"\261\221\350/@E\222\204"
 	.text
-	.section	.gnu.lto_isArmingDisabled.81e0322ccdf48d38,"",%progbits
+	.section	.gnu.lto_isArmingDisabled.ef78f9bf94f9cbfa,"",%progbits
 	.ascii	"x\234-\2161K\303P\024\205\357\311\255I\007\343\254X"
 	.ascii	"P\307.\215\340\017\022\011V24B\3259\317\204P\213\016"
 	.ascii	"\"6\242\204\022'\307\"\326jp\011\016\216\012.\016nn"
@@ -104,7 +104,7 @@
 	.ascii	"\323X\363|\247\356:\315\035\177\333k\254\257\272\233"
 	.ascii	"~\335\333\250\271\364\013\341Y\\@"
 	.text
-	.section	.gnu.lto_getArmingDisableFlags.81e0322ccdf48d38,"",%progbits
+	.section	.gnu.lto_getArmingDisableFlags.ef78f9bf94f9cbfa,"",%progbits
 	.ascii	"x\234-O\277K\303`\024|\227\257&\021jw\261`\035\2734"
 	.ascii	"\177\222H\260\222\241\025\252\316\371L\024\025\035D"
 	.ascii	"4B\011%Nnj1j\263\005\0077\177\256n:)%\320YZ}\017\034"
@@ -122,7 +122,7 @@
 	.ascii	"\216\353\264\226\274\266\323t\235\316F{\335k-/\272\253"
 	.ascii	"\355\246\267\322p\351\017R ^\277"
 	.text
-	.section	.gnu.lto_enableFlightMode.81e0322ccdf48d38,"",%progbits
+	.section	.gnu.lto_enableFlightMode.ef78f9bf94f9cbfa,"",%progbits
 	.ascii	"x\234\215P\317k\023A\024~\337\316\354fm\255\365\340"
 	.ascii	"E\011(b\0119\330x\360o\361*!Z\0116)\264z\316\230\255"
 	.ascii	"\266\261\012\266\330\025\326\255\244\210\032\024\255"
@@ -153,7 +153,7 @@
 	.ascii	"=\225\316\034?\232\352\313\366\244Ot\247Hf\222\003'"
 	.ascii	"\255\276\336cG\222\275\377\000\245\257\342\032"
 	.text
-	.section	.gnu.lto_disableFlightMode.81e0322ccdf48d38,"",%progbits
+	.section	.gnu.lto_disableFlightMode.ef78f9bf94f9cbfa,"",%progbits
 	.ascii	"x\234\215QMk\023Q\024\275w\356\233\311\264M[\027n\204"
 	.ascii	"\200\"\226\220\205\215\013\177\213[\011\321J\260I\241"
 	.ascii	"\325u\236I5\215\212\250\330\021\302TRD\015\212\037\325"
@@ -186,7 +186,7 @@
 	.ascii	"\344\336\335\361\221\324Pb\337`\034T26\266\337\032\031"
 	.ascii	"\336\263+6\374\017\340\202\371\""
 	.text
-	.section	.gnu.lto_sensors.81e0322ccdf48d38,"",%progbits
+	.section	.gnu.lto_sensors.ef78f9bf94f9cbfa,"",%progbits
 	.ascii	"x\234-\220\315KBQ\020\305\347\274\373\374 \320\266A"
 	.ascii	"F\022\221\270\311\240?(D2$4\260Z\265\360\246\231I-\""
 	.ascii	"\322@$4(\227\032\231\245\265x\264\257\250\215\213\026"
@@ -208,7 +208,7 @@
 	.ascii	"\207\002\321`$\026\010\207\002\361\345\330R$:;\023Z"
 	.ascii	"\210\205#s\223!2\243\301\305\371?\250?\201\336"
 	.text
-	.section	.gnu.lto_sensorsSet.81e0322ccdf48d38,"",%progbits
+	.section	.gnu.lto_sensorsSet.ef78f9bf94f9cbfa,"",%progbits
 	.ascii	"x\234\215\220\317KBA\020\307\347\273\373R)\262k\220"
 	.ascii	"TD$^\362O\212\220\014\011\015\264\316n\276\324~\201"
 	.ascii	"\021e\360x\204\021\3451\243\037f?\340\341\275\242\020"
@@ -230,7 +230,7 @@
 	.ascii	"pr>1\027\213OMDf\023\321\330\364x\204\214\370dj\346"
 	.ascii	"\027\321\000\212\366"
 	.text
-	.section	.gnu.lto_sensorsClear.81e0322ccdf48d38,"",%progbits
+	.section	.gnu.lto_sensorsClear.ef78f9bf94f9cbfa,"",%progbits
 	.ascii	"x\234\215\220\337+\203Q\030\307\237\357y^{\227\302\255"
 	.ascii	"\262\"\211\224\266?IZhiS\033\327;6\266\371Q$\246\326"
 	.ascii	"h\022.\221\3711&o.\224\013D\312\205r\201\224\037)\367"
@@ -253,7 +253,7 @@
 	.ascii	"\236` :\030\031\010\205\273;\203\375\221\236P\257?H"
 	.ascii	"V\270+\326\367\015^\356\221\277"
 	.text
-	.section	.gnu.lto_sensorsMask.81e0322ccdf48d38,"",%progbits
+	.section	.gnu.lto_sensorsMask.ef78f9bf94f9cbfa,"",%progbits
 	.ascii	"x\234-O=K\303P\024\275\347\275\232D\320\372\003,\264"
 	.ascii	"\216]\232\237$\022\254dh\204\252s\236\211\242\242\203"
 	.ascii	"\210F\010A\342\344\250\322\370\221-8\270\371\271\272"
@@ -272,7 +272,7 @@
 	.ascii	"_\363V\335\336\342\274\263\354u\335\245\216C\177\263"
 	.ascii	"\224_U"
 	.text
-	.section	.gnu.lto_armingDisableFlagNames.81e0322ccdf48d38,"",%progbits
+	.section	.gnu.lto_armingDisableFlagNames.ef78f9bf94f9cbfa,"",%progbits
 	.ascii	"x\234M\222_L[u\024\307\177\277{o[ZJ\313\364\225D\177"
 	.ascii	"\257\032G\234/{\360\345\226\177#\026n\323v\031\030\023"
 	.ascii	"\243\304-$\016\223\251\361M*\033\244nj6\305\310\\\207"
@@ -329,7 +329,7 @@
 	.ascii	"\320]AL\356\012\247\344\201\326\377?0\225K%\225n\211"
 	.ascii	"\374\007Q\214\012\223"
 	.text
-	.section	.gnu.lto_.symbol_nodes.81e0322ccdf48d38,"",%progbits
+	.section	.gnu.lto_.symbol_nodes.ef78f9bf94f9cbfa,"",%progbits
 	.ascii	"x\234U\215;\016\302@\020C\355\335l\002HH\224\3249\011"
 	.ascii	"9\231\227\206\202o\370\006\350\2208\005=-\025\007b\331"
 	.ascii	"T\323\214-\217g^\011`\3144\\K\001\355\007H\362\212\015"
@@ -339,13 +339,13 @@
 	.ascii	"%C6\274S\243\\\006b\234%D\230\340\371x\323WI\027\337"
 	.ascii	")~?\343;\375"
 	.text
-	.section	.gnu.lto_.refs.81e0322ccdf48d38,"",%progbits
+	.section	.gnu.lto_.refs.ef78f9bf94f9cbfa,"",%progbits
 	.ascii	"x\234\035\207\211\015\200@\014\303\362\224\036=\330"
 	.ascii	"\214\375\367!\020)\226\335\000\236\\\0003K\240\310\242"
 	.ascii	"\277\256\300\007\232l\243\333\353\327p\363\304P;\340"
 	.ascii	"X\027F\234\342\235\306\0134d\001<"
 	.text
-	.section	.gnu.lto_.decls.81e0322ccdf48d38,"",%progbits
+	.section	.gnu.lto_.decls.ef78f9bf94f9cbfa,"",%progbits
 	.ascii	"x\234\265XkPTW\266\356}v\363j\020\2141\023o.\231\231"
 	.ascii	"Jf\224\252)C23\231d\252\246\352\246\005|\314 8\200\223"
 	.ascii	"\230T\245C\240\243$\012\023\300\252\231\037w\356\221"
@@ -582,7 +582,7 @@
 	.ascii	"\3623\023\204\207\3576m\210\322o\213o\260*$\3247\224"
 	.ascii	"\241l\231\032\275\377_\\\221y\202"
 	.text
-	.section	.gnu.lto_.symtab.81e0322ccdf48d38,"",%progbits
+	.section	.gnu.lto_.symtab.ef78f9bf94f9cbfa,"",%progbits
 	.ascii	"setArmingDisabled\000"
 	.ascii	"\000"
 	.ascii	"\000"

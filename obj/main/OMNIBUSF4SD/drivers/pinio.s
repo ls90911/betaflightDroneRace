@@ -9,14 +9,14 @@
 	.eabi_attribute 34, 1
 	.eabi_attribute 18, 4
 	.file	"pinio.c"
-	.section	.gnu.lto_.profile.a86807f551c85dca,"",%progbits
+	.section	.gnu.lto_.profile.a9e2c55bbe1b8b62,"",%progbits
 	.ascii	"x\234cc```\001bF\206\024=\000\001n\000\236"
 	.text
-	.section	.gnu.lto_.icf.a86807f551c85dca,"",%progbits
+	.section	.gnu.lto_.icf.a9e2c55bbe1b8b62,"",%progbits
 	.ascii	"x\234cc``\020a@\000f\206\335\307\247|`a\234\264s\375"
 	.ascii	"\031\026\246\347W^}\342b\000\000b\305\011\226"
 	.text
-	.section	.gnu.lto_.jmpfuncs.a86807f551c85dca,"",%progbits
+	.section	.gnu.lto_.jmpfuncs.a9e2c55bbe1b8b62,"",%progbits
 	.ascii	"x\234m\2171\012\302@\020E\347\355n\022\320\302\013,"
 	.ascii	"^\"\007\264\022\013[\261J/\330\251\211Z\252\265\340"
 	.ascii	"\025\354\254=\201NFI\32480\260\373y\274\375\233\212"
@@ -27,17 +27,17 @@
 	.ascii	"^\377\022t\223N\333\366\216\351\347\343\323\305\232"
 	.ascii	"$\010;\3237/&\212\354\265\334\023\224\202I\266"
 	.text
-	.section	.gnu.lto_.inline.a86807f551c85dca,"",%progbits
+	.section	.gnu.lto_.inline.a9e2c55bbe1b8b62,"",%progbits
 	.ascii	"x\234cc``\210b@\000&\006\006\325\235\214\214\014L\252"
 	.ascii	"\007\326\2601p.\310b\002\213r320N\360\203R\314<@\371"
 	.ascii	"\011~\014,\274\214\014\314@\032\"\002\222g\340\345\003"
 	.ascii	"J\361]\210c`[ \017\326\311\314\303\000R\013T\005\000"
 	.ascii	"tE\015k"
 	.text
-	.section	.gnu.lto_.pureconst.a86807f551c85dca,"",%progbits
+	.section	.gnu.lto_.pureconst.a9e2c55bbe1b8b62,"",%progbits
 	.ascii	"x\234cc```\005b&\006I&\011\000\000\371\000A"
 	.text
-	.section	.gnu.lto_pinioInit.a86807f551c85dca,"",%progbits
+	.section	.gnu.lto_pinioInit.a9e2c55bbe1b8b62,"",%progbits
 	.ascii	"x\234\215\226\357O[U\030\307\317\367\236\366\336\376"
 	.ascii	"\242\305)\333\272UC\242\270l#4\250\361\205/\366\306"
 	.ascii	"\277\304Lg\372B0,\361\205o\270\320\002\303\352B\210"
@@ -106,7 +106,7 @@
 	.ascii	"\305\005\307\231SN\336-.:\021\370\020\001%P\374\037"
 	.ascii	"\370\242\271\325"
 	.text
-	.section	.gnu.lto_pinioSet.a86807f551c85dca,"",%progbits
+	.section	.gnu.lto_pinioSet.a9e2c55bbe1b8b62,"",%progbits
 	.ascii	"x\234\215\223AO\023A\024\307\347\277\263\335\256\200"
 	.ascii	"\304xP\023\211\341\000iza%\372\001\374\016~\002\002"
 	.ascii	"\325\364`1@\324\203IG\026\204\006\016F\245\330\262!"
@@ -144,7 +144,7 @@
 	.ascii	"n\252wN\325EcNCS\364L\244\251\3319\035\215E\033k\352"
 	.ascii	"E \032k\210\2343\032cv,r\366xK]K\3447\315\302T\016"
 	.text
-	.section	.gnu.lto_.symbol_nodes.a86807f551c85dca,"",%progbits
+	.section	.gnu.lto_.symbol_nodes.a9e2c55bbe1b8b62,"",%progbits
 	.ascii	"x\234U\312\275\015\3020\024\304\361\377\363\213m\246"
 	.ascii	"\000\2119(`\262\347\"\022\"\341#l@\326\240v\332\214"
 	.ascii	"\000\015# j,*\\\234N\372\335\005`*\301ub0\314P\352\236"
@@ -153,12 +153,12 @@
 	.ascii	"A\211\344\333'*\201\327\370\364\212\247\335?\226JC\356"
 	.ascii	"\336+-\217\266\317\033u\013\3628\011_~*.\227"
 	.text
-	.section	.gnu.lto_.refs.a86807f551c85dca,"",%progbits
+	.section	.gnu.lto_.refs.a9e2c55bbe1b8b62,"",%progbits
 	.ascii	"x\234\015\3071\022\000\020\014\000\301;Bjc\350\374\377"
 	.ascii	"\233Rl\261\023x%\320\245[\217\336hU\35484\371\014\342"
 	.ascii	"\000\232"
 	.text
-	.section	.gnu.lto_.decls.a86807f551c85dca,"",%progbits
+	.section	.gnu.lto_.decls.a9e2c55bbe1b8b62,"",%progbits
 	.ascii	"x\234\265\231{T\324G\226\307\273\272\272\033h\032p\324"
 	.ascii	"\311f&\314l6cv\330\231(&\231\335\354\374\265\203\310"
 	.ascii	"\230>\2434\207\206$\2233\347t\034%\0119\0212BvO\366"
@@ -414,7 +414,7 @@
 	.ascii	"}\366J}\375\355-\177\320\005\310\003\002w\007\372\254"
 	.ascii	"\314\014\374oS\013\231\341"
 	.text
-	.section	.gnu.lto_.symtab.a86807f551c85dca,"",%progbits
+	.section	.gnu.lto_.symtab.a9e2c55bbe1b8b62,"",%progbits
 	.ascii	"pinioInit\000"
 	.ascii	"\000"
 	.ascii	"\000"

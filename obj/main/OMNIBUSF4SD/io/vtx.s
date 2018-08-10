@@ -9,10 +9,10 @@
 	.eabi_attribute 34, 1
 	.eabi_attribute 18, 4
 	.file	"vtx.c"
-	.section	.gnu.lto_.profile.d1ef384d1d3ee0aa,"",%progbits
+	.section	.gnu.lto_.profile.1ea2a859e9dd50e4,"",%progbits
 	.ascii	"x\234cc```\003bF\206\003,\335L\000\004\310\001_"
 	.text
-	.section	.gnu.lto_.icf.d1ef384d1d3ee0aa,"",%progbits
+	.section	.gnu.lto_.icf.1ea2a859e9dd50e4,"",%progbits
 	.ascii	"x\234cc``\210a@\000~\206\217\217\333\277q2N_u\360 \013"
 	.ascii	"\363\377\327\037.p\261\254|?\263\205\223\365\356\327"
 	.ascii	"G}\374l\255\377&<\346b_\363\367\306u6\216\005+\246\255"
@@ -20,7 +20,7 @@
 	.ascii	"0\362ll\275\375\235\211\357\363\305\023\347\031\371"
 	.ascii	"\367-=\261\201_\000l\032\003\000\304\325/["
 	.text
-	.section	.gnu.lto_.jmpfuncs.d1ef384d1d3ee0aa,"",%progbits
+	.section	.gnu.lto_.jmpfuncs.1ea2a859e9dd50e4,"",%progbits
 	.ascii	"x\234\235S\313N\002A\020\234\232\036\006X\210\336<q"
 	.ascii	"\3413\375\000c\010W\302i\257~\200Q\024IH\010g\023\341"
 	.ascii	"O\374\000^\3252\013\213\263#\033'\351M\272\272z\252"
@@ -38,7 +38,7 @@
 	.ascii	"\212@\233\203A.-\0168\272-B\376\001\270\210\021\227"
 	.ascii	"\335!\342\322\277I7\224h\253:>\000Vu\022/"
 	.text
-	.section	.gnu.lto_.inline.d1ef384d1d3ee0aa,"",%progbits
+	.section	.gnu.lto_.inline.1ea2a859e9dd50e4,"",%progbits
 	.ascii	"x\234cc``X\314\310\000\007\234\014\014\252\232\214\014"
 	.ascii	"Lz\037&01\360L\360c\002\0112q\003\011f\036\006\006F"
 	.ascii	"\030\311-*\005T\3043\301\214\201m\201<X\015H\202i\202"
@@ -52,11 +52,11 @@
 	.ascii	"p\011\330$\250['\370\3610pp\002U\260}\320C\261\017h"
 	.ascii	"\010\003\000.\01606"
 	.text
-	.section	.gnu.lto_.pureconst.d1ef384d1d3ee0aa,"",%progbits
+	.section	.gnu.lto_.pureconst.1ea2a859e9dd50e4,"",%progbits
 	.ascii	"x\234cc``\020\006bN\006)fI\026IVI6\011\016\011N\013"
 	.ascii	"n\011\036\011\000\0158\001Z"
 	.text
-	.section	.gnu.lto_vtxGetSettings.d1ef384d1d3ee0aa,"",%progbits
+	.section	.gnu.lto_vtxGetSettings.1ea2a859e9dd50e4,"",%progbits
 	.ascii	"x\234\215\225\375S\224U\024\307\357y\356\363\266/\274"
 	.ascii	"\326\3440mESL\2433\2615\365K?\364\017\364_\230Q\303"
 	.ascii	"\017a\001S\375\322\360\300b\002\231\222\351\212\264"
@@ -127,7 +127,7 @@
 	.ascii	"g\347\274\223\227\020{x\376\315\2559o%\256X\357m\377"
 	.ascii	"0+wu\361\355\334\254\367\377\005\004\343\011\232"
 	.text
-	.section	.gnu.lto_vtxProcessPower.d1ef384d1d3ee0aa,"",%progbits
+	.section	.gnu.lto_vtxProcessPower.1ea2a859e9dd50e4,"",%progbits
 	.ascii	"x\234uS\357k\024g\020\236\347\235\335\333\313\335%\261"
 	.ascii	"\245T\220\023,5\210\025\274\026A\374*\364[\021\374\027"
 	.ascii	"$\004\311\007\265\230`\373\355\336\374j\274FJ\252\346"
@@ -175,7 +175,7 @@
 	.ascii	"k\342b\255\335\364I\315\346x]M}}\355\306\365u\025\263"
 	.ascii	"\306\342\217\365\374\177\021\243gN"
 	.text
-	.section	.gnu.lto_vtxProcessBandAndChannel.d1ef384d1d3ee0aa,"",%progbits
+	.section	.gnu.lto_vtxProcessBandAndChannel.1ea2a859e9dd50e4,"",%progbits
 	.ascii	"x\234\205\224oL[U\024\300\357y\367\375k\201\212\013"
 	.ascii	"8M:\207qd!&\353\026\215Y\214\237\324\017~\363\253_\021"
 	.ascii	"\211\222\270\232\010[\374\326\333\226\001\325E\030\203"
@@ -239,7 +239,7 @@
 	.ascii	"\333\364|\365\335R\277YY^UU\341\177\2472/#lx\013\257"
 	.ascii	"\363\227\26424\362\227\277\367/\22419\376"
 	.text
-	.section	.gnu.lto_vtxProcessFrequency.d1ef384d1d3ee0aa,"",%progbits
+	.section	.gnu.lto_vtxProcessFrequency.1ea2a859e9dd50e4,"",%progbits
 	.ascii	"x\234uS\335O\\U\020\2379\347~\261\313n\241\305\250\311"
 	.ascii	"\326\324X\322l\232t\255\032\323\007\023_\214\257\376"
 	.ascii	"\015\206P\303\2035\026\322\364m\017\273\024Xk\314\006"
@@ -296,7 +296,7 @@
 	.ascii	"\241\241n\337\033\365\221Uc\373^\012\377\017\305\314"
 	.ascii	"\275S"
 	.text
-	.section	.gnu.lto_vtxProcessPitMode.d1ef384d1d3ee0aa,"",%progbits
+	.section	.gnu.lto_vtxProcessPitMode.1ea2a859e9dd50e4,"",%progbits
 	.ascii	"x\234\215T\355oSe\024?\347y\356[\357m\0135*1i\014D\227"
 	.ascii	"e&P\015\206`\370\342\007\277C\302_@\232\021\373\001"
 	.ascii	"4sN?\331+[a\015\232 a\205-\035i4\025\023\224\015\035"
@@ -355,7 +355,7 @@
 	.ascii	"\316\370\353\333;wt\266\033o&:\267\356\336\272s\347"
 	.ascii	"?l\267\025\205"
 	.text
-	.section	.gnu.lto_vtxProcessStateUpdate.d1ef384d1d3ee0aa,"",%progbits
+	.section	.gnu.lto_vtxProcessStateUpdate.1ea2a859e9dd50e4,"",%progbits
 	.ascii	"x\234uS[KTQ\024^\353\354sf\306q\034\315L\023\2460LD"
 	.ascii	"\037\234\240\027\353\241\247\376A\277@\304\302\207,"
 	.ascii	"r\220\336f\347%\035\014\022\313\311\344\030\223\"\032"
@@ -403,7 +403,7 @@
 	.ascii	"\311\213\023F\236\307\223_p\241P:\376\002\366\227\240"
 	.ascii	"\273"
 	.text
-	.section	.gnu.lto_vtxUpdate.part.0.d1ef384d1d3ee0aa,"",%progbits
+	.section	.gnu.lto_vtxUpdate.part.0.1ea2a859e9dd50e4,"",%progbits
 	.ascii	"x\234\215VmPTU\030>\357=\367k?\357\356\262M\331P\331"
 	.ascii	"\0309T\343:\325\237\372e3\375n\234)\177\324?\007w\212"
 	.ascii	"\231\244\006\321\351\037W\027P\242)utq\230M6\324\250"
@@ -485,7 +485,7 @@
 	.ascii	".\216\226,+.y?\260\242lii\031*o\027}\020]\266\362\303"
 	.ascii	"\350\177\300\222\362)"
 	.text
-	.section	.gnu.lto_vtxInit.d1ef384d1d3ee0aa,"",%progbits
+	.section	.gnu.lto_vtxInit.1ea2a859e9dd50e4,"",%progbits
 	.ascii	"x\234\215T\337O\\E\024\236o\346\376\332\013tI4\325\326"
 	.ascii	"}0\032BjL\327Xc|4>\370f\342\213\177@\003\253\341AP\330"
 	.ascii	"\030\337\270\262,\260\3215D\333-\305[]\351\203>\240"
@@ -538,7 +538,7 @@
 	.ascii	"T:\335\324\374B\333s/5\356M\247\032\2677\2644\267\245"
 	.ascii	"[\011\230j|\266)\375LKc\352i\202\375\013{r\030\353"
 	.text
-	.section	.gnu.lto_vtxUpdate.d1ef384d1d3ee0aa,"",%progbits
+	.section	.gnu.lto_vtxUpdate.1ea2a859e9dd50e4,"",%progbits
 	.ascii	"x\234mP\313+Dq\024>\337\357\334{g\210\331P,fa\241dc"
 	.ascii	"R\254\374\033\374\001\232,f\201\032\217\354\356\317"
 	.ascii	"c0\261@\214\232n\232H\226\310s<\352\206\0055\236[+\304"
@@ -561,7 +561,7 @@
 	.ascii	"o\215uDb\235\221\336\356\276\272(\225F{\342\361\266"
 	.ascii	"\216\356\346X{[K\327/\374\342\216j"
 	.text
-	.section	.gnu.lto_pgResetTemplate_vtxSettingsConfig.d1ef384d1d3ee0aa,"",%progbits
+	.section	.gnu.lto_pgResetTemplate_vtxSettingsConfig.1ea2a859e9dd50e4,"",%progbits
 	.ascii	"x\234cc``\350\005bF\006\010\230\302\314\270\376\315"
 	.ascii	"\316\237\274\335\314s\230\201\202\310\\F0\367\364\204"
 	.ascii	"\205\015l\020\356\033\035 \177\313\221\343m\034\020"
@@ -570,7 +570,7 @@
 	.ascii	"3\312L\005j\336\006\242\230 \0243\343V\020\305\302\270"
 	.ascii	"\005D\2612nf\224a`\334\301h\301\000\000@})\347"
 	.text
-	.section	.gnu.lto_vtxSettingsConfig_Registry.d1ef384d1d3ee0aa,"",%progbits
+	.section	.gnu.lto_vtxSettingsConfig_Registry.1ea2a859e9dd50e4,"",%progbits
 	.ascii	"x\234cc``\270\006\304b\014\0200\205\231\261\371\327"
 	.ascii	"\376\317|\365\177\033f44<\350~)\321\305<\207\231a\001"
 	.ascii	"3D\356\320\323u\354\026\333\032:\0264\010\314af\234"
@@ -584,7 +584,7 @@
 	.ascii	"\242d\375\334\304\314<\375\314|\375\262\222\012\275"
 	.ascii	"d\006\000\342hR\214"
 	.text
-	.section	.gnu.lto_.symbol_nodes.d1ef384d1d3ee0aa,"",%progbits
+	.section	.gnu.lto_.symbol_nodes.1ea2a859e9dd50e4,"",%progbits
 	.ascii	"x\234]\322\273O\024Q\024\006\360\357\2333w\230\021\024"
 	.ascii	"a_,\242 \177\300V&6\026\372\227\030\022\011\2613\260"
 	.ascii	"\215\325\031\223uk[\215\021]\007|?\360\275XAV6Y#\205"
@@ -611,14 +611,14 @@
 	.ascii	"\255<O =\350R\242\343\203UFO\"\315s\016\235\336\217"
 	.ascii	"i\031\213\262\325\360\033\354\225\322\216"
 	.text
-	.section	.gnu.lto_.refs.d1ef384d1d3ee0aa,"",%progbits
+	.section	.gnu.lto_.refs.1ea2a859e9dd50e4,"",%progbits
 	.ascii	"x\2345\2131\022\202@\020\300\222\345\270\225E\205\312"
 	.ascii	"\306\302\327\361\377/\260\215Ef\222\"\023\270\232\004"
 	.ascii	"\305\300\005\007\2568\211\2435\354\010G\247d\232\033"
 	.ascii	"\356\353F\015jR\037\353K\374r\377\377=O}`\351\351\223"
 	.ascii	"\227\313\021\306\031onrk\002\027"
 	.text
-	.section	.gnu.lto_.decls.d1ef384d1d3ee0aa,"",%progbits
+	.section	.gnu.lto_.decls.1ea2a859e9dd50e4,"",%progbits
 	.ascii	"x\234\265{yXTW\232w\335:U,E\001\0064\261\323L'\351\230"
 	.ascii	"\204\356\236H4\235N\367<\363}_\023%\221i\267\001t:\371"
 	.ascii	"\236\371\010\201R\351\007\301\241\312t\234\177\246\220"
@@ -1119,7 +1119,7 @@
 	.ascii	"x\011\266Q\357\360\363\327\274\253\273\006a\371\377"
 	.ascii	"\344`\344\203"
 	.text
-	.section	.gnu.lto_.symtab.d1ef384d1d3ee0aa,"",%progbits
+	.section	.gnu.lto_.symtab.1ea2a859e9dd50e4,"",%progbits
 	.ascii	"vtxSettingsConfig_System\000"
 	.ascii	"\000"
 	.ascii	"\004"

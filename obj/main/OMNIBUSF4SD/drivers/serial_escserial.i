@@ -6684,6 +6684,9 @@ _Bool
     mixerIsTricopter(void);
 
 void mixerSetThrottleAngleCorrection(int correctionValue);
+
+extern float shadowThrottle;
+extern float shadowRcCommandThrottle;
 # 47 "./src/main/drivers/serial_escserial.c" 2
 
 # 1 "./src/main/io/serial.h" 1

@@ -9,25 +9,25 @@
 	.eabi_attribute 34, 1
 	.eabi_attribute 18, 4
 	.file	"serial_uart_pinconfig.c"
-	.section	.gnu.lto_.profile.cff425f066a1594d,"",%progbits
+	.section	.gnu.lto_.profile.255417cd22d5d342,"",%progbits
 	.ascii	"x\234cc```\001bF\006Y\031\000\000\316\000E"
 	.text
-	.section	.gnu.lto_.icf.cff425f066a1594d,"",%progbits
+	.section	.gnu.lto_.icf.255417cd22d5d342,"",%progbits
 	.ascii	"x\234cc``\020a@\000f\206\353_.\256\345f\272\276v\315"
 	.ascii	"CV\346\205\215k'\3602\000\000f\033\010\371"
 	.text
-	.section	.gnu.lto_.jmpfuncs.cff425f066a1594d,"",%progbits
+	.section	.gnu.lto_.jmpfuncs.255417cd22d5d342,"",%progbits
 	.ascii	"x\234cc``\340b@\000F\006FF\306\3729\314\014\014\000"
 	.ascii	"\006\245\0013"
 	.text
-	.section	.gnu.lto_.inline.cff425f066a1594d,"",%progbits
+	.section	.gnu.lto_.inline.255417cd22d5d342,"",%progbits
 	.ascii	"x\234cc``\020g@\000F\006\006\271\355\214\214\014L&\177"
 	.ascii	"\266\2122p\374\252a\002\013\003\0009\012\004r"
 	.text
-	.section	.gnu.lto_.pureconst.cff425f066a1594d,"",%progbits
+	.section	.gnu.lto_.pureconst.255417cd22d5d342,"",%progbits
 	.ascii	"x\234cc```\006bF\006)\000\000\177\000%"
 	.text
-	.section	.gnu.lto_uartPinConfigure.cff425f066a1594d,"",%progbits
+	.section	.gnu.lto_uartPinConfigure.255417cd22d5d342,"",%progbits
 	.ascii	"x\234\225V[P\225U\024\336\353\337\377\345\234\377\\"
 	.ascii	"\015t\3249M>\3448f\0032>\325\203=\364\320[\323LSo\345"
 	.ascii	"\020\220\236\231\"\347X\346S\374\\\022P\234a\230@\346"
@@ -114,17 +114,17 @@
 	.ascii	"\035:N\203i\031\216-\251\241\364\217SC\031\372V\261"
 	.ascii	"\375/\371\325\201\255"
 	.text
-	.section	.gnu.lto_.symbol_nodes.cff425f066a1594d,"",%progbits
+	.section	.gnu.lto_.symbol_nodes.255417cd22d5d342,"",%progbits
 	.ascii	"x\234cc``p\003b\006\246\036\306z\006\206\011\347\030"
 	.ascii	"\030\200\324\256\006G\006\006\326^F\006\005\240\014"
 	.ascii	"k7#c\243\022\203^ZbqIQbn|Rq1P\260\223\221\011C\220\001"
 	.ascii	"\000G\301\021U"
 	.text
-	.section	.gnu.lto_.refs.cff425f066a1594d,"",%progbits
+	.section	.gnu.lto_.refs.255417cd22d5d342,"",%progbits
 	.ascii	"x\234cc``\020\005b6\006&FF\006F&\006Ff\006FNF&q&f)\006"
 	.ascii	"\000\005\023\000p"
 	.text
-	.section	.gnu.lto_.decls.cff425f066a1594d,"",%progbits
+	.section	.gnu.lto_.decls.255417cd22d5d342,"",%progbits
 	.ascii	"x\234\265;kP\224\331\261s\346|\003\3030\200\301\255"
 	.ascii	"\304\354\345\356\335l\231]*\311\212\217MvS\225\312\215"
 	.ascii	"\253n\326[\273j!\273\311n\335*2\312\270\222(\270\303"
@@ -530,7 +530,7 @@
 	.ascii	"\310\327\270\376\373\246B\026\215\201\312&%~8g\376\234"
 	.ascii	"y\326\304h\364\203T\0141\340\177\001`\225g\371"
 	.text
-	.section	.gnu.lto_.symtab.cff425f066a1594d,"",%progbits
+	.section	.gnu.lto_.symtab.255417cd22d5d342,"",%progbits
 	.ascii	"uartPinConfigure\000"
 	.ascii	"\000"
 	.ascii	"\000"

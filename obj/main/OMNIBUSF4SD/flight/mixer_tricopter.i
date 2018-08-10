@@ -5742,6 +5742,9 @@ _Bool
     mixerIsTricopter(void);
 
 void mixerSetThrottleAngleCorrection(int correctionValue);
+
+extern float shadowThrottle;
+extern float shadowRcCommandThrottle;
 # 31 "./src/main/flight/mixer_tricopter.c" 2
 # 1 "./src/main/flight/mixer_tricopter.h" 1
 # 21 "./src/main/flight/mixer_tricopter.h"

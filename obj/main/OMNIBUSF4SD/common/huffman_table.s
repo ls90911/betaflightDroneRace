@@ -9,20 +9,20 @@
 	.eabi_attribute 34, 1
 	.eabi_attribute 18, 4
 	.file	"huffman_table.c"
-	.section	.gnu.lto_.profile.a83f3acb3f0d7d1b,"",%progbits
+	.section	.gnu.lto_.profile.3be4095ccc311645,"",%progbits
 	.ascii	"x\234cc```\004b\006\000\000D\000\010"
 	.text
-	.section	.gnu.lto_.icf.a83f3acb3f0d7d1b,"",%progbits
+	.section	.gnu.lto_.icf.3be4095ccc311645,"",%progbits
 	.ascii	"x\234cc``\340`@\000F\206\317\227\347\376\340`\000\000"
 	.ascii	"\020\215\003s"
 	.text
-	.section	.gnu.lto_.inline.a83f3acb3f0d7d1b,"",%progbits
+	.section	.gnu.lto_.inline.3be4095ccc311645,"",%progbits
 	.ascii	"x\234cc```b@\006\000\000\232\000\011"
 	.text
-	.section	.gnu.lto_.pureconst.a83f3acb3f0d7d1b,"",%progbits
+	.section	.gnu.lto_.pureconst.3be4095ccc311645,"",%progbits
 	.ascii	"x\234cc```\004b\006\000\000D\000\010"
 	.text
-	.section	.gnu.lto_huffmanTable.a83f3acb3f0d7d1b,"",%progbits
+	.section	.gnu.lto_huffmanTable.3be4095ccc311645,"",%progbits
 	.ascii	"x\234u\233Gp\253Kv\230/.ox\361>\331\3268H\327\362H\236"
 	.ascii	"\261-\007\2154cIO\301R\225WV\225K\013-\264\324\312\345"
 	.ascii	"*/]\345\205\354*\331\000\011\346L\002\314\001\004\230"
@@ -466,14 +466,14 @@
 	.ascii	"\016\001\035\300\001`?\320\016\264\001\273\200\235\232"
 	.ascii	"\357\337h\006>~\377\346\377\003\216\022\302\212"
 	.text
-	.section	.gnu.lto_.symbol_nodes.a83f3acb3f0d7d1b,"",%progbits
+	.section	.gnu.lto_.symbol_nodes.3be4095ccc311645,"",%progbits
 	.ascii	"x\234cc``\340\002b\006V\006\206F%\020\003\000\004\347"
 	.ascii	"\000\271"
 	.text
-	.section	.gnu.lto_.refs.a83f3acb3f0d7d1b,"",%progbits
+	.section	.gnu.lto_.refs.3be4095ccc311645,"",%progbits
 	.ascii	"x\234cc```\004b\006\000\000D\000\010"
 	.text
-	.section	.gnu.lto_.decls.a83f3acb3f0d7d1b,"",%progbits
+	.section	.gnu.lto_.decls.3be4095ccc311645,"",%progbits
 	.ascii	"x\234\265\223IL\024Y\030\200\337\337\257\221\266d\231"
 	.ascii	"\200\007\017}P\203\235>\330]\240f\\NF\0173\007\343I"
 	.ascii	"\257\226Ewa7\351\256\232\241\213\203\267\022pIP\003"
@@ -529,7 +529,7 @@
 	.ascii	"\272\027x\353y?J\272+\276q'\235\340gI\364\371\337\234"
 	.ascii	"6\371\037\340&\366X"
 	.text
-	.section	.gnu.lto_.symtab.a83f3acb3f0d7d1b,"",%progbits
+	.section	.gnu.lto_.symtab.3be4095ccc311645,"",%progbits
 	.ascii	"huffmanTable\000"
 	.ascii	"\000"
 	.ascii	"\000"

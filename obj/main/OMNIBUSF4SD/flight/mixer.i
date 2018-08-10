@@ -7774,6 +7774,7 @@ extern float gyroz;
 extern float accmx;
 extern float accmy;
 extern float accmz;
+extern int16_t sonar_adc_cm;
 
 typedef struct {
     float w,x,y,z;
@@ -7829,19 +7830,19 @@ void imuUpdateAttitude(timeUs_t currentTimeUs);
 
 void imuResetAccelerationSum(void);
 void imuInit(void);
-# 105 "./src/main/flight/imu.h"
+# 106 "./src/main/flight/imu.h"
 void imuQuaternionComputeProducts(quaternion *quat, quaternionProducts *quatProd);
 
-# 106 "./src/main/flight/imu.h" 3 4
+# 107 "./src/main/flight/imu.h" 3 4
 _Bool 
-# 106 "./src/main/flight/imu.h"
+# 107 "./src/main/flight/imu.h"
     imuQuaternionHeadfreeOffsetSet(void);
 void imuQuaternionHeadfreeTransformVectorEarthToBody(t_fp_vector_def * v);
 void imuComputeQuaternionFromRPY(quaternionProducts *qP, int16_t initialRoll, int16_t initialPitch, int16_t initialYaw);
 
-# 109 "./src/main/flight/imu.h" 3 4
+# 110 "./src/main/flight/imu.h" 3 4
 _Bool 
-# 109 "./src/main/flight/imu.h"
+# 110 "./src/main/flight/imu.h"
     shouldInitializeGPSHeading(void);
 # 57 "./src/main/flight/mixer.c" 2
 # 1 "./src/main/flight/gps_rescue.h" 1
@@ -8080,6 +8081,9 @@ _Bool
     mixerIsTricopter(void);
 
 void mixerSetThrottleAngleCorrection(int correctionValue);
+
+extern float shadowThrottle;
+extern float shadowRcCommandThrottle;
 # 59 "./src/main/flight/mixer.c" 2
 # 1 "./src/main/flight/mixer_tricopter.h" 1
 # 21 "./src/main/flight/mixer_tricopter.h"
@@ -9755,12 +9759,15 @@ void stopPwmAllMotors(void)
     delayMicroseconds(1500);
 }
 
+float shadowThrottle;
 static __attribute__ ((section(".fastram_bss"), aligned(4))) float throttle = 0;
 static __attribute__ ((section(".fastram_bss"), aligned(4))) float motorOutputMin;
 static __attribute__ ((section(".fastram_bss"), aligned(4))) float motorRangeMin;
 static __attribute__ ((section(".fastram_bss"), aligned(4))) float motorRangeMax;
 static __attribute__ ((section(".fastram_bss"), aligned(4))) float motorOutputRange;
 static __attribute__ ((section(".fastram_bss"), aligned(4))) int8_t motorOutputMixSign;
+
+float shadowRcCommandThrottle;
 
 static void calculateThrottleAndCurrentMotorEndpoints(timeUs_t currentTimeUs)
 {
@@ -9851,6 +9858,8 @@ static void calculateThrottleAndCurrentMotorEndpoints(timeUs_t currentTimeUs)
     }
 
     throttle = constrainf(throttle / currentThrottleInputRange, 0.0f, 1.0f);
+    shadowThrottle = throttle;
+    shadowRcCommandThrottle = rcCommand[THROTTLE];
 }
 
 
@@ -9991,9 +10000,9 @@ float applyThrottleLimit(float throttle)
 
 
     const 
-# 761 "./src/main/flight/mixer.c" 3 4
+# 766 "./src/main/flight/mixer.c" 3 4
          _Bool 
-# 761 "./src/main/flight/mixer.c"
+# 766 "./src/main/flight/mixer.c"
               yawSpinDetected = gyroYawSpinDetected();
     if (yawSpinDetected) {
         yawPidSumLimit = 1000;
@@ -10085,9 +10094,9 @@ float convertExternalToMotor(uint16_t externalValue)
     switch ((int)isMotorProtocolDshot()) {
 
     case 
-# 851 "./src/main/flight/mixer.c" 3 4
+# 856 "./src/main/flight/mixer.c" 3 4
         1
-# 851 "./src/main/flight/mixer.c"
+# 856 "./src/main/flight/mixer.c"
             :
         externalValue = constrain(externalValue, 1000, 2000);
 
@@ -10105,9 +10114,9 @@ float convertExternalToMotor(uint16_t externalValue)
 
         break;
     case 
-# 867 "./src/main/flight/mixer.c" 3 4
+# 872 "./src/main/flight/mixer.c" 3 4
         0
-# 867 "./src/main/flight/mixer.c"
+# 872 "./src/main/flight/mixer.c"
              :
 
     default:
@@ -10124,9 +10133,9 @@ uint16_t convertMotorToExternal(float motorValue)
     switch ((int)isMotorProtocolDshot()) {
 
     case 
-# 882 "./src/main/flight/mixer.c" 3 4
+# 887 "./src/main/flight/mixer.c" 3 4
         1
-# 882 "./src/main/flight/mixer.c"
+# 887 "./src/main/flight/mixer.c"
             :
         if (feature(FEATURE_3D)) {
             if (motorValue == 0 || motorValue < 48) {
@@ -10141,9 +10150,9 @@ uint16_t convertMotorToExternal(float motorValue)
         }
         break;
     case 
-# 895 "./src/main/flight/mixer.c" 3 4
+# 900 "./src/main/flight/mixer.c" 3 4
         0
-# 895 "./src/main/flight/mixer.c"
+# 900 "./src/main/flight/mixer.c"
              :
 
     default:

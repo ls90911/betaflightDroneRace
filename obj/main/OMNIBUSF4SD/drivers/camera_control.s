@@ -9,10 +9,10 @@
 	.eabi_attribute 34, 1
 	.eabi_attribute 18, 4
 	.file	"camera_control.c"
-	.section	.gnu.lto_.profile.c2c24865a4bfae22,"",%progbits
+	.section	.gnu.lto_.profile.fac6435b9da32fb6,"",%progbits
 	.ascii	"x\234cc```\003bF\206\253\314G\031\001\005\214\001\254"
 	.text
-	.section	.gnu.lto_.icf.c2c24865a4bfae22,"",%progbits
+	.section	.gnu.lto_.icf.fac6435b9da32fb6,"",%progbits
 	.ascii	"x\234cc``\250b@\000\021\206\011gz\257\3631^_\273\346"
 	.ascii	"!+\323\365\351-\355l\314`\021\0260\233\365\366\201\367"
 	.ascii	"\317\331\331\246\257:x\220\205}\357\303w\355\254\034"
@@ -22,7 +22,7 @@
 	.ascii	"\271\201M\360\377\3575\373X\205\376\334?\371\204W\370"
 	.ascii	"\322\334)\015l\"`\323\030\000\231\233=M"
 	.text
-	.section	.gnu.lto_.jmpfuncs.c2c24865a4bfae22,"",%progbits
+	.section	.gnu.lto_.jmpfuncs.fac6435b9da32fb6,"",%progbits
 	.ascii	"x\234\205\222=K\304@\020\206\347\335I\366\202\336q\332"
 	.ascii	"\373\003l$\277\357\252\304B-\264\022\365\232\305\263"
 	.ascii	"\320\302R\364\374<A\254\017\024,N\260\020\374\013v\342"
@@ -41,7 +41,7 @@
 	.ascii	"y\335\300l\232\317\311?\321\315\241\371j\217 YdzSD="
 	.ascii	"x\353\364\015\325u\265\032"
 	.text
-	.section	.gnu.lto_.inline.c2c24865a4bfae22,"",%progbits
+	.section	.gnu.lto_.inline.fac6435b9da32fb6,"",%progbits
 	.ascii	"x\234}\220-\022\3020\020\205\337&i\311$m\011\016\301"
 	.ascii	"\0147\300\342Q\250:\316\000\016\313\035@T \020\010$"
 	.ascii	"\032N\320\033\300\0158\0028\004\202\355/\2643\020\261"
@@ -56,11 +56,11 @@
 	.ascii	"\177\037\025\265\352\356\034\012':\263\302c\336\202"
 	.ascii	"337"
 	.text
-	.section	.gnu.lto_.pureconst.c2c24865a4bfae22,"",%progbits
+	.section	.gnu.lto_.pureconst.fac6435b9da32fb6,"",%progbits
 	.ascii	"x\234cc``\220\000bn\006\011&\011f\011\026\011V)\216"
 	.ascii	"]\214\334R<R\274R\002\022\202\022\000\0331\0028"
 	.text
-	.section	.gnu.lto_cameraControlHi.part.1.c2c24865a4bfae22,"",%progbits
+	.section	.gnu.lto_cameraControlHi.part.1.fac6435b9da32fb6,"",%progbits
 	.ascii	"x\234U\216\275K\003A\020\305\347\335\\.\327(\330[\244"
 	.ascii	"\020!\240\331?I\302\231\"`\022\270\210\355\255QI\202"
 	.ascii	"\012\"&\202\234r`a%\022\214\321\323F\322\330\251\330"
@@ -80,7 +80,7 @@
 	.ascii	"\340W\225\227/\025\374\374\234W)/\372\225\205\234G\277"
 	.ascii	")\213n\026"
 	.text
-	.section	.gnu.lto_cameraControlHi.c2c24865a4bfae22,"",%progbits
+	.section	.gnu.lto_cameraControlHi.fac6435b9da32fb6,"",%progbits
 	.ascii	"x\234\215\220;K\003A\020\307\347\177{w9\203\217\017"
 	.ascii	"\240\205\240\010I\221\373\004~\026\011\321\"`\0228\305"
 	.ascii	"6\253\211DQAD\243\310)\221\024V\"b|$>8T\260S\261\215"
@@ -104,7 +104,7 @@
 	.ascii	"\210=\340\304\354D4\236\264{\235\370P\2373`\307\242"
 	.ascii	"\211>'\332\023K%\007\235T\177$F\237io\257\217"
 	.text
-	.section	.gnu.lto_cameraControlLo.part.2.c2c24865a4bfae22,"",%progbits
+	.section	.gnu.lto_cameraControlLo.part.2.fac6435b9da32fb6,"",%progbits
 	.ascii	"x\234U\216\275K\003A\020\305\347\335\\.\327(\330[\244"
 	.ascii	"\020!\240\271\316\177G\302\231\"`\022\270\210\355\255"
 	.ascii	"QI\202\"\022L\204p\312\201\205\225\210\030\243g%ilD"
@@ -124,7 +124,7 @@
 	.ascii	"z~\276T\010\362\363~\245\274\024T\026s>\375\002c\302"
 	.ascii	"mV"
 	.text
-	.section	.gnu.lto_cameraControlLo.c2c24865a4bfae22,"",%progbits
+	.section	.gnu.lto_cameraControlLo.fac6435b9da32fb6,"",%progbits
 	.ascii	"x\234\215\220\317+DQ\024\307\317\367\335\367\213\030"
 	.ascii	"\377\200\205\"\305b\336_\340o\3214,\024\246\036\331"
 	.ascii	"\3165\310\210\244\2111\351\321h\026V\222\214\037\343"
@@ -150,7 +150,7 @@
 	.ascii	"\351t#\355\321Xo\277\033\353\016G\351\023\262\317\257"
 	.ascii	"'"
 	.text
-	.section	.gnu.lto_cameraControlProcess.part.3.c2c24865a4bfae22,"",%progbits
+	.section	.gnu.lto_cameraControlProcess.part.3.fac6435b9da32fb6,"",%progbits
 	.ascii	"x\234\215R\317KTQ\024\276\337;\357\275\231f\374\021"
 	.ascii	".\242\205\013\027\211\270q6\355\333\365\027\324:d\232"
 	.ascii	"\205\220\012Ok\353U\307\234\351\007\230\344\010\303"
@@ -190,7 +190,7 @@
 	.ascii	"Z\235\346suaQ\032>\3578\221\246\326S\015\215\221\323"
 	.ascii	"-\277\001\007WL\031"
 	.text
-	.section	.gnu.lto_cameraControlKeyPress.part.4.c2c24865a4bfae22,"",%progbits
+	.section	.gnu.lto_cameraControlKeyPress.part.4.fac6435b9da32fb6,"",%progbits
 	.ascii	"x\234\235XkTSW\026\276\373\236\274\023\003U+hAA\245"
 	.ascii	"\324\007D\3335\323\231Y\363\\\355\237\376\260?j\347"
 	.ascii	"w\006c:eU\240\213G\327\370\313\313\033\025-\265\232"
@@ -358,7 +358,7 @@
 	.ascii	"-$9S\322\2479\32322WJ\221A\343|\354\177\354\035\266"
 	.ascii	"S"
 	.text
-	.section	.gnu.lto_buttonResistanceValues.c2c24865a4bfae22,"",%progbits
+	.section	.gnu.lto_buttonResistanceValues.fac6435b9da32fb6,"",%progbits
 	.ascii	"x\234cc``X\003\304\214\014\0200\205\231\361b\313\206"
 	.ascii	"9\314\335\314s\230\031\030Y\200\334%\373\016|g\005q"
 	.ascii	"\031\031g\231\002\371\207>mX\316\003\221f\006r\257\315"
@@ -370,7 +370,7 @@
 	.ascii	"\304\233\201XK\206\201q\027\243\005\003\000\343\304"
 	.ascii	"7\372"
 	.text
-	.section	.gnu.lto_TIM6_DAC_IRQHandler.c2c24865a4bfae22,"",%progbits
+	.section	.gnu.lto_TIM6_DAC_IRQHandler.fac6435b9da32fb6,"",%progbits
 	.ascii	"x\234MO\317K\002Q\020\236o\337\356j\207:\007\031u\210"
 	.ascii	"\300C\356\237\024\262y\020Ra\215\256\37365\215B\012"
 	.ascii	"\322.\213lx\350RDd\326\006\301\3429\022\272\006\036"
@@ -390,7 +390,7 @@
 	.ascii	"\267L#\223Lg\215-+\275\233\262\362\206\231\314\244\254"
 	.ascii	"\344\246\231\313\356X\271\355\204I\177\274Or\374"
 	.text
-	.section	.gnu.lto_TIM7_IRQHandler.c2c24865a4bfae22,"",%progbits
+	.section	.gnu.lto_TIM7_IRQHandler.fac6435b9da32fb6,"",%progbits
 	.ascii	"x\234MO\315K\002Q\020\237\337\276]\025\372\272\006I"
 	.ascii	"u\210\300C\356\237\024\262y\020Ra\215\256\37363\215"
 	.ascii	"\"\203\322.K\254\024\325%$\372\334:\264x\352T\340\241"
@@ -410,7 +410,7 @@
 	.ascii	"D*\243\317\231\251\305\244\231\323\215D:i&f\215lf\301"
 	.ascii	"\314\316\307\015\372\003\216\317r\302"
 	.text
-	.section	.gnu.lto_cameraControlInit.c2c24865a4bfae22,"",%progbits
+	.section	.gnu.lto_cameraControlInit.fac6435b9da32fb6,"",%progbits
 	.ascii	"x\234\225\227YP\024G\030\307\347\353\336cv\027V\014"
 	.ascii	"\032\217l\0220\022\005\023W\255\034>\244\222<\245\222"
 	.ascii	"\207\274\345=E\320TQF\255B\313\344\215\001\226S\274"
@@ -509,7 +509,7 @@
 	.ascii	"\307&\254\370>6a\245\274fC|\334W_|\371\241\367\307\007"
 	.ascii	"\377\001\206\344\301]"
 	.text
-	.section	.gnu.lto_cameraControlProcess.c2c24865a4bfae22,"",%progbits
+	.section	.gnu.lto_cameraControlProcess.fac6435b9da32fb6,"",%progbits
 	.ascii	"x\234mPMOSQ\020\235s\347}\024\265,\325\005\013\023I"
 	.ascii	"\032X\264\033\177\001\277A\326\246yv\321\304\226\344"
 	.ascii	"\025\335\366\322R\240\221\205\020l\233\246\220\232H"
@@ -537,7 +537,7 @@
 	.ascii	"\204\227\314\244\374\344\015o$;\352\217\334\212{\024"
 	.ascii	"\365n\373~*;z=\235I\015\347N\001\360Q\257\236"
 	.text
-	.section	.gnu.lto_cameraControlKeyPress.c2c24865a4bfae22,"",%progbits
+	.section	.gnu.lto_cameraControlKeyPress.fac6435b9da32fb6,"",%progbits
 	.ascii	"x\234mQ\317k\023Q\020\236ogw\263\2661\336\304C\300\202"
 	.ascii	"\225\320\012]\301\223=\367\352\337 !\015\030l\023\330"
 	.ascii	"T\301\323>\333\306\246\330C)6\226\270\204x\220\322\203"
@@ -569,7 +569,7 @@
 	.ascii	"e\207\274\334@O\212\370|\372R\354\\n\240\277\357\202"
 	.ascii	"\227\034\312\344\262g\362\177\000\363\267\303\030"
 	.text
-	.section	.gnu.lto_pgResetTemplate_cameraControlConfig.c2c24865a4bfae22,"",%progbits
+	.section	.gnu.lto_pgResetTemplate_cameraControlConfig.fac6435b9da32fb6,"",%progbits
 	.ascii	"x\234cc``\350\007bF\006\010\230\302\314\270\376\315"
 	.ascii	"\316\237\274\335\314s\230\201\202@\356\367W\253\377"
 	.ascii	"\263\200\270\214\214\327\230\201\374\277\177\266\315"
@@ -580,7 +580,7 @@
 	.ascii	"f\001)\026\306\315 \212\025D10\356`\264`\000\000\205"
 	.ascii	"-,\375"
 	.text
-	.section	.gnu.lto_cameraControlConfig_Registry.c2c24865a4bfae22,"",%progbits
+	.section	.gnu.lto_cameraControlConfig_Registry.fac6435b9da32fb6,"",%progbits
 	.ascii	"x\234cc``\270\006\304j\014\0200\205\231\261\371\327"
 	.ascii	"\376\317|\365\177\033f44<\350\356b\276e8\207\231a\001"
 	.ascii	"3D\356\320\323u\354\026\333\032:\0264\010\314af\234"
@@ -594,7 +594,7 @@
 	.ascii	"\270(Y?713O?\245(\263,\265\250X?917\265(1>9?\257\244"
 	.ascii	"(?G/\231\001\000\037\217X\202"
 	.text
-	.section	.gnu.lto_.symbol_nodes.c2c24865a4bfae22,"",%progbits
+	.section	.gnu.lto_.symbol_nodes.fac6435b9da32fb6,"",%progbits
 	.ascii	"x\234]\222;O\024Q\030\206\337\367\234\231e\020\226\233"
 	.ascii	"\356*^\220P\220\320\360\013(\360\227\030\022\010\261"
 	.ascii	"3\260\215\3257\220U\023\012!Q!\334u3\240\002+\027-\304"
@@ -620,7 +620,7 @@
 	.ascii	"\242\361\004\261A\223\217R\271S7\007\030-w\342\024\320"
 	.ascii	"\340\276 "
 	.text
-	.section	.gnu.lto_.refs.c2c24865a4bfae22,"",%progbits
+	.section	.gnu.lto_.refs.fac6435b9da32fb6,"",%progbits
 	.ascii	"x\234%\214[\012\302P\014D\347\344\326\351\003\256\366"
 	.ascii	"\241\010V\024\377\\\203KuE.\253)\302$\341\004\316X\322"
 	.ascii	"7\207\014\021\271DC\331\241\371Cs\220\363\226\375\337"
@@ -629,7 +629,7 @@
 	.ascii	"\301\252\343]\247\007\243Z\310R\312\022\216s\314\332"
 	.ascii	"\000\200\233\005\011"
 	.text
-	.section	.gnu.lto_.decls.c2c24865a4bfae22,"",%progbits
+	.section	.gnu.lto_.decls.fac6435b9da32fb6,"",%progbits
 	.ascii	"x\234\315|\011T\225\331\225.\377=w`\246\202\246b\022"
 	.ascii	"\223\256$v\312N\247\312\322\252$\225\365^\372\025\""
 	.ascii	"U\305\212\003\015XI\252_7M\351\255*\022\225\012`\222"
@@ -1361,7 +1361,7 @@
 	.ascii	"S\372i\312\013\261\305\302\331\336^\354\304\376/\345"
 	.ascii	"N<h"
 	.text
-	.section	.gnu.lto_.symtab.c2c24865a4bfae22,"",%progbits
+	.section	.gnu.lto_.symtab.fac6435b9da32fb6,"",%progbits
 	.ascii	"cameraControlConfig_System\000"
 	.ascii	"\000"
 	.ascii	"\004"

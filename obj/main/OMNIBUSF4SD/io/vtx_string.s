@@ -9,22 +9,22 @@
 	.eabi_attribute 34, 1
 	.eabi_attribute 18, 4
 	.file	"vtx_string.c"
-	.section	.gnu.lto_.profile.3e0efa8a47b1f9e1,"",%progbits
+	.section	.gnu.lto_.profile.1a97d52448054f49,"",%progbits
 	.ascii	"x\234cc```\001bF\006\035\005\000\000\360\000X"
 	.text
-	.section	.gnu.lto_.icf.3e0efa8a47b1f9e1,"",%progbits
+	.section	.gnu.lto_.icf.1a97d52448054f49,"",%progbits
 	.ascii	"x\234cc``\320a@\000v\206\346\023\277[\270\030\017>\351"
 	.ascii	"i\345g\272y\242\375\001\037\363\205\356\215}l,3\372"
 	.ascii	"w.cf\235\373\357\370=6\266/;o\377\340a\000\000\316\324"
 	.ascii	"\024\371"
 	.text
-	.section	.gnu.lto_.jmpfuncs.3e0efa8a47b1f9e1,"",%progbits
+	.section	.gnu.lto_.jmpfuncs.1a97d52448054f49,"",%progbits
 	.ascii	"x\234U\313\301\015\2000\014CQ\177\273\202\361:OO]\244"
 	.ascii	"\303\260\031\244' \322\223lY9$u\275\027\0312W\2649\300"
 	.ascii	"Y\211\342-\337\271y\324\013WC\345F\036\374\272\0368"
 	.ascii	"$\016a"
 	.text
-	.section	.gnu.lto_.inline.3e0efa8a47b1f9e1,"",%progbits
+	.section	.gnu.lto_.inline.1a97d52448054f49,"",%progbits
 	.ascii	"x\234cc``\330\301\200\000\314\014\014\034l\214,\214"
 	.ascii	"\034\351S\230\031\273~]\357\343\350f\236\303\314\300"
 	.ascii	"\310\301\270\231Q\006He@iF\240Z\020\301\006\244\331"
@@ -35,10 +35,10 @@
 	.ascii	"\015`\273X`\326\260}\320\023``\371 \240\0002\204\205"
 	.ascii	"\027(\3014\301o\202\037\003\000\252H\0340"
 	.text
-	.section	.gnu.lto_.pureconst.3e0efa8a47b1f9e1,"",%progbits
+	.section	.gnu.lto_.pureconst.1a97d52448054f49,"",%progbits
 	.ascii	"x\234cc```\007bf\006\006&)f\006\000\001'\0000"
 	.text
-	.section	.gnu.lto_vtx58_Bandchan2Freq.part.0.3e0efa8a47b1f9e1,"",%progbits
+	.section	.gnu.lto_vtx58_Bandchan2Freq.part.0.1a97d52448054f49,"",%progbits
 	.ascii	"x\234eRMk\023Q\024}\347\335\3712il\335\011\0067]\204"
 	.ascii	"\006L\014n\375+\"1\212\0064B[DWymj\222\372E\004\215"
 	.ascii	"e\030K*\210\210b\361\263\326\217&\032\\\010b\265\033"
@@ -72,7 +72,7 @@
 	.ascii	"\022\306\276df\277\235:\224\314d\016\034\376\003V\212"
 	.ascii	"\321\210"
 	.text
-	.section	.gnu.lto_vtx58frequencyTable.3e0efa8a47b1f9e1,"",%progbits
+	.section	.gnu.lto_vtx58frequencyTable.1a97d52448054f49,"",%progbits
 	.ascii	"x\234]\223kSRQ\024\206\317\346x)3\371\003\374\204j\246"
 	.ascii	">\3713\372IL\342\344%\233l\030'\033dB\263t\014G\206"
 	.ascii	"\213y@\024\005o\244\242'DS\023\363\026\246!\216\242"
@@ -109,7 +109,7 @@
 	.ascii	"\370\334\245\353\334p_5r\303MZ\270\341*\255\334p\236"
 	.ascii	"Vn\030S\215\264\277\364\365\037Q\256zG"
 	.text
-	.section	.gnu.lto_vtx58_Freq2Bandchan.3e0efa8a47b1f9e1,"",%progbits
+	.section	.gnu.lto_vtx58_Freq2Bandchan.1a97d52448054f49,"",%progbits
 	.ascii	"x\234uTmoTU\020\236\271s\337\366\356K\027\212\200ac"
 	.ascii	"L\264i\352\013\265\232\3507?\350\377\320\324\212\332"
 	.ascii	"D\027,\304\370\255\267]hY\264I\023\241\326\313B\226"
@@ -171,7 +171,7 @@
 	.ascii	"[\315\361\370\226\267\365\327\370d\265\250\303?v\366"
 	.ascii	"\340\315"
 	.text
-	.section	.gnu.lto_vtx58_Bandchan2Freq.3e0efa8a47b1f9e1,"",%progbits
+	.section	.gnu.lto_vtx58_Bandchan2Freq.1a97d52448054f49,"",%progbits
 	.ascii	"x\234e\222\317k\023Q\020\307\347\373\346\355&\230F\205"
 	.ascii	"\202\210.^z\010\315\241\021\374\017\374G$\246\242\001"
 	.ascii	"]\241-\245\267<\335\232*z\250\240\261\204\355!\005Q"
@@ -201,7 +201,7 @@
 	.ascii	"*\372G\007\012\244\017\347\375\301D\341X\336\367\217"
 	.ascii	"\034\377\003\246\022\265x"
 	.text
-	.section	.gnu.lto_vtx58ChannelNames.3e0efa8a47b1f9e1,"",%progbits
+	.section	.gnu.lto_vtx58ChannelNames.1a97d52448054f49,"",%progbits
 	.ascii	"x\234M\217\353+\203Q\034\307\177\347\234yV\232\371\003"
 	.ascii	"\354\305N)\245\030\033\263\377F\362B{\201B\362n\217"
 	.ascii	"\"\232\204R\233zr)K\271\344>\314\37526\026FRn\241I\242"
@@ -226,7 +226,7 @@
 	.ascii	"\206:wMUa%\3202\240N\240\245@K\200:\200\332\201\026"
 	.ascii	"\003-\200_g\243\320\232"
 	.text
-	.section	.gnu.lto_vtx58BandNames.3e0efa8a47b1f9e1,"",%progbits
+	.section	.gnu.lto_vtx58BandNames.1a97d52448054f49,"",%progbits
 	.ascii	"x\234cc``\350fd`\210d\200\200)\314\214O\236m\235\315"
 	.ascii	"\250\3104\277a\206\302\034f\260\310\267\346\247?8\352"
 	.ascii	"\3776\314hhx\360y\001/\353\034fF\306\315\214\212`\271"
@@ -248,17 +248,17 @@
 	.ascii	"\025\316r\202\263\034\0318u\241\200\001\000\032[\244"
 	.ascii	"["
 	.text
-	.section	.gnu.lto_.symbol_nodes.3e0efa8a47b1f9e1,"",%progbits
+	.section	.gnu.lto_.symbol_nodes.1a97d52448054f49,"",%progbits
 	.ascii	"x\234cc``H\005b\006\246.\306z\006\206\011\347\030\030"
 	.ascii	"\352\031\030w\266\034lp```madhT\002Iv0\3263B%\031v5"
 	.ascii	"8\002E:\031\353\231PDX\333\031\031\301\212Y\333\030"
 	.ascii	"\231 \214VFf0\203\231\231\201\241i\255\032\003\000\264"
 	.ascii	"z\024\367"
 	.text
-	.section	.gnu.lto_.refs.3e0efa8a47b1f9e1,"",%progbits
+	.section	.gnu.lto_.refs.1a97d52448054f49,"",%progbits
 	.ascii	"x\234cc``\340\006bF bcdb`dd\000\000\001|\000\037"
 	.text
-	.section	.gnu.lto_.decls.3e0efa8a47b1f9e1,"",%progbits
+	.section	.gnu.lto_.decls.1a97d52448054f49,"",%progbits
 	.ascii	"x\234\265V]P\024W\026\356\323\335\300\320\300\340b*"
 	.ascii	"q\223\331-c%\024\017\013CH\2621\017[\225\230Jv\037R"
 	.ascii	"\251Tj\367!y\310\324\010\243\214\005C\002\343V|J\013"
@@ -370,7 +370,7 @@
 	.ascii	"H|y\305\253\257\275%\304\322m\342\345u\207\333\355\310"
 	.ascii	"6\317\310\024\373+\035OT("
 	.text
-	.section	.gnu.lto_.symtab.3e0efa8a47b1f9e1,"",%progbits
+	.section	.gnu.lto_.symtab.1a97d52448054f49,"",%progbits
 	.ascii	"vtx58frequencyTable\000"
 	.ascii	"\000"
 	.ascii	"\000"

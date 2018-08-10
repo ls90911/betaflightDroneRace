@@ -1,0 +1,8 @@
+///betaflight///
+
+->  read message from Jevois decode the MAVlink message
+    look into betaflight/src/main/drivers/serial_uart.c
+
+///Jevois///
+
+->  check the gravity (maybe upside down..)
