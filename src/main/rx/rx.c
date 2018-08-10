@@ -641,7 +641,7 @@ static void updateRSSIADC(timeUs_t currentTimeUs)
     }
     rssiUpdateAt = currentTimeUs + DELAY_50_HZ;
 
-    const uint16_t adcRssiSample = adcGetChannel(ADC_RSSI);
+    const uint16_t adcRssiSample =RSSI_MAX_VALUE;
     uint16_t rssiValue = adcRssiSample / RSSI_ADC_DIVISOR;
 
     // RSSI_Invert option

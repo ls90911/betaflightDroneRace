@@ -326,9 +326,6 @@ void mavlinkSendMAVStates(void)
     0,
     // extract 2
     0);
-    DEBUG_SET(DEBUG_ATTITUDE,0, 100*DECIDEGREES_TO_RADIANS(attitude.values.roll));
-    DEBUG_SET(DEBUG_ATTITUDE,1, 100*DECIDEGREES_TO_RADIANS(attitude.values.pitch));
-    DEBUG_SET(DEBUG_ATTITUDE,2, 100*DECIDEGREES_TO_RADIANS(attitude.values.yaw));
     msgLength = mavlink_msg_to_send_buffer(mavBuffer, &mavMsg);
     mavlinkSerialWrite(mavBuffer, msgLength);
     fprintf(stderr, "stderr!\n");
