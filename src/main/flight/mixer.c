@@ -913,3 +913,24 @@ void mixerSetThrottleAngleCorrection(int correctionValue)
 {
     throttleAngleCorrection = correctionValue;
 }
+
+struct ALTITUDE_CONTROLLER altController={
+.currentError = 0,
+.previousError = 0,
+.sumError = 0,
+.throttleHover= 1280,
+.P = 1.5,
+.I = 0.2,
+.D = 0.5};
+
+float altitudeController(float desiredAltitude)
+{
+     altController.currentError = desiredAltitude*100.0 - 1;
+     uint16_t throttle = altController.throttleHover+
+	     altController.currentError * altController.P +
+	     (altController.currentError-altController.previousError)/10.0;
+    float commandedThrottle = scaleRangef(throttle, MAX(rxConfig()->mincheck, PWM_RANGE_MIN), PWM_RANGE_MAX, 0.0f, 1.0f);
+    commandedThrottle = constrainf(commandedThrottle, 0.0f, 1.0f);
+     altController.previousError = altController.currentError;
+     return commandedThrottle;
+}

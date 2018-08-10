@@ -139,3 +139,13 @@ void mixerSetThrottleAngleCorrection(int correctionValue);
 
 extern float shadowThrottle;
 extern float shadowRcCommandThrottle;
+
+struct ALTITUDE_CONTROLLER{
+	int16_t currentError;
+	int16_t previousError;
+	int16_t sumError;
+	int16_t throttleHover;
+	float P;
+	float I;
+	float D;
+};
