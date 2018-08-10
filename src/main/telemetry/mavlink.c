@@ -312,12 +312,8 @@ void mavlinkSendMAVStates(void)
     DECIDEGREES_TO_RADIANS(-attitude.values.pitch),
     // yaw Yaw angle (rad)
     DECIDEGREES_TO_RADIANS(attitude.values.yaw),
-    // altitude
-    #if defined(USE_RANGEFINDER)
-        (sensors(SENSOR_RANGEFINDER)) ? getEstimatedAltitude() * 10 : 0,
-    #else
-        0,
-    #endif
+    // altitude (cm)
+    (float)sonar_adc_cm/100.0,   
     // vx
     0,
     // vy

@@ -25,6 +25,7 @@
 #include <math.h>
 
 #include "platform.h"
+#include "drivers/adc.h"
 
 #include "build/build_config.h"
 #include "build/debug.h"
@@ -118,6 +119,9 @@ float gyroz = 0;
 float accmx = 0;
 float accmy = 0;
 float accmz = 0;
+// altitude adc
+int16_t sonar_adc_raw = 0;
+int16_t sonar_adc_cm = 0;
 
 PG_REGISTER_WITH_RESET_TEMPLATE(imuConfig_t, imuConfig, PG_IMU_CONFIG, 0);
 
@@ -499,11 +503,24 @@ static void imuCalculateEstimatedAttitude(timeUs_t currentTimeUs)
     deltaT = imuDeltaT;
 #endif
     float gyroAverage[XYZ_AXIS_COUNT];
+    gyrox = gyroAverage[X];
+    gyroy = gyroAverage[Y];
+    gyroz = gyroAverage[Z];
     gyroGetAccumulationAverage(gyroAverage);
     if (accGetAccumulationAverage(accAverage)) {
         useAcc = imuIsAccelerometerHealthy(accAverage);
+        accmx = accAverage[X];
+        accmy = accAverage[Y];
+        accmz = accAverage[Z];
     }
-
+    /// ADC read altitude start///
+    int16_t sonar_adc_raw = adcGetChannel(ADC_RSSI); // from 0 to 4096, 8 ->  2.54 cm 
+    int16_t sonar_adc_cm = (float)sonar_adc_raw * 2.54 / 8 - 30;
+    if (sonar_adc_cm < 0) {
+        sonar_adc_cm = 0;
+    }
+    DEBUG_SET(DEBUG_ALTITUDE, 3, sonar_adc_cm);   
+    
     imuMahonyAHRSupdate(deltaT * 1e-6f,
                         DEGREES_TO_RADIANS(gyroAverage[X]), DEGREES_TO_RADIANS(gyroAverage[Y]), DEGREES_TO_RADIANS(gyroAverage[Z]),
                         useAcc, accAverage[X], accAverage[Y], accAverage[Z],

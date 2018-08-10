@@ -60,14 +60,6 @@ void calculateEstimatedAltitude(timeUs_t currentTimeUs)
     previousTimeUs = currentTimeUs;
 
     int32_t baroAlt = 0;
-
-    /// ADC read altitude start///
-    int16_t sonar_adc_raw = adcGetChannel(ADC_RSSI); // from 0 to 4096, 8 ->  2.54 cm 
-    int16_t sonar_adc_cm = (float)sonar_adc_raw * 2.54 / 8 - 30;
-    if (sonar_adc_cm < 0) {
-        sonar_adc_cm = 0;
-    }
-    // ADC read altitude end///
     int32_t gpsAlt = 0;
     float gpsTrust = 0.3; //conservative default
     bool haveBaroAlt = false;
@@ -117,7 +109,6 @@ if (sensors(SENSOR_GPS) && STATE(GPS_FIX)) {
     DEBUG_SET(DEBUG_ALTITUDE, 0, (int32_t)(100 * gpsTrust));
     DEBUG_SET(DEBUG_ALTITUDE, 1, baroAlt);
     DEBUG_SET(DEBUG_ALTITUDE, 2, gpsAlt);
-    DEBUG_SET(DEBUG_ALTITUDE, 3, sonar_adc_cm);   
 }
 
 bool isAltitudeOffset(void)
