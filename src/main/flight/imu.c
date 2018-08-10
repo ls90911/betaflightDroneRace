@@ -443,6 +443,8 @@ float imuCalcKpGain(timeUs_t currentTimeUs, bool useAcc, float *gyroAverage)
 
     return ret;
 }
+int16_t sonar_adc_raw; // from 0 to 4096, 8 ->  2.54 cm 
+int16_t sonar_adc_cm;
 
 static void imuCalculateEstimatedAttitude(timeUs_t currentTimeUs)
 {
@@ -514,8 +516,8 @@ static void imuCalculateEstimatedAttitude(timeUs_t currentTimeUs)
         accmz = accAverage[Z];
     }
     /// ADC read altitude start///
-    int16_t sonar_adc_raw = adcGetChannel(ADC_RSSI); // from 0 to 4096, 8 ->  2.54 cm 
-    int16_t sonar_adc_cm = (float)sonar_adc_raw * 2.54 / 8 - 30;
+    sonar_adc_raw = adcGetChannel(ADC_RSSI); // from 0 to 4096, 8 ->  2.54 cm 
+    sonar_adc_cm = (float)sonar_adc_raw * 2.54 / 8 - 30;
     if (sonar_adc_cm < 0) {
         sonar_adc_cm = 0;
     }
@@ -743,4 +745,10 @@ void imuQuaternionHeadfreeTransformVectorEarthToBody(t_fp_vector_def *v)
     v->X = x;
     v->Y = y;
     v->Z = z;
+}
+
+
+int16_t getAltitude()
+{
+	return sonar_adc_cm;
 }

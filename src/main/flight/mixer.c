@@ -948,19 +948,27 @@ struct ALTITUDE_CONTROLLER altController={
 .previousError = 0,
 .sumError = 0,
 .throttleHover= 1280,
-.P = 1.5,
-.I = 0.2,
-.D = 0.5};
+.P = 1.0,
+.I = 0.0,
+.D = 0.0};
+
+int counter = 0;
 
 float altitudeController(float desiredAltitude)
 {
+	DEBUG_SET(DEBUG_ALTITUDE_CONTROLLER,0,desiredAltitude*100);
+	DEBUG_SET(DEBUG_ALTITUDE_CONTROLLER,1,sonar_adc_cm);
 	testFlag = true;
-     altController.currentError = -desiredAltitude*100.0 - 1;
-     uint16_t throttle = altController.throttleHover+
-	     altController.currentError * altController.P +
-	     (altController.currentError-altController.previousError)/10.0;
-    float commandedThrottle = scaleRangef(throttle, MAX(rxConfig()->mincheck, PWM_RANGE_MIN), PWM_RANGE_MAX, 0.0f, 1.0f);
-    commandedThrottle = constrainf(commandedThrottle, 0.0f, 1.0f);
-     altController.previousError = altController.currentError;
-     return commandedThrottle;
+	altController.currentError = -desiredAltitude*100.0 - sonar_adc_cm;
+	DEBUG_SET(DEBUG_ALTITUDE_CONTROLLER,2,altController.currentError*100);
+	uint16_t throttle = altController.throttleHover+
+		altController.currentError * altController.P +
+		(altController.currentError-altController.previousError)/10.0;
+	//DEBUG_SET(DEBUG_ALTITUDE_CONTROLLER,3,throttle);
+	float commandedThrottle = scaleRangef(throttle, MAX(rxConfig()->mincheck, PWM_RANGE_MIN), PWM_RANGE_MAX, 0.0f, 1.0f);
+	commandedThrottle = constrainf(commandedThrottle, 0.0f, 1.0f);
+	altController.previousError = altController.currentError;
+	counter++;
+	DEBUG_SET(DEBUG_ALTITUDE_CONTROLLER,3,commandedThrottle*10);
+	return commandedThrottle;
 }

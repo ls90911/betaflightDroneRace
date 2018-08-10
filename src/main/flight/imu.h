@@ -39,6 +39,7 @@ extern float accmx; // acceleration meter
 extern float accmy;
 extern float accmz;
 extern int16_t sonar_adc_cm;
+extern int16_t getAltitude();
 
 typedef struct {
     float w,x,y,z;

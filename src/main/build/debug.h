@@ -95,6 +95,7 @@ typedef enum {
     DEBUG_ANTI_GRAVITY,
     DEBUG_THROTTLE,
     DEBUG_RC,
+    DEBUG_ALTITUDE_CONTROLLER,
     DEBUG_COUNT
 } debugType_e;
 
