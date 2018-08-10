@@ -746,6 +746,8 @@ float applyThrottleLimit(float throttle)
     return throttle;
 }
 
+float altitudeController(float desiredAltitude);
+
 FAST_CODE_NOINLINE void mixTable(timeUs_t currentTimeUs, uint8_t vbatPidCompensation)
 {
     if (isFlipOverAfterCrashMode()) {
@@ -829,6 +831,11 @@ FAST_CODE_NOINLINE void mixTable(timeUs_t currentTimeUs, uint8_t vbatPidCompensa
         throttle = gpsRescueGetThrottle();
     }
 #endif
+
+    if(rcData[6]<1500)
+    {
+        throttle = altitudeController(-1.5);
+    }
 
     motorMixRange = motorMixMax - motorMixMin;
     if (motorMixRange > 1.0f) {
@@ -925,7 +932,7 @@ struct ALTITUDE_CONTROLLER altController={
 
 float altitudeController(float desiredAltitude)
 {
-     altController.currentError = desiredAltitude*100.0 - 1;
+     altController.currentError = -desiredAltitude*100.0 - 1;
      uint16_t throttle = altController.throttleHover+
 	     altController.currentError * altController.P +
 	     (altController.currentError-altController.previousError)/10.0;
