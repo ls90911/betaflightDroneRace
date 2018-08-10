@@ -746,10 +746,24 @@ float applyThrottleLimit(float throttle)
     return throttle;
 }
 
+
 float altitudeController(float desiredAltitude);
+enum FlightMode{MANUAL,AUTO};
+enum FlightMode currentFlightMode = MANUAL;
+enum FlightMode previousFlightMode = MANUAL;
+bool testFlag;
+
 
 FAST_CODE_NOINLINE void mixTable(timeUs_t currentTimeUs, uint8_t vbatPidCompensation)
 {
+	if(rcData[6] > 1500)
+	{
+		currentFlightMode = MANUAL;
+	}
+	else
+	{
+		currentFlightMode = AUTO;
+	}
     if (isFlipOverAfterCrashMode()) {
         applyFlipOverAfterCrashModeToMotors();
         return;
@@ -832,10 +846,16 @@ FAST_CODE_NOINLINE void mixTable(timeUs_t currentTimeUs, uint8_t vbatPidCompensa
     }
 #endif
 
-    if(rcData[6]<1500)
+    if(currentFlightMode == AUTO)
     {
         throttle = altitudeController(-1.5);
     }
+
+    else
+    {
+	    testFlag = false;
+    }
+    DEBUG_SET(DEBUG_THROTTLE,2,testFlag);
 
     motorMixRange = motorMixMax - motorMixMin;
     if (motorMixRange > 1.0f) {
@@ -852,6 +872,8 @@ FAST_CODE_NOINLINE void mixTable(timeUs_t currentTimeUs, uint8_t vbatPidCompensa
             throttle = constrainf(throttle, 0.0f + throttleLimitOffset, 1.0f - throttleLimitOffset);
         }
     }
+
+    previousFlightMode = currentFlightMode;
 
     // Apply the mix to motor endpoints
     applyMixToMotors(motorMix);
@@ -932,6 +954,7 @@ struct ALTITUDE_CONTROLLER altController={
 
 float altitudeController(float desiredAltitude)
 {
+	testFlag = true;
      altController.currentError = -desiredAltitude*100.0 - 1;
      uint16_t throttle = altController.throttleHover+
 	     altController.currentError * altController.P +

@@ -149,3 +149,11 @@ struct ALTITUDE_CONTROLLER{
 	float I;
 	float D;
 };
+
+struct DEBUG_LOGIC_VARIABLE{
+int var1;
+int var2;
+int var3;
+int var4;
+};
+
