@@ -55,6 +55,8 @@
 #include "sensors/gyro.h"
 #include "sensors/acceleration.h"
 
+#include "pg/rx.h"
+#include "rx/rx.h"
 
 #define ITERM_RELAX_SETPOINT_THRESHOLD 30.0f
 
@@ -594,6 +596,11 @@ static float pidLevel(int axis, const pidProfile_t *pidProfile, const rollAndPit
         const float horizonLevelStrength = calcHorizonLevelStrength();
         currentPidSetpoint = currentPidSetpoint + (errorAngle * horizonGain * horizonLevelStrength);
     }
+
+    DEBUG_SET(DEBUG_RC,0,rcData[5]);
+    DEBUG_SET(DEBUG_RC,1,rcData[6]);
+    DEBUG_SET(DEBUG_RC,2,rcData[7]);
+    DEBUG_SET(DEBUG_RC,3,rcData[8]);
     return currentPidSetpoint;
 }
 

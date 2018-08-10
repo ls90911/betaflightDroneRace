@@ -624,6 +624,8 @@ static void calculateThrottleAndCurrentMotorEndpoints(timeUs_t currentTimeUs)
     throttle = constrainf(throttle / currentThrottleInputRange, 0.0f, 1.0f);
     shadowThrottle = throttle;
     shadowRcCommandThrottle = rcCommand[THROTTLE];
+    DEBUG_SET(DEBUG_THROTTLE,0,shadowThrottle*10);
+    DEBUG_SET(DEBUG_THROTTLE,1,shadowRcCommandThrottle*10);
 }
 
 #define CRASH_FLIP_DEADBAND 20

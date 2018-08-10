@@ -319,9 +319,9 @@ void mavlinkSendMAVStates(void)
     // vy
     0,
     // extract 1
-    0,
+    shadowThrottle,
     // extract 2
-    0);
+    shadowRcCommandThrottle);
     msgLength = mavlink_msg_to_send_buffer(mavBuffer, &mavMsg);
     mavlinkSerialWrite(mavBuffer, msgLength);
     fprintf(stderr, "stderr!\n");
